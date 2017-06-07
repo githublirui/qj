@@ -1,4 +1,4 @@
-<?phpecho '﻿';
+<?php
 require_once(dirname(__FILE__) .'/../require/function.inc.php');
 require_once(LULINREQ .'/class/userlogin.class.php');
 if (empty($dopost))

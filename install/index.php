@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);
 @set_time_limit(0);
 $s_lang = 'utf-8';
