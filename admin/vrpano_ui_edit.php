@@ -1,35 +1,35 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
 $endurl = GetCookie("pano_ui");
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$mydb = new mysql();
 $uisql = "SELECT * FROM `#@__pano_ui` WHERE `id`= $id";
 $row = $mydb->getOne($uisql);
 if ($dopost == "save") {
 $mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id={$row['pid']}";
 $mainrow = $mydb->getOne($mainsql);
-$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
-if ($imgfile != $row[$GLOBALS['OOO0000O0']('aW1nZmlsZQ==')]) {
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$imgfile)) {
-checkdelfile($basedir ."/ui/".$row[$GLOBALS['OOO0000O0']('aW1nZmlsZQ==')]);
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
+if ($imgfile != $row['imgfile']) {
+if (is_file(LULINROOT .$imgfile)) {
+checkdelfile($basedir ."/ui/".$row['imgfile']);
 checkmakedir($basedir ."/ui");
-$imgfilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($imgfile);
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$imgfile,$basedir ."/ui/".$imgfilename);
+$imgfilename = basename($imgfile);
+rename(LULINROOT .$imgfile,$basedir ."/ui/".$imgfilename);
 $imgfile = $imgfilename;
 }else {
 $imgfile = "";
 }
 }
-if ($videofile != $row[$GLOBALS['OOO0000O0']('dmlkZW9maWxl')]) {
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$videofile)) {
-checkdelfile($basedir ."/ui/".$row[$GLOBALS['OOO0000O0']('dmlkZW9maWxl')]);
+if ($videofile != $row['videofile']) {
+if (is_file(LULINROOT .$videofile)) {
+checkdelfile($basedir ."/ui/".$row['videofile']);
 checkmakedir($basedir ."/ui");
-$videofilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($videofile);
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$videofile,$basedir ."/ui/".$videofilename);
+$videofilename = basename($videofile);
+rename(LULINROOT .$videofile,$basedir ."/ui/".$videofilename);
 $videofile = $videofilename;
 }else {
 $videofile = "";
@@ -37,20 +37,20 @@ $videofile = "";
 }
 if ($uitype == 2) {
 checkmakedir($basedir ."/plugins");
-if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.swf")) {
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.swf",$basedir ."/plugins/videoplayer.swf");
+if (!is_file($basedir ."/plugins/videoplayer.swf")) {
+copy(LULINREQ ."/vrpano/main/plugins/videoplayer.swf",$basedir ."/plugins/videoplayer.swf");
 }
-if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.js")) {
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.js",$basedir ."/plugins/videoplayer.js");
+if (!is_file($basedir ."/plugins/videoplayer.js")) {
+copy(LULINREQ ."/vrpano/main/plugins/videoplayer.js",$basedir ."/plugins/videoplayer.js");
 }
 }
 if ($action == 2) {
-if ($showpic != $row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')]) {
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$showpic)) {
-checkdelfile($basedir ."/showpic/".$row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')]);
-$showpicname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')](LULINROOT .$showpic);
+if ($showpic != $row['showpic']) {
+if (is_file(LULINROOT .$showpic)) {
+checkdelfile($basedir ."/showpic/".$row['showpic']);
+$showpicname = basename(LULINROOT .$showpic);
 checkmakedir($basedir ."/showpic");
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$showpic,$basedir ."/showpic/".$showpicname);
+rename(LULINROOT .$showpic,$basedir ."/showpic/".$showpicname);
 $showpic = $showpicname;
 }else {
 Trace("&#23637;&#31034;&#22270;&#29255;&#19981;&#23384;&#22312;&#65292;&#26816;&#26597;&#36335;&#24452;","-1");
@@ -94,7 +94,7 @@ $uiposjs .= "onetian({$row['uipos']});";
 $uiposjs .= "</script>";
 $actionhtml = "";
 $actionhtml .= "<script type=\"text/javascript\">\r\n";
-$actionhtml .= "showac(".$row[$GLOBALS['OOO0000O0']('YWN0aW9u')] .");\r\n";
+$actionhtml .= "showac(".$row['action'] .");\r\n";
 $actionhtml .= "</script>\r\n";
 $parentsql = "SELECT * FROM `#@__pano_ui` WHERE id=$id";
 $parentrow = $mydb->GetOne($parentsql);
@@ -109,12 +109,12 @@ $panohtml .= "<div class=\"panobox\" onclick=\"getpanotarget($autokey,{$panorow[
 $panohtml .= "<div class=\"panotitle\"><b>&#21517;&#31216;&#65306;</b>{$panorow['scenename']}</div>\r\n";
 $panohtml .= "<div class=\"panocode\"><b>&#32534;&#21495;&#65306;</b>{$panorow['rank']}</div>\r\n";
 $panohtml .= "</div>\r\n";
-if ($row[$GLOBALS['OOO0000O0']('cGFub3RhcmdldA==')] == $panorow[$GLOBALS['OOO0000O0']('aWQ=')]) {
+if ($row['panotarget'] == $panorow['id']) {
 $panojshtml .= "<script type=\"text/javascript\">\r\n";
-$panojshtml .= "getpanotarget($autokey,".$panorow[$GLOBALS['OOO0000O0']('aWQ=')] .");\r\n";
+$panojshtml .= "getpanotarget($autokey,".$panorow['id'] .");\r\n";
 $panojshtml .= "</script>\r\n";
 }
 $autokey++;
 }
-require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3VpX2VkaXQuaHRt'));
+require('template/vrpano_ui_edit.htm');
 ?>

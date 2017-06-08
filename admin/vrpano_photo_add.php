@@ -1,19 +1,19 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
 $endurl = GetCookie("pano_photo_url");
-if ($dopost == $GLOBALS['OOO0000O0']('c2F2ZQ==')) {
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+if ($dopost == 'save') {
+$mydb = new mysql();
 $mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$id";
 $mainrow = $mydb->getOne($mainsql);
-$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
 $therow = $dsql->getOne("SELECT `rank` FROM `#@__pano_photo` WHERE `pid`=$id ORDER BY `rank` DESC");
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxsbDFs')]($therow)) {
-$tid = $therow[$GLOBALS['OOO0000O0']('cmFuaw==')] +1;
+if (is_array($therow)) {
+$tid = $therow['rank'] +1;
 }else {
 $tid = 1;
 }
@@ -32,17 +32,17 @@ checkcopyfile(LULINREQ."/vrpano/main/plugins/scrollarea.swf",$basedir."/plugins/
 checkcopyfile(LULINREQ."/vrpano/main/plugins/textfield.swf",$basedir."/plugins/textfield.swf");
 checkcopyfile(LULINREQ."/vrpano/main/plugins/scrollarea.js",$basedir."/plugins/scrollarea.js");
 if ($litpic != "") {
-$litpic_basename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($litpic);
+$litpic_basename = basename($litpic);
 $litpic_basename = reNameMe($litpic_basename,"litpic");
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$litpic,$photobagdir ."/".$litpic_basename);
+rename(LULINROOT .$litpic,$photobagdir ."/".$litpic_basename);
 $litpic = $litpic_basename;
 }
 $imagesVal = "";
-for ($i = 0;$i <$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUkx')]($images);$i++) {
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$images[$i])) {
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWwxbElJ')]($images[$i],"station") >0) {
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$images[$i],$photobagdir ."/".$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($images[$i]));
-$images[$i] = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($images[$i]);
+for ($i = 0;$i <count($images);$i++) {
+if (is_file(LULINROOT .$images[$i])) {
+if (substr_count($images[$i],"station") >0) {
+rename(LULINROOT .$images[$i],$photobagdir ."/".basename($images[$i]));
+$images[$i] = basename($images[$i]);
 }
 }else {
 $images[$i] = "";
@@ -56,5 +56,5 @@ $lastid = $mydb->GetLastID();
 Trace("&#21457;&#24067;&#25104;&#21151;&#65281;","vrpano_editphoto.php?id={$lastid}");
 exit();
 }
-require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3Bob3RvX2FkZC5odG0='));
+require('template/vrpano_photo_add.htm');
 ?>

@@ -1,28 +1,28 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
 $endurl = GetCookie("pano_spot_url");
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$mydb = new mysql();
 $sql = "SELECT * FROM `#@__pano_spot` WHERE id=$id";
 $row = $mydb->getOne($sql);
 if($dopost == "del"){
 $scenesql = "SELECT `pid` FROM `#@__pano_scene` WHERE id={$row['aid']}";
 $scenerow = $mydb->getOne($scenesql);
-$panoid = $scenerow[$GLOBALS['OOO0000O0']('cGlk')];
+$panoid = $scenerow['pid'];
 $mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$panoid";
 $mainrow = $mydb->getOne($mainsql);
-$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
-if($row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')]!=""){
-checkdelfile($basedir."/showpic/".$row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')]);
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
+if($row['showpic']!=""){
+checkdelfile($basedir."/showpic/".$row['showpic']);
 }
 $delsql = "DELETE FROM `#@__pano_spot` WHERE id=$id";
 $mydb->DoNotBack($delsql);
 Trace("&#21024;&#38500;&#25104;&#21151;&#65281;",$endurl);
 exit();
 }
-require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3Nwb3RfZGVsLmh0bQ=='));
+require('template/vrpano_spot_del.htm');
 ?>

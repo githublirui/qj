@@ -1,15 +1,15 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L2NsYXNzL2FkbWlubGlzdC5jbGFzcy5waHA='));
-CheckPurview($GLOBALS['OOO0000O0']('c3lzX1VzZXI='));
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/class/adminlist.class.php');
+CheckPurview('sys_User');
 if (empty($page)) {
 $page = 0;
 }
-setcookie("ENV_GOBACK_URL",$vrNowurl,$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSWxJ')]() +3600,"/");
+setcookie("ENV_GOBACK_URL",$vrNowurl,time() +3600,"/");
 $sql = "SELECT * FROM `#@__admin` ORDER BY id";
 $dlist = new adminlist();
 $dlist->pushSql($sql);

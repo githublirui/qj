@@ -1,29 +1,29 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
 $endurl = GetCookie("pano_maps_url");
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
-if ($dopost == $GLOBALS['OOO0000O0']('c2F2ZQ==')) {
+$mydb = new mysql();
+if ($dopost == 'save') {
 $mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$id";
 $mainrow = $mydb->getOne($mainsql);
-$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
 $therow = $dsql->getOne("SELECT `rank` FROM `#@__pano_maps` WHERE `pid`=$id ORDER BY `rank` DESC");
-if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxsbDFs')]($therow)) {
-$tid = $therow[$GLOBALS['OOO0000O0']('cmFuaw==')] +1;
+if (is_array($therow)) {
+$tid = $therow['rank'] +1;
 }else {
 $tid = 1;
 }
 $mapdir = $basedir ."/map";
 checkmakedir($mapdir);
 if ($file != "") {
-$file_basename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($file);
+$file_basename = basename($file);
 $file_basename = reNameMe($file_basename,"map".$tid);
 checkdelfile($mapdir ."/".$file_basename);
-$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$file,$mapdir ."/".$file_basename);
+rename(LULINROOT .$file,$mapdir ."/".$file_basename);
 $file = $file_basename;
 }
 $sql = "INSERT INTO `#@__pano_maps` (`rank`,`pid`,`title`,`file`)
@@ -32,5 +32,5 @@ $mydb->ExecuteNoneQuery($sql);
 Trace("&#21457;&#24067;&#25104;&#21151;&#65281;",$endurl);
 exit();
 }
-require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX21hbnltYXBfYWRkLmh0bQ=='));
+require('template/vrpano_manymap_add.htm');
 ?>

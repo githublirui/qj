@@ -1,14 +1,14 @@
 <?php
-if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
 echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
-require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
-require_once(LULINREQ .$GLOBALS['OOO0000O0']('L2NsYXNzL2FkbWlubGlzdC5jbGFzcy5waHA='));
-PutCookie("pano_spot_url",GetCurUrl(),$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSWxJ')]() +3600,"/");
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/class/adminlist.class.php');
+PutCookie("pano_spot_url",GetCurUrl(),time() +3600,"/");
 $endurl = GetCookie("pano_scene_url");
 if (empty($id)) {
-Trace($GLOBALS['OOO0000O0']('PGI+PyMyMDE0NjsmIzY1MjkyOyYjMzU4MzU7JiMxOTk4MTsmIzIxMDQwOyRpZD8vYj4mIzE5OTgxOyYjMzMwMjE7JiMyMDAyNjsmIzMxMzU0OyYjNjUyODE7'),"-1");
+Trace('<b>?#20146;&#65292;&#35835;&#19981;&#21040;$id?/b>&#19981;&#33021;&#20026;&#31354;&#65281;',"-1");
 exit();
 }
 $sql = "SELECT * FROM `#@__pano_spot` WHERE aid = $id ORDER BY `id`";
@@ -21,23 +21,23 @@ $dlist->getPage($page);
 $dlist->loadTemp(LULINADMIN ."/template/vrpano_spot.htm");
 $dlist->display();
 function getaction($me){
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$mydb = new mysql();
 $sql = "SELECT * FROM `#@__pano_spot` WHERE id = $me";
 $row = $mydb->getOne($sql);
-if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 1){
+if($row['action'] == 1){
 return "&#28459;&#28216;&#28909;&#28857;";
-}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 2){
+}else if($row['action'] == 2){
 $scenesql = "SELECT `pid` FROM `#@__pano_scene` WHERE id={$row['aid']}";
 $scenerow = $mydb->getOne($scenesql);
-$imgurl = $cmspath."/vrpano/vrpano".$scenerow[$GLOBALS['OOO0000O0']('cGlk')]."/showpic/".$row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')];;
+$imgurl = $cmspath."/vrpano/vrpano".$scenerow['pid']."/showpic/".$row['showpic'];;
 return "<span img=\"$imgurl\" class=\"imgspan\">&#24377;&#20986;&#22270;&#29255;</span><div class=\"picbox\"><img src=\"$imgurl\" onload=\"photoin(this,120,120)\" /></div>";
-}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 3){
+}else if($row['action'] == 3){
 return "&#22806;&#37096;&#36229;&#38142;&#25509;";
-}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 4){
+}else if($row['action'] == 4){
 return "&#28857;&#20987;&#39134;&#20986;";
-}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 5){
+}else if($row['action'] == 5){
 return "&#22270;&#38598;";
-}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 6){
+}else if($row['action'] == 6){
 return "360&#29289;&#20307;";
 }
 }
@@ -49,9 +49,9 @@ return "&#26080;&#29305;&#25928;";
 }
 }
 function getname($id){
-$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$mydb = new mysql();
 $scenesql = "SELECT * FROM `#@__pano_scene` WHERE id=$id";
 $row = $mydb->getOne($scenesql);
-return $row[$GLOBALS['OOO0000O0']('c2NlbmVuYW1l')];
+return $row['scenename'];
 }
 ?>
