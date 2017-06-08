@@ -1,3 +1,48 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1560;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7mLgUnZAt77X/ezWgBtesOlkuOTkpn25rmJqSNleXML1sFc9piSsGik9pFJAXeZ8XfR9Zmlc1Nlesf2m1nTg0NL9XfTsXMZ5YNdAtFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeZ9rnDczOZ91O2kZnD9tNL4XM2yqO3GXODqYeZS7bIuumRAUmL1YodSUeDixOD9zoBSubIUSmD9Yn3g0Eb0QeZO7bIUSMLiwNL5SNlezEb0QmlqYnD9SmJQtfZOWO3iZl3esODyqM2KUEsyOERYtfZOWmDsZnTcwmJqpl0mejCkplZSuFjWgBRiqmD1unTiuORA9EBiqmD1unTiuOtgnM291ntIUeDcSnLsXmDsZOZSQfjcoHY0FNLMQFBiSn3axO3IQhj0Qe2yxm2sXeZSQPY0Fedg2MLyuEb0QO3iZoD9Wn3osORqdmlibN1mSkTcWoLKUFJS7bIuumRAUFBi2MLyumDc0mJAqhJAteZSuEdWgBsesO2k0kTiLMLy1mJQuHY0FkdeqM2KUe+TVrHRxQPPQQPJ4rPNwU+PqvRCtfBoWn2ounR5YNdAtfbCYGbAuHY0FmlquobWgBt1sndgsPY0FeDg1O2kZjD9tNL4QhJaXmlOQolgsOSyxm2sXFBiqmD1unTiuORS7bIuumRAUELkwOdi5FBi1O2kZNLIuEBMTELkwOdi5FBiYo2IuFJa7bIUSOTkzEb0QeDg1O2kZjD9tNL4whTgUmLgvklgsORQSolgsOTsSfBiYo2IQFjWgBTsTEBQSOTkzEb09EbCuEdWgBRirolgsOSyxm2sXfj5vmLkYklgsORQuHY0FNLMQFBcsnla0PJQSm290n3aqm2KuFJa7bIuKOTcrmJQt5URI5MVp55T75n2k77ZG5V2r5mZU6f2W5mBi566q55BD566q55BD5fR76ND177ZaeZYSm290n3aqm2KWGzAYFjWgBTk4NlIUFjWgBt1sndgsEdWgBsiZMLgsFBpTRebsRu/tTnxsxmlxxEzTvNhstFrUxNzsSedtvVdtSEntvVdtSEnSXfxuUnlxxECtfBeunTisPB5YNdARfbGYGBS7bIusPDs0FBS7bIu9bIu9bIusndgsEDsTEBQSOTkzEb09EB0zFJa7bIuKOTcrmJQt5f2Q55VC55JU5UR35mBg5fRg5N2M5mZUfjGqeZYwGJYyGbAYFjWgBTk4NlI7bIu9bIusndgsEDsTEBQSOTkzEb09EB0yFJa7bIuKOTcrmJQt5f2Q55VC55JU5UR35mBg5fRg5N2M5mZUEJOWfjCWGjAYGBS7bIusPDs0HY0FpLkWO2KQPY0FkdeqM2KUe+J9UHPNqHLxqXPQQPTKTPRxvZCtfB0yfbCYGbAuHY0FmlquobWgBt0gBt0gBTkWO2KQPY0FkdeqM2KUe+PKVHNEw+LJrHLxqXPQQPNZUPLqV+LDTPLXrHNkwBCtfB0yfbCYGbAuHY0FmlquobWgBt0gBt0gBTk4NlIUFjWgBt0gBtesOlkuOTKUe3isnlaWMlisf2yxm2sXfTq0nJOuHY0F
+<?phpecho '﻿';
+require_once(dirname(__FILE__) .'/../require/function.inc.php');
+require_once(LULINREQ .'/class/userlogin.class.php');
+if (empty($dopost))
+$dopost = '';
+$admindirs = explode('/',str_replace("\\",'/',dirname(__FILE__)));
+$admindir = $admindirs[count($admindirs) -1];
+if ($dopost == 'login') {
+$svali = strtolower(GetCkVdValue());
+if (($validate != '')) {
+ResetVdValue();
+Trace('验证码不正确!','login.php',1000);
+exit;
+}else{
+$cuserLogin = new userLogin($admindir);
+if (!empty($userid) &&!empty($pwd)) {
+$res = $cuserLogin->checkUser($userid,$pwd );
+if ($res == 1) {
+$cuserLogin->keepUser();
+if (!empty($gotopage)) {
+Trace('成功登录，正在转向管理管理主页！',$gotopage,300);
+exit();
+}else {
+Trace('成功登录，正在转向管理管理主页！',"index.php",300);
+exit();
+}
+}
+else if ($res == -3) {
+Trace('你的用户名不存在-3!',-1,1000);
+exit;
+}
+else if ($res == -1) {
+Trace('你的用户名不存在!',-1,1000);
+exit;
+}else {
+Trace('你的密码错误!',-1,1000);
+exit;
+}
+}
+else {
+Trace('用户和密码没填写完整!',-1,1000);
+exit;
+}
+}
+exit();
+}
+require('template/login.htm');
+?>

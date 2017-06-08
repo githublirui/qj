@@ -1,3 +1,102 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=5708;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4tf3ixn2YxmTsWmJ50n29WftaUOBOuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19roLesl3kZnBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4Rf2gWMlgzf215oDctfTgWMlgzftaUOBEuHY0FeD15mDEQhJaXmlOQjlsjOLYUFjWgBRizOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pM3kRmLAQk0qcKSKQNLI9eDsSErWgBRiZn3OQhJASmdgynB0+m2k0j25sFBizOLYuHY0FedaumBA9EBiZn3one3aumBooHY0FeD1qNL5zOLYQhJARK0kGiKgKEDaTNLysmDsZMBaDKS9gEDArIc9pODcXn19wMLsXMBalJCkJiJaumb17edexo1WtODsSe119ErWgBRiwMLsXOT93Eb0QeD15mDEwhTosoC9XmJQSnLcuntgynBS7bIUSMTczmLiuORA9ECykjCsHKS9hkBAXER92OtaqnT8xER4SnLcuntexo1WtmTsWmLiuORooHY0FedaUn3ixmDsZEb0QeDeqO2kSNlEQfRExM3kRmJE7bIUSODqxoD9RMLoSNlEQhJASMTczmLiuORAXER9roLesf2g1MTKRfRiZn3one3eqnTWtljWgBRiYND90n2eqm3kZnBA9EBirmTopM21zODc0NBAXER92OtaqnT8xER4SnLcuntexo1WtmTsWmLiuORooEB4Rf2g1MTKxM3kRmJEXedexo1WtOTcXNZooHY0FNLMQFBiSn3axO3IQhj0QEtgqoTKRFJa7bIUSmLiuoD9vEb0QmTcWO2K7bIurNDkrN21qN2kSNlEUedaUn3ixmDsZFjWgBTgUmLgvnLcvmLiuORQSODqxoD9RMLoSNlEuHY0FedaUn3ixO2wunTiuORA9EBiRMlgsmDsZEB4Rf2g1MTKxO2wunRE7bIurNDkrN21qN2kSNlEUedaUn3ixO2wunTiuORS7bIurNDkrN2gxOdsTNLysFCykjCsHKSkiEB4Rf3mZODcXnZ9wMLsXf2g1MTKxODyqPJ5YnTORfBiYND90n3gvNL5SNlEQfRExODyqPJ5YnTORFjWgBTgUmLgvM29YPLmunDKUjckGJK5JikCQfRExoteYML5xf21qNL4xM3kRmJ94ftaXmZEWedaUn3ixO2wunTiuORAXER94ftaXmZEuHY0FM2qsM2wrn3a5mTsWmJqGkKyejsecKJAXER92OtaqnT8xnLcunR9roLesf3gxoL5SftaXmZEWedaUn3ixO2wunTiuORAXER9zn3kXmB5YnTORFjWgBTgUmLgvmDkWmTsWmJQSODqxoD9SNlEQfRExM3kRmlWSOT93LZoZML5ve119ftqwnBEuHY0FM2qsM2wrn3a5mTsWmJqGkKyejsecKJAXER92OtaqnT8xnLcunR9roLesf2g1MTKXPD1WERYSODqxoD9SNlEQfRExM3kRmlWSOT93LZoZML5ve119ftqwnBEuHY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZEB4Rf3aWoLountGRFjWgBTgUmLgvM29YPLmunDKUjckGJK5JikCQfRExoteYML5xf21qNL4xODy1m2sXOZ90mlq0mTssnDIXO3oTERYSMTczmLiuORAXER9YndktNL5zf3isPdiTNLkWmB5zo2MRFjWgBRiunLctmlgLMLYQhJARErWgBRiunLo4nLYQhJARErWgBTmxORAUeDSQhJAYHZiuEbyrn3kXoBQSNL1qm2kzFjWSNJWvFJa7bIuumRAUNlgpmTsWmJqGkKyejsehj1IQfRiunLctmlgneDsoFJSQPY0FNLMQFdg1Mtg0Os9rn3kXoBQSNL1qm2kzLZiulJYRO3iqoDsxnREuEb4YFJa7bIUSmLiuoD9vEb0Qode1mjWgBtesnTcwmJqGkKyejsehj1IQfRiunLctmlgneDsofBiYND90n2eqm2iuORAXER8RfTeqO2kXML1sFBiunLctmlgneDsoFJS7bIu9bIUSNL1qm2kzLZiulJA9EDeqO2kXML1sFBiunLctmlgneDsoFjWgBRivEb0QeDSQFzC7bIuumRAUeDSQhj0QGBSQPY0FeDswm3qwnBAXhJARhDyqPLkZEBaXML1shkYRM3kRmlWSOT93LZoZML5ve119l2swm3WSN31OERa2NlguMTyshkYRkde1mkYREdkZnb1OERkjk0mIIkiEeJ9roLesf2g1MTk7edexo1WtOTcXNZoopJ8SNL1qm2kzLZiulkYREdaZmLyxMLI9lBeKOtkslBEQMLyum249lBermL50mleOERAQmLitmj1OETgsntisOsYREBa3NLi0Nb1OEtWSOT93LZo3NLi0NBoopkYREDqsNLoUob1OEtWSOT93LZoUmLstNdItll1OERa4hkYRGcYREdS9lBEYlBE+hB9WMlssOr5OOsyXErWgBt1sndgsEdWgBRiunLo4nLYQfr0QEryWMlssORAQnTcwmj1OETg1MTk7edexo1WtOTcXNZoopk9unLo7eDw9lBEQoTszNLeWmj1OESmqndgslBEQoleWhkYRekglisaakCQsf2g1MTKxM3kRmlWSOT93LZoZML5ve119fZiunLctmlgneDsolBEQOdesnD9qmb1OESmqndgslBEQMLyum249lBermL50mleOERAQmLitmj1OETgsntisOsYREBa3NLi0Nb1OEtWSOT93LZo3NLi0NBoopkYREDqsNLoUob1OEtWSOT93LZoUmLstNdItll1OERa4hkYRGcYREdS9lBEYlBE+hB9WMlssOr5OOsyXErWgBt0gBt1sndgsEdWgBRiunLctmlgneDsoEb0QERE7bIu9bIUSNL1qm2kzkTcWEB49EBe7ndkWNL46NL1tnDszoBazOTG9lBe7eDswMLosO1WSNk19lBExpJE7bIu9bIUSmDkWNL1tOZA9EDk4ODyxmDKUEtYRfBiSmLyunLOuHY0FNLMQFDszl2cZOTc5FBiSmLyunLozFJSQPY0FmT9ZmLcrNBAUeDisnDswm3GQMlGQedEQhj4SoRSQPY0FNLMQFDszl2munDKUedaUn3ixMTctmDsZEB4RfZEXedMuFJa7bIu1nTyunTWUedaUn3ixMTctmDsZEB4RfZEXedMuHY0FpI0FpI0FpI0FedqwnDmunDkzodeunTOQhJaTNLysl2osoc9rn250mL50OZQSODqxoD9SNlEQfRExM3kRmlWSOT93LZoZML5ve119ftqwnBEuHY0FedqwnDmunDkzodeunTOQhJazodepOTkYnDcrmJQRE3iuoDysEZEWediuoDysfBi4nLyTNLysO3iZNL5tFjWgBRi4nLyTNLysO3iZNL5tEb0QO3iZl3esODyqM2KUERg0n3iqnBGRfDgxoL50FBiunLctmlGufBi4nLyTNLysO3iZNL5tFjWgBRi4nLyTNLysO3iZNL5tEb0QO3iZl3esODyqM2KUERgZML5vEZEWedexo1WtOTcXNZoofBi4nLyTNLysO3iZNL5tFjWgBRi4nLyTNLysO3iZNL5tEb0QO3iZl3esODyqM2KUERgYND90nZGRfBiunLo4nLYWedqwnDmunDkzodeunTOuHY0FedqwnDmunDkzodeunTOQhJazodepOTkYnDcrmJQRE3oumdiUEZEWedexo1Wto2sSoDQtlJYSPD1WmTsWmlg0OTsXmZS7bIUSPD1WmTsWmlg0OTsXmZA9Edg0Os9ZmlaWMLgsFBErNDkum2q0EZEWedexo1WtNDkum2q0e10WedqwnDmunDkzodeunTOuHY0FeD1qPdoumdiUEb0Qedexo1Wto2sSoDQtlJAvgbA7bIUSnLc4NDkum2q0Eb0Qedexo1WtNDkum2q0e10QFzCYGbWgBRi4nLyTNLysO3iZNL5tEb0QO3iZl3esODyqM2KUERgwMlq3NLi0NBGRfBiwMlq3NLi0NBYSPD1WmTsWmlg0OTsXmZS7bIUSPD1WmTsWmlg0OTsXmZA9Edg0Os9ZmlaWMLgsFBErnLc4NDkum2q0EZEWeD1qPDqsNLoUoBYSPD1WmTsWmlg0OTsXmZS7bIUSPD1WmTsWmJA9EDmxODkXFBiYND90n2iuORAXER9roLesPZiZn3one3eqnTWtll0XPD1WERYRoZEuHY0FmtoZNlisFBi4nLyTNLysfBi4nLyTNLysO3iZNL5tFjWgBRiqmDizOLYQhJARkkaCIkicEDArIc9pODcXn19roLesMBajikIgBRAQEBAQEBAQMdiuoDysMBA9EBOSoDs0nDKtfA0FEBAQEBAQEBaQNL1tnDszoDAQhJAteDswMLosO1mqnBOWbIUQEBAQEBAQEDa3NLi0NDAQhJAtedoumdiUeZYgBRAQEBAQEBAQMDqsNLoUoDAQhJAteDqsNLoUoBOgBRAQEBAQEBAQk0qcKSKQNLI9eDsSErWgBRiSO3cWfj5cPDkrolisjT9Xmkc1mle5FBiqmDizOLYuHY0FNLMQFBismDs0n2WQhj0Qode1mJSQPY0FkdeqM2KUERMrGrA0grE7eRGZgjSyGzWTEzE1GjA0HZMrGrCygjC7eRG2gjE4GjWRfBe2OtaqnT9pmLiuoDg1MTKXODqYh2sShlWSNLi9ERS7bIu9mLyzmJa7bIuKOTcrmJQReRGZGbI2GrWTEzE1HjCzHZMrGrKyGbI7eRGZGjC1GjWTEzM1GrQyHZEWeDkXmdkZnBS7bIu9bIusPDs0FBS7bIu9bIUSNL1tmdiYEb0QnTk3EC15kDctKDcZO2KUFjWgBRiunLoSodAwhsgsoC5qnLkjODcrmJQtndkWNL4tfBo7eZYtpJOuHY0FeDswm2i0OB0+jD9qmcgxolermJQSOT93LZeunLoWNlg0Es0uHY0FeDiqoDCQhJARErWgBTsTEBquO19qOteqPJQSNL1tmdiYfj5bkDctOZSuEdWgBTmxOTkqM2QQFBiunLoSodAwhSgKMLozEDczEBiunLozEb0+eDswm2g0MLOuEdWgBTsTEBQSNL1tM3iqmZ0+i2k0jTcwmJQuEb09EBeunLoWNlg0ERSQPY0FNLMQFBiSMliqEBC9EBERFJa7bIUSmDc0MJAXhJARpBE7bIu9bIUSmDc0MJAXhJASODqxoD9RMLo1OTYQfRExER4SNL1tM3iqmZ0+i2k0Ili0FBezOTGRFjWgBt0gBt0gBt0gBRizM3euOdiUoD1WEb0QEryzM3euOdIQnDcXm3kqm2K9lBeVMlmqO2gZNla0lBEQodsYmj1OEtisPdIxNTc2MlgrOTsYocYRhsyZlD4RHY0FedgrOTsYoDq0nLYQfr0QERIUlBErNL1qm2kzl2exPcYRFJ5smDs0NL1tMT94FcYReDiqoDcOERyOETswMLosO1YRfcYReDgTm19rnlgYMliUlBEuH1yZlD4RHY0FedgrOTsYoDq0nLYQfr0QErYxO2gZNla0hsyZlD4RHY0FOTkyoLsZmJQtoDkwODyqoDKxoteYML5xl2g1MTkpmLiuoB5UoD0tFjWgBQ==
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+$endurl = GetCookie("pano_cube_url");
+require_once(LULINREQ ."/class/mytag.class.php");
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_cube` WHERE id=$id";
+$row = $dsql->getOne($sql);
+$pid = $row['pid'];
+$mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id={$row['pid']}";
+$mainrow = $mydb->getOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
+$photodir = $basedir ."/cube";
+$photobagdir = $basedir ."/cube/cube".$row['rank'];
+$photobagurl = $cfg_cmspath ."/vrpano/".$mainrow['filedir'] ."/cube/cube".$row['rank'];
+if ($dopost == "save") {
+$editok = false;
+checkmakedir($photodir);
+checkmakedir($photobagdir);
+$photoskindir = $basedir ."/cube/skin";
+checkmakedir($photoskindir);
+checkcopyfile(LULINREQ ."/vrpano/main/cube/play.png",$photoskindir ."/play.png");
+checkcopyfile(LULINREQ ."/vrpano/main/cube/x.png",$photoskindir ."/x.png");
+checkcopyfile(LULINREQ ."/vrpano/main/cube/sound.png",$photoskindir ."/sound.png");
+checkdelfile($photodir ."/cube{$row['rank']}.xml");
+checkcopyfile(LULINREQ ."/vrpano/main/cube/cube.xml",$photodir ."/cube{$row['rank']}.xml");
+checkmakedir($basedir ."/plugins");
+checkcopyfile(LULINREQ ."/vrpano/main/plugins/textfield.swf",$basedir ."/plugins/textfield.swf");
+$imagesVal = "";
+$imgxml = "";
+for ($i = 0;$i <count($images);$i++) {
+if (is_file(LULINROOT .$images[$i])) {
+if (substr_count($images[$i],"station") >0) {
+$editok = true;
+rename(LULINROOT .$images[$i],$photobagdir ."/".basename($images[$i]));
+}
+$images[$i] = basename($images[$i]);
+$k = $i +1;
+if ($i == 0) {
+$imgxml .= "<layer  name=\"cube{$row['rank']}_img{$k}\" visible=\"True\" url=\"%SWFPATH%/cube/cube{$row['rank']}/$images[$i]\" preload=\"True\" align=\"center\"  edge=\"center\"  width=\"{$row['width']}\" height=\"{$row['height']}\" x=\"0\" y=\"0\"></layer>\r\n";
+}else {
+$imgxml .= "<layer  name=\"cube{$row['rank']}_img{$k}\" visible=\"False\" url=\"%SWFPATH%/cube/cube{$row['rank']}/$images[$i]\" preload=\"False\" align=\"center\"  edge=\"center\"  width=\"{$row['width']}\" height=\"{$row['height']}\" x=\"0\" y=\"0\"></layer>\r\n";
+}
+}else {
+$images[$i] = "";
+}
+$imagesVal .= "{lulin:imglist src=\"{$images[$i]}\"/}";
+}
+$delimgs = explode("|",$delimg);
+if (is_array($delimgs)) {
+foreach ($delimgs as $r =>$v) {
+if (is_file($photobagdir ."/".$v)) {
+unlink($photobagdir ."/".$v);
+}
+}
+}
+$xmlfilestring = file_get_contents($photodir ."/cube{$row['rank']}.xml");
+$xmlfilestring = str_replace("#title#",$title,$xmlfilestring);
+$xmlfilestring = str_replace("#total#",count($images),$xmlfilestring);
+$xmlfilestring = str_replace("#rank#",$row['rank'],$xmlfilestring);
+$xmlfilestring = str_replace("#photo#",$imgxml,$xmlfilestring);
+$xmlfilestring = str_replace("#width#",$row['width'],$xmlfilestring);
+$xmlfilestring = str_replace("#height#",$row['height'],$xmlfilestring);
+$maxwidth = $row['width'] +40;
+$maxheight = $row['height'] +100;
+$xmlfilestring = str_replace("#maxwidth#",$maxwidth,$xmlfilestring);
+$xmlfilestring = str_replace("#maxheight#",$maxheight,$xmlfilestring);
+$xmlfile = fopen($photodir ."/cube{$row['rank']}.xml","w");
+fwrite($xmlfile,$xmlfilestring);
+$addsql = "UPDATE `#@__pano_cube` SET
+        `title` = '$title',
+        `imglist` = '$imagesVal',
+        `width` = '$width',
+        `height` = '$height'
+        WHERE id=$id";
+$dsql->ExecuteNoneQuery($addsql);
+if ($editok == true) {
+Trace("&#20462;&#25913;&#25104;&#21151;&#65281;","vrpano_editcube.php?id={$id}");
+}else {
+Trace("&#20462;&#25913;&#25104;&#21151;&#65281;",$endurl);
+}
+exit();
+}
+$imgdtp = new MyTagParse();
+$imgdtp->SetNameSpace('lulin','{','}');
+$imgdtp->LoadSource($row["imglist"]);
+$data = "";
+if (is_array($imgdtp->CTags)) {
+foreach ($imgdtp->CTags as $imgs =>$imgctag) {
+if ($imgctag->GetName() == "imglist") {
+if ($data != "") {
+$data .= "|";
+}
+$data .= $photobagurl ."/".$imgctag->GetAtt("src");
+}
+}
+}
+$scripthtml = "<script language=\"javascript\" type=\"text/javascript\">\r\n";
+$scripthtml .= "$(\"#images_box\").editimgbox(\"$data\",\"images\",\"$cfg_cmspath\");\r\n";
+$scripthtml .= "</script>\r\n";
+require('template/vrpano_cube_edit.htm');
+?>

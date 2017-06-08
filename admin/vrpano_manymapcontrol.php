@@ -1,3 +1,94 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=7216;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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EdmqndkshkYRPZizM2kXmlexo1Wtn3asnT1qOdGtll1OEr48f2iuor48f2iuor5OOsyXErWgBTsTEBQSO2gsnTkZn3one21qOdgumBooEb09EbAuEdWgBRizM2kXmLq0nLYQfr0QErySNlMQM2yqO3G9lBewMlaunLoOEr4RHY0FedgrmL5sNdiwnBAXhJARhDiuoRarnDczOz1OET1qODsXm2sXlBEQNLI9lBerNdWSO2gsnTkZn3one3eqnTWtll1OERaxnTgWNLgvhkYRM2qxn3gsnLcYFdWSO2gsnTkZn3one3eqnTWtll0uH1YRhryzODcXhryrmL50mlE+eRGZHbQ1gzWTEzEYHjQ3HZMrGzM4gzG7eRGZgjGZGjWTEzEZGzEYHZMrGrEZgzA7hB9rmL50mlE+hB9zODcXhrYxmDs2hRE7bIUSO2gsnTkUoD1WEB49EBE8NL5YolIQodsYmj1OETqumDisnsYRED5qnLK9lBewMlazNLi7edgrmL5sOT93LZoZML5ve119lBEQNLI9lBewMlazNLi7edgrmL5sOT93LZoZML5ve119lBEQoTcWoLK9lBe7edgrmL5sOT93LZowMlazNLItll1OERAxhRE7bIUSO2gsnTkUoD1WEB49EBE8f2iuor4RHY0FpLkWO2KQPY0FeD1YOT93Eb0QeD15mDEwhTosoC9XmJQRK0kGiKgKEBUQisehjJaQE0apl3aqnT9pnLcYO2AQk0qcKSKQMdaumDA9PZizM2kXmlexo1WtODsSe119EDcXmBaQOTcXN2A9PZizM2kXmlexo1WtnLcYO2sSe119ERS7bIUSO2gsnTkUoD1WEB49EBE8mDs2EDgWMlgzhkYRnLcYNL1tlBEQn25rnDsrNz1OETgUn29zmL1qOBq7edgrmL5sOT93LZoZML5ve119FjwOEr4RHY0FedgrmL5sNdiwnBAXhJARhDiuoRarnDczOz1OET1qODsXm2sXlBEQNLI9lBerNdWSO2gsnTkZn3one3eqnTWtll1OEr48O3aqnr48NL1tEdgZMz1OEtWSnLcYoleWpJ97eD1YOT93LZoTNLyse119lBEQn25Wn2cShkYRODqxoD9unRq0NDszfbC1GBYygjAuH1YREB8+hB9zODcXhrYxmDs2hRE7bIUSO2gsnTkUoD1WEB49EBE8NL5YolIQodsYmj1OETqumDisnsYRED5qnLK9lBewMlazNLi7edgrmL5sOT93LZoZML5ve119lBEQNLI9lBewMlazNLi7edgrmL5sOT93LZoZML5ve119lBEQoTcWoLK9lBe7edgrmL5sOT93LZowMlazNLItll1OERAxhRE7bIUSO2gsnTkUoD1WEB49EBE8f2iuor4RHY0FpI0FedgrmL5sNdiwnBAXhJARhDiuoRarnDczOz1OET1qOdiWNL5slBE+ldeOnRE7bIUSO2gsnTkUoD1WEB49EBE8Mr4TEzE3HbQYHZMrGrQ4gjO7eRGZGbGYGjWTEzGZgrEZHZMrgrKzGbM7hB9Rhryunta1oBa0PlashkYRoDk4ocYREDsShkYRnLcYPdWSO2gsnTkZn3one3eqnTWtll1OERaXML1shkYRnLcYPdWSO2gsnTkZn3one3eqnTWtll1OERa2MLy1mj1OEtWSO2gsnTkZn3one21qOdg4e119lBEQO2s6mj1OErkOERAxhsyZlD4RHY0FedgrmL5sNdiwnBAXhJARhDsXOdk0Edi5ODK9lBe0mlq0lBEQNLI9lBewMla5PZizM2kXmlexo1WtOTcXNZoopkYRED5qnLK9lBewMla5PZizM2kXmlexo1WtOTcXNZoopkYREdmqndkshkYRPZizM2kXmlexo1WtnLcYO3Stll1OERazNlushkYRgkYREB8+ldeOnRE7bIUSO2gsnTkUoD1WEB49EBE8f2iuor5OOsyXErWgBRizM2kXmLq0nLYQfr0QErySNlMQM2yqO3G9lBewMla0nDsXmkYRhryRhRMrGrQ4gjO7eRGZGbS4gzWTEzE1GrG1HZMrGrC0grE7eRG2gjGYgrW8f2E+hDsXOdk0Edi5ODK9lBeRoli0n25OERaxnTgWNLgvhkYRm2k0nLcYFBiumBy7edgrmL5sOT93LZoZML5ve119FjwOERarnDczOz1OETe0nrcOERa2MLy1mj1OERMrGrKZGzK7eRGZGjI2GrwOERAxhrYxmDs2hsyZlD4RHY0FedgrmL5sNdiwnBAXhJARhDiuoRarnDczOz1OET1qOdiWNL5slBE+hDE+eRGzHbM0gzWTEzG2gzS4HZMrGrMYgbC7eRGZGjKZGjWTEzM1GzA2HzYxMr48NL5YolIQodsYmj1OEtisPdiOERaumb1OEtexoDk7edgrmL5sOT93LZoZML5ve119lBEQnTcwmj1OEtexoDk7edgrmL5sOT93LZoZML5ve119lBEQoTcWoLK9lBe7edgrmL5sOT93LZowMlazOT90mJoopkYREdguPTK9lBEyGsYREB8+hB9SNlM+ldeOnRE7bIUSO2gsnTkUoD1WEB49EBE8mDs2EDgWMlgzhkYRnLcYoDyunTkOEr48Mr4TEzE2GbIyHZMrGrC1GrC7eRGZgjEzgjWTEzEygbMZHZMrgrKzGbM7hB9Rhryunta1oBa0PlashkYRMtk0oD9XlBEQn25rnDsrNz1OETosoD1qOdeqmDcZFBiumBy7edgrmL5sOT93LZoZML5ve119FjwOERarnDczOz1OETe0nrcOERa2MLy1mj1OERMrGrKzgjC7eRGZGjGzgjWTEzG4GbE0H1YREB8+hB9SNlM+ldeOnRE7bIUSO2gsnTkUoD1WEB49EBE8f2iuor5OOsyXErWgBRizM2kXmLq0nLYQfr0QErYxmDs2hsyZlD4RHY0FpI0FeD1qOdGQhJARErWgBRiwMlaVOZA9EBE8O2gZNla0Edi5ODK9lBe0mlq0f2uqoTczM3euOdiOEr5OOsyXErWgBRiwMlaVOZAXhJARoTcZED1qOdgZMZA9ED5soZaaOteqPJQuH1yZlD4RHY0FeD1qODuzEB49EBe2MlEQnLcYNLIQhJaXmlOQIleZMlSUFjWRHY0FeD1qOdgzOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pnLcYO2AQk0qcKSKQMdaumDA9eDsSEC9JiCkJECemEDaZML5vMBE7bIUSnlsSMR0+K2k0KlksOtSUeD1qOdgzOLYuHY0FeD15mDEwhSk4mLg1oDKUET1qOdGRFjWgBtoUNLysEBQSnLcYO3exoZA9EBiwPLiRfj5dmliaOteqPJQRnLcYOZEuFJa7bIUSnLcYOZAXhJARhDiuoRarnDczOz1OETgUn29zmLg1MTkOERaxnTgWNLgvhkYRM2qxn3gsMTcrNZq7eD1qOdgZn3one3eqnTWtll0uH1YRhRE7bIUSnLcYOZAXhJARhDiuoRarnDczOz1OETgUn29zmLg1MTkunsYRhryzODcXhryunLOQO3erhkYRPZiwMla1OTy9f3WSnLcYO3exo1WtmTsWmJoopkYRED9XnD9qmb1OEtaUn3ixNL4UoDquOZYygjAWGjKYFkYREB8+hB9zODcXhrYxmDs2hRE7bIUSnLcYOZAXhJARhB9SNlM+ErWgBRiwMlaVOZAXhJARnLcYO3erL3WSnLcYO3exo1WtOTcXNZoopk0QhJaOEtWSnLcYoleWpJ97eD1qOdgZn3one2munDKtll1OErwOOsyXErWgBRiwMlaVOZAXhJARnLcYNLinPZiwMlazOT93LZoZML5ve119lJA9EdWSnLcYO3exo1WtNLItll07ldeOnRE7bIu9bIUSnLcYNtGQfr0QErYxO2gZNla0hRE7bIuZmlc1NlesFBo0mL1YnDc0mJ92OtaqnT9pnLcXPL1qODgxntiZn2YXNdiweZS7bIU=
+<?php
+require_once(dirname(__FILE__) .'/../require/function.inc.php');
+require_once(LULINREQ .'/tool/file.tool.php');
+if ($dopost == "mapxy") {
+$mydb = new MySql();
+$editsql = "UPDATE `#@__pano_scene` SET 
+                    `mapsx` = $mapx,
+                    `mapsy` = $mapy
+                    WHERE `rank`= $id and `pid` = $pid";
+$mydb->DoNotBack($editsql);
+echo "var ok = true;";
+exit();
+}else if ($dopost == "mapopen") {
+$mydb = new MySql();
+$editsql = "UPDATE `#@__pano_scene` SET 
+                    `openmaps` = $value
+                    WHERE `rank`= $id and `pid` = $pid";
+$mydb->DoNotBack($editsql);
+echo "var ok = true;";
+exit();
+}else if ($dopost == "mapradar") {
+$mydb = new MySql();
+$editsql = "UPDATE `#@__pano_scene` SET 
+                    `mapsrote` = $value
+                    WHERE `rank`= $rank and `pid` = $pid";
+$mydb->DoNotBack($editsql);
+echo "var ok = true;";
+exit();
+}else if ($dopost == "mapid") {
+$mydb = new MySql();
+$editsql = "UPDATE `#@__pano_scene` SET 
+                    `mapsid` = $value
+                    WHERE `rank`= $rank and `pid` = $pid";
+$mydb->DoNotBack($editsql);
+echo "var ok = true;";
+exit();
+}
+$mydb = new MySql();
+$mainsql = "SELECT * FROM `#@__pano_main` WHERE `id`=$id";
+$mainrow = $mydb->GetOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
+$mapdir = $basedir ."/map";
+$mapurl = $cfg_cmspath ."/vrpano/".$mainrow['filedir'] ."/map";
+$scenesql = "SELECT * FROM `#@__pano_scene` WHERE `pid`=$id ORDER BY `rank`";
+$mydb->SetQuery($scenesql);
+$mydb->Execute("scene");
+$scenehtml = "";
+while ($scenerow = $mydb->GetArray("scene")) {
+$scenehtml .= "<div class=\"mapmainout\">\r\n";
+$scenehtml .= "<div class=\"mapmain\">\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#22330;&#26223;&#21517;&#31216;&#65306;</b>{$scenerow['scenename']}</div>\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#22330;&#26223;&#25490;&#24207;&#65306;</b>{$scenerow['rank']}</div>\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#28857;&#20987;&#39044;&#35272;&#65306;</b><input type=\"button\" class=\"btn1\"  onclick=\"lookscene({$scenerow['id']});\" value=\"&#39044;&#35272;\" /></div>\r\n";
+$scenehtml .= "<div class=\"mapkong\"></div>\r\n";
+$scenehtml .= "<div class=\"mapoffbox\"><b style=\"float: left;\">&#26159;&#21542;&#24320;&#21551;&#65306;</b><div class=\"maponoff\" key=\"{$scenerow['rank']}\" value=\"{$scenerow['openmaps']}\"></div></div>\r\n";
+if ($scenerow['mapsid'] == 0) {
+$scenehtml .= "<div class=\"mapimg\">";
+$scenehtml .= "<div class=\"mapingin\" id=\"ch{$scenerow['rank']}\" onclick=\"choosemap({$scenerow['rank']});\"><span><center>&#28857;&#20987;&#36873;&#25321;&#22320;&#22270;</center></span></div>";
+$scenehtml .= "<input type=\"hidden\" name=\"mapsid{$scenerow['rank']}\" id=\"mapsid{$scenerow['rank']}\" value=\"{$scenerow['mapsid']}\" />";
+$scenehtml .= "</div>";
+}else {
+$mprow = $mydb->getOne("SELECT * FROM `#@__pano_maps` WHERE `pid`={$scenerow['pid']} and `rank`={$scenerow['mapsid']}");
+$scenehtml .= "<div class=\"mapimg\" onclick=\"choosemap({$scenerow['rank']});\">";
+$scenehtml .= "<div class=\"mapingin\" id=\"ch{$scenerow['rank']}\"><span><img src=\"{$mapurl}/{$mprow['file']}\" onload=\"photoin(this,150,150);\" /></span></div>";
+$scenehtml .= "<input type=\"hidden\" name=\"mapsid{$scenerow['rank']}\" id=\"mapsid{$scenerow['rank']}\" value=\"{$scenerow['mapsid']}\" />";
+$scenehtml .= "</div>";
+}
+$scenehtml .= "<div class=\"maptline\">\r\n";
+$scenehtml .= "<b>&#27880;&#28857;&#20301;&#32622;&#65306;</b><input type=\"text\" id=\"mapx{$scenerow['rank']}\" name=\"mapx{$scenerow['rank']}\" value=\"{$scenerow['mapsx']}\" size=\"5\" />\r\n";
+$scenehtml .= "<input type=\"text\" id=\"mapy{$scenerow['rank']}\" name=\"mapy{$scenerow['rank']}\" value=\"{$scenerow['mapsy']}\" size=\"5\" />\r\n";
+$scenehtml .= "</div>\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#28857;&#20987;&#25235;&#21462;&#65306;</b><input type=\"button\" onclick=\"getmap($id,{$scenerow['rank']});\" class=\"btn1\" value=\"&#25235;&#21462;\" /></div>\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#38647;&#36798;&#26041;&#21521;&#65306;</b><input type=\"text\" id=\"rote{$scenerow['rank']}\" name=\"rote{$scenerow['rank']}\" value=\"{$scenerow['mapsrote']}\" size=\"12\" /></div>\r\n";
+$scenehtml .= "<div class=\"maptline\"><b>&#26041;&#21521;&#25235;&#21462;&#65306;</b><input type=\"button\" onclick=\"getmapradar($id,{$scenerow['rank']});\" class=\"btn1\" value=\"&#25351;&#21335;&#38024;\" /></div>\r\n";
+$scenehtml .= "</div>\r\n";
+$scenehtml .= "</div>\r\n";
+}
+$maps = "";
+$mapjs = "<script type=\"text/javascript\">\r\n";
+$mapjs .= "var mapsrc = new Array();\r\n";
+$mapjs .= "var mapid = new Array();";
+$mapssql = "SELECT * FROM `#@__pano_maps` WHERE `pid`=$id ORDER BY `rank`";
+$mydb->SetQuery($mapssql);
+$mydb->Execute("maps");
+while ($mapsrow = $mydb->GetArray("maps")) {
+$maps .= "<div class=\"choosecube\" onclick=\"chooseback({$mapsrow['rank']});\">";
+$maps .= "<div class=\"choosecubein\"><span><img src=\"{$mapurl}/{$mapsrow['file']}\" onload=\"photoin(this,150,150)\" /></span></div>";
+$maps .= "</div>";
+$mapjs .= "mapsrc[{$mapsrow['rank']}] = \"{$mapurl}/{$mapsrow['file']}\";\r\n";
+$mapjs .= "mapid[{$mapsrow['rank']}] = {$mapsrow['id']};\r\n";
+}
+$mapjs .= "</script>";
+require('template/vrpano_manymapcontrol.htm');
+?>

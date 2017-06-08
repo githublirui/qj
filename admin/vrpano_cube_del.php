@@ -1,3 +1,30 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1480;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4tf3ixn2YxmTsWmJ50n29WftaUOBOuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19roLesl3kZnBEuHY0FeD15mDEQhJaXmlOQjlsjOLYUFjWgBRizOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pM3kRmLAQk0qcKSKQNLI9eDsSErWgBRiZn3OQhJASnlsSMR0+m2k0j25sFBizOLYuHY0FNLMQFBiSn3axO3IQhj0QETisnBEuEdWgBRiwMLsXO3cWEb0QEsgcjCkbkBaQmTsWmLiuOTAQisehjJaQE0apl3aqnT9pnLcunTAQk0qcKSKQNLI9PZiZn3one3aumBoopJE7bIUSnLcuntexoZA9EBiwPLiRfj5tmlihnTKUeD1qNL5zOLYuHY0FeDeqO2kSNlEQhJaGkKyejsehj1IQfRExoteYML5xfZEXeD1qNL5Zn3one2munDkSNlEtljWgBTgUmLgvmDkWmDsZFBiRMlgsmDsZEB4Rf2g1MTKxM3kRmJEXedexo1WtOTcXNZooFjWgBTgUmLgvmDkWmTsWmJQSMTczmLiuORAXER9roLesf2g1MTk7edexo1WtOTcXNZoopJ54nLYRFjWgBRiSmLyzOLYQhJARiCkGikicECmJj00QMBgAl19YML5xl2g1MTkQEcoEikecEDsShJiumBE7bIUSnlsSMR0+iD9Hn3iBMLgvFBiSmLyzOLYuHY0FeDmunTizOLYQhJARK0kGiKgKEDaumDAQisehjJaQE0apl3aqnT9pO3axoDAQk0qcKSKQMDg1MTkQhJiumBE7bIUSnlsSMR0+K2k0KlksOtSUeDmunTizOLYuHY0FeD15mDEwhSk4mLg1oDKUETmunTIRFjWgBtoUNLysEBQSmTsXmdexoZA9EBiwPLiRfj5dmliaOteqPJQRmTsXmBEuFJa7bIUSmLiuodgynBA9EBekKCiakCKQMBgAl19YML5xl3gYn3iQEcgckBAgBRAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEDaroLesMb0YfA0FEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQMD9YmL5qM3iun25QhjAgBRAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEcoEikecEDaumDA9PZiTNL5SOT93LZoumBoopJE7bIUSnlsSMR0+iD9Hn3iBMLgvFBismDs0O3cWFjWgBt0gBsiZMLgsFBETEzEyGbE0HZMrGzQ1GbA7eRGZgjCYgbWTEzEyGjKyHZMrgrKZHbC7ERYSmL5SoleWFjWgBTk4NlIUFjWgBt0gBtesOlkuOTKUe3isnlaWMlisf3mZODcXn19roLesl2isnB5UoD0tFjWgBQ==
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+$endurl = GetCookie("pano_cube_url");
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_cube` WHERE id=$id";
+$row = $mydb->getOne($sql);
+if ($dopost == "del") {
+$mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id={$row['pid']}";
+$mainrow = $mydb->getOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow['filedir'];
+checkdeldir($basedir ."/cube/cube".$row['rank']);
+checkdelfile($basedir ."/cube/cube{$row['rank']}.xml");
+$delsql = "DELETE FROM `#@__pano_cube` WHERE id=$id";
+$mydb->DoNotBack($delsql);
+$findsql = "SELECT `id` FROM `#@__pano_spot` WHERE `cube`=$id";
+$mydb->SetQuery($findsql);
+$mydb->Execute("find");
+while ($findrow = $mydb->GetArray("find")) {
+$editsql = "UPDATE `#@__pano_spot` SET 
+                        `cube`=0,
+                        `openaction`=0
+                        WHERE `id`={$findrow['id']}";
+$mydb->DoNotBack($editsql);
+}
+Trace("&#21024;&#38500;&#25104;&#21151;&#65281;",$endurl);
+exit();
+}
+require('template/vrpano_cube_del.htm');
+?>

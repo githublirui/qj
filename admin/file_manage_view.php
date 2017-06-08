@@ -1,3 +1,106 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=4544;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSXER9rn25TNLOXODqYERS7bIubNDkrN1a1OtmumlOUe2munDkpM29XodexnBOuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkifRExM2yqO3GxmtexnlounTixoZ5rnDczOZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJ4Rf2gWMlgzf215oDctfTgWMlgzftaUOBEuHY0FeDcroDs2mlaqoDQQhJazodepOTkYnDcrmJQRfR4RfBERfBiqM3iuoTkYMliUFjWgBRiqM3iuoTkYMliUEb0QOdesm19ZmlaWMLgsFBErlsYxPzCWpJGRfBExERYSMLg0NlmsODc0NBS7bIuumRQSMLg0NlmsODc0NBA9hJARfZEuEBiqM3iuoTkYMliUEb0QERE7bIuumRQSMLg0NlmsODc0NBA9hJARERSQeDsXODc0NBA9EBirmTopMTczmLiuOrWgBTkWO2KQeDsXODc0NBA9EBirmTopMTczmLiuOR4SMLg0NlmsODc0NbWgBTsTFBiTnLixhj0ROTkXML1sERs7bIUSo2sXEb0QnTk3EDmZn213NL5Sn3OUFjWgBRi3NL4whtiuoDysEb0Qe+NLq+J7wXPXUPPIqRAwEHNnwHNKXPNLq+J7wXLIrJO7bIUSo2sXfj5untIUETmunDkpnLcXMLosl2gxntiZn2YXODqYERYRERYRKC9jkBEWET15mT9ZnJEuHY0FedounR0+MLiSJDsSmDkXFBeTnLixERYSmT1SnZS7bIUSo2sXfj5qmDiENLiSmL4UETcroDs2mlaqoDQRfBiqM3iuoTkYMliUFjWgBRi3NL4whTcSmCqumDisnRQRn2ySmTsWmL5qnLKRfBiTNLysnTcwmJS7bIUSo2sXfj5qmDiKNlAUEXNlu+LIrPPtWH+8TREWERiTNLysnTcwmJEuHY0FedounR0+MLiSJL5YolIUEXNLWHLIrPPtWH+8TREWETsXOdk0ERYRnTk3mTsWmL5qnLKRfBERfBeXmloTNLysnTcwmJEuHY0FedounR0+mDszODyqPJQuHY0FpI0FmLyzmJaumRQSmT1Snz09ET5so2iuOREubIu7bIuumRQSMLg0NlmsODc0Nb09EREuEBiqM3iuoTkYMliUnTcwmj0R5VB555XX5n2kErWgBTkWO2KQeDcroDs2mlaqoDqXML1shJiqM3iuoTkYMliUHY0FedounRA9ED5soZaTOT9wo2sXmD93FBS7bIUSo2sXfj50NliWmJA9EBpTsUpSX7ntvVdtSEMQfJbTsvbsX7vtT67sxmKtHY0FedounR0+NL50FBeTNLysl21qnTctmk9rn250OT9WftaUOBEWEREWEsahK1IRfBewPLmxOT0RFjWgBRi3NL4whTcSmCqumDisnRQRmT1SnZEWeDmwmD8uHY0FedounR0+MLiSJDsSmDkXFBeqM3iuoTkYMliUERYSMLg0NlmsODc0NBS7bIUSo2sXfj5qmDiKNlAUEXL9S+LerPPnvXL9sJEWERiqM3iuoTkYMliUnTcwmJARFjWgBRi3NL4whTcSmCsXOdk0FBfTsvbtT67sxmlxxeURfBeunta1oBEWET5so3aqoDQRfBERfBeXmloYMliUERS7bIUSo2sXfj5CNlgYnDc5FBS7bIu9bIusndgsEDsTFBiTnLixhj0RnL92mJEubIu7bIUSo2sXEb0QnTk3EDmZn213NL5Sn3OUFjWgBRi3NL4whtiuoDysEb0Qe+NLq+J7wXPXUPPIqRAwEHPtX+LFVHNLq+J7wRO7bIUSo2sXfj5untIUETmunDkpnLcXMLosl2gxntiZn2YXODqYERYRERYRKC9jkBEWET15mT9ZnJEuHY0FedounR0+MLiSJDsSmDkXFBeTnLixERYSmT1SnZS7bIUSo2sXfj5qmDiENLiSmL4UETcroDs2mlaqoDQRfBiqM3iuoTkYMliUFjWgBRi3NL4whTcSmCqumDisnRQRmTsWmL5qnLKRfBiTNLysnTcwmJS7bIUSo2sXfj5qmDiKNlAUEXRRV+PtX+LFVHNLq+J7wX+8TREWeDmunDkXML1sFjWgBRi3NL4whTcSmciuOBQR5n2j5MTg5f2g572X77ZNERYSMLg0NlmsODc0NBS7bIUSo2sXfj5qmDienta1oBQR5uNY5f2g572X77ZNERYRNL5YolIRfBeXmloYMliUERYRERYRnTk3ODc0NBEuHY0FedounR0+iDszODyqPJQuHY0FpI0FmLyzmJaumRQSmT1Snz09ETisnBEubIu7bIUSo2sXoDs0nDKQhJAReT5RO3A75uNd5fX2566q55BDErWgBRi3mLgxnLkpNL5TnZA9EBETnTezObxTsUpSX7ntvVdtSEM6HXLEUHTmuHNLq+J7wRanhDCQNdesmr0tmTsWmk9wML5qm2kpnLcunR5YNdA/MLg0NlmsODc0Nb0SMLg0NlmsODc0NBO+5uNd5fX25vLh6FPE5mTUhB9qhs08f2C+ErWgBRi3NL4QhJaXmlOQmtexnlounTixoZQuHY0FedounR0+NL50FBeTNLysl21qnTctmk9rn250OT9WftaUOBEWEREWEsahK1IRfBewPLmxOT0RFjWgBRi3NL4whTcSmCqumDisnRQRmT1SnZEWeDmwmD8uHY0FedounR0+MLiSJDsSmDkXFBeqM3iuoTkYMliUERYSMLg0NlmsODc0NBS7bIUSo2sXfj5qmDiENLiSmL4UETmunDkXML1sERYSmTsWmL5qnLKuHY0FNLMUIDszl2iuORQSM2mtl2eqO2kSNlEXeDcroDs2mlaqoDQXER8SmTsWmL5qnLKRFJSgBtWgBRi3nlgtEb0QEXJ9UHPqvXJ/UPRTQPLEUHTmuHPnvXL9sP+8TRiTNLysnTcwmJbsSepxxe8RHY0FpI0FmLyzmI0FPY0FedowO2OQhJAR5f2Q56DX5f+q6FNa5MRQ6mTS5uNd5fX277ZNeDmunDkXML1sEHLIs++8tZE7bIu9bIUSo2sXfj5qmDiKNlAUEXLEUHTmuHNLq+J7wXPqvXRXuH+8TREWedowO2OuHY0FedounR0+iDszODyqPJQuHY0FpI0FmLyzmJaumRQSmT1Snz09ETkSNlIRFI0FPY0FNLMUELszO2k0FBiRMLgvoleWFJSgBtWgBRiRMLgvoleWEb0QERE7bIu9bIUSMLg0NlmsODc0NBA9Edg0Os9ZmlaWMLgsFBEXfREWEREWeDcroDs2mlaqoDQuHY0FeDmunDkXML1sEb0QO3iZl3esODyqM2KUER4XERYRERYSmTsWmL5qnLKuHY0FeDmunDKQhJAReDgTm19RMlgsmDsZeDcroDs2mlaqoDQxeDmunDkXML1sErWgBRirn250mL50Eb0QERE7bIuumRquO19TNLysFBiTNLysFJSgBtWgBRiTOBA9EDmxODkXFBiTNLysfBeZERS7bIUSM29XoDkXoBA9EDmZmLcSFBiTOByTNLysO2s6mJQSmTsWmJSuHY0FmTgWn3gsFBiTOBS7bIUSM29XoDkXoBA9EDq0nLyzODkrNLcWM2qqOtGUeDgxntisntIuHY0FpI0FeDgxntisntiLNLk3Eb0QEry0mlq0MlesMJaXML1shJozodEtEdg0PLyshJo3NLi0NbU5HJK7NDkum2q0HrI1Gda4HZO+eDgxntisntI8f3isPdiqOTkqhsyZlD4RHY0FeCoGj0eajcgne2munDkXML1se10QhJASmTsWmL5qnLK7bIUSM3iYEb0QnTk3EC15kDctKDcZO2KUFjWgBRirodAwhSyxMLiKmL1YnDc0mJqGkKyejScCjKsHfRExoDkwODyqoDKxmTsWmk9smDs0fTq0nJEuHY0FeDg0OB0+mDszODyqPJQuHY0FpI0FmLyzmJaumRQSmT1Snz09ET5so2munDKRFI0FPY0FeDgxntisntIQhJARErWgBRidjC9BIKyjLZoTNLysnTcwmJooEb0QET5so2munDKXodq0ErWgBRirn250mL50kTssoZA9EBE8oDk4oDcZmLCQnTcwmj0tO3iZeZazodsWmj0to2sSoDQ6HjSsH2qsNLoUobU0GbaYPBO+hB90mlq0MlesMj5OOsyXErWgBRirodAQhJaXmlOQjlsKMLoIMlezmJQuHY0FeDg0OB0+jD9qmcisnlaWMlisFCykjCsHIKigJK4XER90mL1YnDc0mJ9TNLysl2kSNlIXNdiwERS7bIUSM3iYfj5SNlgYnDc5FBS7bIu9bIusndgsEDsTFBiTnLixhj0RolaWn2cSERSgBtWgBRirodAQhJaXmlOQjlsKMLoIMlezmJQuHY0FeDg0OB0+jD9qmcisnlaWMlisFCykjCsHIKigJK4XER90mL1YnDc0mJ9TNLysl3kYnD9qmB5UoD0RFjWgBRirodAwhTiuO3aWMlSUFjWgBt0gBQ==
+<?php
+require_once(dirname(__FILE__)."/config.php");
+CheckPurview('file_control');
+require_once(LULINREQ."/class/fromwindow.class.php");
+require_once(LULINREQ."/class/mytag.class.php");
+$activepath = str_replace("..","",$activepath);
+$activepath = preg_replace("#^\/{1,}#","/",$activepath);
+if($activepath == "/") $activepath = "";
+if($activepath == "") $inpath = $cfg_basedir;
+else $inpath = $cfg_basedir.$activepath;
+if($fmdo=="rename"){
+$win = new fromwindow();
+$win->title = '文件管理 - 更改文件名';
+$win->int("file_manage_control.php","","POST","myform");
+$win->addHidden("fmdo",$fmdo);
+$win->addHidden("activepath",$activepath);
+$win->addHidden("oldfilename",$filename);
+$win->addTip("旧名称：","$filename");
+$win->addInput("新名称：","input","newfilename","","newfilename");
+$win->display();
+}
+else if($fmdo=="newdir")
+{
+if($activepath=="") $activepathname="根目录";
+else $activepathname=$activepath;
+$win = new fromwindow();
+$win->title = '文件管理 - 新建目录';
+$win->int("file_manage_control.php","","POST","myform");
+$win->addHidden("fmdo",$fmdo);
+$win->addHidden("activepath",$activepath);
+$win->addTip("当前目录","$activepathname ");
+$win->addInput("新目录：","input","newpath","","newpath");
+$win->Display();
+}
+else if($fmdo=="move")
+{
+$win = new fromwindow();
+$win->title = '文件管理 - 移动文件';
+$win->int("file_manage_control.php","","POST","myform");
+$win->addHidden("fmdo",$fmdo);
+$win->addHidden("activepath",$activepath);
+$win->addHidden("filename",$filename);
+$win->addTip("被移动文件：",$filename);
+$win->addTip("当前位置：",$activepath);
+$win->addInput("新位置：","input","newpath","","newpath");
+$win->Display();
+}
+else if($fmdo=="del")
+{
+$wintitle = "&nbsp;文件管理";
+$wecome_info = "&nbsp;文件管理::删除文件 [<a href='file_manage_main.php?activepath=$activepath'>文件浏览器</a>]</a>";
+$win = new fromwindow();
+$win->int("file_manage_control.php","","POST","myform");
+$win->addHidden("fmdo",$fmdo);
+$win->addHidden("activepath",$activepath);
+$win->addHidden("filename",$filename);
+if(@is_dir($cfg_basedir.$activepath."/$filename"))
+{
+$wmsg = "你确信要删除目录：$filename 吗？";
+}
+else
+{
+$wmsg = "你确信要删除文件：$filename 吗？";
+}
+$win->addTip("删除文件确认：",$wmsg);
+$win->Display();
+}
+else if($fmdo=="edit")
+{
+if(!isset($backurl))
+{
+$backurl = "";
+}
+$activepath = str_replace("..","",$activepath);
+$filename = str_replace("..","",$filename);
+$file = "$cfg_basedir$activepath/$filename";
+$content = "";
+if(is_file($file))
+{
+$fp = fopen($file,"r");
+$content = fread($fp,filesize($file));
+fclose($fp);
+$content = htmlspecialchars($content);
+}
+$contentView = "<textarea name='str' style='width:99%;height:450px;'>$content</textarea>\r\n";
+$GLOBALS['filename'] = $filename;
+$ctp = new MyTagParse();
+$ctp->LoadTemplate(LULINADMIN."/template/file_edit.htm");
+$ctp->display();
+}
+else if($fmdo=="newfile")
+{
+$content = "";
+$GLOBALS['filename'] = "newfile.txt";
+$contentView = "<textarea name='str' style='width:99%;height:400px'></textarea>\r\n";
+$ctp = new MyTagParse();
+$ctp->LoadTemplate(LULINADMIN."/template/file_edit.htm");
+$ctp->display();
+}
+else if($fmdo=="upload")
+{
+$ctp = new MyTagParse();
+$ctp->LoadTemplate(LULINADMIN."/template/file_upload.htm");
+$ctp->display();
+}
+?>

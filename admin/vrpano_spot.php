@@ -1,3 +1,57 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJbEk9J3RpbWUnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=3564;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMjczKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L2NsYXNzL2FkbWlubGlzdC5jbGFzcy5waHA='));
+PutCookie("pano_spot_url",GetCurUrl(),$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSWxJ')]() +3600,"/");
+$endurl = GetCookie("pano_scene_url");
+if (empty($id)) {
+Trace($GLOBALS['OOO0000O0']('PGI+PyMyMDE0NjsmIzY1MjkyOyYjMzU4MzU7JiMxOTk4MTsmIzIxMDQwOyRpZD8vYj4mIzE5OTgxOyYjMzMwMjE7JiMyMDAyNjsmIzMxMzU0OyYjNjUyODE7'),"-1");
+exit();
+}
+$sql = "SELECT * FROM `#@__pano_spot` WHERE aid = $id ORDER BY `id`";
+if(empty ($page)){
+$page = 0;
+}
+$dlist = new adminlist();
+$dlist->pushSql($sql);
+$dlist->getPage($page);
+$dlist->loadTemp(LULINADMIN ."/template/vrpano_spot.htm");
+$dlist->display();
+function getaction($me){
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$sql = "SELECT * FROM `#@__pano_spot` WHERE id = $me";
+$row = $mydb->getOne($sql);
+if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 1){
+return "&#28459;&#28216;&#28909;&#28857;";
+}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 2){
+$scenesql = "SELECT `pid` FROM `#@__pano_scene` WHERE id={$row['aid']}";
+$scenerow = $mydb->getOne($scenesql);
+$imgurl = $cmspath."/vrpano/vrpano".$scenerow[$GLOBALS['OOO0000O0']('cGlk')]."/showpic/".$row[$GLOBALS['OOO0000O0']('c2hvd3BpYw==')];;
+return "<span img=\"$imgurl\" class=\"imgspan\">&#24377;&#20986;&#22270;&#29255;</span><div class=\"picbox\"><img src=\"$imgurl\" onload=\"photoin(this,120,120)\" /></div>";
+}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 3){
+return "&#22806;&#37096;&#36229;&#38142;&#25509;";
+}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 4){
+return "&#28857;&#20987;&#39134;&#20986;";
+}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 5){
+return "&#22270;&#38598;";
+}else if($row[$GLOBALS['OOO0000O0']('YWN0aW9u')] == 6){
+return "360&#29289;&#20307;";
+}
+}
+function getopenaction($me){
+if($me==1){
+return "&#24050;&#24320;&#21551;";
+}else{
+return "&#26080;&#29305;&#25928;";
+}
+}
+function getname($id){
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$scenesql = "SELECT * FROM `#@__pano_scene` WHERE id=$id";
+$row = $mydb->getOne($scenesql);
+return $row[$GLOBALS['OOO0000O0']('c2NlbmVuYW1l')];
+}
+?>

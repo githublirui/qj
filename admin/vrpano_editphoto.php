@@ -1,3 +1,20 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1052;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4tf3ixn2YxmTsWmJ50n29WftaUOBOuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19YND90n191OTYRFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXER9rnDczOZ9wPliqmZ5rnDczOZ5YNdARFjWgBRiwPLiREb0QnTk3EC15K3cWFBS7bIUSODqxoD9zOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pODqxoD9QEcoEikecEDaumDA9eDsSErWgBRiYND90n3exoZA9EBiwPLiRfj5tmlihnTKUedaUn3ixO3cWFjWgBRiSNlEQhJaGkKyejsehj1IXER92OtaqnT8xoteYML5xPZiYND90n3exo1WtODsSe119f3aUn3ixf3aUn3ixPZiYND90n3exo1WtOTcXNZoopJE7bIUSmTsWmJA9EdgrML5SNlEUeDiuORS7bIUSnDkXm3iUEb0QM291ntIUeDmunDKuHY0FeDysnRA9EBiWmL5toDQQfjE7bIUSO3iqOtiVOZA9EBERHY0Fedg0Mle0NtGQfr0QEryzM3euOdIQnDcXm3kqm2K9lBeVMlmqO2gZNla0lBEQodsYmj1OEtisPdIxNTc2MlgrOTsYocYRhsyZlD4RHY0Fedg0Mle0NtGQfr0QEtmqORaYML5xNLIQhJa7edaUn3ixOT93LZoYNLItll07ldeOnRE7bIUSO3iqOtiVOZAXhJARoTcZEdaUn3ixNLIQhJa7edaUn3ixOT93LZoZML5ve119H1yZlD4RHY0Fedg0Mle0NtGQfr0QEtmqORaYND90n2ysnTo0NBA9EdWSnDkXpjwOOsyXErWgBRizoDcZoDuzEB49EBE8f3grOTsYob5OOsyXErWgBtesOlkuOTKUe3isnlaWMlisf3mZODcXn19smDs0ODqxoD8XNdiweZS7bIU=
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+$endurl = GetCookie("pano_photo_url");
+require_once(LULINREQ ."/class/mytag.class.php");
+$mydb = new MySql();
+$photosql = "SELECT * FROM `#@__pano_photo` WHERE `id`=$id";
+$photorow = $mydb->getOne($photosql);
+$dir = LULINROOT."/vrpano/vrpano{$photorow['pid']}/photo/photo{$photorow['rank']}";
+$file = scandir($dir);
+$length = count($file);
+$len = $length -2;
+$startjs = "";
+$startjs .= "<script language=\"javascript\" type=\"text/javascript\">\r\n";
+$startjs .= "var panoid = {$photorow['pid']};\r\n";
+$startjs .= "var photoid = {$photorow['rank']};\r\n";
+$startjs .= "var photolength = {$len};\r\n";
+$startjs .= "</script>\r\n";
+require('template/vrpano_editphoto.htm');
+?>

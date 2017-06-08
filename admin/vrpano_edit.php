@@ -1,3 +1,157 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlsbElsbD0nZXhwbG9kZSc7JElJSUlJSUlsSTExbD0ncmFuZCc7JElJSUlJSUlsSUlJMT0ncmVuYW1lJzskSUlJSUlJSWxJSUlsPSdiYXNlbmFtZSc7JElJSUlJSUlJMTFJMT0nY291bnQnOyRJSUlJSUlJSTFJbDE9J2NvcHknOyRJSUlJSUlJSTExSUk9J2lzX2ZpbGUnOyRJSUlJSUlJSTFJbGw9J2ZjbG9zZSc7JElJSUlJSUlJMUlsST0nZnB1dHMnOyRJSUlJSUlJSTFJSTE9J2ZvcGVuJzskSUlJSUlJSUkxSUlJPSdzdHJpcHNsYXNoZXMnOyRJSUlJSUlJSWxsbGw9J215c3FsJzskSUlJSUlJSUlJSUlJPSdkaXJuYW1lJzs='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=12976;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxNTg2KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuumRAUnLI1FBipK0kJkSkJLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK0mJkkkDHKsKGK5keZsoFJC9eCoGj0eajcgne09hjzAYGbahGBooFBogk1uWjkikPS1ljjaNiCKzLkiggkulKjghi0SYjTurGS1VMzahiDOYjlumhJOuEBaxORAQnLI1FDosoDqxO3iRPL5qnLKUec9jikeLikeneCoGj0eajcgne09hjzAYGbahGBooFBokGcmjkTwLK1QYgKeKkkK9eZsoFJSqhJidjC9BIKyjLZohj08YGbAYjzAtlJQtjLukPsulKTwmNTW1jkieGkuCjlqgNTqvjsoHNcuKjjigkCKZjKivo01dJj0tFJSgBtWgBTkrND8QFBE8O2gZNla0Edi5ODK9e3isPdIxNTc2MlgrOTsYoBO+EDcWmle0FBoIMlgzOD9ZoBacOtexORCtFjwUNlg0n3e5fToxFB0yFjW8f3grOTsYob4RFjWgBt0gBtesOlkuOTkpn25rmJQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsgknCUtFk0Ul19DJKycl18uEB4Rf2gxnTmumZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeCoGj0eajcgne09hjzAYGbahGBooFBoGG1e2Mre3osuwndgNKzKYMrE5O0yXIT9rIj09eZSuHY0FOTkyoLsZmk9xnTgsFBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLyFK1kWJROulJQSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue01DHjernSeUMT05msulKtaSIzk3MKqahJOuFJAXER9unTGxODcXn21sntKXODqYERS7bIUSmL5SoleWEb0Qi2k0I29xN2ssFBeYML5xl3kZnBEuHY0FeD15mDEQhJaXmlOQeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkndgRi3qzeZsoFBS7bIUSO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl21qNL5QEcoEikecEDaumDA9eDsSErWgBRiZn3OQhJASnlsSMR0+i2k0j25sFBizOLYuHY0FNLMQFBiSn3axO3IQhj0QEtgqoTKRFJa7bIUSoDqsmTsWmJA9EBe2OtaqnT8RfRiumbWgBTsTEBQSODcXn25qnLKQEj0Qedexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2gditkRGrkUMsokhJOulJSQPY0FeDq0nLYQhJARErWgBRiUoD1WEB49EBidjC9BIKyjLZohj08YGbAYjzAtlJQtKCgDikIYjsklkSeDJKoUGDelo2okismbkCkWiCsbJliGPjsMjjagoSYYKskJI0emK0mJjsibIlqGNSctkjgJPLcljraGPjsDkDsem0swNbaSJCC2jdS5G2IzM3kSPS11MrgFnSYyKsgGG2qxmCOyO01jHKkLikc2mKoUGDelo3qGLC4YM21WNTibgLwSi1cuKDO9hJOuEB4RldeOnRE7bIUSNdiwnBAXhJASi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1adNbaRk3otmKOyO2eXjjsenLQYmCqagSy5HjgSG2g1mdugoLEzJT5GPSK1j1ivoTkdNbaRk3ouJKo4NDewMzsenkm1JLsBgDelozmRi0m1LtUYNkulgDsImz09eZSQfReOOsyXErWgBRiUoD1WEB49EBidjC9BIKyjLZohj08YGbAYjzAtlJQtKCoUncslKJWtFJAXEsyZlD4RHY0FeDq0nLYQfr0QeCoGj0eajcgne09hjzAYGbahGBooFBoIizcWmCocm2cEKrarIzcWM1qLODiVGDsiGrs1mCoLoLibGkksLCeWJLsBNTEZgjaNkzKYKcgFGcuMNbaGGTQYMso3g0sdjT9mLCu6LsqiHLiMKT1GkDouJKG4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nTisPB5UoD1WErWgBRiUoD1WmTsWmJA9ECykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExeDq0nLyTNLysnTcwmJE7bIurNDkrN2isnDmunDKUeDq0nLyTNLysFjWgBRiUoD1WOZA9EBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1kWJROulJQSNdiwnBS7bIUSnlsTOBA9EBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1kvPBOulJQSNdiwnDmunDKWEtORFjWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o4JROulJQSnlsTOBYSNdiwndGuHY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qjk3qzeZsoFBiwPLmYFjWgBt0gBTsTEBQSM3kZO29ZEb09EbAuEdWgBSaSmLySNlEUjckGJK5Jj09KEB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9rolezn3ERFjWgBt1sndgsEDsTEBQSM3kZO29ZEb09EBiZn3oneCoGj0eajcgne09hjzAYGbahGBooFBomG1m5MzE5PJOulJSQPY0FpLkWO2KQPY0FM2qsM2wwMLwsmDsZFCykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExM3kZO29ZERS7bIuwn3msODcXn2g1OtgxORQSM3kZO29ZfCykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExM3kZO29ZERS7bIu9bIuumRQqeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qgkLyFeZsoFCykjCsHKS9hkB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9untiZn2swMLosftaXmZEuFlWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o3PBOulJqGkKyejsecKJ4Rf3mZODcXnZ9wMLsXf2sXodexNL1qm2KXOD5tERyGkKyejsehj1IXER92OtaqnT8xediUmLmunDKRfRExNL50OT9unLctmJ5YnTORFjWgBt0gBTsTFBCSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1knCUtFk0UjckGJK5Jj09KfRExoteYML5xfZi0NDkTNLysER4Rf2c1oD9Xmlq0M2yxO2KXOD5tERSuPY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qjk3o4eZsoFCykjCsHKSkifRExoteYML5xf21qNL4xMlk0n25sPdirnD9zmJ5YnTORfCykjCsHKS9hkB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9qolixnTk4oDgWn3gsftaXmZEuHY0FpI0FeDyuM2kXO2kWmL5toDQQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1kN3QtFk0UeDyuM2kXO2KyFjWgBRiWNLgsntgsmDc0MJA9EBERHY0FmT9ZEBQSOBA9EbA7edAQhBiWNLgsntgsnDkXm3iUHZiYFZWuEdWgBTsTEBQSnDsrmL5zmjcnedaoEBC9EBERFJa7bIuumRAUeDyuM2kXO2kSMliqEBC9EBERFJa7bIUSnDsrmL5zmLiqoDCQfr0QERMTErWgBt0gBRiWNLgsntgsmDc0MJAXhJASnDsrmL5zmjcnedaoEB4RpBEXeDyuM2kXO2KZLZiYlJAXEtYRHY0FNLMQFBiWNLgsntgsG1WSOc0QEj0QGJSQPY0FeDyuM2kXO2KzLZiYlJA9EbA7bIu9bIUSnDsrmL5zmLiqoDCQfr0QeDyuM2kXO2KzLZiYljWgBt0gBt0gBTsTFBiwolguM2munDKQEj0Qedexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2eMktuqk05wMko4nBOulJs7bIurNDkrN21qN2kSNlEUjckGJK5Jj09KEB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9wolguMZEuHY0FM2qsM2wSmLyTNLysFCykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExnlkzNLGxER4SOT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtMsqLPTcljT1qk3qWeZsoFjWgBRiwolguM2munDkXML1sEb0QeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLyzeZsoFBiwolguM2munDKuHY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLw4eZsoFCykjCsHKS9hkB4SnlkzNLgTNLysfCykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExnlkzNLGxER4SnlkzNLgTNLysnTcwmJS7bIUSnlkzNLgTNLysEb0QeD11O2srmTsWmL5qnLK7bIu9bIuumRQSnlkzNLgTNLysEb09EBERFlWgBRixODkXMLyWnlkzNLGQhJAYHY0FpI0FNLMQFBixODkXMLyWnlkzNLGQhj0QGJSQPY0FNLMQFBCSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1knCUtFk0UjckGJK5Jj09KEB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9YndktNL5zf3gxoL5SNL50mleTMLgsftg3mREuFJa7bIurNDkrN21qN2kSNlEUjckGJK5Jj09KEB4Rf3mZODcXnZ8SoDqsmTsWmJEXER9YndktNL5zERS7bIUSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPcglo3QtFk0UjckGJK5JikCQfRExoteYML5xf21qNL4xODy1m2sXOZ9zn3kXmDsXoDkZmTcrmJ5zo2MRfCykjCsHKS9hkBAXER92OtaqnT8xediUmLmunDKRfRExODy1m2sXOZ9zn3kXmDsXoDkZmTcrmJ5zo2MRFjWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o3PBOulJqGkKyejsecKJAXER92OtaqnT8xnLcunR9YndktNL5zf3gxoL5SNL50mleTMLgsfTuzERyGkKyejsehj1IQfRExoteYML5xfZi0NDkTNLysER4Rf3aWoLountGxO291nTiuntisOTmqM2KXNtGRFjWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o3PBOulJqGkKyejsecKJAXER92OtaqnT8xnLcunR9YndktNL5zf3gxoL5Sn25xmTMXOD5tERyGkKyejsehj1IQfRExoteYML5xfZi0NDkTNLysER4Rf3aWoLountGxO291nTixnT9TmR5YnTORFjWgBt0gBt0gBTsTFBixODkXMlk0n25sPdIQhj0QGJs7bIUSn3asnTc1oD9ZMlisEb0QGjWgBt0gBRismDs0O3cWEb0QEskIiCcKiJaQE0apl3aqnT9pnLcunTAQK0kKEA0FEBAQEBAQEBAQEBAQMdaqnT9XML1sMBA9EBOSODcXn25qnLKtfA0FEBAQEBAQEBAQEBAQMduUNLiunToQEb0QeZi6NDsSNL5teZYgBRAQEBAQEBAQEBAQEDarolezn3eQEb0QeDg1OtgxORYgBRAQEBAQEBAQEBAQEDaWNLgsntgsMBA9EBOSnDsrmL5zmLiqoDCtfA0FEBAQEBAQEBAQEBAQMD9YmL5uODcSOTc0mLAQhJASn3asnTsYMLiZMlisfA0FEBAQEBAQEBAQEBAQMD9YmL5qolixOTc0mLAQhJASn3asnTc1oD9ZMlisfA0FEBAQEBAQEBAQEBAQMDc1oD9ZMlisO3asmLiQEb0QeDc1oD9ZMlisO3asmLIWbIUQEBAQEBAQEBAQEBaQMlk0n3eqoDkqmDizODksmDAQhJASMlk0n3eqoDkqmDizODksmBYgBRAQEBAQEBAQEBAQEDaqolixOTc0mliunLkQEb0QeDc1oD9ZMlisoDswmJYgBRAQEBAQEBAQEBAQEDa6NlaQEb0QeduuOBYgBRAQEBAQEBAQEBAQEDaxODkXMLyWnlkzNLgQEb0QeZixODkXMLyWnlkzNLGtfA0FEBAQEBAQEBAQEBAQMD11O2srmTsWmLAQhJAteD11O2srmTsWmJOWbIUQEBAQEBAQEBAQEBaQnlkzNLg0NL1sO2AQhJAteD11O2sroDswmlGtfA0FEBAQEBAQEBAQEBAQMD11O2sroTcWoLkQEb0QeZiwolguM3mqndkseZYgBRAQEBAQEBAQEBAQEDarolezn3e0PlasMBA9EBirolezn3e0PlasfA0FEBAQEBAQEBAQEBAQMD11O2srMLyum25QEb0QeD11O2srMLyum24WbIUQEBAQEBAQEBAQEBaQnlkzNLg4MBA9EBiwolguM3QWbIUQEBAQEBAQEBAQEBaQnlkzNLg5MBA9EBiwolguM3SWbIUQEBAQEBAQEBAQEBaQn3asnTc1oD9Xmlq0MBA9EBOSn3asnTc1oD9Xmlq0eZYgBRAQEBAQEBAQEBAQEDaqolixnTk4odiunLkQEb0QeZiqolixnTk4odiunLKtbIUQEBAQEBAQEBAQEBalJCkJiJaQNLiQhJiumBE7bIUSnlsSMR0+iD9Hn3iBMLgvFBismDs0O3cWFjWgBsiZMLgsFBETEzEYgbMZHZMrGrK5GjG7eRGZGzIzgrWTEzE1GjA0HZMrgrKZHbC7ERYRoteYML5xl2kSNlIXODqYh2sShJiumBEuHY0FmlquoBQuHY0FpI0FmtkXM3iun24QnL92mlaqnT9rolezn3EUeD4WeDiuORSQPY0FeD15mDEQhJaXmlOQeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkndgRi3qzeZsoFBS7bIUSO29ZO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl2g1OtgxOTAQk0qcKSKQMDsSMb0SnRE7bIUSO29ZOT93Eb0QeD15mDEwhSosoC9XmJQSO29ZO3cWFjWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o3PBOulJqGkKyejsecKJAXER92OtaqnT8xnLcunR9rolezn3ExM3kZO29ZeD4xER4SO29ZOT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtMkOyNcUZktUtFk0WeDiuORAXER8RfRizn3eZn3oneCoGj0eajcgne09hjzAYGbahGBooFBoqkzcULreLPROulJS7bIUSPD1WEb0QedgxOtexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2GZjtsqLCEYLSoDGcsihj0tFk07bIUSntkwEb0QeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCugkCmzeZsoFbCYfbCYGbAYFjWgBRi4nLYQhJazodepOTkYnDcrmJQREZGrERYSO29ZOT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtMkOyNcUZktUtFk0WedqwnBS7bIUSPD1WnTcwmJA9EBerolezn3EXPD1WErWgBRi4nLyTNLysEb0QeDiuORAXER8SPD1WnTcwmJE7bIurNDkrN2isnDmunDKUedqwnDmunDKuHY0FedqwndGQhJASi0yh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
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')]($GLOBALS['OOO0000O0']('MF92cnBhbm9fZWRpdC5waHA=')) ."/inc/panomenu.php");
+$endurl = GetCookie("pano_url");
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$sql = "SELECT * FROM `#@__pano_main` WHERE `id`=$id";
+$row = $mydb->GetOne($sql);
+if ($dopost == "save") {
+$thefile = "vrpano".$id;
+if ($panoname != $row[$GLOBALS['OOO0000O0']('cGFub25hbWU=')]) {
+$html = "";
+$html .= $GLOBALS['OOO0000O0']('PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgU3RyaWN0Ly9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXN0cmljdC5kdGQiPg==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIGxhbmc9ImVuIiB4bWw6bGFuZz0iZW4iPg==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PGhlYWQ+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiIC8+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9InRhcmdldC1kZW5zaXR5ZHBpPWRldmljZS1kcGksIHdpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAsIG1pbmltdW0tc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCIgLz4=') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PG1ldGEgbmFtZT0iYXBwbGUtbW9iaWxlLXdlYi1hcHAtY2FwYWJsZSIgY29udGVudD0ieWVzIiAvPg==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PHRpdGxlPg==') .$panoname .$GLOBALS['OOO0000O0']('PC90aXRsZT4=') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PHN0eWxlIHR5cGU9InRleHQvY3NzIj4g') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('aHRtbCB7aGVpZ2h0OiAxMDAlO292ZXJmbG93OiBoaWRkZW47fQ==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('I3ZycGFubyB7aGVpZ2h0OiAxMDAlO30=') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('Ym9keSB7aGVpZ2h0OiAxMDAlO21hcmdpbjogMDtwYWRkaW5nOiAwO2JhY2tncm91bmQtY29sb3I6ICNmZmY7fQ==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PC9zdHlsZT48L2hlYWQ+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PGJvZHk+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PGRpdiBpZD0idnJwYW5vIj4=') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PC9kaXY+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0ic3dma3JwYW5vLmpzIj48L3NjcmlwdD4=') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('ZW1iZWRwYW5vKHtzd2Y6ICJrcnBhbm8uc3dmIiwgeG1sOiAi') .$cfg_cmspath .$GLOBALS['OOO0000O0']('L3JlcXVpcmUvdnJwYW5vL2NvbmZpZy5waHA/aWQ9') .$id .$GLOBALS['OOO0000O0']('IiwgdGFyZ2V0OiAidnJwYW5vIiwgaHRtbDU6ICJhdXRvIiwgcGFzc1F1ZXJ5UGFyYW1ldGVyczogdHJ1ZX0pOw==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PC9zY3JpcHQ+') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PC9ib2R5Pg==') ."\r\n";
+$html .= $GLOBALS['OOO0000O0']('PC9odG1sPg==') ."\r\n";
+$htmlfilename = "index.html";
+$htmlfile = LULINROOT ."/vrpano/$thefile"."/$htmlfilename";
+checkdelfile($htmlfile);
+$htmls = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSUlJ')]($html);
+$myfp = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSUkx')]($htmlfile,"w");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWxJ')]($myfp,$htmls);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWxs')]($myfp);
+}
+if ($cursor == 0) {
+@deldir(LULINROOT ."/vrpano/$thefile"."/cursor");
+}else if ($cursor == $row[$GLOBALS['OOO0000O0']('Y3Vyc29y')]) {
+}else {
+checkmakedir(LULINROOT ."/vrpano/$thefile"."/cursor");
+movepanocursor($cursor,LULINROOT ."/vrpano/$thefile"."/cursor");
+}
+if(!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT."/vrpano/$thefile"."/introimage.png")){
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ."/vrpano/main/introimage.png",LULINROOT."/vrpano/$thefile"."/introimage.png");
+}
+if(!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT."/vrpano/$thefile"."/autonextclose.png")){
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ."/vrpano/main/autonextclose.png",LULINROOT."/vrpano/$thefile"."/autonextclose.png");
+}
+$licenselength = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUkx')]($license1);
+$licensedata = "";
+for ($p = 0;$p <$licenselength;$p++) {
+if ($license1[$p] != "") {
+if ($licensedata != "") {
+$licensedata .= "&&";
+}
+$licensedata .= $license1[$p] ."|".$license2[$p] ."|";
+if ($license3[$p] != 1) {
+$license3[$p] = 0;
+}
+$licensedata .= $license3[$p];
+}
+}
+if($musicfile != $row[$GLOBALS['OOO0000O0']('bXVzaWNmaWxl')]){
+checkmakedir(LULINROOT ."/vrpano/$thefile"."/music");
+checkdelfile(LULINROOT ."/vrpano/$thefile"."/music/".$row[$GLOBALS['OOO0000O0']('bXVzaWNmaWxl')]);
+$musicfilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($musicfile);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT.$musicfile,LULINROOT ."/vrpano/$thefile"."/music/".$musicfilename);
+$musicfile = $musicfilename;
+}
+if($musicfile == ""){
+$openallmusic = 0;
+}
+if ($openallmusic == 1) {
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT ."/vrpano/$thefile"."/plugins/soundinterface.swf")) {
+checkmakedir(LULINROOT ."/vrpano/$thefile"."/plugins");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/soundinterface.swf",LULINROOT ."/vrpano/$thefile"."/plugins/soundinterface.swf");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/soundinterface.js",LULINROOT ."/vrpano/$thefile"."/plugins/soundinterface.js");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/soundonoff.png",LULINROOT ."/vrpano/$thefile"."/plugins/soundonoff.png");
+}
+}
+if($openautonext == 1){
+$openautorate = 1;
+}
+$editsql = "UPDATE `#@__pano_main` SET 
+            `panoname` = '$panoname',
+            `zhiding` = '$zhiding',
+            `cursor` = $cursor,
+            `license` = '$licensedata',
+            `openipadrate` = $openipadrate,
+            `openautorate` = $openautorate,
+            `autoratespeed` = $autoratespeed,
+            `autorateaddspeed` = $autorateaddspeed,
+            `autoratetime` = $autoratetime,
+            `zip` = $zip,
+            `openallmusic` = '$openallmusic',
+            `musicfile` = '$musicfile',
+            `musictimes` = '$musictimes',
+            `musicvalue` = '$musicvalue',
+            `cursortype` = $cursortype,
+            `musicalign` = $musicalign,
+            `musicx` = $musicx,
+            `musicy` = $musicy,
+            `openautonext` = '$openautonext',
+            `autonexttime` = '$autonexttime'
+            WHERE `id`=$id";
+$mydb->DoNotBack($editsql);
+Trace("&#20462;&#25913;&#23436;&#25104;&#65281;","vrpano_edit.php?id=$id");
+exit();
+}
+function movepanocursor($n,$dir) {
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$sorsql = "SELECT * FROM `#@__pano_cursor` WHERE `id`=$n";
+$sorrow = $mydb->GetOne($sorsql);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/cursor/cursor$n/".$sorrow[$GLOBALS['OOO0000O0']('aW1hZ2Vz')],$dir ."/".$sorrow[$GLOBALS['OOO0000O0']('aW1hZ2Vz')]);
+$xml = $sorrow[$GLOBALS['OOO0000O0']('c2NyaXB0ZGF0YQ==')];
+$num = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJMTFs')](10,10000);
+$xml = str_replace("###",$sorrow[$GLOBALS['OOO0000O0']('aW1hZ2Vz')],$xml);
+$xmlname = "cursor.xml";
+$xmlfile = $dir ."/$xmlname";
+checkdelfile($xmlfile);
+$xmls = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSUlJ')]($xml);
+$myfp = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSUkx')]($xmlfile,"w");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWxJ')]($myfp,$xmls);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWxs')]($myfp);
+}
+$licensehtml = "";
+if ($row[$GLOBALS['OOO0000O0']('bGljZW5zZQ==')] != "") {
+$licensearr = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxsSWxs')]("&&",$row[$GLOBALS['OOO0000O0']('bGljZW5zZQ==')]);
+$p = 0;
+foreach ($licensearr as $licensedata) {
+$licenseresult = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxsSWxs')]("|",$licensedata);
+$licensehtml .= $GLOBALS['OOO0000O0']('PHRyIGNsYXNzPSJ0cl93aGl0ZSIgaGVpZ2h0PSIzMCI+');
+$licensehtml .= $GLOBALS['OOO0000O0']('PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7Ij48aW5wdXQgdHlwZT0idGV4dCIgY2xhc3M9ImxpY2JveCIgc3R5bGU9IndpZHRoOjk3JTsgbWFyZ2luOiAwcHg7IiBuYW1lPSJsaWNlbnNlMVtdIiB2YWx1ZT0i') .$licenseresult[0] .$GLOBALS['OOO0000O0']('Ii8+PC90ZD4=');
+$licensehtml .= $GLOBALS['OOO0000O0']('PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7Ij48aW5wdXQgdHlwZT0idGV4dCIgc3R5bGU9IndpZHRoOjk3JTsgbWFyZ2luOiAwcHg7IiBuYW1lPSJsaWNlbnNlMltdIiB2YWx1ZT0i') .$licenseresult[1] .$GLOBALS['OOO0000O0']('Ii8+PC90ZD4=');
+if ($licenseresult[2] == 1) {
+$licensecheck = $GLOBALS['OOO0000O0']('Y2hlY2tlZD0iY2hlY2tlZCI=');
+}else {
+$licensecheck = "";
+}
+$licensehtml .= $GLOBALS['OOO0000O0']('PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7Ij48aW5wdXQgdHlwZT0iY2hlY2tib3giIHZhbHVlPSIxIiAgbmFtZT0ibGljZW5zZTNb').$p.$GLOBALS['OOO0000O0']('XSIg') .$licensecheck .$GLOBALS['OOO0000O0']('Lz48L3RkPg==');
+$licensehtml .= $GLOBALS['OOO0000O0']('PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7Ij48aW5wdXQgdHlwZT0iYnV0dG9uIiBjbGFzcz0iYnRuMSIgb25jbGljaz0ibGljZW5zZWRlbCh0aGlzKSIgdmFsdWU9IiYjMjEwMjQ7JiMzODUwMDsiIC8+PC90ZD4=');
+$licensehtml .= $GLOBALS['OOO0000O0']('PC90cj4=');
+$p++;
+}
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX2VkaXQuaHRt'));
+?>

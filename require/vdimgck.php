@@ -1,3 +1,140 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=5700;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KQFDiuOT5qnLKUl19DJKycl18uEB4tf2m1nTg0NL9XfTsXMZ5YNdAtFjWgBRirn25TNLOQhJaqOteqPJQgBRoTn250l3guPTKthj4ygBYgBRounLopNDkum2q0ez0+GrIWbIUto29Zmc90Plasez0+gBYgBRounLopo2sSoDQthj44GBYgBRo1O2kpMT9SmlEthj5KKskcfA0Fe2mxntipmTsWmJO9hTiuOT5qnLKUl19DJKycl18uEB4tf2iqoDCxmT9XodGxm2oRNJ50oDMtfA0Fe3oxOTiWNlg0l2munDKthj5SNleXML1sFc9piSsGik9pFJAXeZ9SMliqf3oxOTizf3oxOTizfti4oBOWbIUtmTsWoDkZl3i5ODKthj41FjWgBRizmlgzK2c2mkaqoDQQhJaGkKyejSiakCCQfRExO2kzO2sxntGxErWgBTsTEBquO193OTs0mLcRnDKUedgsO3gjMlmsKDc0NBSQeRmuO19ZmLcSMLeWmJQSO2kzO1gqoTkIMliUFJSQPY0FO2kzO2sxns9zMlmsl3aqoDQUedgsO3gjMlmsKDc0NBS7bIu9bIuumRAUELkwOdi5FBirmTopmD9wMLsXl2gxn2wumJSubIuzmlgzNL9Xl3gsoc9rn29vNLkpODcZML1zFbAWeZ8tfBirmTopmD9wMLsXl2gxn2wumJS7bIuumRAUELkrND9poTcWNLiqoDkpNL1qm2KUeDgxnTmumZSuEdWgBSazmlgzNL9Xl3g0Mle0FBS7bIUSl1gcK1gej05ne3gsM3kZNL1qm2kpM29Smk92MLy1mJooEb0QO3iZoD9Wn3osORQtMLermBOuHY0FeDswEb0QIDswMLosM3esMlismtexnLuYmLOUmDsZnTcwmJqpl0mejCkplZSQfROxmDc0MJ92mDgxmDKXNtateZS7bIuUmLcSmlEUEsaZMLowMjuXnZ1rMLgUmkyZlD4RFjWgBTqsMLisORQRI2crNDKwI29XodexnbuXnZ1rMLgUmkyZlD4RFjWgBTqsMLisORQRilqYNlesOzUYldeOnREuHY0FNL1qm2kVODktFBiunJS7bIuunLctmLisO3iZn3SUeDswFjWgBt0gBTm1nTg0NL9XEDkrND9poTcWNLiqoDkpNL1qm2KUeDgxnTmumZA9EDcZOTc5FBSuEdWgBSazmlgzNL9Xl3g0Mle0FBS7bIUSmT9Xoc9zNlusEb0QNlgzmlIUeDgxnTmum1WtmT9Xoc9zNluse10uEb8SM29XmTstLZoTn250l3guPTKtlJA6EbC0HY0FeDswm19UmLstNdIQhJauO3gsoBQSM29XmTstLZounLopNDkum2q0e10uEb8SM29XmTstLZounLopNDkum2q0e10QHRAZgbWgBRiunLopo2sSoDQQhJauO3gsoBQSM29XmTstLZounLopo2sSoDQtlJSQhZirn25TNLone2swm193NLi0NBooEbUQgrQ7bIUSmT9Xoc9TNLysEb0QNlgzmlIUeDgxnTmum1WtmT9Xoc9TNLyse10uEb8SM29XmTstLZoTn250l2munDKtlJA6ECykjCsHiCcKIJAXeZ9SMliqf2mxntIxm2oRNJ50oDMtHY0Fedkzmk9Rn2isORA9EDszO2k0FBirn25TNLone3kzmk9Rn2isORooFJA/eDgxnTmum1Wtolgsl2exmDkZe10QHRaKKskcHY0FeDmundisOs90PlasEb0QNlgzmlIUeDgxnTmum1WtmTsWoDkZl3i5ODKtlJSQhZirn25TNLone2mundisOs90Plase10QHRAYHY0FeDswEb0QIDswMLosM3esMlisFBiunLopo2sSoDQWeDswm19UmLstNdIuHY0FNL1qm2krn2yxOTcWnD9rMlisFBiunJYZgjKWGrK1fbE1gJS7bIUSmT9XoCgxnD9ZL10QhJaunLctmLgxnD9ZMLyWn2gqoDKUeDswfba4GjKW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n3EQhJaunLctmLgxnD9ZMLyWn2gqoDKUeDswfba4HLIWGdQ5mJYYPbS2FjWgBTswMLosOTkroDcXm2ysFBiunJYYfbAWeDswm193NLi0NBAwGJYSNL1tl2qsNLoUoBAwGJYSMT9ZmDkZM29Wn3EuHY0FpI0FeDyqO3irEb0QeZO7bIuTn3EQFBiuEb0QGbWSNJA8edeXmDgxmDkWmL47eDSvFZSQPY0FeDerEb0QnlipOTcXmBQYfbCuHY0FedeXmdg0OTsXm1WSNk0QhJazode0n3kYODkZFBiZnTizodeunToneDsoFjWgBRirl2mxntibn2yxORA9EBiTn250I29Wn3ennlipOTcXmBQYfbIuljWgBRi5l3axOZA9EBiuEb09EbAQhzIQHRASNJAVEBQSmT9Xoc9zNlusEBWZFjWgBRirEb0QnlipOTcXmBQYfbC1FjWgBSaunLctmli0mtisPdIUeDswfBiTn250l3guPTKWeDGWedspOD9zfbC5fBirl2mxntibn2yxORYSmT9Xoc9TNLysfBiZnTizodeunToneDsoFjWgBRiWMlg0MZA9EBiZnTizodeunToneDsoHY0FpI0FO3ouoDgUEBQSmTsWoDkZl3i5ODKuEdWgBTgqO2KQGjUgBTswMLosmTsWoDkZFBiunJyejKopiSsGkCkJl05ci0cKiJS7bIuROTkqNzWgBTgqO2KQGrUgBTswMLosmTsWoDkZFBiunJyejKopiSsGkCkJl0kgIS9jKZS7bIuROTkqNzWgBTgqO2KQGzUgBTswMLosmTsWoDkZFBiunJyejKopiSsGkCkJl0kCi0kCikicI1IuHY0FMtesMLW7bIuSmLmqoLy0HQ0FMtesMLW7bIu9bIuUmLcSmlEUEsaZMLowMjuXnZ1rMLgUmkyZlD4RFjWgBTqsMLisORQRI2crNDKwI29XodexnbuXnZ1rMLgUmkyZlD4RFjWgBTqsMLisORQRilqYNlesOzUYldeOnREuHY0FNLMQFDm1nTg0NL9Xl2k4Nlg0OZQRNL1qm2kVODktERSuEdWgBTqsMLisORQRM29XoDkXoB10PlasHTswMLosf2uYmLoOOsyXERS7bIuunLctmLuYmLOUeDswFjWgBt1sndgsEdWgBTqsMLisORQRM29XoDkXoB10PlasHTswMLosf3aXm1yZlD4RFjWgBTswMLosOD5tFBiunJS7bIu9bIuunLctmLisO3iZn3SUeDswFjWgBTk4NlIUFjWgBt0gBQ==
+<?php
+require_once (dirname(__FILE__) .'/function.inc.php');
+$config = array(
+'font_size'=>14,
+'img_height'=>24,
+'word_type'=>4,
+'img_width'=>80,
+'use_boder'=>TRUE,
+'font_file'=>dirname(__FILE__) .'/data/fonts/ggbi.ttf',
+'wordlist_file'=>dirname(__FILE__) .'/data/words/words.txt',
+'filter_type'=>5);
+$sessSavePath = LULINDATA ."/sessions/";
+if (is_writeable($sessSavePath) &&is_readable($sessSavePath)) {
+session_save_path($sessSavePath);
+}
+if (!empty($cfg_domain_cookie))
+session_set_cookie_params(0,'/',$cfg_domain_cookie);
+if (!echo_validate_image($config)) {
+@session_start();
+$_SESSION['securimage_code_value'] = strtolower('abcd');
+$im = @imagecreatefromjpeg(dirname(__FILE__) .'/data/vdcode.jpg');
+header("Pragma:no-cache\r\n");
+header("Cache-Control:no-cache\r\n");
+header("Expires:0\r\n");
+imagejpeg($im);
+imagedestroy($im);
+}
+function echo_validate_image($config = array()) {
+@session_start();
+$font_size = isset($config['font_size']) ?$config['font_size'] : 14;
+$img_height = isset($config['img_height']) ?$config['img_height'] : 24;
+$img_width = isset($config['img_width']) ?$config['img_width'] : 68;
+$font_file = isset($config['font_file']) ?$config['font_file'] : LULINDATA .'/data/font/ggbi.ttf';
+$use_boder = isset($config['use_boder']) ?$config['use_boder'] : TRUE;
+$filter_type = isset($config['filter_type']) ?$config['filter_type'] : 0;
+$im = @imagecreate($img_width,$img_height);
+imagecolorallocate($im,255,255,255);
+$fontColor[] = imagecolorallocate($im,0x15,0x15,0x15);
+$fontColor[] = imagecolorallocate($im,0x95,0x1e,0x04);
+$fontColor[] = imagecolorallocate($im,0x93,0x14,0xa9);
+$fontColor[] = imagecolorallocate($im,0x12,0x81,0x0a);
+$fontColor[] = imagecolorallocate($im,0x06,0x3a,0xd5);
+$fontColor[] = imagecolorallocate($im,0xbe,0x00,0x00);
+$rndstring = '';
+if ($config['word_type'] != 4) {
+if ($config['word_type'] != 3) {
+for ($i = 0;$i <4;$i++) {
+if ($config['word_type'] == 1) {
+$c = chr(mt_rand(48,57));
+}else if ($config['word_type'] == 2) {
+$c = chr(mt_rand(65,90));
+if ($c == 'I')
+$c = 'P';
+if ($c == 'O')
+$c = 'N';
+}
+$rndstring .= $c;
+}
+}else {
+$fp = @fopen($config['wordlist_file'],'rb');
+if (!$fp)
+return FALSE;
+$fsize = filesize($config['wordlist_file']);
+if ($fsize <32)
+return FALSE;
+if ($fsize <128) {
+$max = $fsize;
+}else {
+$max = 128;
+}
+fseek($fp,rand(0,$fsize -$max),SEEK_SET);
+$data = fread($fp,128);
+fclose($fp);
+$data = preg_replace("/\r?\n/","\n",$data);
+$start = strpos($data,"\n",rand(0,100)) +1;
+$end = strpos($data,"\n",$start);
+$rndstring = strtolower(substr($data,$start,$end -$start));
+}
+$_SESSION['securimage_code_value'] = strtolower($rndstring);
+}else {
+$a = chr(mt_rand(48,57));
+$b = chr(mt_rand(48,57));
+$a = mt_rand(1,9);
+$b = mt_rand(1,9);
+$c = $a +$b;
+$as = chr($a +48);
+$bs = chr($b +48);
+$_SESSION['securimage_code_value'] = strtolower($c);
+$rndstring = $as ."+".$bs ."=?";
+}
+$rndcodelen = strlen($rndstring);
+$lineColor1 = imagecolorallocate($im,0xda,0xd9,0xd1);
+for ($j = 3;$j <= $img_height -3;$j = $j +3) {
+imageline($im,2,$j,$img_width -2,$j,$lineColor1);
+}
+$lineColor2 = imagecolorallocate($im,0xaa,0xcc,0xee);
+for ($j = 2;$j <100;$j = $j +6) {
+imageline($im,$j,0,$j +8,$img_height,$lineColor2);
+}
+if ($use_boder &&$filter_type == 0) {
+$bordercolor = imagecolorallocate($im,0x9d,0x9e,0x96);
+imagerectangle($im,0,0,$img_width -1,$img_height -1,$bordercolor);
+}
+$lastc = '';
+for ($i = 0;$i <$rndcodelen;$i++) {
+$bc = mt_rand(0,1);
+$rndstring[$i] = strtoupper($rndstring[$i]);
+$c_fontColor = $fontColor[mt_rand(0,4)];
+$y_pos = $i == 0 ?4 : $i * ($font_size +2);
+$c = mt_rand(0,15);
+@imagettftext($im,$font_size,$c,$y_pos,19,$c_fontColor,$font_file,$rndstring[$i]);
+$lastc = $rndstring[$i];
+}
+switch ($filter_type) {
+case 1:
+imagefilter($im,IMG_FILTER_NEGATE);
+break;
+case 2:
+imagefilter($im,IMG_FILTER_EMBOSS);
+break;
+case 3:
+imagefilter($im,IMG_FILTER_EDGEDETECT);
+break;
+default:
+break;
+}
+header("Pragma:no-cache\r\n");
+header("Cache-Control:no-cache\r\n");
+header("Expires:0\r\n");
+if (function_exists("imagejpeg")) {
+header("content-type:image/jpeg\r\n");
+imagejpeg($im);
+}else {
+header("content-type:image/png\r\n");
+imagepng($im);
+}
+imagedestroy($im);
+exit();
+}
+?>

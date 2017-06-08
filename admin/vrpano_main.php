@@ -1,3 +1,36 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJbEk9J3RpbWUnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=2728;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMjczKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuumRAUnLI1FBipK0kJkSkJLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK0mJkkkDHKsKGK5keZsoFJC9eCoGj0eajcgne09hjzAYGbahGBooFBogk1uWjkikPS1ljjaNiCKzLkiggkulKjghi0SYjTurGS1VMzahiDOYjlumhJOuEBaxORAQnLI1FDosoDqxO3iRPL5qnLKUec9jikeLikeneCoGj0eajcgne09hjzAYGbahGBooFBokGcmjkTwLK1QYgKeKkkK9eZsoFJSqhJidjC9BIKyjLZohj08YGbAYjzAtlJQtjLukPsulKTwmNTW1jkieGkuCjlqgNTqvjsoHNcuKjjigkCKZjKivo01dJj0tFJSgBtWgBTkrND8QFBE8O2gZNla0Edi5ODK9e3isPdIxNTc2MlgrOTsYoBO+EDcWmle0FBoIMlgzOD9ZoBacOtexORCtFjwUNlg0n3e5fToxFB0yFjW8f3grOTsYob4RFjWgBt0gBtesOlkuOTkpn25rmJQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsgknCUtFk0Ul19DJKycl18uEB4Rf2gxnTmumZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeCoGj0eajcgne09hjzAYGbahGBooFBoGGS5zLkqHPSYZiTwRk2y1MSoWPTibgLuRi0m6M3S1o2cEIj0tFJS7bIuIolibn29vNLKUEtaqnT9poleWERydmlibolekOTYUFJYSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsglPCUtFk0UFJAvGzMYGBYRfZEuHY0FNLMUmL1YodSQFBiYMLosFJs7bIUSODctmJA9EbA7bIu9bIUSoDqsmDEQhJaXmlOQeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkndgRi3qzeZsoFBS7bIUSND90O3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl21qNL5QEcoEikecEduUNLiunTO9GJahKSicKRaBLJaQNLiQEBE7bIUSoDqsmDEwhsgsocc1mle5FBiUn3izOLYuHY0FediUmLiRfj5cPDkrolisFBeUn3IRFjWgBRi0NDkUoD1WEb0QERE7bIu3NDsWmJQSoDqsOT93hJi0NDkSMR0+i2k0IleZMlSUETqxoBEuFlWgBRi0NDkUoD1WEB49EBE8odEQM2yqO3G9lBe0Os93NDs0mkYREDcWNLoXhkYRM2kXoDkZlBE+ldeOnRE7bIUSoDqsNdiwnBAXhJARhdiSEDqsNLoUob1OErE4lBE+PZi0NDkZn3one2sSe119hB90mb5OOsyXErWgBRi0NDkUoD1WEB49EBE8oDI+hDmxntIQM29Wn3E9lBErmTMYGbAYlBE+PZi0NDkZn3one3aqnT9XML1se119hB9Tn250hrYxoDI+ldeOnRE7bIUSoDqsNdiwnBAXhJARhdiShREXjlsCMlisFBemfL0wmBaEHTS6OZEWediUmlexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2GZktkNJceYMsokhJOulJSXErYxoDI+ldeOnRE7bIUSoDqsNdiwnBAXhJARhdiShsyZlD4RHY0FediUmLq0nLYQfr0QEryunta1oBa0PlashkYRMtk0oD9XlBEQM2yqO3G9lBeRoD4ylBEQoTcWoLK9lBETE3Q3mrC2HZMrPbqTHjC7lBEQn25rnDsrNz1OEtounTixoZ5Wn2gqoDsxnR5UOTkThJo2OtaqnT9pO2gsnTKXODqYh2sShlWSoDqsOT93LZoumBoopJO7lBExhsyZlD4RHY0FediUmLq0nLYQfr0QEryunta1oBa0PlashkYRMtk0oD9XlBEQM2yqO3G9lBeRoD4ylBEQoTcWoLK9lBETE3Q5HbO5HZMrPbO2mLK7eRg4HjQ4gbWTE3Q4HLG4H1YRED9XM2yuM2W9lBeYmL5xO2qxoZQtPZi0NDkZn3one2sSe119eZS7lBExhsyZlD4RHY0FediUmLq0nLYQfr0QEryunta1oBa0PlashkYRMtk0oD9XlBEQM2yqO3G9lBeRoD4ylBEQoTcWoLK9lBETE3Q4mrSzHZMrPbKymTC7eRg4grK4gzWTE3Q0mLM2H1YRED9XM2yuM2W9lBe3NL5Sn3OXnD9rMliun24XNdesmr0toteYML5xl21qN2kZftaUOb9umb17ediUmlexo1WtNLItll0tH1YRfz5OOsyXErWgBRi0NDkUoD1WEB49EBE8f3iShsyZlD4RHY0FediUmLq0nLYQfr0QErYxodE+ldeOnRE7bIu9bIUSO3cWEb0QEsgcjCkbkBAVEA0FisehjJaQE0apl3aqnT9pnLcunTAQk0qcKSKQPTqumDsXmz0YEC9JiCkJECemEDaumDAQiCkjIZARHY0FeDiWNlg0Eb0QnTk3EDcSnLsXnDszoBQuHY0FeDiWNlg0fj5YolgUK3cWFBizOLYuHY0FeDiWNlg0fj5tmliIMLosFBiYMLosFjWgBRiSnDszoB0+nD9qmcisnlAUjckGJK5aiC1ejRAXER90mL1YnDc0mJ92OtaqnT9pnLcunR5UoD0RFjWgBRiSnDszoB0+mDszODyqPJQuHY0F
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L2NsYXNzL2FkbWlubGlzdC5jbGFzcy5waHA='));
+PutCookie("pano_url",GetCurUrl(),$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSWxJ')]() +3600,"/");
+if(empty ($page)){
+$page = 0;
+}
+$thedb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$hotsql = "SELECT * FROM `#@__pano_main` WHERE zhiding=1 ORDER BY `id` ";
+$thedb->SetQuery($hotsql);
+$thedb->Execute("hot");
+$thehtml = "";
+while($therow=$thedb->GetArray("hot")){
+$thehtml .= "<tr class=\"tr_white\" align=\"center\">\r\n";
+$thehtml .= "<td height=\"28\">{$therow['id']}</td>\r\n";
+$thehtml .= "<td><font color=\"#ff0000\">{$therow['panoname']}</font></td>\r\n";
+$thehtml .= "<td>".MyDate("Y-m-d H:i:s",$therow[$GLOBALS['OOO0000O0']('c2VuZHRpbWU=')])."</td>\r\n";
+$thehtml .= "<td>\r\n";
+$thehtml .= "<input type=\"button\" class=\"btn1\" value=\"&#x7f16;&#x8f91;\" onclick=\"window.location.href='vrpano_scene.php?id={$therow['id']}';\"/>\r\n";
+$thehtml .= "<input type=\"button\" class=\"btn1\" value=\"&#x9879;&#x76ee;&#x9884;&#x89c8;\" onclick=\"penoshow('{$therow['id']}');\"/>\r\n";
+$thehtml .= "<input type=\"button\" class=\"btn1\" value=\"&#x8f93;&#x51fa;&#x6587;&#x4ef6;\" onclick=\"window.location.href='vrpano_maker.php?id={$therow['id']}';\"/>\r\n";
+$thehtml .= "</td>\r\n";
+$thehtml .= "</tr>\r\n";
+}
+$sql = "SELECT * 
+FROM `#@__pano_main` WHERE zhiding=0 ORDER BY `id` DESC ";
+$dlist = new adminlist();
+$dlist->pushSql($sql);
+$dlist->getPage($page);
+$dlist->loadTemp(LULINADMIN ."/template/vrpano_main.htm");
+$dlist->display();
+?>

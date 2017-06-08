@@ -1,3 +1,189 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=8172;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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BRiXn3o1OTYQhJASO2gZNla0jTcwmjWFpLkWO2KQPYUSnT93oleWEb0QedgrOTsYoC5qnLKQfRE/ER4Sl1gcKsmcKsWRKkkcKsspK1iJJK5dEs07Bt0FpIuZmli1OT4QeD5xo3kZnbWFpIu9BTm1nTg0NL9XECosoCgvkTiLMLy1mJQuEdWFIdgsO3gun25pNLIUec9bj09fJKkne1aEKcgcK1geiBooFjWFIdgsO3gun25pO3iqOtIUFjWFOTk0oleXEDszO2k0FBipK0kjK0shjsWtO2kroleunLctmk9rn2isl3mqndkse10uEb8Sl1gcK1gej05ne3gsM3kZNL1qm2kpM29Smk92MLy1mJooEbUQeZO7Bt0FmtkXM3iun24QKTkzmliLmcmqndksFBSQPYuAO2kzO2sxns9zoDcZoBQuHYUSl1gcK1gej05ne3gsM3kZNL1qm2kpM29Smk92MLy1mJooEb0QeZO7Bt0FNLMQFBAqmtkXM3iun25pmlquO3izFBocPDkrkDswmJOuFIu7BTm1nTg0NL9XECk4mLgKNL1sFBSFPYUSoDswmJA9EDk4ODyxmDKUERARfD1uM3exoDswmJQuFjWFedkzmLGQhJAUmD91MTysFJi0NL1sLzaoHYUSO2krEb0QFDixoLeWmJSSoDswmkWyljWFOTk0oleXEBizmLGQFZi1O2krHYu9Bt0FmtkXM3iun24QM2qsM2wwmJQSoDkwObCWedisnlAZFJa7BTsTEBQSoDkwObCQhj0QedisnlAZFJa7BtesodkZnRAtM2qsM2wsmb0RM2qsM2wsmBEtHYu9mLyzmJa7BtesodkZnRAtezWFpIu9BTm1nTg0NL9XEDgUmLgvn3AUedisnlAyfBi0mL1YGRSQPYuumRAUedisnlAyEb09EBi0mL1YGRSQPYuZmli1OT4Qe3gsnDkroDkShJe0OtksERO7Bt1sndgsEdWFOTk0oleXEBOtHYu9Bt0FmtkXM3iun24QM2qsM2wunLOUeDswmZYSnT9unLO9ETswMLosOZ9Xn2swmZ5VODORFlWFNLMUELszl2munDKUjckGJK5Jj09KfRiunLOuFlWFOTk0oleXEBiXn2swmzWFpLkWO2k7BtesodkZnRASNL1tHYu9Bt0FNLMQFBAqmtkXM3iun25pmlquO3izFBoaodiCmLMtFJSFPYuToL5roDsxnRaaodiCmLMUeD9WmdmqORYSntMuPYuumRqsnla0PJQSn2ySoTcZFly8eD9WmdmqORA9hJARERs7BtesodkZnRASntM7Bt1sndgsPYuZmli1OT4QeD9WmdmqOrWFpIu9Bt0F
+<?php
+if (!defined('LULINREQ'))
+exit('not find require');
+function Trace($msg,$gourl,$limittime=0) {
+if ($gourl == '-1') {
+if ($limittime == 0)
+$litime = 200;
+$gourl = "javascript:history.go(-1);";
+}
+$htmlhead = "<html>\r\n<head>\r\n<title>提示信息</title>\r\n";
+$htmlhead .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=100\"/>\r\n";
+$htmlhead .= "<base target='_self'/>\r\n<style type=\"text/css\">\r\n";
+$htmlhead .= "body{background:#fff;margin:0px;}\r\n";
+$htmlhead .= "#showbox{background:url(".$cfg_cmspath."/require/images/showbox.gif) no-repeat; width:377px; height:232px; overflow:hidden; margin:0 auto; margin-top:40px;}\r\n";
+$htmlhead .= "#title{height:30px; overflow:hidden; margin-top:7px;  text-align: center; font: bold 14px/30px '微软雅黑'; color:#333;}";
+$htmlhead .= "#main{width: 360px; height: 188px; overflow: hidden; margin-left: 9px; font: 12px/20px 微软雅黑; color: #be0000;}";
+$htmlhead .= ".text{font: 12px/20px 微软雅黑; color: #be0000;}";
+$htmlhead .= "</style>\r\n</head>\r\n";
+$htmlhead .= "<body>\r\n<center>\r\n";
+$htmlhead .= "<div id=\"showbox\">";
+$htmlhead .= "<div id=\"title\">提示信息</div>\r\n<div id=\"main\">\r\n";
+$htmlhead .= "<table width=\"90%\" height=\"188px\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n";
+$htmlhead .= "<tr>\r\n<td class=\"text\" align=\"center\" height=\"188px\">";
+$htmlhead .= "$msg</br></br><a href=\"$gourl\">点击这里快速跳转</a>";
+$htmlhead .= "</td></tr>\r\n";
+$htmlhead .= "</table>\r\n</div>\r\n</div>\r\n";
+$htmlhead .= "</center>\r\n<script>\r\n";
+$htmlfoot = "</script>\r\n</body>\r\n</html>\r\n";
+$litime = ($limittime == 0 ?200 : $limittime);
+$func = '';
+$func .= "var pgo=0;
+      function JumpUrl(){
+        if(pgo==0){ location='$gourl'; pgo=1; }
+      }\r\n";
+$rmsg = $func;
+if ($gourl != 'javascript:;'&&$gourl != '') {
+$rmsg .= "setTimeout('JumpUrl()',$litime);";
+}else {
+$rmsg .= "";
+}
+$msg = $htmlhead .$rmsg .$htmlfoot;
+echo $msg;
+}
+function Trace2($msg,$gourl,$limittime=0) {
+if ($gourl == '-1') {
+if ($limittime == 0)
+$litime = 200;
+$gourl = "javascript:history.go(-1);";
+}
+$htmlhead = "<html>\r\n<head>\r\n<title>提示信息</title>\r\n";
+$htmlhead .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=100\"/>\r\n";
+$htmlhead .= "<base target='_self'/>\r\n<style type=\"text/css\">\r\n";
+$htmlhead .= "body{background:#fff;margin:0px;}\r\n";
+$htmlhead .= "#showbox{background:url(".$cfg_cmspath."/require/images/showbox.gif) no-repeat; width:377px; height:232px; overflow:hidden; margin:0 auto; margin-top:40px;}\r\n";
+$htmlhead .= "#title{height:30px; overflow:hidden; margin-top:7px;  text-align: center; font: bold 14px/30px '微软雅黑'; color:#333;}";
+$htmlhead .= "#main{width: 360px; height: 188px; overflow: hidden; margin-left: 9px; font: 12px/20px 微软雅黑; color: #be0000;}";
+$htmlhead .= ".text{font: 12px/20px 微软雅黑; color: #be0000;}";
+$htmlhead .= "</style>\r\n</head>\r\n";
+$htmlhead .= "<body>\r\n<center>\r\n";
+$htmlhead .= "<div id=\"showbox\">";
+$htmlhead .= "<div id=\"title\">提示信息</div>\r\n<div id=\"main\">\r\n";
+$htmlhead .= "<table width=\"90%\" height=\"188px\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n";
+$htmlhead .= "<tr>\r\n<td class=\"text\" align=\"center\" height=\"188px\">";
+$htmlhead .= "$msg</br>";
+$htmlhead .= "</td></tr>\r\n";
+$htmlhead .= "</table>\r\n</div>\r\n</div>\r\n";
+$htmlhead .= "</center>\r\n<script>\r\n";
+$htmlfoot = "</script>\r\n</body>\r\n</html>\r\n";
+$litime = ($limittime == 0 ?200 : $limittime);
+$func = '';
+$func .= "var pgo=0;
+      function JumpUrl(){
+        if(pgo==0){ location='$gourl'; pgo=1; }
+      }\r\n";
+$rmsg = $func;
+if ($gourl != 'javascript:;'&&$gourl != '') {
+$rmsg .= "setTimeout('JumpUrl()',$litime);";
+}else {
+$rmsg .= "";
+}
+$msg = $htmlhead .$rmsg .$htmlfoot;
+echo $msg;
+}
+if (!function_exists('GetIP')) {
+function GetIP() {
+static $realip = NULL;
+if ($realip !== NULL) {
+return $realip;
+}
+if (isset($_SERVER)) {
+if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+$arr = explode(',',$_SERVER['HTTP_X_FORWARDED_FOR']);
+foreach ($arr as $ip) {
+$ip = trim($ip);
+if ($ip != 'unknown') {
+$realip = $ip;
+break;
+}
+}
+}elseif (isset($_SERVER['HTTP_CLIENT_IP'])) {
+$realip = $_SERVER['HTTP_CLIENT_IP'];
+}else {
+if (isset($_SERVER['REMOTE_ADDR'])) {
+$realip = $_SERVER['REMOTE_ADDR'];
+}else {
+$realip = '0.0.0.0';
+}
+}
+}else {
+if (getenv('HTTP_X_FORWARDED_FOR')) {
+$realip = getenv('HTTP_X_FORWARDED_FOR');
+}elseif (getenv('HTTP_CLIENT_IP')) {
+$realip = getenv('HTTP_CLIENT_IP');
+}else {
+$realip = getenv('REMOTE_ADDR');
+}
+}
+preg_match("/[\d\.]{7,15}/",$realip,$onlineip);
+$realip = !empty($onlineip[0]) ?$onlineip[0] : '0.0.0.0';
+return $realip;
+}
+}
+if (!function_exists('GetCurUrl')) {
+function GetCurUrl() {
+if (!empty($_SERVER["REQUEST_URI"])) {
+$scriptName = $_SERVER["REQUEST_URI"];
+$nowurl = $scriptName;
+}else {
+$scriptName = $_SERVER["PHP_SELF"];
+if (empty($_SERVER["QUERY_STRING"])) {
+$nowurl = $scriptName;
+}else {
+$nowurl = $scriptName ."?".$_SERVER["QUERY_STRING"];
+}
+}
+return $nowurl;
+}
+}
+function GetCkVdValue() {
+@session_id($_COOKIE['PHPSESSID']);
+@session_start();
+return isset($_SESSION['securimage_code_value']) ?$_SESSION['securimage_code_value'] : '';
+}
+function ResetVdValue() {
+@session_start();
+$_SESSION['securimage_code_value'] = '';
+}
+if ( !function_exists('ExecTime'))
+{
+function ExecTime()
+{
+$time = explode(" ",microtime());
+$usec = (double)$time[0];
+$sec = (double)$time[1];
+return $sec +$usec;
+}
+}
+function checkme($temp1,$temp2) {
+if ($temp1 == $temp2) {
+return 'checked="checked"';
+}else {
+return '';
+}
+}
+function checkop($temp1,$temp2) {
+if ($temp1 == $temp2) {
+return 'selected="true"';
+}else {
+return '';
+}
+}
+function checkimg($img,$noimg="images/noimg.jpg"){
+if(!is_file(LULINROOT.$img)){
+return $noimg;
+}else{
+return $img;
+}
+}
+if ( !function_exists('AttDef'))
+{
+function AttDef($oldvar,$nv){
+if(empty($oldvar)||$oldvar == ""){
+return $nv;
+}else{
+return $oldvar;
+}
+}
+}
+?>

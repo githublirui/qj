@@ -1,3 +1,53 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlJMUlsMT0nY29weSc7JElJSUlJSUlsSUlJMT0ncmVuYW1lJzskSUlJSUlJSWxJSUlsPSdiYXNlbmFtZSc7JElJSUlJSUlJMTFJST0naXNfZmlsZSc7JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=3744;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMzY5KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+$endurl = GetCookie("pano_ui");
+if ($dopost == "save") {
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$pid";
+$mainrow = $mydb->getOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
+if ($imgfile != $row[$GLOBALS['OOO0000O0']('aW1nZmlsZQ==')]) {
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$imgfile)) {
+checkdelfile($basedir ."/ui/".$row[$GLOBALS['OOO0000O0']('aW1nZmlsZQ==')]);
+checkmakedir($basedir ."/ui");
+$imgfilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($imgfile);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$imgfile,$basedir ."/ui/".$imgfilename);
+$imgfile = $imgfilename;
+}else {
+$imgfile = "";
+}
+}
+if ($videofile != $row[$GLOBALS['OOO0000O0']('dmlkZW9maWxl')]) {
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$videofile)) {
+checkdelfile($basedir ."/ui/".$row[$GLOBALS['OOO0000O0']('dmlkZW9maWxl')]);
+checkmakedir($basedir ."/ui");
+$videofilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($videofile);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$videofile,$basedir ."/ui/".$videofilename);
+$videofile = $videofilename;
+}else {
+$videofile = "";
+}
+}
+if ($uitype == 2) {
+checkmakedir($basedir ."/plugins");
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.swf")) {
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.swf",$basedir ."/plugins/videoplayer.swf");
+}
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.js")) {
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.js",$basedir ."/plugins/videoplayer.js");
+}
+}
+$sql = "INSERT INTO `#@__pano_ui` (`title`,`uitype`,`pid`,`videofile`,`imgfile`)
+                VALUES ('$title','$uitype','$pid','$videofile','$imgfile')";
+$mydb->ExecNoneQuery($sql);
+$newid = $mydb->GetLastID();
+Trace("UI&#28155;&#21152;&#25104;&#21151;&#65281;","vrpano_ui_edit.php?id=$newid");
+exit();
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3VpX2FkZC5odG0='));
+?>

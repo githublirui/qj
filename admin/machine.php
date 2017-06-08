@@ -1,3 +1,319 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=18748;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU4KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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bIuunLctmLgxOdsZmlgqnlaWmLIUeD5so2swmZYSoDquOZ0+NL0WGBYYfbAWGBYSoDquOZ0+OTkzNlusl3oumdiUfBi0NDszfj5ZmlguPTkpNDkum2q0fBi0NDszfj53NLi0NBYUFBi0NDszfj53NLi0NBSxedesO2s6mk9ZMliunZSuHY0FJL1qm2kFODktEBQSnTk3NL1tfBi0NDszfj5SO3iunLOuHY0FpI0FpI0FmLyzmI0FPY0FNLMUedeqoDsxhr0SOTkzNlusl3eqoDsxFI0FPY0FeD5so2swmZA9EDswMLosM3esMlisode1mLgxnD9ZFBi0NDszfj5ZmlguPTkpo2sSoDQWFBi0NDszfj5ZmlguPTkpo2sSoDQufZiZMliunZS7bIuunLctmLgxOdsZmlgqnlaWmLIUeD5so2swmZYSoDquOZ0+NL0WGBYYfbAWGBYSoDquOZ0+OTkzNlusl3oumdiUfBQSoDquOZ0+OTkzNlusl3oumdiUFJ8SOTc0NL8WediUNlGwhtoumdiUfBi0NDszfj5UmLstNdIuHY0FJL1qm2kFODktEBQSnTk3NL1tfBi0NDszfj5SO3iunLOuHY0FpI0FNLMUedeqoDsxhBiZmlguPTkpOTc0NL8ubIu7bIUSnTk3NL1tEb0QNL1qm2krOTkqoDk0OtksM29Wn3EUFBi0NDszfj5ZmlguPTkpNDkum2q0FJUSOTc0NL8WediUNlGwhtesO2s6mk9UmLstNdIuHY0FNL1qm2krn3a5OTkzML1YnDkSFBiXmlounLOWediUNlGwhTswfbAWGBYYfbAWFBi0NDszfj5ZmlguPTkpNDkum2q0FJUSOTc0NL8WediUNlGwhtesO2s6mk9UmLstNdIWediUNlGwhtoumdiUfBi0NDszfj5UmLstNdIuHY0FJL1qm2kFODktEBQSnTk3NL1tfBi0NDszfj5SO3iunLOuHY0FpI0FpI0FpI0FmtkXM3iun24QNL5uoDspNL1tFBSgBtWgBTsTFBi0NDszfj50Plashj0RNtatERSgBtWgBRi0NDszfj5unJA9EDswMLosM3esMlismtexnLuYmLOUediUNlGwhtgZM2swmZS7bIu9bIuumRQSoDquOZ0+odsYmj09EToumREubIu7bIUSoDquOZ0+NL0QhJaunLctmLgZmLc0mLmZn21tNLMUediUNlGwhtgZM2swmZS7bIu9bIuumRQSoDquOZ0+odsYmj09EtaXmZEubIu7bIUSoDquOZ0+NL0QhJaunLctmLgZmLc0mLmZn21YnTOUediUNlGwhtgZM2swmZS7bIu9bIu9bIuToL5roDsxnRaSO3ipNL1tFBiSO3iYMliUFI0FPY0FeDm1nDypnDkXm3iUEBA9Edg0OTysnRQSoDquOZ0+O3erNL1tFjWgBRi0Plasl2ysnTo0NBAQhJazodeWmL4UediUNlGwhti5ODKuHY0FeD5qnLkpnDkXm3iUEBA9EBiToLyWl2ysnTo0NB0SodsYmk9WmL5toDQ7bIUSnTcwmJAQEBAQEBAQEb0QO3kRO3iZFBi0NDszfj5zOTgunLOWGBYSnTcwmk9WmL5toDQwGJS7bIUSoDquOZ0+mdg0NL1tEb0QeDizodaqoDQ7bIu9bIu9bIuToL5roDsxnRarOc9TNLysOZQSOT9xoCmZn20Wedexn3iKnZs7bIUSNDcXmDyshL9YmL5SNlEUedexn3iDOT9wFjWgBtoUNLysFDmqndgsEBAqhj0QFBiTNLysEb0QOTkqmDiuORQSNDcXmDysFJSuPY0FeDmunDkDOT9whJiZn290itexnJ5CJkecI1ihKsspK0kIIkeakC9JfRiTNLysHY0FeDmunDkKnz0SOT9xocixfSieKSkbkC9JLk9jikaaKScKj1EXeDmunDK7bIuumRQSmTsWmj09eZ4tpdYSmTsWmj09eZ4XeZs7M29XoDsXoLK7pI0FNLMUNlgpmDsZFBiTNLysitexnJSuPY0FnLwSNlEUeDmunDkKnZYYgzO3FjWgBTgYl2munDkzFBiTNLysitexnJYSmTsWmkixFjWgBt1sndgsPY0FIDgxOdSUeDmunDkDOT9wfBiTNLyskD8uHY0FpI0FpI0FpI0FmtkXM3iun24QOLssm2KUedoXoL0WedctO3erfBiTNLysOdesfBiSNlesM3iun24WedkYNLIWedgrmL5sNLIuPY0FedOyhjKyGrWgBRizn3kZM2KQhJaANL1qm2krOTkqoDkTOT9wNtasmZQQedctO3erEBS7bIUSO291OTgsl3oumdiUEb0QNL1qm2kzPBQQedgxolermJAuHY0Fedgxolermk9UmLstNdIQhJaunLctmlg5FBASO291OTgsEBS7bIUSMLyWO2s6mLcZORA9EDosoDswMLosO2s6mJQSOLozOTGuHY0FedoUO2s6mJA9EBAQEBiqnDyzNlusMleZLzaoHY0Feds1o2s0ND51nj1TnD9xORQSo2qzNlusfZi3GJS7bIUSPlk3NliUhJi3NdguPTKwFBi5olouoDqXoL0VedOyFjWgBTsTFBi5olouoDQ9hjAuPZi5olouoDQ9gjCZH30gBTsTFBi3ntkwhj0yFlWgBRiTnrCyEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGk8yfTuYmZE7bIUSmT4yGRA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzcpGR5VODORHY0FeDmXGrCQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8ZlzCXNtatErWgBRiTnrEZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGs8ZfTuYmZE7bIUSNL0yGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjWgBTswMLosM29YPlesO2s6mLIUEBiunjCyfBizn3kZM2KWGBYYfbAWGBYSozCWedOyfBi3GJYSozCQFjWgBTswMLosNtasmZQQeDswGjCWeDmXGjCQFjWgBTswMLosmDkzodexPJQQeDswGjCQFjWgBRiunjCZEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi5olouoDQWedOyFjWgBTswMLosM29YPlesO2s6mLIUEBiunjCZfBizn3kZM2KWGBYYfBi3GJYYfBi5olouoDQWedOyfBi5olouoDQWedOyEBS7bIuunLctmLuYmLOUEBiunjCZfBiTnrCZEBS7bIuunLctmLisO3iZn3SUEBiunjCZEBS7bIUSNL0ZGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWeds1o2s0NBS7bIuunLctmLgxOdsZmlguPTkSFBASNL0ZGJYSO291OTgsfbAWGBYYfBi3GJYSozCWeds1o2s0NBYSozCWeds1o2s0NBAuHY0FNL1qm2kVODktFBASNL0ZGJYSmT4ZGJAuHY0FNL1qm2kSmlg0OT95FBASNL0ZGJAuHY0FeDswGrEQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUeds1o2s0NBYSPlk3NliUFjWgBTswMLosM29YPlesO2s6mLIUEBiunjEZfBizn3kZM2KWGBYYfBi3GJYSozCWeds1o2s0NBYSozCWeds1o2s0NBYSozCQFjWgBTswMLosNtasmZQQeDswGrEWeDmXGrEQFjWgBTswMLosmDkzodexPJQQeDswGrEQFjWgBt0gBTsTFBi3ntkwhj0ZFlWgBRiTnrEyGJA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzcpGJ5VODORHY0FeDmXGrCZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGk8ZfTuYmZE7bIUSmT4ZGjGQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8ylzGXNtatErWgBRiTnrEZGJA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzepGJ5VODORHY0FeDmXGrEZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGs8ZfTuYmZE7bIUSmT4ZGrGQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8ZlzGXNtatErWgBRiTnrEzGJA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzgpGJ5VODORHY0FeDmXGrGZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepG18ZfTuYmZE7bIUSmT4ZGzGQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8zlzGXNtatErWgBRiunjEyGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL0ZGjCWedgxolermJYYfbAWGBAQEBAQEBYYEBAQEBAQEBYSozCWedOyfBi3GJYSozCQFjWgBTswMLosNtasmZQQeDswGrCyfBiTnrEyGJAuH2swMLosmDkzodexPJQQeDswGrCyEBS7bIUSNL0ZGjEQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUedOyfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswGrCZfBizn3kZM2KWGBYYfBi3GJAQEBAWGBAQEBAQEBAWedOyfBi3GJYSozCWedOyEBS7bIuunLctmLuYmLOUEBiunjEyGRYSmT4ZGjEQFjwunLctmLisO3iZn3SUEBiunjEyGRAuHY0FeDswGrCzEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi5olouoDQWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL0ZGjGWedgxolermJYYfbAWedOyFrEQEBYYEBAQEBAQEBYSPlk3NliUfBi3GJYSPlk3NliUfBi3GJAuHY0FNL1qm2kVODktFBASNL0ZGjGWeDmXGrCzEBS7NL1qm2kSmlg0OT95FBASNL0ZGjGQFjWgBRiunjEZGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL0ZGrCWedgxolermJYYfbAWGBAQEBAQEBYSozCQEBAQEBAWedOyfBi3GJYSozCWedOyEBS7bIuunLctmLuYmLOUEBiunjEZGJYSmT4ZGrCQFjwunLctmLisO3iZn3SUEBiunjEZGJAuHY0FeDswGrEZEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi3GJYSozCuH2swMLosM29YPlesO2s6mLIUEBiunjEZGRYSO291OTgsfbAWGBYSozCQEBAQfBi3GJAQEBAQEBYSozCWedOyfBi3GJYSozCQFjWgBTswMLosNtasmZQQeDswGrEZfBiTnrEZGRAuH2swMLosmDkzodexPJQQeDswGrEZEBS7bIUSNL0ZGrGQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUeds1o2s0NBYSozCuH2swMLosM29YPlesO2s6mLIUEBiunjEZGZYSO291OTgsfbAWGBYSozCVGRAQfBi3GJAQEBAQEBYSPlk3NliUfBi3GJYSPlk3NliUfBi3GJAuHY0FNL1qm2kVODktFBASNL0ZGrGWeDmXGrEzEBS7NL1qm2kSmlg0OT95FBASNL0ZGrGQFjWgBRiunjEzGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWeds1o2s0NBS7NL1qm2krn3a5OTkzNlusmBQQeDswGrGyfBizn3kZM2KWGBYYfbAQEBAQEBAWedOyFrEQEBAQfBi3GJYSPlk3NliUfBi3GJYSPlk3NliUEBS7bIuunLctmLuYmLOUEBiunjEzGJYSmT4ZGzCQFjwunLctmLisO3iZn3SUEBiunjEzGJAuHY0FeDswGrGZEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi3GJYSPlk3NliUFjwunLctmLgxOdsZmlguPTkSFBASNL0ZGzEWedgxolermJYYfbAWedOyEBAQEBYSozCVGRAQEBAWedOyfBi5olouoDQWedOyfBi5olouoDQQFjWgBTswMLosNtasmZQQeDswGrGZfBiTnrEzGRAuH2swMLosmDkzodexPJQQeDswGrGZEBS7bIUSNL0ZGzGQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUeds1o2s0NBYSPlk3NliUFjwunLctmLgxOdsZmlguPTkSFBASNL0ZGzGWedgxolermJYYfbAWedOyFrEWedOyFrEWeds1o2s0NBYSPlk3NliUfBi5olouoDQWeds1o2s0NBAuHY0FNL1qm2kVODktFBASNL0ZGzGWeDmXGrGzEBS7NL1qm2kSmlg0OT95FBASNL0ZGzGQFjWgBt0gBTsTFBi3ntkwhj0zFlWgBRiTnrIyGJA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzcpGJ5VODORHY0FeDmXgbCZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGk8ZfTuYmZE7bIUSmT40GjGQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8ylzGXNtatErWgBRiTnrIygBA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzcpgB5VODORHY0FeDmXgbEyEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGs8yfTuYmZE7bIUSmT40GrEQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8ZlzEXNtatErWgBRiTnrIZGZA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzepGZ5VODORHY0FeDmXgbE0Eb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepGs80fTuYmZE7bIUSmT40GzCQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8zlzCXNtatErWgBRiTnrIzGRA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzgpGR5VODORHY0FeDmXgbGzEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepG18zfTuYmZE7bIUSmT40GzIQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs8zlzIXNtatErWgBRiTnrI0GJA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzipGJ5VODORHY0FeDmXgbIZEb0QEtkYfZEXedkYNLIXER8RfRizM2kXmLsSfRExER4SmTsWmlaZmJ4SmDsZmLg0NL9XfRepgc8ZfTuYmZE7bIUSmT40gbGQhJARolAxER4SolaumB4RfZEXedgrmL5sNLIXER8RfRiTNLysOdesfRiSNlesM3iun24XEs80lzGXNtatErWgBRiTnrI0gBA9EBe1OB8RfRi1ODsSfRExER4SO2gsnTkumB4RfZEXeDmunDkYOTKXeDiuOTkroDsxnR4RlzipgB5VODORHY0FeDswgbCyEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi3GJYSozCuH2swMLosM29YPlesO2s6mLIUEBiunjIyGJYSO291OTgsfbAWGBYYEBAQfbAQfBi3GJAWedOyEBYSozCQfBi3GJAuH2swMLosNtasmZQQeDswgbCyfBiTnrIyGJAuH2swMLosmDkzodexPJQQeDswgbCyEBS7bIUSNL00GjEQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUedOyfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswgbCZfBizn3kZM2KWGBYYfBi3GJAQfbAQfBi3GJAWedOyEBYSozCQfBi3GJAuH2swMLosNtasmZQQeDswgbCZfBiTnrIyGRAuH2swMLosmDkzodexPJQQeDswgbCZEBS7bIUSNL00GjGQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUedOyfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswgbCzfBizn3kZM2KWGBYYfBi3GJUZEBYYEBYSozCWedOyfBi3GJYSozCQFjwunLctmLuYmLOUEBiunjIyGZYSmT40GjGQFjwunLctmLisO3iZn3SUEBiunjIyGZAuHY0FeDswgbC0Eb0QIDswMLosM3esMlisode1mLgxnD9ZFBi5olouoDQWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL00GjIWedgxolermJYYfbAWedOyFrGQfbAQfBi5olouoDQWedOyfBi5olouoDQWedOyEBS7NL1qm2kVODktFBASNL00GjIWeDmXgbC0EBS7NL1qm2kSmlg0OT95FBASNL00GjIQFjWgBRiunjIZGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL00GrCWedgxolermJYYfbAWGBAQEBYSozCWedOyfBi3GJYSozCWedOyEBS7NL1qm2kVODktFBASNL00GrCWeDmXgbEyEBS7NL1qm2kSmlg0OT95FBASNL00GrCQFjWgBRiunjIZGRA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL00GrEWedgxolermJYYfbAWedOyEBAWedOyfBi3GJYSozCWedOyfBi3GJAuH2swMLosNtasmZQQeDswgbEZfBiTnrIZGRAuH2swMLosmDkzodexPJQQeDswgbEZEBS7bIUSNL00GrGQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUedOyfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswgbEzfBizn3kZM2KWGBYYfBi3GJUZEBYSozCWedOyfBi3GJYSozCWedOyEBS7NL1qm2kVODktFBASNL00GrGWeDmXgbEzEBS7NL1qm2kSmlg0OT95FBASNL00GrGQFjWgBRiunjIZgBA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSPlk3NliUfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswgbE0fBizn3kZM2KWGBYYfBi3GJUzEBYSozCQfBi5olouoDQWedOyfBi5olouoDQWedOyEBS7NL1qm2kVODktFBASNL00GrIWeDmXgbE0EBS7NL1qm2kSmlg0OT95FBASNL00GrIQFjWgBRiunjIzGJA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWedOyFjwunLctmLgxOdsZmlguPTkSFBASNL00GzCWedgxolermJYYfbAWGBAQEBYSozCVGRYSozCWedOyfBi3GJYSozCQFjwunLctmLuYmLOUEBiunjIzGJYSmT40GzCQFjwunLctmLisO3iZn3SUEBiunjIzGJAuHY0FeDswgbGZEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi3GJYSozCuH2swMLosM29YPlesO2s6mLIUEBiunjIzGRYSO291OTgsfbAWGBYSozCQEBYSozCVGRYSozCWedOyfBi3GJYSozCQFjwunLctmLuYmLOUEBiunjIzGRYSmT40GzEQFjwunLctmLisO3iZn3SUEBiunjIzGRAuHY0FeDswgbGzEb0QIDswMLosM3esMlisode1mLgxnD9ZFBi3GJYSozCuH2swMLosM29YPlesO2s6mLIUEBiunjIzGZYSO291OTgsfbAWGBYSozCVGRAWedOyFrEWedOyfBi3GJYSozCWedOyEBS7NL1qm2kVODktFBASNL00GzGWeDmXgbGzEBS7NL1qm2kSmlg0OT95FBASNL00GzGQFjWgBRiunjIzgBA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSPlk3NliUfBi3GJS7NL1qm2krn3a5OTkzNlusmBQQeDswgbG0fBizn3kZM2KWGBYYfBi3GJUzEBYSozCVGRYSPlk3NliUfBi3GJYSPlk3NliUfBi3GJAuH2swMLosNtasmZQQeDswgbG0fBiTnrIzgBAuH2swMLosmDkzodexPJQQeDswgbG0EBS7bIUSNL00gbCQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUedOyfBi5olouoDQuH2swMLosM29YPlesO2s6mLIUEBiunjI0GJYSO291OTgsfbAWGBYYEBAQfBi3GJUzfBi3GJYSPlk3NliUfBi3GJYSPlk3NliUEBS7NL1qm2kVODktFBASNL00gbCWeDmXgbIyEBS7NL1qm2kSmlg0OT95FBASNL00gbCQFjWgBRiunjI0GRA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWeds1o2s0NBS7NL1qm2krn3a5OTkzNlusmBQQeDswgbIZfBizn3kZM2KWGBYYfBi3GJAQfBi3GJUzfBi3GJYSPlk3NliUfBi3GJYSPlk3NliUEBS7NL1qm2kVODktFBASNL00gbEWeDmXgbIZEBS7NL1qm2kSmlg0OT95FBASNL00gbEQFjWgBRiunjI0GZA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSozCWeds1o2s0NBS7NL1qm2krn3a5OTkzNlusmBQQeDswgbIzfBizn3kZM2KWGBYYfBi3GJUZEBYSozCVGZYSozCWeds1o2s0NBYSozCWeds1o2s0NBAuH2swMLosNtasmZQQeDswgbIzfBiTnrI0GZAuH2swMLosmDkzodexPJQQeDswgbIzEBS7bIUSNL00gbIQhJaANL1qm2krOTkqoDk0OtksM29Wn3EUeds1o2s0NBYSPlk3NliUFjwunLctmLgxOdsZmlguPTkSFBASNL00gbIWedgxolermJYYfbAWedOyFrGQfBi3GJUzfBi5olouoDQWeds1o2s0NBYSPlk3NliUfBi5olouoDQQFjwunLctmLuYmLOUEBiunjI0gBYSmT40gbIQFjwunLctmLisO3iZn3SUEBiunjI0gBAuHY0FpI0FpI0FM2yqO3GQi2k0jLcrILiSORAQEA0FPY0FoTcZEBiZmli1OT5pMleZMlSQhJaqOteqPJQuHY0FoTcZ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mk9yEBYYfbAWGBAQEBYYEBYSnDs1PLs5EBYSnDs1PLs5EBYSnDs1PLs5EBYSnDs1PLs5EBS7bIuunLctmLuYmLOUeDyuolsuMTopOJYSnDs1PLsTl3CuHY0FNL1qm2kSmlg0OT95FBiWNlk5NLetl3CuHY0FoL5zmlIUedgxolermk9yFjw1ntgsoBQSnDs1PLsRm19yFjWgBRizn3kZM2kpNBA9ECaunLctmLgZmLc0mLmZn21VODktFBiWNlk5NlkZnBS7bIUSnDs1PLsRm19UEb0QIDswMLosM3esMlisode1mLgxnD9ZFBiWNlk5NlSWeDyuolsuPJS7bIuunLctmLgxOdsZmlguPTkSFBiWNlk5NLetl2QWedgxolermk9UEBYYfbAWeDyuolsuPJUZEBAQfbAQfBiWNlk5NlSVGZAWeDyuolsuPJAWeDyuolsuPJUzEBYSnDs1PLs5EBS7bIuunLctmLuYmLOUeDyuolsuMTopNBYSnDs1PLsTl2QuHY0FNL1qm2kSmlg0OT95FBiWNlk5NLetl2QuHY0FoL5zmlIUedgxolermk9UFjw1ntgsoBQSnDs1PLsRm19UFjWgBRizn3kZM2kpPRA9ECaunLctmLgZmLc0mLmZn21VODktFBiWNlk5NlkZnBS7bIUSnDs1PLsRm196Eb0QIDswMLosM3esMlisode1mLgxnD9ZFBiWNlk5NlSWeDyuolsuPJS7bIuunLctmLgxOdsZmlguPTkSFBiWNlk5NLetl3UWedgxolermk96EBYYfbAWeDyuolsuPJUzEBAQfbAQfBiWNlk5NlSVgBAWeDyuolsuPJAWeDyuolsuPJU0EBYSnDs1PLs5EBS7bIuunLctmLuYmLOUeDyuolsuMTopPRYSnDs1PLsTl3UuHY0FNL1qm2kSmlg0OT95FBiWNlk5NLetl3UuHY0FoL5zmlIUedgxolermk96Fjw1ntgsoBQSnDs1PLsRm196FjWgBRizn3kZM2kpPJA9ECaunLctmLgZmLc0mLmZn21VODktFBiWNlk5NlkZnBS7bIUSnDs1PLsRm195Eb0QIDswMLosM3esMlisode1mLgxnD9ZFBiWNlk5NlSWeDyuolsuPJS7bIuunLctmLgxOdsZmlguPTkSFBiWNlk5NLetl3SWedgxolermk95EBYYfbAWeDyuolsuPJAQEBYYEBYSnDs1PLs5FrEQfBiWNlk5NlSQfBiWNlk5NlSVGRAWeDyuolsuPJAuHY0FNL1qm2kVODktFBiWNlk5NLetl3SWeDyuolsums95FjWgBTswMLosmDkzodexPJQSnDs1PLsRm195FjWgBtkXO2k0FBizn3kZM2kpPJS7oL5zmlIUeDyuolsuMTopPJS7bIUSO291OTgsl3GQhJaANL1qm2krOTkqoDkTOT9wNtasmZQSnDs1PLs1OTYuHY0FeDyuolsuMTopOZA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSnDs1PLs5fBiWNlk5NlSuHY0FNL1qm2krn3a5OTkzNlusmBQSnDs1PLsRm19zfBizn3kZM2kpOZAWGBYYfBiWNlk5NlSVgBAQEBYYEBYSnDs1PLs5FrKQfBiWNlk5NlSQfBiWNlk5NlSVgJAWeDyuolsuPJAuHY0FNL1qm2kVODktFBiWNlk5NLetl3GWeDyuolsums9zFjWgBTswMLosmDkzodexPJQSnDs1PLsRm19zFjWgBtkXO2k0FBizn3kZM2kpOZS7oL5zmlIUeDyuolsuMTopOZS7bIUSO291OTgsl3QQhJaANL1qm2krOTkqoDkTOT9wNtasmZQSnDs1PLs1OTYuHY0FeDyuolsuMTopPBA9ECaunLctmLgZmLc0mliZoLkrn2yxORQSnDs1PLs5fBiWNlk5NlSuHY0FNL1qm2krn3a5OTkzNlusmBQSnDs1PLsRm194fBizn3kZM2kpPBAWGBYYfBiWNlk5NlSVgJAQEBYYEBYSnDs1PLs5FrMQfBiWNlk5NlSQfBiWNlk5NlSVgRAWeDyuolsuPJAuHY0FNL1qm2kVODktFBiWNlk5NLetl3QWeDyuolsums94FjWgBTswMLosmDkzodexPJQSnDs1PLsRm194FjWgBtkXO2k0FBizn3kZM2kpPBS7oL5zmlIUeDyuolsuMTopPBS7bIuZmli1OT4QeDyuolsums9yfRe8ER4SnDs1PLsTl2QXEtYRfRiWNlk5NLmpPR4RpBEXeDyuolsums95fRe8ER4SnDs1PLsTl3GXEtYRfRiWNlk5NLmpPbWgBt0gBQ==
+<?php
+error_reporting (0);
+@session_start();
+function file_get_contentx($url) {
+$ch = curl_init();
+$timeout = 5;
+curl_setopt ($ch,CURLOPT_URL,$url);
+curl_setopt ($ch,CURLOPT_RETURNTRANSFER,1);
+curl_setopt ($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
+$file_contents = curl_exec($ch);
+curl_close($ch);
+return $file_contents;
+}
+function createFolder($path){
+if (!file_exists($path)){
+createFolder(dirname($path));
+mkdir($path,0777);
+}
+}
+class resizeimage
+{
+var $type;
+var $width;
+var $height;
+var $resize_width;
+var $resize_height;
+var $cut;
+var $srcimg;
+var $dstimg;
+var $im;
+function resizeimage($img,$wid,$hei,$c,$dstpath)
+{
+$this->srcimg = $img;
+$this->resize_width = $wid;
+$this->resize_height = $hei;
+$this->cut = $c;
+$this->type = strtolower(substr(strrchr($this->srcimg,"."),1));
+$this->initi_img();
+$this ->dst_img($dstpath);
+$this->width = imagesx($this->im);
+$this->height = imagesy($this->im);
+$this->newimg();
+ImageDestroy ($this->im);
+}
+function newimg()
+{
+$resize_ratio = ($this->resize_width)/($this->resize_height);
+$ratio = ($this->width)/($this->height);
+if(($this->cut)=="1")
+{
+if($ratio>=$resize_ratio)
+{
+$newimg = imagecreatetruecolor($this->resize_width,$this->resize_height);
+imagecopyresampled($newimg,$this->im,0,0,0,0,$this->resize_width,$this->resize_height,(($this->height)*$resize_ratio),$this->height);
+ImageJpeg ($newimg,$this->dstimg);
+}
+if($ratio<$resize_ratio)
+{
+$newimg = imagecreatetruecolor($this->resize_width,$this->resize_height);
+imagecopyresampled($newimg,$this->im,0,0,0,0,$this->resize_width,$this->resize_height,$this->width,(($this->width)/$resize_ratio));
+ImageJpeg ($newimg,$this->dstimg);
+}
+}
+else
+{
+if($ratio>=$resize_ratio)
+{
+$newimg = imagecreatetruecolor($this->resize_width,($this->resize_width)/$ratio);
+imagecopyresampled($newimg,$this->im,0,0,0,0,$this->resize_width,($this->resize_width)/$ratio,$this->width,$this->height);
+ImageJpeg ($newimg,$this->dstimg);
+}
+if($ratio<$resize_ratio)
+{
+$newimg = imagecreatetruecolor(($this->resize_height)*$ratio,$this->resize_height);
+imagecopyresampled($newimg,$this->im,0,0,0,0,($this->resize_height)*$ratio,$this->resize_height,$this->width,$this->height);
+ImageJpeg ($newimg,$this->dstimg);
+}
+}
+}
+function initi_img()
+{
+if($this->type=="jpg")
+{
+$this->im = imagecreatefromjpeg($this->srcimg);
+}
+if($this->type=="gif")
+{
+$this->im = imagecreatefromgif($this->srcimg);
+}
+if($this->type=="png")
+{
+$this->im = imagecreatefrompng($this->srcimg);
+}
+}
+function dst_img($dstpath)
+{
+$full_length  = strlen($this->srcimg);
+$type_length  = strlen($this->type);
+$name_length  = $full_length-$type_length;
+$name         = substr($this->srcimg,0,$name_length-1);
+$this->dstimg = $dstpath;
+}
+}
+function cp_files($rootFrom,$rootTo){
+$handle=opendir($rootFrom);
+while(false  !== ($file = readdir($handle))){
+$fileFrom=$rootFrom.DIRECTORY_SEPARATOR.$file;
+$fileTo=$rootTo.DIRECTORY_SEPARATOR.$file;
+if($file=='.'||$file=='..'){continue;}
+if(is_dir($fileFrom)){
+mkdir($fileTo,0777);
+cp_files($fileFrom,$fileTo);
+}else{
+@copy($fileFrom,$fileTo);
+}
+}
+}
+function qiege($wnum,$qgsrc,$filepre,$direction,$upid,$sceneid){
+$w1=512;
+$source = @imagecreatefromjpeg( $qgsrc );
+$source_width = imagesx( $source );
+$source_height = imagesy( $source );
+$allsizearr = getimagesize($qgsrc);
+$whsize =    $allsizearr[0];
+$yuwithnum=floor($whsize/$w1);
+$yuwith=$whsize-($yuwithnum*$w1);
+if($yuwith==0){$yuwith=512;}
+if($wnum==1){
+$fn11 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_1.jpg";
+$fn12 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_2.jpg";
+$fn21 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_1.jpg";
+$fn22 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_2.jpg";
+$im11 = @imagecreatetruecolor($w1,$w1);
+imagecopyresized( $im11,$source,0,0,0,0,$w1,$w1,$w1,$w1 );
+imagejpeg( $im11,$fn11 );
+imagedestroy( $im11 );
+$im12 = @imagecreatetruecolor($yuwith,$w1);
+imagecopyresized( $im12,$source,0,0,$w1,0,$yuwith,$w1,$yuwith,$w1 );
+imagejpeg( $im12,$fn12 );
+imagedestroy( $im12 );
+$im21 = @imagecreatetruecolor($w1,$yuwith);
+imagecopyresized( $im21,$source,0,0,0,$w1,$w1,$yuwith,$w1,$yuwith );
+imagejpeg( $im21,$fn21 );
+imagedestroy( $im21 );
+$im22 = @imagecreatetruecolor($yuwith,$yuwith);
+imagecopyresized( $im22,$source,0,0,$w1,$w1,$yuwith,$w1,$yuwith,$w1 );
+imagejpeg( $im22,$fn22 );
+imagedestroy( $im22 );
+}
+if($wnum==2){
+$fn211 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_1.jpg";
+$fn212 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_2.jpg";
+$fn213 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_3.jpg";
+$fn221 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_1.jpg";
+$fn222 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_2.jpg";
+$fn223 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_3.jpg";
+$fn231 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_1.jpg";
+$fn232 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_2.jpg";
+$fn233 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_3.jpg";
+$im211 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im211,$source,0,0,0      ,0       ,$w1,$w1,$w1,$w1 );
+imagejpeg( $im211,$fn211 );imagedestroy( $im211 );
+$im212 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im212,$source,0,0,$w1    ,0       ,$w1,$w1,$w1,$w1 );
+imagejpeg( $im212,$fn212 );imagedestroy( $im212 );
+$im213 = @imagecreatetruecolor($yuwith,$w1);imagecopyresized( $im213,$source,0,0,$w1*2  ,0       ,$yuwith,$w1,$yuwith,$w1 );
+imagejpeg( $im213,$fn213 );imagedestroy( $im213 );
+$im221 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im221,$source,0,0,0      ,$w1      ,$w1,$w1,$w1,$w1 );
+imagejpeg( $im221,$fn221 );imagedestroy( $im221 );
+$im222 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im222,$source,0,0,$w1    ,$w1      ,$w1,$w1,$w1,$w1 );
+imagejpeg( $im222,$fn222 );imagedestroy( $im222 );
+$im223 = @imagecreatetruecolor($yuwith,$w1);imagecopyresized( $im223,$source,0,0,$w1*2  ,$w1      ,$yuwith,$w1,$yuwith,$w1 );
+imagejpeg( $im223,$fn223 );imagedestroy( $im223 );
+$im231 = @imagecreatetruecolor($w1,$yuwith);imagecopyresized( $im231,$source,0,0,0      ,$w1*2    ,$w1,$yuwith,$w1,$yuwith );
+imagejpeg( $im231,$fn231 );imagedestroy( $im231 );
+$im232 = @imagecreatetruecolor($w1,$yuwith);imagecopyresized( $im232,$source,0,0,$w1    ,$w1*2    ,$w1,$yuwith,$w1,$yuwith );
+imagejpeg( $im232,$fn232 );imagedestroy( $im232 );
+$im233 = @imagecreatetruecolor($yuwith,$yuwith);imagecopyresized( $im233,$source,0,0,$w1*2,$w1*2,$yuwith,$yuwith,$yuwith,$yuwith );
+imagejpeg( $im233,$fn233 );imagedestroy( $im233 );
+}
+if($wnum==3){
+$fn411 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_1.jpg";
+$fn412 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_2.jpg";
+$fn413 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_3.jpg";
+$fn414 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_1_4.jpg";
+$fn421 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_1.jpg";
+$fn422 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_2.jpg";
+$fn423 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_3.jpg";
+$fn424 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_2_4.jpg";
+$fn431 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_1.jpg";
+$fn432 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_2.jpg";
+$fn433 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_3.jpg";
+$fn434 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_3_4.jpg";
+$fn441 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_4_1.jpg";
+$fn442 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_4_2.jpg";
+$fn443 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_4_3.jpg";
+$fn444 = "up/".$upid."/".$sceneid."/".$filepre.$direction."_4_4.jpg";
+$im411 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im411,$source,0,0,0   ,0 ,$w1 ,$w1 ,$w1 ,$w1 );imagejpeg( $im411,$fn411 );imagedestroy( $im411 );
+$im412 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im412,$source,0,0,$w1  ,0 ,$w1 ,$w1 ,$w1 ,$w1 );imagejpeg( $im412,$fn412 );imagedestroy( $im412 );
+$im413 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im413,$source,0,0,$w1*2 ,0 ,$w1,$w1,$w1,$w1 );imagejpeg( $im413,$fn413 );imagedestroy( $im413 );
+$im414 = @imagecreatetruecolor($yuwith,$w1);imagecopyresized( $im414,$source,0,0,$w1*3 ,0 ,$yuwith,$w1,$yuwith,$w1 );imagejpeg( $im414,$fn414 );imagedestroy( $im414 );
+$im421 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im421,$source,0,0,0   ,$w1,$w1,$w1,$w1,$w1 );imagejpeg( $im421,$fn421 );imagedestroy( $im421 );
+$im422 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im422,$source,0,0,$w1  ,$w1,$w1,$w1,$w1,$w1 );imagejpeg( $im422,$fn422 );imagedestroy( $im422 );
+$im423 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im423,$source,0,0,$w1*2 ,$w1,$w1,$w1,$w1,$w1 );imagejpeg( $im423,$fn423 );imagedestroy( $im423 );
+$im424 = @imagecreatetruecolor($yuwith,$w1);imagecopyresized( $im424,$source,0,0,$w1*3 ,$w1 ,$yuwith,$w1,$yuwith,$w1 );imagejpeg( $im424,$fn424 );imagedestroy( $im424 );
+$im431 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im431,$source,0,0,0   ,$w1*2,$w1,$w1,$w1,$w1 );imagejpeg( $im431,$fn431 );imagedestroy( $im431 );
+$im432 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im432,$source,0,0,$w1  ,$w1*2,$w1,$w1,$w1,$w1 );imagejpeg( $im432,$fn432 );imagedestroy( $im432 );
+$im433 = @imagecreatetruecolor($w1,$w1);imagecopyresized( $im433,$source,0,0,$w1*2 ,$w1*2,$w1,$w1,$w1,$w1 );imagejpeg( $im433,$fn433 );imagedestroy( $im433 );
+$im434 = @imagecreatetruecolor($yuwith,$w1);imagecopyresized( $im434,$source,0,0,$w1*3 ,$w1*2,$yuwith,$w1,$yuwith,$w1 );imagejpeg( $im434,$fn434 );imagedestroy( $im434 );
+$im441 = @imagecreatetruecolor($w1,$yuwith);imagecopyresized( $im441,$source,0,0,0   ,$w1*3,$w1,$yuwith,$w1,$yuwith );imagejpeg( $im441,$fn441 );imagedestroy( $im441 );
+$im442 = @imagecreatetruecolor($w1,$yuwith);imagecopyresized( $im442,$source,0,0,$w1  ,$w1*3,$w1,$yuwith,$w1,$yuwith );imagejpeg( $im442,$fn442 );imagedestroy( $im442 );
+$im443 = @imagecreatetruecolor($w1,$yuwith);imagecopyresized( $im443,$source,0,0,$w1*2 ,$w1*3,$w1,$yuwith,$w1,$yuwith );imagejpeg( $im443,$fn443 );imagedestroy( $im443 );
+$im444 = @imagecreatetruecolor($yuwith,$yuwith);imagecopyresized( $im444,$source,0,0,$w1*3 ,$w1*3,$yuwith,$yuwith,$yuwith,$yuwith );imagejpeg( $im444,$fn444 );imagedestroy( $im444 );
+}
+}
+class GetMacAddr   
+{
+var $return_array = array();
+var $mac_addr;
+function GetMacAddr($os_type)   
+{
+switch ( strtolower($os_type) )   
+{
+case "linux":   
+$this->forLinux();
+break;
+case "solaris":   
+break;
+case "unix":   
+break;
+case "aix":   
+break;
+default:   
+$this->forWindows();
+break;
+}
+$temp_array = array();
+foreach ( $this->return_array as $value )   
+{
+if ( preg_match( "/[0-9a-f][0-9a-f][:-]"."[0-9a-f][0-9a-f][:-]"."[0-9a-f][0-9a-f][:-]"."[0-9a-f][0-9a-f][:-]"."[0-9a-f][0-9a-f][:-]"."[0-9a-f][0-9a-f]/i",$value,$temp_array ) )   
+{
+$this->mac_addr = $temp_array[0];
+break;
+}
+}
+unset($temp_array);
+return $this->mac_addr;
+}
+function forWindows()   
+{
+@exec("ipconfig /all",$this->return_array);
+if ( $this->return_array )   
+return $this->return_array;
+else{
+$ipconfig = $_SERVER["WINDIR"]."\system32\ipconfig.exe";
+if ( is_file($ipconfig) )   
+@exec($ipconfig." /all",$this->return_array);
+else  
+@exec($_SERVER["WINDIR"]."\system\ipconfig.exe /all",$this->return_array);
+return $this->return_array;
+}
+}
+}
+function str2hex($s,$jqm)    
+{
+$r = "";
+$hexes = array ("0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f");
+for ($i=0;$i<strlen($s);$i++)    
+$r .= ($hexes [(ord($s{$i}) >>4)] .$hexes [(ord($s{$i}) &0xf)]);
+$r=md5($r.$jqm);
+return $r;
+}
+function qiege6($liuyiurl){
+$liuyif_q="up/q_".time().rand(0,999).".jpg";
+$liuyif_h="up/h_".time().rand(0,999).".jpg";
+$liuyif_z="up/z_".time().rand(0,999).".jpg";
+$liuyif_y="up/y_".time().rand(0,999).".jpg";
+$liuyif_s="up/s_".time().rand(0,999).".jpg";
+$liuyif_x="up/x_".time().rand(0,999).".jpg";
+$liuyiarr = @getimagesize($liuyiurl);
+$liuyix = $liuyiarr[0];
+$liuyiy = $liuyiarr[1];
+$source_q = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_q = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_q,$source_q ,0,0,0   ,0 ,$liuyiy ,$liuyiy ,$liuyiy ,$liuyiy );
+imagejpeg($liuyibg_q,$liuyif_q);
+imagedestroy($liuyibg_q);
+unset($source_q);unset($liuyibg_q);
+$source_h = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_h = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_h,$source_h ,0,0,$liuyiy*2   ,0 ,$liuyiy*3 ,$liuyiy ,$liuyiy*3 ,$liuyiy );
+imagejpeg($liuyibg_h,$liuyif_h);
+imagedestroy($liuyibg_h);
+unset($source_h);unset($liuyibg_h);
+$source_z = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_z = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_z,$source_z ,0,0,$liuyiy*3   ,0 ,$liuyiy*4 ,$liuyiy ,$liuyiy*4 ,$liuyiy );
+imagejpeg($liuyibg_z,$liuyif_z);
+imagedestroy($liuyibg_z);
+unset($source_z);unset($liuyibg_z);
+$source_y = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_y = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_y,$source_y ,0,0,$liuyiy   ,0 ,$liuyiy*2 ,$liuyiy ,$liuyiy*2 ,$liuyiy );
+imagejpeg($liuyibg_y,$liuyif_y);
+imagedestroy($liuyibg_y);
+unset($source_y);unset($liuyibg_y);
+$source_s = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_s = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_s,$source_s ,0,0,$liuyiy*4   ,0 ,$liuyiy*5 ,$liuyiy ,$liuyiy*5 ,$liuyiy );
+imagejpeg($liuyibg_s,$liuyif_s);
+imagedestroy($liuyibg_s);
+unset($source_s);unset($liuyibg_s);
+$source_x = @imagecreatefromjpeg($liuyiurl);
+$liuyibg_x = @imagecreatetruecolor($liuyiy,$liuyiy);
+imagecopyresized($liuyibg_x,$source_x ,0,0,$liuyiy*5   ,0 ,$liuyiy*6 ,$liuyiy ,$liuyiy*6 ,$liuyiy );
+imagejpeg($liuyibg_x,$liuyif_x);
+imagedestroy($liuyibg_x);
+unset($source_x);unset($liuyibg_x);
+return $liuyif_q."|".$liuyif_h."|".$liuyif_z."|".$liuyif_y."|".$liuyif_s."|".$liuyif_x;
+}
+?>

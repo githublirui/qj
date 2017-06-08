@@ -1,3 +1,42 @@
-<?php // È«¾°Éú³É¾«Áé°æÈ¨ËùÓÐ
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1420;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FI2qsM2wIole2NLk3FBozPlgpiDc0MJOuHY0FeDevmDsZEb0QjckGJK5CIkiaEB4Rf2eqM2wSMliqErWgBRiTNLysnDszodGQhJaaOteqPJQuHY0FeDiUEb0QmDsZFBiRN2iuORS7bIUSO3iZoLg0mTsWmJA9EBfTWVdTRn7sRfbTsnbTrN7tX5hTtUjTsUpSX7MRHY0Fo2qunDKQFBQSmTsWmL5qnLKQhJASmDQwhtesMLIUFJSQEj09EDmqndgsFJa7bIuumRAUElaZmLopnLc0M2QUERg0PdISEZEWeDmunDkXML1sFJSQPY0FM29XoDsXoLK7bIu9bIuumRAUOdesm19wMlirNBQRE3iqMTysO19zode1M3IrERYSmTsWmL5qnLKuFJa7bIUSO3iZoLg0mTsWmJA9EBiTNLysnTcwmjWgBt1sndgsEDsTEBqTNLysO2s6mJQReDevmDsZfZiTNLysnTcwmJEuEb4YFJa7bIUSmTsWmLyuO3izL10QhJASmTsWmL5qnLK7bIu9bIu9bIUSmDQwhTgWn3gsFBS7bIUSMTcrN2q0nLYQhJAtezWgBTmxORAUeDSQhJAYHZiuEbyrn3kXoBQSmTsWmLyuO3izFjWSNJWvFJa7bIuumRAUeDSQejEQhj0QGBSQPY0FeDeqM2wUoD1WEB49EBO8odEQM2yqO3G9EtiZl3oUNlisERaqnDstnr0RM2kXoDkZERaUmLstNdI9ErE0Er4tHY0FpLkWO2KQPY0FeDeqM2wUoD1WEB49EBOtHY0FpI0FeDeqM2wUoD1WEB49EBO8oDIQo2sSoDQ9ErCYeJE+hDsXOdk0Edi5ODK9ETgUmLgvMT94ERaXML1shJeRMLwTNLysERaumb0RMTcvmTsWmJEQoTcWoLK9EROXeDmunDkWNlg0O1WSNk0XeZEQfz48f3iShRO7bIUSMTcrN2q0nLYQfr0Qezy0mBa3NLi0Nb0RgbAsEr4tfRiTNLysnDszodgneDsofRO8f3iShRO7bIuumRAUeDSQejEQhj0QGBSQPY0FeDeqM2wUoD1WEB49EBOtHY0FpLkWO2KQPY0FeDeqM2wUoD1WEB49EBO8f3iZhRO7bIu9bIu9bIuumRAUeDSQejEQhj0QGBSQPY0FeDeqM2wUoD1WEB49EBOtHY0FpLkWO2KQPY0FeDeqM2wUoD1WEB49EBO8oDI+hB90mb4tHY0FeDeqM2wUoD1WEB49EBO8oDI+hB90mb4tHY0FeDeqM2wUoD1WEB49EBO8f3iZhRO7bIu9bIuZmlc1NlesEBQtoDkwODyqoDKxO3szl2iqoDcpOTk2mle0fTq0nJOuHY0F
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+CheckPurview('sys_Data');
+$bkdir = LULINDATA ."/backdata";
+$filelists = Array();
+$dh = dir($bkdir);
+$structfile = "æ²¡æ‰¾åˆ°æ•°æ®ç»“æž„æ–‡ä»¶";
+while (($filename = $dh->read()) !== false) {
+if (!preg_match("#txt$#",$filename)) {
+continue;
+}
+if (preg_match("#tables_struct#",$filename)) {
+$structfile = $filename;
+}else if (filesize("$bkdir/$filename") >0) {
+$filelists[] = $filename;
+}
+}
+$dh->close();
+$backhtml = '';
+for ($i = 0;$i <count($filelists);$i++) {
+if ($i %2 == 0) {
+$backhtml .= '<tr class="tr_white" align="center" height="24">';
+}else {
+$backhtml .= '';
+}
+$backhtml .= '<td width="10%"><input type="checkbox" name="bakfile" id="bakfile" value="'.$filelists[$i].'" /></td>';
+$backhtml .= '<td width="40%">'.$filelists[$i].'</td>';
+if ($i %2 == 0) {
+$backhtml .= '';
+}else {
+$backhtml .= '</tr>';
+}
+}
+if ($i %2 == 0) {
+$backhtml .= '';
+}else {
+$backhtml .= '<td></td>';
+$backhtml .= '<td></td>';
+$backhtml .= '</tr>';
+}
+require ('template/sys_data_revert.htm');
+?>

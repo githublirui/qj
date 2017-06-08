@@ -1,3 +1,45 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlsSUlJMT0ncmVuYW1lJzskSUlJSUlJSWxJSUlsPSdiYXNlbmFtZSc7JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=2836;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMzA5KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuumRAUnLI1FBipK0kJkSkJLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK0mJkkkDHKsKGK5keZsoFJC9eCoGj0eajcgne09hjzAYGbahGBooFBogk1uWjkikPS1ljjaNiCKzLkiggkulKjghi0SYjTurGS1VMzahiDOYjlumhJOuEBaxORAQnLI1FDosoDqxO3iRPL5qnLKUec9jikeLikeneCoGj0eajcgne09hjzAYGbahGBooFBokGcmjkTwLK1QYgKeKkkK9eZsoFJSqhJidjC9BIKyjLZohj08YGbAYjzAtlJQtjLukPsulKTwmNTW1jkieGkuCjlqgNTqvjsoHNcuKjjigkCKZjKivo01dJj0tFJSgBtWgBTkrND8QFBE8O2gZNla0Edi5ODK9e3isPdIxNTc2MlgrOTsYoBO+EDcWmle0FBoIMlgzOD9ZoBacOtexORCtFjwUNlg0n3e5fToxFB0yFjW8f3grOTsYob4RFjWgBt0gBtesOlkuOTkpn25rmJQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsgknCUtFk0Ul19DJKycl18uEB4Rf2gxnTmumZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeCoGj0eajcgne09hjzAYGbahGBooFBoGG1e2Mre3osuwndgNKzKYMrE5O0yXIT9rIj09eZSuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19zOD90O3i5nDkpoleWERS7bIUSnlsSMRA9ED5soZASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWO2edPdGtFk0UFjWgBRizOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pO3axodg0PLysMBalJCkJiJaumb0SNLIRHY0FedexoZA9EBiwPLiRfj5tmlihnTKUedgynBS7bIuumRAUeDixOD9zoBA9hJARO2c2mJEuEdWgBTsTEBQSoleWEBC9EBiZn3oneCoGj0eajcgne09hjzAYGbahGBooFBoSLCuzeZsoFJa7bIUSmTsWmJA9ECykjCsHKS9hkBAXedkZnbWgBRixnDiTNLysnTcwmJA9EBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujk3qFK1kWOZOulJQSmTsWmJS7bIUSnTk3mTsWmL5qnLKQhJaZmK5qnLkgmJQSn2ySmTsWmL5qnLKWEtgYn3IRfRiumBS7bIurNDkrN2isnDmunDKUjckGJK5Jj09KEB4Rf3esOlkuOTKxoteYML5xf21qNL4xO3axoB8RfRiXmloTNLysnTcwmJS7bIuumRAUeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLw4eZsoFBiTNLysfCykjCsHKS9hkBAXER9Zmlc1Nlesf3mZODcXnZ9wMLsXf3gYn3IxER4SnTk3mTsWmL5qnLKuFJa7bIUSoleWEb0QER9Zmlc1Nlesf3mZODcXnZ9wMLsXf3gYn3IxER4SnTk3mTsWmL5qnLK7bIu9bIu9bIUSmLiuodgynBA9EBekKCiakCKQMBgAl19YML5xl3gYn3izodsWmLAQK0kKEA0FEBAQEBAQEBAQEBAQMdiuoDysMBA9EBOSoDs0nDKtfA0FEBAQEBAQEBAQEBAQMdkZnDAQhJAtedkZnBOWbIUQEBAQEBAQEBAQEBaQmteqnLk3NLi0NDAQhJAteDmZML1so2sSoDQtfA0FEBAQEBAQEBAQEBAQMDmZML1sNDkum2q0MBA9EBOSmteqnLkUmLstNdItfA0FEBAQEBAQEBAQEBAQMDyqO3iTOTcwmLAQhJAteDyqO3iTOTcwmJOWbIUQEBAQEBAQEBAQEBaQO3asmLiQEb0QeZizODksmBOWbIUQEBAQEBAQEBAQEBaQodsYmLsSMBA9EBi0PlasNLIQbIUQEBAQEBAQEBAQEBalJCkJiJaQNLiQEb0QeDsSErWgBRiwPLiRfj5Cn05xoCeqM2WUeDkSNlizOLYuHY0FkdeqM2KUERMrGrMYGzE7eRGZHbSYHjWTEzE4HbK3HZMrGrA0grE7eRGZgjSyGzWTEzEzgbG2HZMrGrKyGbI7eRG2gjE4GjWRfBisnTi1OTYuHY0FmlquoBQuHY0FpI0FeD9YO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl3gYn3i0PlasMBahKSicKRaBLJaQNLiQErWgBRiwPLiRfj5jmliioLkZPJQSn3azOLYuHY0FeD15mDEwhSk4mLg1oDKUET9YERS7bIUSn3aUoD1WEb0QERE7bIUSNz0yHY0Fo2qunDKQFBixOdexoZA9EBiwPLiRfj5dmliaOteqPJQRn3ARFJSQPY0FeD9YNdiwnBAXhJARhDsXOdk0Edi5ODK9lBeZMLiun1YRED5qnLK9lBe0PlasNLiOERaxnTgWNLgvhkYRn3AUeDWuH1YREdmqndkshkYReDwOERARfTgUmLgvnLKUedexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2iEndoNk2yveZsofBivFJAXER8+PZixOdexo1WtodsYmL5qnLKtll1OOsyXErWgBRivFZW7bIu9bIuZmlc1NlesFBidjC9BIKyjLZohj08YGbAYjzAtlJQtmCoLoDgdPDqSi1k2mD5Fo1slglmMG053MrgJmTGzKrkRi1mTLsoJODibgL9SizA9eZSuHY0F
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+$endurl = GetCookie("pano_spotstyle_url");
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$sql = "SELECT * FROM `#@__pano_spotstyle` WHERE id=$id";
+$row = $mydb->getOne($sql);
+if ($dopost == "save") {
+if ($url != $row[$GLOBALS['OOO0000O0']('dXJs')]) {
+$file = LULINROOT .$url;
+$oldfilename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($file);
+$newfilename = reNameMe($oldfilename,"spot".$id);
+checkdelfile(LULINROOT ."/require/vrpano/main/spot/".$newfilename);
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')]($file,LULINROOT ."/require/vrpano/main/spot/".$newfilename)) {
+$url = "/require/vrpano/main/spot/".$newfilename;
+}
+}
+$editsql = "UPDATE `#@__pano_spotstyle` SET 
+            `title` = '$title',
+            `url` = '$url',
+            `framewidth` = '$framewidth',
+            `frameheight` = '$frameheight',
+            `lastframe` = '$lastframe',
+            `speed` = '$speed',
+            `typeid` = $typeid 
+            WHERE `id` = $id";
+$mydb->DoNotBack($editsql);
+Trace("&#26032;&#28909;&#28857;&#20462;&#25913;&#23436;&#25104;&#65281;",$endurl);
+exit();
+}
+$opsql = "SELECT * FROM `#@__pano_spottype` ORDER BY `id`";
+$mydb->SetQuery($opsql);
+$mydb->Execute("op");
+$ophtml = "";
+$k=1;
+while ($oprow = $mydb->GetArray("op")) {
+$ophtml .= "<input type=\"radio\" name=\"typeid\" onclick=\"op($k);\" value=\"$k\" ".checkme($row[$GLOBALS['OOO0000O0']('dHlwZWlk')],$k) ."/>{$oprow['typename']}\r\n";
+$k++;
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3Nwb3Rfc3R5bGVfZWRpdC5odG0='));
+?>

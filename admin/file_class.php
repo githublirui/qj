@@ -1,3 +1,192 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=5272;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php if(!defined('LULINREQ')) exit();
+require_once(LULINREQ."/tools/ftp.tool.php");
+class FileManagement
+{
+var $baseDir="";
+var $activeDir="";
+var $allowDeleteDir=0;
+function Init()
+{
+global $cfg_basedir,$activepath;
+$this->baseDir = $cfg_basedir;
+$this->activeDir = $activepath;
+}
+function RenameFile($oldname,$newname)
+{
+$oldname = $this->baseDir.$this->activeDir."/".$oldname;
+$newname = $this->baseDir.$this->activeDir."/".$newname;
+if(($newname!=$oldname) &&is_writable($oldname))
+{
+rename($oldname,$newname);
+}
+Trace("成功更改一个文件名！","file_manage_main.php?activepath=".$this->activeDir);
+return 0;
+}
+function NewDir($dirname)
+{
+$newdir = $dirname;
+$dirname = $this->baseDir.$this->activeDir."/".$dirname;
+if(is_writable($this->baseDir.$this->activeDir))
+{
+MkdirAll($dirname,$GLOBALS['cfg_dir_purview']);
+CloseFtp();
+Trace("成功创建一个新目录！","file_manage_main.php?activepath=".$this->activeDir."/".$newdir);
+return 1;
+}
+else
+{
+Trace("创建新目录失败，因为这个位置不允许写入！","file_manage_main.php?activepath=".$this->activeDir);
+return 0;
+}
+}
+function MoveFile($mfile,$mpath)
+{
+if($mpath!=""&&!preg_match("#\.\.#",$mpath))
+{
+$oldfile = $this->baseDir.$this->activeDir."/$mfile";
+$mpath = str_replace("\\","/",$mpath);
+$mpath = preg_replace("#\/{1,}#","/",$mpath);
+if(!preg_match("#^/#",$mpath))
+{
+$mpath = $this->activeDir."/".$mpath;
+}
+$truepath = $this->baseDir.$mpath;
+if(is_readable($oldfile) &&is_readable($truepath) &&is_writable($truepath))
+{
+if(is_dir($truepath))
+{
+copy($oldfile,$truepath."/$mfile");
+}
+else
+{
+MkdirAll($truepath,$GLOBALS['cfg_dir_purview']);
+CloseFtp();
+copy($oldfile,$truepath."/$mfile");
+}
+unlink($oldfile);
+Trace("成功移动文件！","file_manage_main.php?activepath=$mpath",0,1000);
+return 1;
+}
+else
+{
+Trace("移动文件 $oldfile -&gt; $truepath/$mfile 失败，可能是某个位置权限不足！","file_manage_main.php?activepath=$mpath",0,1000);
+return 0;
+}
+}
+else
+{
+Trace("对不起，你移动的路径不合法！","-1",0,5000);
+return 0;
+}
+}
+function RmDirFiles($indir)
+{
+if(!is_dir($indir))
+{
+return ;
+}
+$dh = dir($indir);
+while($filename = $dh->read())
+{
+if($filename == "."||$filename == "..")
+{
+continue;
+}
+else if(is_file("$indir/$filename"))
+{
+@unlink("$indir/$filename");
+}
+else
+{
+$this->RmDirFiles("$indir/$filename");
+}
+}
+$dh->close();
+@rmdir($indir);
+}
+function GetMatchFiles($indir,$fileexp,&$filearr)
+{
+$dh = dir($indir);
+while($filename = $dh->read())
+{
+$truefile = $indir.'/'.$filename;
+if($filename == "."||$filename == "..")
+{
+continue;
+}
+else if(is_dir($truefile))
+{
+$this->GetMatchFiles($truefile,$fileexp,$filearr);
+}
+else if(preg_match("/\.(".$fileexp.")/i",$filename))
+{
+$filearr[] = $truefile;
+}
+}
+$dh->close();
+}
+function DeleteFile($filename)
+{
+$filename = $this->baseDir.$this->activeDir."/$filename";
+if(is_file($filename))
+{
+@unlink($filename);$t="文件";
+}
+else
+{
+$t = "目录";
+if($this->allowDeleteDir==1)
+{
+$this->RmDirFiles($filename);
+}else
+{
+Trace("系统禁止删除".$t."！","file_manage_main.php?activepath=".$this->activeDir);
+exit;
+}
+}
+Trace("成功删除一个".$t."！","file_manage_main.php?activepath=".$this->activeDir);
+return 0;
+}
+}
+class SpaceUse
+{
+var $totalsize=0;
+function checksize($indir)
+{
+$dh=dir($indir);
+while($filename=$dh->read())
+{
+if(!preg_match("#^\.#",$filename))
+{
+if(is_dir("$indir/$filename"))
+{
+$this->checksize("$indir/$filename");
+}
+else
+{
+$this->totalsize=$this->totalsize +filesize("$indir/$filename");
+}
+}
+}
+}
+function setkb($size)
+{
+$size=$size/1024;
+if($size>0)
+{
+list($t1,$t2)=explode(".",$size);
+$size=$t1.".".substr($t2,0,1);
+}
+return $size;
+}
+function setmb($size)
+{
+$size=$size/1024/1024;
+if($size>0)
+{
+list($t1,$t2)=explode(".",$size);
+$size=$t1.".".substr($t2,0,2);
+}
+return $size;
+}
+}?>

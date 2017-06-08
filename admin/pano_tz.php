@@ -1,3 +1,560 @@
-<?php // ȫ���� 0793go.com ת�۱ؾ�
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=27812;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTY0KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0VudGVyeW91d2toUkhZS05XT1VUQWFCYkNjRGRGZkdnSWlKakxsTW1QcFFxU3NWdlh4WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+error_reporting(0);
+@header("content-Type: text/html; charset=utf-8");
+ob_start();
+function valid_email($str) 
+{
+return ( !preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix",$str)) ?FALSE : TRUE;
+}
+function show($varName)
+{
+switch($result = get_cfg_var($varName))
+{
+case 0:
+return '<font color="red">×</font>';
+break;
+case 1:
+return '<font color="green">√</font>';
+break;
+default:
+return $result;
+break;
+}
+}
+if ($_GET['act'] == "phpinfo") 
+{
+phpinfo();
+exit();
+}
+elseif($_GET['act'] == "Function")
+{
+$arr = get_defined_functions();
+Function php()
+{
+}
+echo "<pre>";
+Echo "这里显示系统所支持的所有函数,和自定义函数\n";
+print_r($arr);
+echo "</pre>";
+exit();
+}elseif($_GET['act'] == "disable_functions")
+{
+$disFuns=get_cfg_var("disable_functions");
+if(empty($disFuns))
+{
+$arr = '<font color=red>×</font>';
+}
+else
+{
+$arr = $disFuns;
+}
+Function php()
+{
+}
+echo "<pre>";
+Echo "这里显示系统被禁用的函数\n";
+print_r($arr);
+echo "</pre>";
+exit();
+}
+if ($_POST['act'] == 'MySQL检测')
+{
+$host = isset($_POST['host']) ?trim($_POST['host']) : '';
+$port = isset($_POST['port']) ?(int) $_POST['port'] : '';
+$login = isset($_POST['login']) ?trim($_POST['login']) : '';
+$password = isset($_POST['password']) ?trim($_POST['password']) : '';
+$host = preg_match('~[^a-z0-9\-\.]+~i',$host) ?'': $host;
+$port = intval($port) ?intval($port) : '';
+$login = preg_match('~[^a-z0-9\_\-]+~i',$login) ?'': htmlspecialchars($login);
+$password = is_string($password) ?htmlspecialchars($password) : '';
+}
+elseif ($_POST['act'] == '函数检测')
+{
+$funRe = "函数".$_POST['funName']."支持状况检测结果：".isfun1($_POST['funName']);
+}
+elseif ($_POST['act'] == '邮件检测')
+{
+$mailRe = "邮件发送检测结果：发送";
+if($_SERVER['SERVER_PORT']==80){$mailContent = "http://".$_SERVER['SERVER_NAME'].($_SERVER['PHP_SELF'] ?$_SERVER['PHP_SELF'] : $_SERVER['SCRIPT_NAME']);}
+else{$mailContent = "http://".$_SERVER['SERVER_NAME'].":".$_SERVER['SERVER_PORT'].($_SERVER['PHP_SELF'] ?$_SERVER['PHP_SELF'] : $_SERVER['SCRIPT_NAME']);}
+$mailRe .= (false !== @mail($_POST["mailAdd"],$mailContent,"This is a test mail!\n\nhttp://lnmp.org")) ?"完成":"失败";
+}
+function isfun($funName = '')
+{
+if (!$funName ||trim($funName) == ''||preg_match('~[^a-z0-9\_]+~i',$funName,$tmp)) return '错误';
+return (false !== function_exists($funName)) ?'<font color="green">√</font>': '<font color="red">×</font>';
+}
+function isfun1($funName = '')
+{
+if (!$funName ||trim($funName) == ''||preg_match('~[^a-z0-9\_]+~i',$funName,$tmp)) return '错误';
+return (false !== function_exists($funName)) ?'√': '×';
+}
+;echo '
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>phpStudy 探针 2014 </title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+<!--
+* {font-family: Tahoma, "Microsoft Yahei", Arial; }
+body{text-align: center; margin: 0 auto; padding: 0; background-color:#FFFFFF;font-size:12px;font-family:Tahoma, Arial}
+h1 {font-size: 26px; font-weight: normal; padding: 0; margin: 0; color: #444444;}
+h1 small {font-size: 11px; font-family: Tahoma; font-weight: bold; }
+a{color: #000000; text-decoration:none;}
+a.black{color: #000000; text-decoration:none;}
+b{color: #999999;}
+table{clear:both;padding: 0; margin: 0 0 10px;border-collapse:collapse; border-spacing: 0;}
+th{padding: 3px 6px; font-weight:bold;background:#3066a6;color:#FFFFFF;border:1px solid #3066a6; text-align:left;}
+.th_1{padding: 3px 6px; font-weight:bold;background:#666699;color:#FFFFFF;border:1px solid #3066a6; text-align:left;}
+
+tr{padding: 0; background:#F7F7F7;}
+td{padding: 3px 6px; border:1px solid #CCCCCC;}
+input{padding: 2px; background: #FFFFFF; border-top:1px solid #666666; border-left:1px solid #666666; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC; font-size:12px}
+input.btn{font-weight: bold; height: 20px; line-height: 20px; padding: 0 6px; color:#666666; background: #f2f2f2; border:1px solid #999;font-size:12px}
+.bar {border:1px solid #999999; background:#FFFFFF; height:5px; font-size:2px; width:89%; margin:2px 0 5px 0;padding:1px;overflow: hidden;}
+.bar_1 {border:1px dotted #999999; background:#FFFFFF; height:5px; font-size:2px; width:89%; margin:2px 0 5px 0;padding:1px;overflow: hidden;}
+.barli_red{background:#ff6600; height:5px; margin:0px; padding:0;}
+.barli_blue{background:#0099FF; height:5px; margin:0px; padding:0;}
+.barli_green{background:#36b52a; height:5px; margin:0px; padding:0;}
+.barli_1{background:#999999; height:5px; margin:0px; padding:0;}
+.barli{background:#36b52a; height:5px; margin:0px; padding:0;}
+#page {width: 920px; padding: 0 20px; margin: 0 auto; text-align: left;}
+#header{position: relative; padding: 10px;}
+#footer {padding: 15px 15px; text-align: left; font-size: 12px; font-family: Tahoma, Verdana;line-height:16px}
+#lnmplink {position: absolute; top: 20px; left: 200px; text-align: right; font-weight: bold; color: #06C;}
+#lnmplink a {color: #0000FF; text-decoration: underline;}
+#lnmplink2 {position: absolute; top: 20px; right: 80px; text-align: right; font-weight: bold; color: #06C;}
+#lnmplink2 a {color: #0000FF; text-decoration: underline;}
+.w_small{font-family: Courier New;}
+.w_number{color: #f800fe;}
+.sudu {padding: 0; background:#5dafd1; }
+.suduk { margin:0px; padding:0;}
+.resNo{color: #FF0000;}
+.word{word-break:break-all;}
+-->
+</style>
+
+</head>
+<body>
+
+<div id="page">
+    <div id="header">
+        <h1>phpStudy 探针</h1>
+         <div id="lnmplink">for <a href="http://www.phpstudy.net/" target="_blank">phpStudy 2014</a></div>
+         <div id="lnmplink2">not <a href="http://www.phpstudy.net/a.php/192.html" target="_blank">不想显示 phpStudy 探针</a></div>
+    </div>
+
+<!--服务器相关参数-->
+<table width="100%" cellpadding="3" cellspacing="0">
+  <tr><th colspan="4">服务器参数</th></tr>
+  <tr>
+    <td>服务器域名/IP地址</td>
+    <td colspan="3">';echo $_SERVER['SERVER_NAME'];;echo '(';if('/'==DIRECTORY_SEPARATOR){echo $_SERVER['SERVER_ADDR'];}else{echo @gethostbyname($_SERVER['SERVER_NAME']);};echo ')</td>
+  </tr>
+  <tr>
+    <td>服务器标识</td>
+    <td colspan="3">';if($sysInfo['win_n'] != ''){echo $sysInfo['win_n'];}else{echo @php_uname();};;echo '</td>
+  </tr>
+  <tr>
+    <td width="13%">服务器操作系统</td>
+    <td width="37%">';$os = explode(" ",php_uname());echo $os[0];;echo ' &nbsp;内核版本：';if('/'==DIRECTORY_SEPARATOR){echo $os[2];}else{echo $os[1];};echo '</td>
+    <td width="13%">服务器解译引擎</td>
+    <td width="37%">';echo $_SERVER['SERVER_SOFTWARE'];;echo '</td>
+  </tr>
+  <tr>
+    <td>服务器语言</td>
+    <td>';echo getenv("HTTP_ACCEPT_LANGUAGE");;echo '</td>
+    <td>服务器端口</td>
+    <td>';echo $_SERVER['SERVER_PORT'];;echo '</td>
+  </tr>
+  <tr>
+	  <td>服务器主机名</td>
+	  <td>';if('/'==DIRECTORY_SEPARATOR ){echo $os[1];}else{echo $os[2];};echo '</td>
+	  <td>绝对路径</td>
+	  <td>';echo $_SERVER['DOCUMENT_ROOT']?str_replace('\\','/',$_SERVER['DOCUMENT_ROOT']):str_replace('\\','/',dirname(__FILE__));;echo '</td>
+	</tr>
+  <tr>
+	  <td>管理员邮箱</td>
+	  <td>';echo $_SERVER['SERVER_ADMIN'];;echo '</td>
+		<td>探针路径</td>
+		<td>';echo str_replace('\\','/',__FILE__)?str_replace('\\','/',__FILE__):$_SERVER['SCRIPT_FILENAME'];;echo '</td>
+	</tr>
+</table>
+
+
+
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+  <tr>
+    <th colspan="4">PHP已编译模块检测</th>
+  </tr>
+  <tr>
+    <td colspan="4"><span class="w_small">
+';
+$able=get_loaded_extensions();
+foreach ($able as $key=>$value) {
+if ($key!=0 &&$key%13==0) {
+echo '<br />';
+}
+echo "$value&nbsp;&nbsp;";
+}
+;echo '</span>
+    </td>
+  </tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+  <tr><th colspan="4">PHP相关参数</th></tr>
+  <tr>
+    <td width="32%">PHP信息（phpinfo）：</td>
+    <td width="18%">
+		';
+$phpSelf = $_SERVER[PHP_SELF] ?$_SERVER[PHP_SELF] : $_SERVER[SCRIPT_NAME];
+$disFuns=get_cfg_var("disable_functions");
+;echo '    ';echo (false!==eregi("phpinfo",$disFuns))?'<font color="red">×</font>':"<a href='$phpSelf?act=phpinfo' target='_blank'>PHPINFO</a>";;echo '    </td>
+    <td width="32%">PHP版本（php_version）：</td>
+    <td width="18%">';echo PHP_VERSION;;echo '</td>
+  </tr>
+  <tr>
+    <td>PHP运行方式：</td>
+    <td>';echo strtoupper(php_sapi_name());;echo '</td>
+    <td>脚本占用最大内存（memory_limit）：</td>
+    <td>';echo show("memory_limit");;echo '</td>
+  </tr>
+  <tr>
+    <td>PHP安全模式（safe_mode）：</td>
+    <td>';echo show("safe_mode");;echo '</td>
+    <td>POST方法提交最大限制（post_max_size）：</td>
+    <td>';echo show("post_max_size");;echo '</td>
+  </tr>
+  <tr>
+    <td>上传文件最大限制（upload_max_filesize）：</td>
+    <td>';echo show("upload_max_filesize");;echo '</td>
+    <td>浮点型数据显示的有效位数（precision）：</td>
+    <td>';echo show("precision");;echo '</td>
+  </tr>
+  <tr>
+    <td>脚本超时时间（max_execution_time）：</td>
+    <td>';echo show("max_execution_time");;echo '秒</td>
+    <td>socket超时时间（default_socket_timeout）：</td>
+    <td>';echo show("default_socket_timeout");;echo '秒</td>
+  </tr>
+  <tr>
+    <td>PHP页面根目录（doc_root）：</td>
+    <td>';echo show("doc_root");;echo '</td>
+    <td>用户根目录（user_dir）：</td>
+    <td>';echo show("user_dir");;echo '</td>
+  </tr>
+  <tr>
+    <td>dl()函数（enable_dl）：</td>
+    <td>';echo show("enable_dl");;echo '</td>
+    <td>指定包含文件目录（include_path）：</td>
+    <td>';echo show("include_path");;echo '</td>
+  </tr>
+  <tr>
+    <td>显示错误信息（display_errors）：</td>
+    <td>';echo show("display_errors");;echo '</td>
+    <td>自定义全局变量（register_globals）：</td>
+    <td>';echo show("register_globals");;echo '</td>
+  </tr>
+  <tr>
+    <td>数据反斜杠转义（magic_quotes_gpc）：</td>
+    <td>';echo show("magic_quotes_gpc");;echo '</td>
+    <td>"&lt;?...?&gt;"短标签（short_open_tag）：</td>
+    <td>';echo show("short_open_tag");;echo '</td>
+  </tr>
+  <tr>
+    <td>"&lt;% %&gt;"ASP风格标记（asp_tags）：</td>
+    <td>';echo show("asp_tags");;echo '</td>
+    <td>忽略重复错误信息（ignore_repeated_errors）：</td>
+    <td>';echo show("ignore_repeated_errors");;echo '</td>
+  </tr>
+  <tr>
+    <td>忽略重复的错误源（ignore_repeated_source）：</td>
+    <td>';echo show("ignore_repeated_source");;echo '</td>
+    <td>报告内存泄漏（report_memleaks）：</td>
+    <td>';echo show("report_memleaks");;echo '</td>
+  </tr>
+  <tr>
+    <td>自动字符串转义（magic_quotes_gpc）：</td>
+    <td>';echo show("magic_quotes_gpc");;echo '</td>
+    <td>外部字符串自动转义（magic_quotes_runtime）：</td>
+    <td>';echo show("magic_quotes_runtime");;echo '</td>
+  </tr>
+  <tr>
+    <td>打开远程文件（allow_url_fopen）：</td>
+    <td>';echo show("allow_url_fopen");;echo '</td>
+    <td>声明argv和argc变量（register_argc_argv）：</td>
+    <td>';echo show("register_argc_argv");;echo '</td>
+  </tr>
+  <tr>
+    <td>Cookie 支持：</td>
+    <td>';echo isset($_COOKIE)?'<font color="green">√</font>': '<font color="red">×</font>';;echo '</td>
+    <td>拼写检查（ASpell Library）：</td>
+    <td>';echo isfun("aspell_check_raw");;echo '</td>
+  </tr>
+   <tr>
+    <td>高精度数学运算（BCMath）：</td>
+    <td>';echo isfun("bcadd");;echo '</td>
+    <td>PREL相容语法（PCRE）：</td>
+    <td>';echo isfun("preg_match");;echo '</td>
+   <tr>
+    <td>PDF文档支持：</td>
+    <td>';echo isfun("pdf_close");;echo '</td>
+    <td>SNMP网络管理协议：</td>
+    <td>';echo isfun("snmpget");;echo '</td>
+  </tr> 
+   <tr>
+    <td>VMailMgr邮件处理：</td>
+    <td>';echo isfun("vm_adduser");;echo '</td>
+    <td>Curl支持：</td>
+    <td>';echo isfun("curl_init");;echo '</td>
+  </tr> 
+   <tr>
+    <td>SMTP支持：</td>
+    <td>';echo get_cfg_var("SMTP")?'<font color="green">√</font>': '<font color="red">×</font>';;echo '</td>
+    <td>SMTP地址：</td>
+    <td>';echo get_cfg_var("SMTP")?get_cfg_var("SMTP"):'<font color="red">×</font>';;echo '</td>
+  </tr> 
+	<tr>
+		<td>默认支持函数（enable_functions）：</td>
+		<td colspan="3"><a href=\'';echo $phpSelf;;echo '?act=Function\' target=\'_blank\' class=\'static\'>请点这里查看详细！</a></td>		
+	</tr>
+	<tr>
+		<td>被禁用的函数（disable_functions）：</td>
+		<td colspan="3" class="word">
+';
+$disFuns=get_cfg_var("disable_functions");
+if(empty($disFuns))
+{
+echo '<font color=red>×</font>';
+}
+else
+{
+$disFuns_array =  explode(',',$disFuns);
+foreach ($disFuns_array as $key=>$value) 
+{
+if ($key!=0 &&$key%5==0) {
+echo '<br />';
+}
+echo "$value&nbsp;&nbsp;";
+}
+}
+;echo '		</td>
+	</tr>
+</table>
+<!--组件信息-->
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+  <tr><th colspan="4" >组件支持</th></tr>
+  <tr>
+    <td width="32%">FTP支持：</td>
+    <td width="18%">';echo isfun("ftp_login");;echo '</td>
+    <td width="32%">XML解析支持：</td>
+    <td width="18%">';echo isfun("xml_set_object");;echo '</td>
+  </tr>
+  <tr>
+    <td>Session支持：</td>
+    <td>';echo isfun("session_start");;echo '</td>
+    <td>Socket支持：</td>
+    <td>';echo isfun("socket_accept");;echo '</td>
+  </tr>
+  <tr>
+    <td>Calendar支持</td>
+    <td>';echo isfun('cal_days_in_month');;echo '	</td>
+    <td>允许URL打开文件：</td>
+    <td>';echo show("allow_url_fopen");;echo '</td>
+  </tr>
+  <tr>
+    <td>GD库支持：</td>
+    <td>
+    ';
+if(function_exists(gd_info)) {
+$gd_info = @gd_info();
+echo $gd_info["GD Version"];
+}else{echo '<font color="red">×</font>';}
+;echo '</td>
+    <td>压缩文件支持(Zlib)：</td>
+    <td>';echo isfun("gzclose");;echo '</td>
+  </tr>
+  <tr>
+    <td>IMAP电子邮件系统函数库：</td>
+    <td>';echo isfun("imap_close");;echo '</td>
+    <td>历法运算函数库：</td>
+    <td>';echo isfun("JDToGregorian");;echo '</td>
+  </tr>
+  <tr>
+    <td>正则表达式函数库：</td>
+    <td>';echo isfun("preg_match");;echo '</td>
+    <td>WDDX支持：</td>
+    <td>';echo isfun("wddx_add_vars");;echo '</td>
+  </tr>
+  <tr>
+    <td>Iconv编码转换：</td>
+    <td>';echo isfun("iconv");;echo '</td>
+    <td>mbstring：</td>
+    <td>';echo isfun("mb_eregi");;echo '</td>
+  </tr>
+  <tr>
+    <td>高精度数学运算：</td>
+    <td>';echo isfun("bcadd");;echo '</td>
+    <td>LDAP目录协议：</td>
+    <td>';echo isfun("ldap_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>MCrypt加密处理：</td>
+    <td>';echo isfun("mcrypt_cbc");;echo '</td>
+    <td>哈稀计算：</td>
+    <td>';echo isfun("mhash_count");;echo '</td>
+  </tr>
+</table>
+
+<!--第三方组件信息-->
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+  <tr><th colspan="4" >第三方组件</th></tr>
+  <tr>
+    <td width="32%">Zend版本</td>
+    <td width="18%">';$zend_version = zend_version();if(empty($zend_version)){echo '<font color=red>×</font>';}else{echo $zend_version;};echo '</td>
+    <td width="32%">
+';
+$PHP_VERSION = PHP_VERSION;
+$PHP_VERSION = substr($PHP_VERSION,2,1);
+if($PHP_VERSION >2)
+{
+echo "ZendGuardLoader[启用]";
+}
+else
+{
+echo "Zend Optimizer";
+}
+;echo '	</td>
+    <td width="18%">';if($PHP_VERSION >2){echo (get_cfg_var("zend_loader.enable"))?'<font color=green>√</font>':'<font color=red>×</font>';}else{if(function_exists('zend_optimizer_version')){echo zend_optimizer_version();}else{echo (get_cfg_var("zend_optimizer.optimization_level")||get_cfg_var("zend_extension_manager.optimizer_ts")||get_cfg_var("zend.ze1_compatibility_mode")||get_cfg_var("zend_extension_ts"))?'<font color=green>√</font>':'<font color=red>×</font>';}};echo '</td>
+  </tr>
+  <tr>
+    <td>eAccelerator</td>
+    <td>';if((phpversion('eAccelerator'))!=''){echo phpversion('eAccelerator');}else{echo "<font color=red>×</font>";};echo '</td>
+    <td>ioncube</td>
+    <td>';if(extension_loaded('ionCube Loader')){$ys = ioncube_loader_iversion();$gm = ".".(int)substr($ys,3,2);echo ionCube_Loader_version().$gm;}else{echo "<font color=red>×</font>";};echo '</td>
+  </tr>
+  <tr>
+    <td>XCache</td>
+    <td>';if((phpversion('XCache'))!=''){echo phpversion('XCache');}else{echo "<font color=red>×</font>";};echo '</td>
+    <td>APC</td>
+    <td>';if((phpversion('APC'))!=''){echo phpversion('APC');}else{echo "<font color=red>×</font>";};echo '</td>
+  </tr>
+</table>
+
+<!--数据库支持-->
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+  <tr><th colspan="4">数据库支持</th></tr>
+  <tr>
+    <td width="32%">MySQL 数据库：</td>
+    <td width="18%">';echo isfun("mysql_close");;echo '    ';
+if(function_exists("mysql_get_server_info")) {
+$s = @mysql_get_server_info();
+$s = $s ?'&nbsp; mysql_server 版本：'.$s : '';
+$c = '&nbsp; mysql_client 版本：'.@mysql_get_client_info();
+echo $s;
+}
+;echo '	</td>
+    <td width="32%">ODBC 数据库：</td>
+    <td width="18%">';echo isfun("odbc_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>Oracle 数据库：</td>
+    <td>';echo isfun("ora_close");;echo '</td>
+    <td>SQL Server 数据库：</td>
+    <td>';echo isfun("mssql_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>dBASE 数据库：</td>
+    <td>';echo isfun("dbase_close");;echo '</td>
+    <td>mSQL 数据库：</td>
+    <td>';echo isfun("msql_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>SQLite 数据库：</td>
+    <td>';if(extension_loaded('sqlite3')) {$sqliteVer = SQLite3::version();echo '<font color=green>√</font>　';echo "SQLite3　Ver ";echo $sqliteVer[versionString];}else {echo isfun("sqlite_close");if(isfun("sqlite_close") == '<font color="green">√</font>') {echo "&nbsp; 版本： ".@sqlite_libversion();}};echo '</td>
+    <td>Hyperwave 数据库：</td>
+    <td>';echo isfun("hw_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>Postgre SQL 数据库：</td>
+    <td>';echo isfun("pg_close");;echo '</td>
+    <td>Informix 数据库：</td>
+    <td>';echo isfun("ifx_close");;echo '</td>
+  </tr>
+  <tr>
+    <td>DBA 数据库：</td>
+    <td>';echo isfun("dba_close");;echo '</td>
+    <td>DBM 数据库：</td>
+    <td>';echo isfun("dbmclose");;echo '</td>
+  </tr>
+  <tr>
+    <td>FilePro 数据库：</td>
+    <td>';echo isfun("filepro_fieldcount");;echo '</td>
+    <td>SyBase 数据库：</td>
+    <td>';echo isfun("sybase_close");;echo '</td>
+  </tr> 
+</table>
+
+<form action="';echo $_SERVER[PHP_SELF]."#bottom";;echo '" method="post">
+<!--MySQL数据库连接检测-->
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+	<tr><th colspan="3">MySQL数据库连接检测</th></tr>
+  <tr>
+    <td width="15%"></td>
+    <td width="60%">
+      地址：<input type="text" name="host" value="localhost" size="10" />
+      端口：<input type="text" name="port" value="3306" size="10" />
+      用户名：<input type="text" name="login" size="10" />
+      密码：<input type="password" name="password" size="10" />
+    </td>
+    <td width="25%">
+      <input class="btn" type="submit" name="act" value="MySQL检测" />
+    </td>
+  </tr>
+</table>
+  ';
+if ($_POST['act'] == 'MySQL检测') {
+if(function_exists("mysql_close")==1) {
+$link = @mysql_connect($host.":".$port,$login,$password);
+if ($link){
+echo "<script>alert('连接到MySql数据库正常')</script>";
+}else {
+echo "<script>alert('无法连接到MySql数据库！')</script>";
+}
+}else {
+echo "<script>alert('服务器不支持MySQL数据库！')</script>";
+}
+}
+;echo '<!--函数检测-->
+<table width="100%" cellpadding="3" cellspacing="0" align="center">
+	<tr><th colspan="3">函数检测</th></tr>
+  <tr>
+    <td width="15%"></td>
+    <td width="60%">
+      请输入您要检测的函数：
+      <input type="text" name="funName" size="50" />
+    </td>
+    <td width="25%">
+      <input class="btn" type="submit" name="act" align="right" value="函数检测" />
+    </td>
+  </tr>
+  ';
+if ($_POST['act'] == '函数检测') {
+echo "<script>alert('$funRe')</script>";
+}
+;echo '</table>
+
+</form>
+
+
+<div id="footer">
+<p>　　phpStudy集成最新的Apache+Nginx+IIS+Lighttpd+PHP+MySQL+phpMyAdmin+SQL-Front+Zend Loader，一次性安装，无须配置即可使用，是非常方便、好用的PHP调试环境。该程序绿色小巧简易迷你，有专门的控制面板。总之学习PHP只需一个包。对学习PHP的新手来说，WINDOWS下环境配置是一件很困难的事；对老手来说也是一件烦琐的事。因此无论你是新手还是老手，该程序包都是一个不错的选择。
+本程序纯绿色使用完全免费，自由复制传播。版权所有 <a href="http://www.phpstudy.net/" target="_blank">www.phpstudy.net</a></p>
+</div>
+
+</div>
+</body>
+</html>';?>

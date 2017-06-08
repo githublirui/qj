@@ -1,3 +1,43 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1928;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+require_once(dirname('vrpano_fuzhu.php') ."/inc/panomenu.php");
+$endurl = GetCookie("pano_url");
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_main` WHERE `id`=$id";
+$row = $mydb->GetOne($sql);
+if ($dopost == "save") {
+$thefile = "vrpano".$id;
+if ($openluopan == 1) {
+$checksql = "SELECT * FROM `#@__pano_scene` WHERE pid=$id and luopan=0";
+$mydb->SetQuery($checksql);
+$mydb->Execute("luopan");
+$lens = $mydb->GetTotalRow("luopan");
+if($lens>0){
+$openluopan = 0;
+}
+}
+if ($openluopan == 1) {
+if(!is_dir(LULINROOT ."/vrpano/$thefile"."/luopan")){
+checkmakedir(LULINROOT ."/vrpano/$thefile"."/luopan");
+copydir(LULINREQ ."/vrpano/main/luopan/",LULINROOT ."/vrpano/$thefile"."/luopan");
+}
+}else {
+checkdeldir(LULINROOT ."/vrpano/$thefile"."/luopan");
+}
+$editsql = "UPDATE `#@__pano_main` SET 
+            `openluopan` = '$openluopan',
+            `luopanalign` = '$luopanalign',
+            `luopanx` = '$luopanx',
+            `luopany` = '$luopany'
+            WHERE `id`=$id";
+$mydb->DoNotBack($editsql);
+Trace("&#20462;&#25913;&#23436;&#25104;&#65281;","vrpano_fuzhu.php?id=$id");
+exit();
+}
+$mapbassposscript = "";
+$mapbassposscript .= "<script type=\"text/javascript\">";
+$mapbassposscript .= "onetian({$row['luopanalign']});";
+$mapbassposscript .= "</script>";
+require('template/vrpano_fuzhu.htm');
+?>

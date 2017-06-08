@@ -1,3 +1,94 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=3728;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4tf3ixn2YxmTsWmJ50n29WftaUOBOuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19zM2kXmk91OTYRFjWgBRiwPLiREb0QnTk3EC15K3cWFBS7bIUSO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl3grmL5sMBalJCkJiJaQNLiQhJiumBE7bIUSOT93Eb0QeD15mDEwhTosoC9XmJQSO3cWFjWgBRiYNLIQhJASOT93LZoYNLItljWgBRiRMlgsmDsZEb0QjckGJK5Jj09KEB4Rf3mZODcXnZ92OtaqnT8RfRiZn3one3aumBooHY0FeDeqO2kunLoSNlEQhJASM2mtl2gwO3aqoDQQfRExoteYML5xf3mZODcXnZEXedexo1WtODsSe10QfRExNL1qm2kzf3grmL5sPZiZn3one3eqnTWtll0RHY0FeDswm2iuORA9ECykjCsHKS9hkBAXER92OtaqnT8xoteYML5xER4SOT93LZoYNLItlJAXER9unLctmlGxO2gsnTk7edexo1WtOTcXNZoopJE7bIUSmTsWmJA9EBiunLoSNlEQfRExODcXn191OB5VODORHY0FeDswm2iqoDCQhJatmliunLctmlguPTKUeDmunDKuHY0FeDswm3i5ODKQhJASNL1tmDc0MkWZljWgBRiunLo3NLi0NBA9EBiunLoSMliqLzaoHY0FeDsw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
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+$endurl = GetCookie("pano_scene_url");
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_scene` WHERE `id`=$id";
+$row = $mydb->getOne($sql);
+$pid = $row['pid'];
+$basedir = LULINROOT ."/vrpano/vrpano".$row['pid'];
+$baseimgdir = $cfg_cmspath ."/vrpano/vrpano".$row['pid'] ."/images/scene{$row['rank']}";
+$imgdir = LULINROOT ."/vrpano/vrpano".$row['pid'] ."/images/scene{$row['rank']}";
+$file = $imgdir ."/pano_up.jpg";
+$imgdata = getimagesize($file);
+$imgtype = $imgdata[2];
+$imgwidth = $imgdata[0];
+$imgheight = $imgdata[1];
+$cutdex = 250;
+if ($imgwidth == $imgheight &&$imgwidth >$cutdex) {
+$cutnum = getCutNum($imgwidth,$cutdex);
+$cutlistdex = getCutLast($imgwidth,$cutdex);
+$boxdex = floor(400 / $cutnum) -4;
+$boxlistdex = $boxdex * $cutlistdex / $cutdex;
+$boxmainwidth = ($boxdex +4) * ($cutnum -1) +($boxlistdex +4);
+$cuthtml = "";
+for ($y = 0;$y <$cutnum;$y++) {
+for ($x = 0;$x <$cutnum;$x++) {
+if ($y == $cutnum -1) {
+$cuthdex = $cutlistdex;
+$boxhdwx = $boxlistdex;
+}else {
+$cuthdex = $cutdex;
+$boxhdwx = $boxdex;
+}
+if ($x == $cutnum -1) {
+$cutwdex = $cutlistdex;
+$boxwdwx = $boxlistdex;
+}else {
+$cutwdex = $cutdex;
+$boxwdwx = $boxdex;
+}
+$cuthtml .= "<div class=\"box\" style=\"width: {$boxwdwx}px; height:{$boxhdwx}px; line-height: {$boxhdwx}px;\"></div>";
+}
+}
+}else {
+$cutnum = 1;
+$cutlistdex = $imgheight;
+$boxmainwidth = 400;
+for ($y = 0;$y <1;$y++) {
+for ($x = 0;$x <1;$x++) {
+$boxhdwx = 400;
+$boxwdwx = 400;
+$cuthtml .= "<div class=\"box\" style=\"width: {$boxwdwx}px; height:{$boxhdwx}px; line-height: {$boxhdwx}px;\"></div>";
+}
+}
+}
+function getCutNum($img,$cut) {
+$num = $img / $cut;
+if ($img %$cut != 0) {
+return ceil($num);
+}else {
+return $num;
+}
+}
+function getCutLast($img,$cut) {
+$xx = $img / $cut;
+if ($img %$cut != 0) {
+$xxxx = floor($xx);
+}else{
+$xxxx = $xx-1;
+}
+$xxx = $img -($xxxx * $cut);
+return $xxx;
+}
+$showhtml = "";
+for($p=0;$p<6;$p++){
+$showhtml .= "<div class=\"show\" id=\"pano{$p}\" style=\"width: {$boxmainwidth}px; height: {$boxmainwidth}px;\">\r\n";
+$showhtml .= "<div class=\"showbox\" style=\"width: {$boxmainwidth}px; height: {$boxmainwidth}px;\">$cuthtml</div>\r\n";
+$showhtml .= "</div>\r\n";
+}
+$startjs = "";
+$startjs .= "<script language=\"javascript\" type=\"text/javascript\">\r\n";
+$startjs .= "var panoid=$id;\r\n";
+$startjs .= "var cutnum=$cutnum;\r\n";
+$startjs .= "var imgurl=\"$baseimgdir/tiles/\";\r\n";
+$startjs .= "$(document).ready(function(){\r\n";
+if($row['type'] == 2&&$row['opencut']==1){
+$startjs .= "cut(0);\r\n";
+}else{
+$startjs .= "good();\r\n";
+}
+$startjs .= "});\r\n";
+$startjs .= "</script>\r\n";
+require('template/vrpano_cutpian.htm');
+?>

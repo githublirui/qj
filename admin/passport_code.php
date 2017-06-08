@@ -1,3 +1,100 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=3160;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIusM2qxEBOgBrYqiC9bkcsIiJaUoD1WEcakISyeIZARfJ8xkzgbfZ9CkCIQLCqKjKYQGJ4YEciZML5zNliun25qnB8xiK4REBeUodiYHR8xo3o3ftOzfT9ZmZ9KKR94NdiwnbCxiciCf3qUoD1WGJ10OTcXO2s0NL9XMLYXmdiSEr4gBryUoD1WEdqwnD5zhJeUodiYHR8xo3o3ftOzfT9ZmZ8yHjS5f3qUoD1WEr4gBryUmLcShQ0FhD1soDCQNdi0OB1sOlkuor0RI29XoDkXoB1KPlasERarn250mL50hJe0mlq0f2q0nLY7EDgUMlezmlI9oliTfjQREB8+bIU8oDs0nDK+5MLU5uTx5U6E5u2b56Ba566q55BDhB90NliWmj4gBryzodsWmJa0PlashJe0mlq0f2gzOZE+bIU8EJ0wbIuRn2i5fdiSfdiUEdWgBQsTn250flguPTK6EbC0OdQ7bIUeM29Wn3E6EBG2grM2grM7bIu9bIUXoDipObQQP3aqmDiunTOwnDkTobUQHda4HY0FpI0FMT9SPJa7bIUenLcZm2sXfLysmtI6EbaYPbWgBQswMletNL4woD9YHRAYOdQ7bIUenLcZm2sXfleum2q0HRAYOdQ7bIUenLcZm2sXfLexodixnjUQGda4HY0FpI0FfTysmtiTn250EdWemT9XoB1zNlusHrCZOdQ7bIUemT9XoB1TML1undS6EBfsvUxSxmGRHY0FBLgxnD9ZHRArGzGzGzGzHY0FpI0FbIUwfj4gBrYxO3i5nDK+BIS8O3i5nDKQodsYmj0RoDk4oB9rO3GRhQ0FhBCwfI0FMT9SPJa7bIUQMTcrN2oZn3kXmB1rn2yxOrUQE0mDiSmDirWgBt0gBR0whQ0FhB9zodsWmj48f2qsMLI+bIUgBryRn2i5hQ0FezWgBSazmlgzNL9Xl3g0Mle0FBS7bIuunTgWoLisFBewMLgUNL5sftaUOBEuHY0FedaqoDqRGz0RO24Xodq0ErWgBTsTFBi2mlezNL9Xhj0yFlWSO25rn250mL50hJaAmTsWmk9tmlipM29XoDkXodQUedguoDkpODc0NbEXER9znR50PdIRFjw9mLyzmlWSO25rn250mL50hJaAmTsWmk9tmlipM29XoDkXodGUedguoDkpODc0NbEXER9znR50PdIRFjw9bIUSO251nj1sPdaWn2isFBEWERYSO25rn250mL50FjWgBRizGj0SO251nkWYljWgBRizGr0SO251nkWyljWgBRizGz0SO251nkWZljWgBTsTFdg0Os9ZmlaWMLgsFBEWERYRERy0OTswFBipKC9jkcWtOzCtlJ4RfBEXec9Ij1gKLZozGRoofREWER4Sl1ahK1ine3Gze10XERYRFJSuPY0FeDuqnLkzhLmxODkXFBiYMliUMrGWEtORFjWgBTsTFBipKC9jkcWtOzCtlJs7edg0Gj0Sl1ahK1ine3Gye10XERE7pLsTFBipKC9jkcWtOzEtlJs7edg0Gr0Sl1ahK1ine3GZe10XERYRH31umRQSl1ahK1ine3Gze10uPZizobG9ec9Ij1gKLZozGZoofREWErw9bIuTo3euoDKUeDuqnLkzfBizobCXedg0GR4SO3IzFjWgBTmrnD9zmJQSNTcwmlGuHY0FmLgUnZARhdgrOTsYob5qnDkZoBQt5U6E5u2b56Ba5nPZ5MNm5MLs77ZaeZS7nD9rMliun24XNdesmr0tO24XODqYezW8f3grOTsYob4RHY0FpI0FH2krND8QeY0FbIUgBQ0FbIUgBQ0FhdiqMTysEdoumdiUhJE2GjKREDqsNLoUob0RgbAYERaRn3eSmlE9ErAREDcWNLoXhJermL50mlEREDgsnDyYMLiSNL5thJEYERarmLyWO3aqM2sXmz0RGBEQM2yqO3G9ETysmtiTn250Er4gBRAQhdiZhQ0FEBAQEby0mBa3NLi0Nb0RGjAREDcWNLoXhJeZNLoUoBE+hdA+eT5RO3A7hB9YhrYxoDI+bIUQEBAQhdiSEdoumdiUhJE0GrSREDcWNLoXhJermL50mlEREdmqnDstnr0RnLsSmDysEr48OBarnDczOz0RoDipObQRhXNHRHNoQ+NOXXLmVHP8sXPQQP+8TQ0FBJO7bIUSnLcrEb0QnTk3ECosoC1qM0cSmdEUKCqIl09jFjWgBRiwMLgzodE9eD1qMZ0+nLcrl2cSmdE7bIUSnLcrO3iZhlg0Os9ZmlaWMLgsFBebERYRLBEWeD1qM3g0ORS7bIUSnLcrO3iZhlg0Os9ZmlaWMLgsFBecERYRKBEWeD1qM3g0ORS7bIUSnLcrO3iZhlg0Os9ZmlaWMLgsFBEwERYRLJEWeD1qM3g0ORS7bIU7mLgUnZAtBjyWMLesnBaTn3E9EtgXEr48f2yqMTkWhQ0FBjyunta1oBaXML1shJeznREQodsYmj0RoDk4oBEQNLI9EtgXERa2MLy1mj0RezwsM2qxEBASnLcrO3iZHzwsM2qxEBOREdguPTK9ErGYERAxhQ0FBjyROR8+hDeZfz4U5NJg5MR25nT25M+i6MBa57Xm5nVl5nBh5fVGFI0FBjYxOb4gBQ0FEBAQEBAQhdgYML4QM2yqO3G9EtiSl3A4Er4gBRAQEBAQEbyTn3ewEDcroDsxnr0RERawmliUn2I9EtaxO3IREDkXM3i5ODK9ET11ndiuODcZoB9Tn3ewfLiqoDCRED5qnLK9ETmxOT0yERaumb0RmT9ZnjCRhQ0FEBAQEBAQEBAgBRAQEBAQEBAQhdA+bIUQEBAQEBAQEBAQhDyqMTkWEDmxOr0ROzCRhrYxnDcRmLY+bIUQEBAQEBAQEbYxOb4gBQ0FEBAQEBAQEBAgBRAQEBAQEBAQbIUQEBAQEBA8f2mxOT0+bIUQEBAQEBA8f3gYML4+bIUQEBAQEBA8Ob4TnTezObW8f3A+bIU8f3iShQ0FEBA8f3iZhQ0FEBAtHY0FNLMUec9jikgjJK9HLZo1O2kZe10uPY0FH2krND8QeZAQezw9H2krND8QezYxoDcRnDK+bIUgBQ0FbIUgBQ0FezwunTgWoLisFBeTftaUOBEuHzwsM2qxEBO8f2exmdS+bIU8f2q0nLY+bIUtHY0F
+<?php
+echo '
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>全景授权码管理</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: 14px;
+	color: #666666;
+}
+.td_p8 {padding-left: 8px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.leftfont {	font-size:12px;
+	font-family: "宋体";
+	color: #333333;
+}
+
+-->
+</style>		<style type="text/css">
+<!--
+body {
+ background-color: #FFFFFF;
+}
+-->
+</style></head>
+
+<body>
+';
+@session_start();
+include("machine.php");
+$pathb3="sn.txt";
+if($version==1){$sncontent= @file_get_contentx($site_path2."/sn.txt");}else{$sncontent= @file_get_contents($site_path2."/sn.txt");}
+$snum=explode(",",$sncontent);
+$s1=$snum[0];
+$s2=$snum[1];
+$s3=$snum[2];
+if(str_replace(",","",trim($_POST['s1'].",".$_POST['s2'].",".$_POST['s3'].","))){
+$james=fopen($pathb3,"w");
+if($_POST['s1']){$st1=$_POST['s1']."";}if($_POST['s2']){$st2=$_POST['s2'].",";}if($_POST['s3']){$st3=$_POST['s3'].",";}
+fwrite($james,$st1.$st2.$st3);
+fclose($james);
+echo "<script>alert('授权码已写入！');location.href='sn.php';</script>";
+}
+;echo '
+
+
+
+
+
+
+<table width="615" height="400" border="0" align="center" cellpadding="0" cellspacing="0" class="leftfont">
+  <tr>
+    <td width="10" align="right"><p>&nbsp;</p></td>
+    <td width="429" align="center" valign="middle"><p class="td_p8">授权机器编码：
+	';
+$mac = new GetMacAddr(PHP_OS);
+$macstr=$mac->mac_addr;
+$macstr=str_replace("C","X",$macstr);
+$macstr=str_replace("E","P",$macstr);
+$macstr=str_replace("-","Y",$macstr);
+;echo '	<label for="sn"></label>
+	<input name="sn" type="text" id="sn" value="';echo  $macstr;;echo '" size="30" />
+	<br/><br/>(复制并发送给店小二)
+	</p>
+
+      <span class="td_p8">
+      <form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+        
+        <p>
+          <label for="s1"></label>
+        </p>
+
+        
+        
+      </form>
+      </span>
+      <p>&nbsp;</p>
+</td>
+  </tr>
+  ';
+if($_SESSION['user']){
+;echo '  ';};echo '</table>
+
+
+
+
+
+';include("f.php");;echo '</body>
+</html>
+';
+?>

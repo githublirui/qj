@@ -1,3 +1,67 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJbEk9J3RpbWUnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=5028;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMjczKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuumRAUnLI1FBipK0kJkSkJLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK0mJkkkDHKsKGK5keZsoFJC9eCoGj0eajcgne09hjzAYGbahGBooFBogk1uWjkikPS1ljjaNiCKzLkiggkulKjghi0SYjTurGS1VMzahiDOYjlumhJOuEBaxORAQnLI1FDosoDqxO3iRPL5qnLKUec9jikeLikeneCoGj0eajcgne09hjzAYGbahGBooFBokGcmjkTwLK1QYgKeKkkK9eZsoFJSqhJidjC9BIKyjLZohj08YGbAYjzAtlJQtjLukPsulKTwmNTW1jkieGkuCjlqgNTqvjsoHNcuKjjigkCKZjKivo01dJj0tFJSgBtWgBTkrND8QFBE8O2gZNla0Edi5ODK9e3isPdIxNTc2MlgrOTsYoBO+EDcWmle0FBoIMlgzOD9ZoBacOtexORCtFjwUNlg0n3e5fToxFB0yFjW8f3grOTsYob4RFjWgBt0gBtesOlkuOTkpn25rmJQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsgknCUtFk0Ul19DJKycl18uEB4Rf2gxnTmumZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeCoGj0eajcgne09hjzAYGbahGBooFBoGG1e2Mre3osuwndgNKzKYMrE5O0yXIT9rIj09eZSuHY0FKdk0I29xN2ssFBeYML5xl3gYn3izodsWmk91OTYRfCosoCg1OskZnBQufBidjC9BIKyjLZidjC9BIKyjLZoh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Edi5ODK9lBeRoli0n25OERASodazEdmqndkshkYReRGZGbQ0GbWTEzG3GbS2H1YRfz4RHY0Fo2qunDKQFBi0OdexoZA9EBiwPLiRfj5dmliaOteqPJQRodARFJSQPY0FNLMQFBi0PlasNLIQhj0QediYOT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtMkoihJOulJSQPY0FediYOZA9EBernDczOz1OETe0nreOERE7bIu9mLyzmJa7bIUSodazEb0QETgWMlgzhkYRMtiXGkYRED9XM2yuM2W9lBe3NL5Sn3OXnD9rMliun24XNdesmRA9EBo2OtaqnT9pO3axoc9zodsWmJ5YNdA/odsYmLsShlWSodaZn3one2sSe119ezwOERE7bIu9bIUSodaUoD1WEB49EBE8NL5YolIQodsYmj1OETe1odixnsYREBi0OdGQoTcWoLK9lBe7ediYOT93LZo0PlasnTcwmJoopkYREB8+ErWgBt0gBtesOlkuOTKUeCoGj0eajcgne09hjzAYGbahGBooFBoSi1m0M0o4NDidklmSnSu3LkO1osQzjtoRG1eTMzgJgLedklkqJce0eZSuHY0F
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+PutCookie("pano_spotstyle_url",GetCurUrl(),$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSWxJ')]() +3600,"/");
+if (!isset($typeid)) {
+$typeid = 0;
+}
+if ($typeid == 0) {
+$where = "";
+}else {
+$where = "WHERE `typeid` = $typeid";
+}
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$sql = "SELECT * FROM `#@__pano_spotstyle` $where ORDER BY `id`";
+$mydb->SetQuery($sql);
+$mydb->Execute("spot");
+$html = "";
+while ($row = $mydb->GetArray("spot")) {
+if ($row[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 1) {
+$html .= "<div class=\"spotbox\">\r\n";
+$html .= "<div class=\"spotimg\"><img src=\"$cmspath{$row['url']}\" onload=\"photoin(this,120,120)\" /></div>\r\n";
+$html .= "<div class=\"spotcd\"><a href=\"vrpano_spot_style_edit.php?id={$row['id']}\">&#20462;&#25913;</a><a href=\"vrpano_spot_style_del.php?id={$row['id']}\">&#21024;&#38500;</a></div>\r\n";
+$html .= "</div>\r\n";
+}else if ($row[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 2) {
+$html .= "<div class=\"spotbox\">\r\n";
+$html .= "<div class=\"spotimg\">\r\n";
+$html .= "<object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0\" width=\"120\" height=\"120\">\r\n";
+$html .= "<param name=\"movie\" value=\"$cmspath{$row['url']}\">\r\n";
+$html .= "<param name=\"quality\" value=\"high\">\r\n";
+$html .= "<param name=\"scale\" value=\"showall\">\r\n";
+$html .= "<param name=\"wmode\" value=\"transparent\">\r\n";
+$html .= "<embed src=\"$cmspath{$row['url']}\" width=\"120\" height=\"120\" quality=\"high\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" scale=\"showall\"></embed>\r\n";
+$html .= "</object>\r\n";
+$html .= "</div>\r\n";
+$html .= "<div class=\"spotcd\"><a href=\"vrpano_spot_style_edit.php?id={$row['id']}\">&#20462;&#25913;</a><a href=\"vrpano_spot_style_del.php?id={$row['id']}\">&#21024;&#38500;</a></div>\r\n";
+$html .= "</div>\r\n";
+}if ($row[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 3) {
+$html .= "<div class=\"spotbox\">\r\n";
+$html .= "<div class=\"spotimg\" style=\"background:#ace;\"><img src=\"$cmspath{$row['url']}\" width=\"120\" /></div>\r\n";
+$html .= "<div class=\"spotcd\"><a href=\"vrpano_spot_style_edit.php?id={$row['id']}\">&#20462;&#25913;</a><a href=\"vrpano_spot_style_del.php?id={$row['id']}\">&#21024;&#38500;</a></div>\r\n";
+$html .= "</div>\r\n";
+}
+}
+$tphtml = "";
+$tpsql = "SELECT * FROM `#@__pano_spottype` ORDER BY `id`";
+$mydb->SetQuery($tpsql);
+$mydb->Execute("tp");
+if ($typeid == 0) {
+$tps = "class=\"btn2\"";
+}else {
+$tps = "class=\"btn1\" onclick=\"window.location.href = 'vrpano_spot_style.php?typeid=0';\"";
+}
+$tphtml .= "<input type=\"button\" $tps value=\"&#20840;&#37096;\"/>";
+while ($tprow = $mydb->GetArray("tp")) {
+if ($typeid == $tprow[$GLOBALS['OOO0000O0']('aWQ=')]) {
+$tps = "class=\"btn2\"";
+}else {
+$tps = "class=\"btn1\" onclick=\"window.location.href = 'vrpano_spot_style.php?typeid={$tprow['id']}';\"";
+}
+$tphtml .= "<input type=\"button\" $tps value=\"{$tprow['typename']}\" />";
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3Nwb3Rfc3R5bGUuaHRt'));
+?>

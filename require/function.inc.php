@@ -1,3 +1,26 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1444;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIusOtexOs9ZmlaxOtiunTOUik9ajCYQet5cl05hkCsbiJATpSkpK1iJJKgKEBm+ik9CikaJiKgakCkCFjWgBTismTsXmJQtjckGJK5JikCtfdg0Os9ZmlaWMLgsFBeOlBEWeZ8tfDiuOT5qnLKUl19DJKycl18uFJS7bIuSmLmunTKUe0ykjCsHKS9hkBOWO3iZl3esODyqM2KUEsyOERYtfZOWO3kRO3iZFCykjCsHKSkifbAWfjQuFJS7bIuSmLmunTKUe0ykjCsHiCcKIJOWjckGJK5Jj09KEB4tf2iqoDCtFjWgBTismTsXmJQtjckGJK5KiK1IjCcKiJOWjckGJK5Jj09KEB4tf3isnlaWmlizeZS7bIuumRAUoTkZO2sxns9rn21YMlesFcaEKc9LikejJK9HfBO1frGXGBOWezYtFJSQPY0FO2k0l21qm2srl3c1n3isO19ZoL50NL1sFbAuHY0FpI0FOTkyoLsZmk9xnTgsFCykjCsHKSkifRExoD9xnB9Zmlc1NLKXoD9xnB5YNdARFjWgBRizmlgzK2c2mkaqoDQQhJaGkKyejSiakCCXER9zmlgzNL9XOZ8RHY0FNLMUNlgpo3euoDkqMTysFBizmlgzK2c2mkaqoDQuEBMTNlgpOTkqmDcRnDKUedgsO3gjMlmsKDc0NBSubIu7bIuzmlgzNL9Xl3gqoTkpODc0NBQSO2kzO1gqoTkIMliUFjWgBt0gBRirmTopMTczmLiuORA9EdaZmLopOTkYnDcrmJQtEZOXeDgTm19rnlgYMliUEB4tlB9Zmlc1NlesE2StfBOtfCykjCsHKSkiFjWgBtesOlkuOTkpn25rmJqGkKyejSiakCCXER9zmli0NL5tftaUOBEuHY0FeDgTm190mL1YnDk0O19SNlEQhJASM2mtl2gwO3aqoDQXeZ90mL1YnDk0OZO7bIUSM2mtl3isnlaWmlizl3gvNL4QhJasnla0PJQSM2mtl21xmDkWFj8SM2mtl3isnlaWmlizl2iuOR4Rf2ismTc1ndIRHRASM2mtl3isnlaWmlizl2iuOR4RfZirmTopnL9SmLYRHY0FOTkyoLsZmk9xnTgsFCykjCsHiCcKIJ4tf2gxnTmumZ5YNdAtFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJ4tf2m1nTg0NL9XfTm1nTGXODqYeZS7bIuZmlc1Nlesl29XM2KUjckGJK5JikCXeZ9rnDczOZ9wPlgynB5rnDczOZ5YNdAtFjWgBRiWoLyunS5xo3kZnBA9ECosoCg1OskZnBQuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkifRExoD9xnB9rn29vNLKXoD9xnB5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJ4Rf3ixn2YxoDswmJ50n29WftaUOBEuHY0F
+<?php
+error_reporting(E_ALL &~E_NOTICE &~E_STRICT &~E_DEPRECATED);
+define('LULINREQ',str_replace("\\",'/',dirname(__FILE__)));
+define('LULINROOT',str_replace("\\",'/',substr(LULINREQ,0,-8)));
+define('LULINDATA',LULINROOT .'/data');
+define('LULINTEMPLATE',LULINROOT .'/templets');
+if (version_compare(PHP_VERSION,'5.3.0','<')) {
+set_magic_quotes_runtime(0);
+}
+require_once(LULINREQ."/tool/requie.tool.php");
+$sessSavePath = LULINDATA."/sessions/";
+if(is_writeable($sessSavePath) &&is_readable($sessSavePath))
+{
+session_save_path($sessSavePath);
+}
+$cfg_basedir = preg_replace('#'.$cfg_cmspath .'\/require#i','',LULINREQ);
+require_once(LULINDATA."/setting.php");
+$cfg_templets_dir = $cfg_cmspath.'/templets';
+$cfg_templets_skin = empty($cfg_model)?$cfg_templets_dir."/default": $cfg_templets_dir."/$cfg_model";
+require_once(LULINDATA.'/config.php');
+require_once(LULINREQ.'/function.func.php');
+require_once(LULINREQ.'/class/mysql.class.php');
+$lulinNowurl = GetCurUrl();
+require_once(LULINREQ."/tool/cookie.tool.php");
+require_once(LULINREQ."/tool/time.tool.php");
+?>

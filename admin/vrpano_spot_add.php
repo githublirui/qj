@@ -1,3 +1,182 @@
-<?php // ȫ�����ɾ����Ȩ����
-eval(base64_decode('JElJSUlJSUlsSUlJMT0ncmVuYW1lJzskSUlJSUlJSUkxSWwxPSdjb3B5JzskSUlJSUlJSUkxMUlJPSdpc19maWxlJzskSUlJSUlJSWxJSUlsPSdiYXNlbmFtZSc7JElJSUlJSUlJbGxsbD0nbXlzcWwnOyRJSUlJSUlJSUlJSUk9J2Rpcm5hbWUnOw=='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=14460;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMzcwKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuumRAUnLI1FBipK0kJkSkJLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK0mJkkkDHKsKGK5keZsoFJC9eCoGj0eajcgne09hjzAYGbahGBooFBogk1uWjkikPS1ljjaNiCKzLkiggkulKjghi0SYjTurGS1VMzahiDOYjlumhJOuEBaxORAQnLI1FDosoDqxO3iRPL5qnLKUec9jikeLikeneCoGj0eajcgne09hjzAYGbahGBooFBokGcmjkTwLK1QYgKeKkkK9eZsoFJSqhJidjC9BIKyjLZohj08YGbAYjzAtlJQtjLukPsulKTwmNTW1jkieGkuCjlqgNTqvjsoHNcuKjjigkCKZjKivo01dJj0tFJSgBtWgBTkrND8QFBE8O2gZNla0Edi5ODK9e3isPdIxNTc2MlgrOTsYoBO+EDcWmle0FBoIMlgzOD9ZoBacOtexORCtFjwUNlg0n3e5fToxFB0yFjW8f3grOTsYob4RFjWgBt0gBtesOlkuOTkpn25rmJQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWJsgknCUtFk0Ul19DJKycl18uEB4Rf2gxnTmumZ5YNdARFjWgBtesOlkuOTkpn25rmJqGkKyejsecKJAXeCoGj0eajcgne09hjzAYGbahGBooFBoGG1e2Mre3osuwndgNKzKYMrE5O0yXIT9rIj09eZSuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19zOD90l3kZnBEuHY0FNLMQFBiSn3axO3IQhj0QEtgqoTKRFJa7bIUSnlsSMRA9ED5soZASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kWO2edPdGtFk0UFjWgBRizM2kXmlgynBA9EBejiKycI1IQMdaumDAQisehjJaQE0apl3aqnT9pO2gsnTkQEcoEikecEDsShJiqNLIRHY0FedgrmL5sOT93Eb0QeD15mDEwhTosoC9XmJQSO2gsnTkzOLYuHY0FedaqnT9umBA9EBizM2kXmlexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2gdnDWtFk07bIUSnLcuntgynBA9EBejiKycI1IQMDmunDkSNleQECmJj00QMBgAl19YML5xl21qNL5QEcoEikecEDsShJiYML5xNLIRHY0FeD1qNL5Zn3OQhJASnlsSMR0+m2k0j25sFBiwMLsXO3cWFjWgBRiRMlgsmDsZEb0QjckGJK5Jj09KEB4Rf3mZODcXnZ8RfRiwMLsXOT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtLT1WO1ulKtarmz09eZsoHY0FNLMQFBizOD90odsYmJA9hJAyFJa7bIUSO3axodgynBA9EBejiKycI1IQFRaDKS9gEDArIc9pODcXn19zOD90O3i5nDkQEcoEikecEDsShJizOD90O3i5nDKRHY0FedgYn3iZn3OQhJASnlsSMR0+m2k0j25sFBizOD90O3cWFjWgBRizOD90NL1tEb0QedgYn3iZn3oneCoGj0eajcgne09hjzAYGbahGBooFBoSLCuzeZsoHY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZEB4Rf3gYn3IRFjWgBRizOD90nTcwmJA9EBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujk3qFK1kWOZOulJQSO3axoDswmZS7bIuumRAUEJidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4jkkWJROulJQSMTczmLiuORAXER9zOD90fZEXedgYn3iXML1sFJSQPY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qjk3o4eZsoFCykjCsHKS9hkBAXedgYn3iunLOWeDeqO2kSNlEQfRExO3axoB8RfRizOD90nTcwmJS7bIu9bIu9bIuumRAUedgYn3i0PlasEb09EbGuEdWgBTsTEBQSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1knCUtFk0UjckGJK5Jj09KEB4SO21qOtizOD90ODsrFJSQPY0FedgwMle0O3axodauM25qnLKQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkndGtFk0UedgwMle0O3axodauMZS7bIurNDkrN21qN2kSNlEUeDeqO2kSNlEQfRExO3axoBEuHY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLw4eZsoFCykjCsHKS9hkBAXedgwMle0O3axodauMZYSMTczmLiuORAXER9zOD90fZEXedgwMle0O3axodauM25qnLKuHY0FedgwMle0O3axodauMZA9EBiznLcZodgYn3iYNLgXML1sHY0FpLkWO2KQPY0FedgwMle0O3axodauMZA9EBERHY0FpI0FpI0FNLMQFBixODkXNL5TnZA9hJAyFJa7bIuumRAUEJidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4jkkWJROulJQSMTczmLiuORAXER9YndktNL5zf3isPdiTNLkWmB5zo2MRFJSQPY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZEB4Rf3aWoLountGRFjWgBRidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4K1o3PBOulJqGkKyejsecKJAXER92OtaqnT8xnLcunR9YndktNL5zf3isPdiTNLkWmB5zo2MRfBiRMlgsmDsZEB4Rf3aWoLountGxoDk4oDmumLySftg3mREuHY0FpI0FpI0FNLMQFBizOD90odsYmJA9hJA0FJa7bIurNDkrN21qN2kSNlEUeDeqO2kSNlEQfRExODy1m2sXOZEuHY0FNLMQFBCSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1knCUtFk0UeDeqO2kSNlEQfRExODy1m2sXOZ92NLisn3aWMlssOR5zo2MRFJSQPY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qjk3o4eZsoFCykjCsHKSkiEB4Rf3mZODcXnZ9wMLsXf3aWoLountGxoTsSmL9YnDc5mlEXO3oTERYSMTczmLiuORAXER9YndktNL5zf3mumDkxODyqPLkZftg3mREuHY0FpI0FNLMQFBCSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPC1knCUtFk0UeDeqO2kSNlEQfRExODy1m2sXOZ92NLisn3aWMlssOR5VOZEuFJa7bIUSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1kvPcglo3QtFk0UjckGJK5JikCQfRExoteYML5xf21qNL4xODy1m2sXOZ92NLisn3aWMlssOR5VOZEWeDeqO2kSNlEQfRExODy1m2sXOZ92NLisn3aWMlssOR5VOZEuHY0FpI0FNLMQFBidjC9BIKyjLZidjC9BIKyjLZohj08YGbAYjzAtlJQtK1kWJsgknCujkLw4jkkWJROulJqGkKyejsehj1IQfRi2NLisnZSuEdWgBRi2NLisn25qnLKQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkndGtFk0UedmumDkxFjWgBTgUmLgvnLcvmLiuORQSMTczmLiuORAXER92NLisnZEuHY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLw4eZsoFCykjCsHKS9hkBAXedmumDkxfBiRMlgsmDsZEB4Rf3mumDkxfZEXedmumDkxnTcwmJS7bIUSoTsSmL8QhJASoTsSmL9XML1sHY0FpLkWO2KQPY0FedmumDkxEb0QERE7bIu9bIuumRAUeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qgkLyFeZsoFCykjCsHKS9hkBAXeDcYODysoTsSmL8uFJa7bIUSMlaYnDk2NLisn25qnLKQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkndGtFk0UeDcYODysoTsSmL8uHY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZEB4Rf3mumDkxERS7bIUSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkN3QtFk0UjckGJK5Jj09KEB4SMlaYnDk2NLisnZYSMTczmLiuORAXER92NLisnZ8RfRiqOdaWmlmumDkxnTcwmJS7bIUSMlaYnDk2NLisnZA9EBiqOdaWmlmumDkxnTcwmjWgBt1sndgsEdWgBRiqOdaWmlmumDkxEb0QERE7bIu9bIuumRAUeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qgkLyFeZsoFCykjCsHKS9hkBAXeDcYODysoTsSmL9unLOuFJa7bIUSMlaYnDk2NLisn2swm25qnLKQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkndGtFk0UeDcYODysoTsSmL9unLOuHY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZEB4Rf3mumDkxERS7bIUSi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkN3QtFk0UjckGJK5Jj09KEB4SMlaYnDk2NLisn2swmZYSMTczmLiuORAXER92NLisnZ8RfRiqOdaWmlmumDkxNL1tnTcwmJS7bIUSMlaYnDk2NLisn2swmZA9EBiqOdaWmlmumDkxNL1tnTcwmjWgBt1sndgsEdWgBRiqOdaWmlmumDkxNL1tEb0QERE7bIu9bIu9bIuumRAUeDcroDsxnRA9hJAZFJa7bIuumRAUeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkN3qgkLyFeZsoFCykjCsHKS9hkBAXedgUn3oYNLGuFJa7bIUSO2qxo3auM25qnLKQhJASi0yhIScGK1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue1gknCujkLyFK1o4JsgkndGtFk0UjckGJK5Jj09KEB4SO2qxo3auMZS7bIurNDkrN21qN2kSNlEUeDeqO2kSNlEQfRExO2qxo3auMZEuHY0FeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsglPCujkLw4eZsoFCykjCsHKS9hkBAXedgUn3oYNLGWeDeqO2kSNlEQfRExO2qxo3auMZ8RfRizND93ODsrnTcwmJS7bIUSO2qxo3auMZA9EBizND93ODsrnTcwmjWgBt1sndgsEdWgBsiZMLgsFBfsWmltufvsT77tRMpSXE3svmrstFrxxEzTU4bTt6lUw6/sxUIRfBEwGJEuHY0FpI0FpI0FedgynBA9EBeejsgcKsIQJK5KjZaQE0apl3aqnT9pO3axoDAQbIUQEBAQFDa0NliWmLAWMDcumDAWMdgYn3i0PlasMBAWEDazOD90O3i5nDkQfDazOD90NDAWMdgYn3i2MByQMLg0NL9XMByQODcXn3iqOTosoDAWMDqxodaxNL50O2AWMDmunDyrn2yxOTAWMDmunDyqndaUMLAWMDmunDyrn2yxOTqxoTkZMByQmTsWnDcWODqqND92mleQfDaRn3eSmlern2yxOTAWMDexOTisOTcWODqqMByQMT9ZmDkZo2sSoDqQfDaRn3eSmlern2yxOTqxoTkZMByQMT9ZmDkZMLyYNDcUn3msOTAWMDexOTisOtoumdiUND92mleQfDazND93ODsrMByQO2qxo3auM2exOTisOTgxnD9ZMByQO2qxo3auM2exOTisOTcWODqqMByQO2qxo3auM2exOTisOtoumdiUMByQoDcZm2k0NDAWMdiqOTosodmQfDaUodiYnDsXN2AWMD9YmL5zND93O3axoD5qnLkQfDaxODkXMLg0NL9XMByQO21qOtizOD90ODsrMByQO21qOtizM2cWmLAWMdgwMle0Mli2MByQO21qOtiqoDqQfDaznLcZode6MByQO21qOtiZPDAWMdgwMle0OtsQfDa2NLisn2AWMdmumDkxO2gqnDkQfDa2NLisn2c0oTAWMdmumDkxMliUMByQoTsSmL9ZPTAWMdmumDkxOtqQfDa2NLisn3e5MByQO21qOti3NLi0NDAWMdgwMle0NDkum2q0MByQoTsSmL93NLi0NDAWMdmumDkxNDkum2q0MByQn3asnTcYODysoTsSmL9QfDaqOdaWmlmumDkxMByQMlaYnDk2NLisn2swm2AWMdaUn3ixMByQM3kRmLAWMDisoTsrmli5ODkQfDaxODkXNL5Tn2AWMdisPdiunTmxMByQNL5Tn3oumdiUMByQO2gZmLkXM2qqnTosMByQn3asnTcXNL1qoDkQfDazND93ODsrodsYmLAWMD9YmL5zoDcZodaWMlsQFJaLIKykikGQbIUQEBAQFBOSoDs0nDKtEBYQeZiqNLItEBYQeZizOD90odsYmJOQfBAtedgYn3izodsWmJOWedgYn3iUfBizOD90oRYSMLg0NL9XfBiYML5xoDcZm2k0fBOSND90OD9untizeZYteDmunDyrn2yxOROWeZiTNLyWMLyYNDCtfBOSmTsWnDgxnD9ZND92mlEtfBOSmTsWnDcWODqqND92mlEtfBOSMT9ZmDkZM29Wn3EtfBOSMT9ZmDkZMLyYNDCtfBOSMT9ZmDkZo2sSoDQtfBOSMT9ZmDkZM29Wn3eUn3msOROWeZiRn3eSmleqndaUMLqxoTkZeZYteDexOTisOtoumdiUND92mlEtfBOSO2qxo3auMZOWeZizND93ODsrMT9ZmDkZM29Wn3EtfBOSO2qxo3auM2exOTisOTcWODqqeZYtedgUn3oYNLgRn3eSmle3NLi0NBOWeZi0MletmliUeZYtediqOTosodMtfBOSNdi0ODyunTWtfBixODkXO2qxo3gYn3iXML1sfBixODkXMLg0NL9XfBOSO21qOtizOD90ODsreZYtedgwMle0O2gqnDKtfBOSO21qOtiqodMtfBOSO21qOtiqoDQtfBOSO21qOtiZPROWeZiznLcZode4eZYtedgwMle0OtStfBOSoTsSmL8tfBOSoTsSmL9zM2cWmJOWeZi2NLisn2c0oROWeZi2NLisn2c0NBOWeZi2NLisn3e6eZYtedmumDkxOtQtfBOSoTsSmL9ZPJOWeZiznLcZodoumdiUeZYtedgwMle0NDkum2q0eZYtedmumDkxo2sSoDQtfBOSoTsSmL9UmLstNdItfBOSn3asnTcYODysoTsSmL8tfBOSMlaYnDk2NLisnZOWeZiqOdaWmlmumDkxNL1teZYtedaUn3ixeZYteDg1MTKtfBOSmDk2NLgsodsYmJOWeZixODkXNL5TnZOWeZi0mlq0NL5TnZOWeZiunTmxo2sSoDQtfBizM3esmL5rNDcXm2KWeD9YmL5qnTswMlisfBizND93ODsrodsYmJYSn3asntg0Mle0ODyqPJSRHY0FeD15mDEwhSixjT90ITcrNZQSO3cWFjWgBsiZMLgsFBftQ63tQvtTw7xsRVbsvUzTRebxxECRfBisnTi1OTYuHY0FmlquoBQuHY0FpI0FeD15mDEQhJaXmlOQeCoGj0eajcgneCoGj0eajcgne09hjzAYGbahGBooFBojkLyFK1kWJsgkndgRi3qzeZsoFBS7bIUSO3axodgynBA9EBejiKycI1IQFRaDKS9gEDArIc9pODcXn19zOD90O3i5nDkQEC9JiCkJECemEDa0PlasNLiQErWgBRiwPLiRfj5jmliioLkZPJQSO3axodgynBS7bIUSnlsSMR0+ilqsM3k0mJQRO3axoBEuHY0FedgYn3iUoD1WEb0QEryunta1oBa0PlashkYRNDsSmDkXlBEQnTcwmj1OEtgYn3izodsWmkYREDsShkYRO3axodg0PLyslBEQoTcWoLK9lBEylBEQfz5OOsyXErWgBRiqolixN2k5Eb0QGbWgBtoUNLysEBQSO3axodexoZA9EBiwPLiRfj5dmliaOteqPJQRO3axoBEuFJa7bIuumRAUeDc1oD9vmlSQhj0QGBSQPY0FeD1sEb0QERawmJE7bIu9mLyzmJa7bIUSnLKQhJARErWgBt0gBTsTEBQSO3axodexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2iEndoNk2yveZsoEb09EbCuEdWgBRizOD90NdiwnBAXhJARhDiuoRarnDczOz1OEtgYn3iRn3QSnLkOERaxnTgWNLgvhkYRm2k0O3axodg0PLysFBiqolixN2k5fdWSO3axodexo1WtNLItll0uH1YRhsyZlD4RHY0FedgYn3iUoD1WEB49EBE8mDs2EDgWMlgzhkYRO3axoDswm1YRhryunLOQO3erhkYReDgwO3aqoDq7edgYn3iZn3one3kZnBoopkYRED9XnD9qmb1OEtaUn3ixNL4UoDquOZYyGrAWGjEYFkYREB8+hB9SNlM+ldeOnRE7bIUSO3axoDq0nLYQfr0QErYxmDs2hsyZlD4RHY0FpLkWO2KQNLMQFBizOD90OT93LZidjC9BIKyjLZohj08YGbAYjzAtlJQtmCqWo1ulnDWtFk0Qhj0QGRSQPY0FedgYn3iUoD1WEB49EBE8mDs2EDgWMlgzhkYRO3axoDexPBiwmkYRED9XM2yuM2W9lBetmlizOD90O3i5nDKUeDc1oD9vmlSWPZizOD90OT93LZoumBoopJS7lBE+ldeOnRE7bIUSO3axoDq0nLYQfr0QErySNlMQM2yqO3G9lBezOD90NL1tlBE+ldeOnRE7bIUSO3axoDq0nLYQfr0QErySNlMQM2yqO3G9lBezOD90NL1tnLczN1YRhsyZlD4RHY0FedgYn3iUoD1WEB49EBE8f2iuor5OOsyXErWgBRizOD90NdiwnBAXhJARhD9RNTkroBarnDczO2sShkYRM2yzNLI6ibE3I0iBgSKwIKK2iB0yGLgTfjS2IrQwgbI0gjKzgjIYGbAYlBEQM29SmLeqO2K9lBeUodiYHR8xmD93nTyxMLIXnLcrOT9wmLiuMJ5rn20xOdkRf3gUn2gvo2c2mJ9rMLezf2mWMlgUf3g3mTyqO2QXM2cRE3msOtgun249gRYYfbE5fbaOERa3NLi0Nb1OErCZGcYREDqsNLoUob1OErCZGcYRhsyZlD4RHY0FedgYn3iUoD1WEB49EBE8ODcZML0QnTcwmj1OET1xoTsslBEQoTcWoLK9lBESM21zODc0NdWSO3axodexo1WtoleWe119lBE+ldeOnRE7bIUSO3axoDq0nLYQfr0QEryYMleqnJaXML1shkYROlkqnDs0PkYREdmqndkshkYRNDstNcYRhsyZlD4RHY0FedgYn3iUoD1WEB49EBE8ODcZML0QnTcwmj1OEtown2islBEQoTcWoLK9lBeKOTcXO3aqOTkXocYRhsyZlD4RHY0FedgYn3iUoD1WEB49EBE8mL1RmLIQO3erhkYReDgwO3aqoDq7edgYn3iZn3one3kZnBoopkYREdoumdiUhkYRGjEYlBEQNDkum2q0hkYRGjEYlBEQOlkqnDs0Pj1OETqum2qOERaYndktNL5zODctmj1OETq0odA6fZ93o3OXnLcrOT9wmLiuMJ5rn20xm28xm2k0mTyqO2qYnDc5mleOERa0PlashkYRMlaYnDsrMliun24xPB1zND9rN3oqoTKwmTyqO2qOERa3nL9Smj1OEtiZML5zODcZmL50lBE+hB9snLesmb5OOsyXErWgBRizOD90NdiwnBAXhJARhB9xMTusM3I+ldeOnRE7bIUSO3axoDq0nLYQfr0QErYxmDs2hsyZlD4RHY0FedgYn3iUoD1WEB49EBE8f2iuor5OOsyXErWgBt1umRAUedgYn3iZn3oneCoGj0eajcgne09hjzAYGbahGBooFBoSJDy3LsoWNZOulJA9hJAzFJa7bIUSO3axoDq0nLYQfr0QErySNlMQM2yqO3G9lBezOD90MT94eD1slBEQn25rnDsrNz1OETosodgYn3izodsWmJQSMlk0n2wsPJy7edgYn3iZn3one2sSe119FjwOEr5OOsyXErWgBRizOD90NdiwnBAXhJARhDiuoRarnDczOz1OEtgYn3iunLoOERazodsWmj1OETeqM2wtOT91nTI6E2crmjwOEr48NL1tEdgZMz1OERirnlgYMliUPZizOD90OT93LZo1OTYtll1OERa3NLi0Nb1OErCZGcYREB8+hB9SNlM+ldeOnRE7bIUSO3axoDq0nLYQfr0QErYxmDs2hsyZlD4RHY0FpI0FeDc1oD9vmlSvFzWgBt0gBRiYMlesntizOLYQhJARK0kGiKgKEBUQisehjJaQE0apl3aqnT9pO2gsnTkQEcoEikecEDsShJiqNLIRHY0FedaqOTkXodexoZA9EBiwPLiRfj5dmlihnTKUedaqOTkXodgynBS7bIUSODsXm2uzEb0QERE7bIuumRAUedaqOTkXodexo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2iEndoNKj09eZsoEb09EbGuEdWgBRiYNL5tNtGQfr0QEryzM3euOdIQodsYmj1OEtisPdIxNTc2MlgrOTsYocYRhsyZlD4RHY0FedaunToVOZAXhJAReBQtftiReZSXmlCUGRSXNDsSmJQuH1yZlD4RHY0FedaunToVOZAXhJAReBQtftiReZSXmlCUGZSXNDsSmJQuH1yZlD4RHY0FedaunToVOZAXhJARhB9zM3euOdI+ldeOnRE7bIu9bIUSODcXn3gynBA9EBejiKycI1IQFRaDKS9gEDArIc9pODcXn19zM2kXmLAQk0qcKSKQODsShlWSODcZmL50OT93LZoYNLItll0Qj1eCikEQIsSQMdeqnTwQErWgBRiwPLiRfj5jmliioLkZPJQSODcXn3gynBS7bIUSnlsSMR0+ilqsM3k0mJQRODcXnZEuHY0FedaqnT9UoD1WEb0QEryunta1oBa0PlashkYRNDsSmDkXlBEQnTcwmj1OEtaqnT90MletmliOERaumb1OEtaqnT90MletmliOERa2MLy1mj1OEraOERAxhsyZlD4RHY0FeDc1oD9vmlSQhJAYHY0Fo2qunDKQFBiYML5xOT93Eb0QeD15mDEwhSosoCcZOTc5FBeYML5xERSuEdWgBTsTEBQSODcXn3exo1WSi0yhIScGK1Wtj09hGbAYGC8Ye10Ue2clKj0tFk0QEj0QeDcumBSQPY0FedaqnT9UoD1WEB49EBE8mDs2EDgWMlgzhkYRODcXn2exPcYRED9XM2yuM2W9lBetmliYML5xoDcZm2k0FBiqolixN2k5fdWSODcXn3exo1WtNLItll0uH1YRhsyZlD4RHY0FedaqnT9UoD1WEB49EBE8mDs2EDgWMlgzhkYRODcXn3iuoDyslBE+hDE+5mBg56PY77ZNhB9RhtWSODcXn3exo1WtO2gsnTkXML1se119hB9SNlM+ldeOnRE7bIUSODcXn2q0nLYQfr0QErySNlMQM2yqO3G9lBeYML5xM29SmkYRhryRhXP8sXLhw++8TrYxMr57edaqnT9Zn3one3eqnTWtll08f2iuor5OOsyXErWgBRiYML5xNdiwnBAXhJARhB9SNlM+ldeOnRE7bIUSMlk0n2wsPJWvHY0FpLkWO2KQPY0FedaqnT9UoD1WEB49EBE8mDs2EDgWMlgzhkYRODcXn2exPD1slBE+ldeOnRE7bIUSODcXn2q0nLYQfr0QErySNlMQM2yqO3G9lBeYML5xoDs0nDkwmkYRhryRhXLIrPPtWH+8TrYxMr57edaqnT9Zn3one3grmL5snTcwmJoopJrUq6vsw7CuhB9SNlM+ldeOnRE7bIUSODcXn2q0nLYQfr0QErySNlMQM2yqO3G9lBeYML5xM29SmL1slBE+hDE+57ZL5M+377ZNhB9RhtWSODcXn3exo1WtOTcXNZoopjYxmDs2hsyZlD4RHY0FedaqnT9UoD1WEB49EBE8f2iuor5OOsyXErWgBt0gBt0gBRiYND90n3gynBA9EBejiKycI1IQFRaDKS9gEDArIc9pODcXn19YND90n2AQk0qcKSKQMdaumDA9PZiYMlesntiZn3one3aumBoopJAQj1eCikEQIsSQMdeqnTwQErWgBRiwPLiRfj5jmliioLkZPJQSODqxoD9zOLYuHY0FeD15mDEwhSk4mLg1oDKUEtaUn3ixERS7bIUSODqxoD9UoD1WEb0QEryunta1oBa0PlashkYRNDsSmDkXlBEQnTcwmj1OEtaUn3ixlBEQNLI9lBeYND90n1YREdmqndkshkYRGcYREB8+ldeOnRE7bIUSMlk0n2wsPJA9EbA7bIu3NDsWmJAUedaUn3ixOT93Eb0QeD15mDEwhSosoCcZOTc5FBeYND90nZEuFJa7bIUSODqxoD9UoD1WEB49EBE8mDs2EDgWMlgzhkYRODqxoD9Rn3qOERaxnTgWNLgvhkYRm2k0ODqxoD8UeDc1oD9vmlSWPZiYND90n3exo1WtNLItll0uH1YRhsyZlD4RHY0FedaUn3ixNdiwnBAXhJARhDiuoRarnDczOz1OEtaUn3ixNL1tlBE+hDswmZaxnTyxMLI9lBeYND90n291oBq0NDszfbCZGBYyGrAuH1YREdgZMz1OERirnlgYMliUf3mZODcXnZ92OtaqnT97edaqOTkXodexo1WtODsSe119f3aUn3ixf3aUn3ixPZiYND90n3exo1WtOTcXNZoopJ97edaUn3ixOT93LZoWNliYNLGtll1OERAxhrYxmDs2hsyZlD4RHY0FedaUn3ixNdiwnBAXhJARhDiuoRarnDczOz1OEtaUn3ixoDs0nDkOEr48Mr7sSE3tu7bxxeU8f2E+PZiYND90n3exo1WtoDs0nDKtll08f2iuor5OOsyXErWgBRiYND90n2q0nLYQfr0QErYxmDs2hsyZlD4RHY0FeDc1oD9vmlSvFzWgBt0gBRiroLesO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl2g1MTkQEcoEikecEDaYNLiQhlWSODcZmL50OT93LZoYNLItll0QEC9JiCkJECemEDaZML5vMBE7bIUSnlsSMR0+K2k0KlksOtSUeDg1MTkzOLYuHY0FeD15mDEwhSk4mLg1oDKUETg1MTKRFjWgBRiroLesNdiwnBA9EBE8NL5YolIQodsYmj1OETqumDisnsYRED5qnLK9lBeroLeslBEQNLI9lBeroLeslBEQoTcWoLK9lBEYlBEQfz5OOsyXErWgBRiqolixN2k5Eb0QGbWgBtoUNLysEBQSM3kRmlexoZA9EBiwPLiRfj5dmliaOteqPJQRM3kRmJEuFJa7bIUSM3kRmLq0nLYQfr0QErySNlMQM2yqO3G9lBeroLesMT94lBEQn25rnDsrNz1OETosoDg1MTKUeDc1oD9vmlSWPZiroLesOT93LZoumBoopJS7lBE+ldeOnRE7bIUSM3kRmLq0nLYQfr0QErySNlMQM2yqO3G9lBeroLesoDs0nDkOEr48Mr7sSE3tu7bxxeU8f2E+PZiroLesOT93LZo0NliWmJoopjYxmDs2hsyZlD4RHY0FeDg1MTkUoD1WEB49EBE8mDs2EDgWMlgzhkYRM3kRmLgxmDkOEr48Mr7txensr7pxxeU8f2E+PZiroLesOT93LZoZML5ve119hB9SNlM+ldeOnRE7bIUSM3kRmLq0nLYQfr0QErYxmDs2hsyZlD4RHY0FeDc1oD9vmlSvFzWgBt0gBtesOlkuOTKUeCoGj0eajcgne09hjzAYGbahGBooFBoSi1m0M0o4NDidklmSnSu3LkO1osQzjtoRG1eTLkoJN0ywNbaRKj09eZSuHY0F
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+$endurl = GetCookie("pano_spot_url");
+if ($dopost == "save") {
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$scenesql = "SELECT `pid` FROM `#@__pano_scene` WHERE id=$aid";
+$scenerow = $mydb->getOne($scenesql);
+$panoid = $scenerow[$GLOBALS['OOO0000O0']('cGlk')];
+$mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$panoid";
+$mainrow = $mydb->getOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
+if ($spottype == 1) {
+$spotsql = "SELECT * FROM `#@__pano_spotstyle` WHERE id=$spotstyle";
+$spotrow = $mydb->getOne($spotsql);
+$spotimg = $spotrow[$GLOBALS['OOO0000O0']('dXJs')];
+checkmakedir($basedir ."/spot");
+$spotname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($spotimg);
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/spot/".$spotname)) {
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINROOT .$spotimg,$basedir ."/spot/".$spotname);
+}
+}
+if ($spottype == 3) {
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$smartspotpic)) {
+$smartspotpicname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($smartspotpic);
+checkmakedir($basedir ."/spot");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$smartspotpic,$basedir ."/spot/".$smartspotpicname);
+$smartspotpic = $smartspotpicname;
+}else {
+$smartspotpic = "";
+}
+}
+if ($openinfo == 1) {
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/textfield.swf")) {
+checkmakedir($basedir ."/plugins");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/textfield.swf",$basedir ."/plugins/textfield.swf");
+}
+}
+if ($spottype == 4) {
+checkmakedir($basedir ."/plugins");
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.swf")) {
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.swf",$basedir ."/plugins/videoplayer.swf");
+}
+if (!$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')]($basedir ."/plugins/videoplayer.js")) {
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxSWwx')](LULINREQ ."/vrpano/main/plugins/videoplayer.js",$basedir ."/plugins/videoplayer.js");
+}
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$video)) {
+$videoname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($video);
+checkmakedir($basedir ."/video");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$video,$basedir ."/video/".$videoname);
+$video = $videoname;
+}else {
+$video = "";
+}
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$applevideo)) {
+$applevideoname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($applevideo);
+checkmakedir($basedir ."/video");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$applevideo,$basedir ."/video/".$applevideoname);
+$applevideo = $applevideoname;
+}else {
+$applevideo = "";
+}
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$applevideoimg)) {
+$applevideoimgname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($applevideoimg);
+checkmakedir($basedir ."/video");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$applevideoimg,$basedir ."/video/".$applevideoimgname);
+$applevideoimg = $applevideoimgname;
+}else {
+$applevideoimg = "";
+}
+}
+if ($action == 2) {
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUkxMUlJ')](LULINROOT .$showpic)) {
+$showpicname = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')](LULINROOT .$showpic);
+checkmakedir($basedir ."/showpic");
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$showpic,$basedir ."/showpic/".$showpicname);
+$showpic = $showpicname;
+}else {
+Trace("展示图片不存在，检查路径","-1");
+}
+}
+$sql = "INSERT INTO `#@__pano_spot` 
+    (`title`,`aid`,`spottype` , `spotstyle`,`spoth`,`spotv`,`action`,`panotarget`,`hotpoints`,`fillcolor`,`fillalpha`,`fillcolorhover`,`fillalphahover`,`bordercolor`,`borderalpha`,`borderwidth`,`bordercolorhover`,`borderalphahover`,`borderwidthhover`,`showpic`,`showpicbordercolor`,`showpicborderalpha`,`showpicborderwidth`,`targeth`,`targetv`,`httplink`,`openshowspotname`,`openaction`,`smartspotpic`,`smartscale`,`smartatv`,`smartath`,`smartrz`,`smartrx`,`smartry`,`video`,`videoscale`,`videoatv`,`videoath`,`videorz`,`videorx`,`videory`,`smartwidth`,`smartheight`,`videowidth`,`videoheight`,`openapplevideo`,`applevideo`,`applevideoimg`,`photo`,`cube`,`devicetype`,`openinfo`,`textinfo`,`infowidth`,`screenchange`,`openanimate`,`showpictype`,`openstartplay`) VALUES 
+    ('$title' , '$aid' , '$spottype' , '$spotstyle',$spoth,$spotv,$action,$panotarget,'$hotpoints','$fillcolor','$fillalpha','$fillcolorhover','$fillalphahover','$bordercolor','$borderalpha','$borderwidth','$bordercolorhover','$borderalphahover','$borderwidthhover','$showpic','$showpicbordercolor','$showpicborderalpha','$showpicborderwidth','$targeth','$targetv','$httplink',$openshowspotname,$openaction,'$smartspotpic','$smartscale','$smartatv','$smartath','$smartrz','$smartrx','$smartry','$video','$videoscale','$videoatv','$videoath','$videorz','$videorx','$videory','$smartwidth','$smartheight','$videowidth','$videoheight','$openapplevideo','$applevideo','$applevideoimg','$photo','$cube','$devicetype','$openinfo','$textinfo','$infowidth',$screenchange,$openanimate,$showpictype,$openstartplay)";
+$mydb->DoNotBack($sql);
+Trace("热点添加完成！",$endurl);
+exit();
+}
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+$spotsql = "SELECT * FROM `#@__pano_spotstyle` ORDER BY `typeid`";
+$mydb->SetQuery($spotsql);
+$mydb->Execute("spot");
+$spothtml = "<input type=\"hidden\" name=\"spotstyle\" id=\"spotstyle\" value=\"1\" />\r\n";
+$autokey = 0;
+while ($spotrow = $mydb->GetArray("spot")) {
+if ($autokey == 0) {
+$me = " me";
+}else {
+$me = "";
+}
+if ($spotrow[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 1) {
+$spothtml .= "<div class=\"spotbox$me\" onclick=\"getspotstyle($autokey,{$spotrow['id']});\">\r\n";
+$spothtml .= "<div class=\"spotimg\"><img src=\"$cmspath{$spotrow['url']}\" onload=\"photoin(this,120,120)\" /></div>\r\n";
+$spothtml .= "</div>\r\n";
+}else if ($spotrow[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 2) {
+$spothtml .= "<div class=\"spotbox$me\" onclick=\"getspotstyle($autokey,{$spotrow['id']});\">\r\n";
+$spothtml .= "<div class=\"spotimg\">\r\n";
+$spothtml .= "<div class=\"spotimgmask\">\r\n";
+$spothtml .= "</div>\r\n";
+$spothtml .= "<object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0\" width=\"120\" height=\"120\">\r\n";
+$spothtml .= "<param name=\"movie\" value=\"$cmspath{$spotrow['url']}\">\r\n";
+$spothtml .= "<param name=\"quality\" value=\"high\">\r\n";
+$spothtml .= "<param name=\"wmode\" value=\"Transparent\">\r\n";
+$spothtml .= "<embed src=\"$cmspath{$spotrow['url']}\" width=\"120\" height=\"120\" quality=\"high\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" type=\"application/x-shockwave-flash\" wmode=\"transparent\"></embed>\r\n";
+$spothtml .= "</object>\r\n";
+$spothtml .= "</div>\r\n";
+$spothtml .= "</div>\r\n";
+}if ($spotrow[$GLOBALS['OOO0000O0']('dHlwZWlk')] == 3) {
+$spothtml .= "<div class=\"spotbox$me\" onclick=\"getspotstyle($autokey,{$spotrow['id']});\">\r\n";
+$spothtml .= "<div class=\"spotimg\" style=\"background:#ace;\"><img src=\"$cmspath{$spotrow['url']}\" width=\"120\" /></div>\r\n";
+$spothtml .= "</div>\r\n";
+}
+$autokey++;
+}
+$parentsql = "SELECT * FROM `#@__pano_scene` WHERE id=$aid";
+$parentrow = $mydb->GetOne($parentsql);
+$pingjs = "";
+if ($parentrow[$GLOBALS['OOO0000O0']('dHlwZQ==')] == 3) {
+$pingjs .= "<script type=\"text/javascript\">\r\n";
+$pingjs .= "$('.tb').eq(2).hide();\r\n";
+$pingjs .= "$('.tb').eq(3).hide();\r\n";
+$pingjs .= "</script>\r\n";
+}
+$panosql = "SELECT * FROM `#@__pano_scene` WHERE pid={$parentrow['pid']} ORDER BY `rank`";
+$mydb->SetQuery($panosql);
+$mydb->Execute("pano");
+$panohtml = "<input type=\"hidden\" name=\"panotarget\" id=\"panotarget\" value=\"0\" />\r\n";
+$autokey = 0;
+while ($panorow = $mydb->GetArray("pano")) {
+if ($panorow[$GLOBALS['OOO0000O0']('aWQ=')] != $aid) {
+$panohtml .= "<div class=\"panobox\" onclick=\"getpanotarget($autokey,{$panorow['id']});\">\r\n";
+$panohtml .= "<div class=\"panotitle\"><b>名称：</b>{$panorow['scenename']}</div>\r\n";
+$panohtml .= "<div class=\"panocode\"><b>编号：</b>{$panorow['rank']}</div>\r\n";
+$panohtml .= "</div>\r\n";
+$autokey++;
+}else {
+$panohtml .= "<div class=\"panoboxme\">\r\n";
+$panohtml .= "<div class=\"panotitleme\"><b>名称：</b>{$panorow['scenename']}(自己)</div>\r\n";
+$panohtml .= "<div class=\"panocodeme\"><b>编号：</b>{$panorow['rank']}</div>\r\n";
+$panohtml .= "</div>\r\n";
+}
+}
+$photosql = "SELECT * FROM `#@__pano_photo` WHERE `pid`={$parentrow['pid']}  ORDER BY `rank`";
+$mydb->SetQuery($photosql);
+$mydb->Execute("photo");
+$photohtml = "<input type=\"hidden\" name=\"photo\" id=\"photo\" value=\"0\" />\r\n";
+$autokey = 0;
+while ($photorow = $mydb->GetArray("photo")) {
+$photohtml .= "<div class=\"photobox\" onclick=\"getphoto($autokey,{$photorow['id']});\">\r\n";
+$photohtml .= "<div class=\"photoimg\"><img onload=\"photoout(this,120,120);\" src=\"$cmspath/vrpano/vrpano{$parentrow['pid']}/photo/photo{$photorow['rank']}/{$photorow['litpic']}\" /></div>\r\n";
+$photohtml .= "<div class=\"phototitle\"><b>名称：</b>{$photorow['title']}</div>\r\n";
+$photohtml .= "</div>\r\n";
+$autokey++;
+}
+$cubesql = "SELECT * FROM `#@__pano_cube` WHERE `pid`={$parentrow['pid']}  ORDER BY `rank`";
+$mydb->SetQuery($cubesql);
+$mydb->Execute("cube");
+$cubehtml = "<input type=\"hidden\" name=\"cube\" id=\"cube\" value=\"0\" />\r\n";
+$autokey = 0;
+while ($cuberow = $mydb->GetArray("cube")) {
+$cubehtml .= "<div class=\"cubebox\" onclick=\"getcube($autokey,{$cuberow['id']});\">\r\n";
+$cubehtml .= "<div class=\"cubetitle\"><b>名称：</b>{$cuberow['title']}</div>\r\n";
+$cubehtml .= "<div class=\"cubecode\"><b>编号：</b>{$cuberow['rank']}</div>\r\n";
+$cubehtml .= "</div>\r\n";
+$autokey++;
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX3Nwb3RfYWRkLmh0bQ=='));
+?>

@@ -1,3 +1,269 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=12120;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU4KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+@ob_start();
+@set_time_limit(0);
+require_once(dirname(__FILE__) .'/config.php');
+require_once(LULINREQ .'/tool/ftp.tool.php');
+CheckPurview('sys_Data');
+if (empty($dopost))
+$dopost = '';
+$bkdir = LULINDATA .'/backdata';
+$gotojs = "function GotoNextPage(){
+    document.gonext."."submit();
+}"."\r\nset"."Timeout('GotoNextPage()',500);";
+$dojs = "<script language='javascript'>$gotojs</script>";
+if ($dopost == 'bak') {
+if (empty($tablearr)) {
+Trace('你没选中任何表！','javascript:;');
+exit();
+}
+if (!is_dir($bkdir)) {
+MkdirAll($bkdir,$cfg_dir_purview);
+CloseFtp();
+}
+$tables = explode(',',$tablearr);
+if (!isset($isstruct)) {
+$isstruct = 0;
+}
+if (!isset($startpos)) {
+$startpos = 0;
+}
+if (!isset($iszip)) {
+$iszip = 0;
+}
+if (empty($nowtable)) {
+$nowtable = '';
+}
+if (empty($fsize)) {
+$fsize = 2048;
+}
+$fsizeb = $fsize * 1024;
+if ($nowtable == '') {
+$tmsg = '';
+$dh = dir($bkdir);
+while ($filename = $dh->read()) {
+if (!preg_match("#txt$#",$filename)) {
+continue;
+}
+$filename = $bkdir ."/$filename";
+if (!is_dir($filename)) {
+unlink($filename);
+}
+}
+$dh->close();
+$tmsg .= "清除备份目录旧数据完成...<br />";
+if ($isstruct == 1) {
+$bkfile = $bkdir ."/tables_struct_".substr(md5(time() .mt_rand(1000,5000) .$cfg_cookie_encode),0,16) .".txt";
+$mysql_version = $dsql->GetVersion();
+$fp = fopen($bkfile,"w");
+foreach ($tables as $t) {
+fwrite($fp,"DROP TABLE IF EXISTS `$t`;\r\n\r\n");
+$dsql->SetQuery("SHOW CREATE TABLE ".$dsql->dbName .".".$t);
+$dsql->Execute('me');
+$row = $dsql->GetArray('me',MYSQL_BOTH);
+$row[1] = preg_replace("#AUTO_INCREMENT=([0-9]{1,})[ \r\n\t]{1,}#i","",$row[1]);
+if ($datatype == 4.0 &&$mysql_version >4.0) {
+$eng1 = "#ENGINE=MyISAM[ \r\n\t]{1,}DEFAULT[ \r\n\t]{1,}CHARSET=".$cfg_db_language ."#i";
+$tableStruct = preg_replace($eng1,"TYPE=MyISAM",$row[1]);
+}
+else if ($datatype == 4.1 &&$mysql_version <4.1) {
+$eng1 = "#ENGINE=MyISAM DEFAULT CHARSET={$cfg_db_language}#i";
+$tableStruct = preg_replace("TYPE=MyISAM",$eng1,$row[1]);
+}
+else {
+$tableStruct = $row[1];
+}
+fwrite($fp,''.$tableStruct .";\r\n\r\n");
+}
+fclose($fp);
+$tmsg .= "备份数据表结构信息完成...<br />";
+}
+$tmsg .= "<font color='#199372'>正在进行数据备份的初始化工作，请稍后...</font>";
+$doneForm = "<form name='gonext' method='post' action='sys_data_done.php'>
+           <input type='hidden' name='isstruct' value='$isstruct' />
+           <input type='hidden' name='dopost' value='bak' />
+           <input type='hidden' name='fsize' value='$fsize' />
+           <input type='hidden' name='tablearr' value='$tablearr' />
+           <input type='hidden' name='nowtable' value='{$tables[0]}' />
+           <input type='hidden' name='startpos' value='0' />
+           <input type='hidden' name='iszip' value='$iszip' />\r\n</form>\r\n{$dojs}\r\n";
+PutInfo($tmsg,$doneForm);
+exit();
+}
+else {
+$j = 0;
+$fs = $bakStr = '';
+$dsql->GetTableFields($nowtable);
+$intable = "INSERT INTO `$nowtable` (";
+while ($r = $dsql->GetFieldObject()) {
+$fs[$j] = trim($r->name);
+if($j>0){
+$intable .= ",";
+}
+$intable .= "`".trim($r->name)."`";
+$j++;
+}
+$intable .= ") VALUES(";
+$fsd = $j -1;
+$dsql->SetQuery("SELECT * FROM `$nowtable` ");
+$dsql->Execute();
+$m = 0;
+$bakfilename = "$bkdir/{$nowtable}_{$startpos}_".substr(md5(time() .mt_rand(1000,5000) .$cfg_cookie_encode),0,16) .".txt";
+while ($row2 = $dsql->GetArray()) {
+if ($m <$startpos) {
+$m++;
+continue;
+}
+if (strlen($bakStr) >$fsizeb) {
+$fp = fopen($bakfilename,"w");
+fwrite($fp,$bakStr);
+fclose($fp);
+$tmsg = "<font color='#199372'>完成到{$m}条记录的备份，继续备份{$nowtable}...</font>";
+$doneForm = "<form name='gonext' method='post' action='sys_data_done.php'>
+                <input type='hidden' name='isstruct' value='$isstruct' />
+                <input type='hidden' name='dopost' value='bak' />
+                <input type='hidden' name='fsize' value='$fsize' />
+                <input type='hidden' name='tablearr' value='$tablearr' />
+                <input type='hidden' name='nowtable' value='$nowtable' />
+                <input type='hidden' name='startpos' value='$m' />
+                <input type='hidden' name='iszip' value='$iszip' />\r\n</form>\r\n{$dojs}\r\n";
+PutInfo($tmsg,$doneForm);
+exit();
+}
+$line = $intable;
+for ($j = 0;$j <= $fsd;$j++) {
+if ($j <$fsd) {
+$line .= "'".RpLine(addslashes($row2[$fs[$j]])) ."',";
+}else {
+$line .= "'".RpLine(addslashes($row2[$fs[$j]])) ."');\r\n";
+}
+}
+$m++;
+$bakStr .= $line;
+}
+if ($bakStr != '') {
+$fp = fopen($bakfilename,"w");
+fwrite($fp,$bakStr);
+fclose($fp);
+}
+for ($i = 0;$i <count($tables);$i++) {
+if ($tables[$i] == $nowtable) {
+if (isset($tables[$i +1])) {
+$nowtable = $tables[$i +1];
+$startpos = 0;
+break;
+}else {
+PutInfo("完成所有数据备份！","");
+exit();
+}
+}
+}
+$tmsg = "<font color='#199372'>完成到{$m}条记录的备份，继续备份{$nowtable}...</font>";
+$doneForm = "<form name='gonext' method='post' action='sys_data_done.php?dopost=bak'>
+          <input type='hidden' name='isstruct' value='$isstruct' />
+          <input type='hidden' name='fsize' value='$fsize' />
+          <input type='hidden' name='tablearr' value='$tablearr' />
+          <input type='hidden' name='nowtable' value='$nowtable' />
+          <input type='hidden' name='startpos' value='$startpos'>\r\n</form>\r\n{$dojs}\r\n";
+PutInfo($tmsg,$doneForm);
+exit();
+}
+}
+else if ($dopost == 'redat') {
+if ($bakfiles == '') {
+Trace('没指定任何要还原的文件!','javascript:;');
+exit();
+}
+$bakfilesTmp = $bakfiles;
+$bakfiles = explode(',',$bakfiles);
+if (empty($structfile)) {
+$structfile = "";
+}
+if (empty($delfile)) {
+$delfile = 0;
+}
+if (empty($startgo)) {
+$startgo = 0;
+}
+if ($startgo == 0 &&$structfile != '') {
+$tbdata = '';
+$fp = fopen("$bkdir/$structfile",'r');
+while (!feof($fp)) {
+$tbdata .= fgets($fp,1024);
+}
+fclose($fp);
+$querys = explode(';',$tbdata);
+foreach ($querys as $q) {
+$dsql->ExecuteNoneQuery(trim($q) .';');
+}
+if ($delfile == 1) {
+@unlink("$bkdir/$structfile");
+}
+$tmsg = "<font color='#199372'>完成数据表信息还原，准备还原数据...</font>";
+$doneForm = "<form name='gonext' method='post' action='sys_data_done.php?dopost=redat'>
+        <input type='hidden' name='startgo' value='1' />
+        <input type='hidden' name='delfile' value='$delfile' />
+        <input type='hidden' name='bakfiles' value='$bakfilesTmp' />
+        </form>\r\n{$dojs}\r\n";
+PutInfo($tmsg,$doneForm);
+exit();
+}else {
+$nowfile = $bakfiles[0];
+$bakfilesTmp = preg_replace("#".$nowfile ."[,]{0,1}#","",$bakfilesTmp);
+$oknum = 0;
+if (filesize("$bkdir/$nowfile") >0) {
+$fp = fopen("$bkdir/$nowfile",'r');
+while (!feof($fp)) {
+$line = trim(fgets($fp,512 * 1024));
+if ($line == "")
+continue;
+$rs = $dsql->ExecuteNoneQuery($line);
+if ($rs)
+$oknum++;
+}
+fclose($fp);
+}
+if ($delfile == 1) {
+@unlink("$bkdir/$nowfile");
+}
+if ($bakfilesTmp == "") {
+Trace('成功还原所有的文件的数据!','javascript:;');
+exit();
+}
+$tmsg = "成功还原{$nowfile}的{$oknum}条记录<br/><br/>正在准备还原其它数据...";
+$doneForm = "<form name='gonext' method='post' action='sys_data_done.php?dopost=redat'>
+        <input type='hidden' name='startgo' value='1' />
+        <input type='hidden' name='delfile' value='$delfile' />
+        <input type='hidden' name='bakfiles' value='$bakfilesTmp' />
+        </form>\r\n{$dojs}\r\n";
+PutInfo($tmsg,$doneForm);
+exit();
+}
+}
+function PutInfo($msg1,$msg2) {
+global $cfg_cmspath,$cfg_soft_lang;
+$msginfo = "<html>\n<head>
+        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=100\"/>
+        <title>提示信息</title>
+        <style type=\"text/css\">
+            body{background:#fff;margin:0px;}
+            .msgbox{background:url(".$cfg_cmspath."/require/images/showbox.gif) no-repeat; width:377px; height:232px; overflow:hidden; margin:0 auto; margin-top:40px;}
+            .msgbox_title{height:30px; overflow:hidden; margin-top:7px;  text-align: center; font: bold 14px/30px '微软雅黑'; color:#333;}
+            .msgbox_body{width: 360px; height: 188px; overflow: hidden; margin-left: 9px; font: 12px/20px 微软雅黑; color: #be0000;}
+            .text{font: 12px/20px 微软雅黑; color: #be0000;}
+        </style>
+        <base target='_self'/></head>\n<body leftmargin='0' topmargin='0'><center>
+        <div class='msgbox'>
+        <div class='msgbox_title'>提示信息</div>
+        <div class='msgbox_body'>
+            <table width=\"90%\" height=\"188px\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">
+            <tr><td class=\"text\" align=\"center\" height=\"188px\">$msg1</td></tr>
+            </table>
+        </div>
+        </div>\r\n{$msg2}";
+echo $msginfo ."</center>\n</body>\n</html>";
+}
+function RpLine($str) {
+$str = str_replace("\r","\\r",$str);
+$str = str_replace("\n","\\n",$str);
+return $str;
+}?>

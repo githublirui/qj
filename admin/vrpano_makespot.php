@@ -1,3 +1,57 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=2596;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfROxfR4xOTkyoLsZmJ9ToL5roDsxnR5unTGXODqYeZS7bIuZmlc1Nlesl29XM2KUjckGJK5JikCQfROxoD9xnB9TNLysftixn2YXODqYeZS7bIuumRAUeDixOD9zoBA9hJARNDk0NJEuEdWgBRiunLoqOtEQhJasPdaWn2isFBe8ERYSmTsWmJS7bIUSnDkXEb0QM291ntIUeDswm2cZORS7bIUSMTczmLiuORA9ECykjCsHKS9hkBAXER91ODyxMLizf21qN2kzOD90ErWgBRiYNLgSNlEQhJASMTczmLiuORAXER9YNLGRHY0FM2qsM2wwMLwsmDsZFBiRMlgsmDsZFjWgBTgUmLgvmDkWmDsZFBiYNLgSNlEuHY0FM2qsM2wwMLwsmDsZFBiYNLgSNlEuHY0FmT9ZmLcrNBAUeDswm2cZORaqOZASoRSQPY0FedmXML1sEb0QMTczmL5qnLKUedMuHY0FOTkXML1sFCykjCsHKS9hkBAXedMWedauM2iuORAXER8RfRi2nTcwmJS7bIu9bIuUmLcSmlEUETyxM2c0NL9XHRa2OtaqnT9pnLcvmlgYn3IXODqYh2ixOD9zob1UmliumD8RFjWgBTk4NlIUFjWgBt1umRAUeDixOD9zoBA9hJARNDk0NLixERSQPY0FeDeqO2kSNlEQhJaGkKyejsehj1IQfRExolaWn2cSOZ9wMLwsO3axoBE7bIUSODsrmDsZEb0QeDeqO2kSNlEQfRExODsrErWgBRixoliSNlEQhJASMTczmLiuORAXER9YolixolIRHY0FeDmunDKQhJazM2cXmDsZFBiYNLgSNlEuHY0FeD5so2munDKQhJaqOteqPJQuHY0FmT9ZEBQSNZA9EbE7eDWQhDgxoL50FBiTNLysFjWSNZWvFJa7bIuqOteqPk9YolgUFBiXmloTNLysfBiTNLysLZivlJS7bIu9bIUSO3axoc90n3iWmJA9EDgxoL50FBiXmloTNLysFjWgBRizOD90l2iqoDCQhJatmliunLctmlguPTKUedauM2iuORAXER8RfRiXmloTNLysLzaoFjWgBRizOD90l3oumdiUEb0QedgYn3ipmDc0MkWYljWgBRizOD90l2qsNLoUoBA9EBizOD90l2iqoDcnGk07bIUSO3axoc90PlasEb0QedgYn3ipmDc0MkWZljWgBRi0n3iqnDqsNLoUoBA9EBizOD90l2qsNLoUoBAVEBizOD90l3ixoDysHY0FM2qsM2wwMLwsmDsZFBixoliSNlEuHY0FeDizoc9unJA9EDswMLosM3esMlisFBizOD90l3oumdiUfBi0n3iqnDqsNLoUoBS7bIuTn3EQFBiuEb0QGbWSNJA8edgYn3ipoD90nDK7eDSvFZSQPY0FeD1qOdQQhJAYHY0FeD1qOdSQhJASNJAVEBizOD90l2qsNLoUobWgBTsTEBQSO3axoc90PlasEb09EbCuEdWgBRixnDizOTGQhJaANL1qm2krOTkqoDkTOT9wm2sTFBiYNLgSNlEQfRExER4SnTk3mTsWmkWSNk0uHY0FNL1qm2krn3a5OTkzNlusmBQSmdg0l2swfBixnDizOTGWeD1qOdQWeD1qOdSWGBYYfBizOD90l3oumdiUfBizOD90l2qsNLoUoBYSO3axoc93NLi0NBYSO3axoc9UmLstNdIuHY0FpLkWO2KQNLMQFBizOD90l3i5ODKQhj0QGRSQPY0FeD9WmdgZMZA9ECaunLctmLgZmLc0mLmZn21VODktFBiYNLgSNlEQfRExER4SnTk3mTsWmkWSNk0uHY0FNL1qm2krn3a5OTkzNlusmBQSmdg0l2swfBixnDizOTGWeD1qOdQWeD1qOdSWGBYYfBizOD90l3oumdiUfBizOD90l2qsNLoUoBYSO3axoc93NLi0NBYSO3axoc9UmLstNdIuHY0FpLkWO2KQPY0FeD9WmdgZMZA9ECaunLctmLgZmLc0mLmZn21YnTOUedauM2iuORAXER8RfRiXmloTNLysLZiulJS7bIuunLctmLgxOdsZmlguPTkSFBiSO3ipNL0WeD9WmdgZMZYSnLcYPBYSnLcYPJYYfbAWedgYn3ipo2sSoDQWedgYn3ipNDkum2q0fBizOD90l3oumdiUfBizOD90l2qsNLoUoBS7bIu9bIu9bIuunLctmlaXmZQSmdg0l2swfBixoliSNlEQfRExO3axoB5YnTORfbSuHY0FM2qsM2wSmLySNlEUedauM2iuORS7bIusM2qxEBe2MlEQn3msOr1OET9vlBE7ErWgBTkrND8QET5so2swmZA9EcYRf3kYnD9qmdGxnLcvmlgYn3IxOdk0n3k0f3gYn3IXOD5tlBE7ErWgBTkrND8QET5so2swm3oumdiUEb0QedgYn3ipo2sSoDQ7ErWgBTkrND8QET5so2swm2qsNLoUoBA9EBizOD90l2qsNLoUobWRHY0FmLgUnZARnTk3NL1toD90MLYQhJASO3axoc90n3iWmjWRHY0FpI0F
+<?php
+require_once(dirname(__FILE__) .'/../require/function.inc.php');
+require_once(LULINREQ .'/tool/file.tool.php');
+if ($dopost == "heti") {
+$imgarr = explode("|",$file);
+$len = count($imgarr);
+$basedir = LULINROOT ."/uploads/makespot";
+$picdir = $basedir ."/pic";
+checkmakedir($basedir);
+checkdeldir($picdir);
+checkmakedir($picdir);
+foreach ($imgarr as $v) {
+$vname = basename($v);
+rename(LULINROOT .$v,$picdir ."/".$vname);
+}
+header("location: vrpano_makespot.php?dopost=hetido");
+exit();
+}if ($dopost == "hetido") {
+$basedir = LULINROOT ."/uploads/makespot";
+$picdir = $basedir ."/pic";
+$outdir = $basedir ."/putout";
+$file = scandir($picdir);
+$newfile = array();
+for ($k = 2;$k <count($file);$k++) {
+array_push($newfile,$file[$k]);
+}
+$spot_totle = count($newfile);
+$spot_data = getimagesize($picdir ."/".$newfile[0]);
+$spot_width = $spot_data[0];
+$spot_height = $spot_data[1];
+$spot_type = $spot_data[2];
+$totalheight = $spot_height * $spot_totle;
+checkmakedir($outdir);
+$dst_im = imagecreate($spot_width,$totalheight);
+for ($i = 0;$i <$spot_totle;$i++) {
+$mapx = 0;
+$mapy = $i * $spot_height;
+if ($spot_type == 1) {
+$oldsrc = @imagecreatefromgif($picdir ."/".$newfile[$i]);
+imagecopyresized($dst_im,$oldsrc,$mapx,$mapy,0,0,$spot_width,$spot_height,$spot_width,$spot_height);
+}else if ($spot_type == 2) {
+$oldsrc = @imagecreatefromjpeg($picdir ."/".$newfile[$i]);
+imagecopyresized($dst_im,$oldsrc,$mapx,$mapy,0,0,$spot_width,$spot_height,$spot_width,$spot_height);
+}else {
+$oldsrc = @imagecreatefrompng($picdir ."/".$newfile[$i]);
+imagecopyresized($dst_im,$oldsrc,$mapx,$mapy,0,0,$spot_width,$spot_height,$spot_width,$spot_height);
+}
+}
+imagepng($dst_im,$outdir ."/spot.png",9);
+checkdeldir($picdir);
+echo "var over=\"ok\";";
+echo "newimg = \"/uploads/makespot/putout/spot.png\";";
+echo "newimgwidth = $spot_width;";
+echo "newimgheight = $spot_height;";
+echo "newimgtotal = $spot_totle;";
+}
+?>

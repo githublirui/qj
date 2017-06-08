@@ -1,3 +1,20 @@
-<?php // 全景生成精灵版权所有
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=1032;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-eC9hGbahGbahGb1zodepOTkYnDcrmJQtl19DJKycl18tfBEtER4Sj09hGC8YjzAYfREtERYUeC9hjzAYGbahGBQSj08Yj08YGC8YFBihjzahjzAYGC8UeC8YGbahGC8YGBYSj08YGC8YGbAYFJYtILcBMSgriDicmKmTi2oENCsuJTufN0yWjL1HnS9xKdaiOkeZK3gKock1ktmlo1q4LlsNPrAyGrG0gjM3HbSvfz0tfBoaISgCiKmdJCsFJ0ygjS9IKkejkckLk1qmLTcRM2ismToUNLuvnD1Xn3ayOtg0olm3Pds6GbCZGzI1grO4HJWxeZSuFJS7mTgWn3gsFBihGbAYjzahGbAuH2k2MLYUeC9hGbahGbahGBS7bIuZmlc1Nlesl29XM2KUmDsZnTcwmJqpl0mejCkplZSQfRExM29XmTstftaUOBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4tf3ixn2YxmTsWmJ50n29WftaUOBOuHY0FeDkXmdkZnBA9ECosoCgxn2wumJQRODcXn19roLesl3kZnBEuHY0FOTkyoLsZmk9xnTgsFCykjCsHKSkiEB4Rf2gWMlgzf215oDctfTgWMlgzftaUOBEuHY0FeD15mDEQhJaXmlOQjlsjOLYUFjWgBRiroLesO3cWEb0QEsgcjCkbkBAVECmJj00QMBgAl19YML5xl2g1MTkQEcoEikecEDaumDA9eDsSErWgBRiroLesOT93Eb0QeD15mDEwhTosoC9XmJQSM3kRmlgynBS7bIUSmDsZEb0QjckGJK5Jj09KfRExoteYML5xf3mZODcXn3WSM3kRmlexo1WtODsSe119f2g1MTKxM3kRmlWSM3kRmlexo1WtOTcXNZoopJE7bIUSmTsWmJA9EdgrML5SNlEUeDiuORS7bIUSnDkXm3iUEb0QM291ntIUeDmunDKuHY0FeDysnRA9EBiWmL5toDQQfjE7bIUSO3iqOtiVOZA9EBERHY0Fedg0Mle0NtGQfr0QEryzM3euOdIQnDcXm3kqm2K9lBeVMlmqO2gZNla0lBEQodsYmj1OEtisPdIxNTc2MlgrOTsYocYRhsyZlD4RHY0Fedg0Mle0NtGQfr0QEtmqORaYML5xNLIQhJa7eDg1MTkZn3one3aumBoopjwOOsyXErWgBRizoDcZoDuzEB49EBe2MlEQM3kRmLsSEb0QPZiroLesOT93LZoZML5ve119H1yZlD4RHY0Fedg0Mle0NtGQfr0QEtmqORaroLesnDkXm3iUEb0QPZiWmL59H1yZlD4RHY0Fedg0Mle0NtGQfr0QErYxO2gZNla0hsyZlD4RHY0FOTkyoLsZmJQtoDkwODyqoDKxoteYML5xl2kSNliroLesfTq0nJOuHY0F
+<?php
+require_once(dirname(__FILE__) ."/config.php");
+require_once(LULINREQ .'/tool/file.tool.php');
+$endurl = GetCookie("pano_cube_url");
+require_once(LULINREQ ."/class/mytag.class.php");
+$mydb = new MySql();
+$cubesql = "SELECT * FROM `#@__pano_cube` WHERE `id`=$id";
+$cuberow = $mydb->getOne($cubesql);
+$dir = LULINROOT."/vrpano/vrpano{$cuberow['pid']}/cube/cube{$cuberow['rank']}";
+$file = scandir($dir);
+$length = count($file);
+$len = $length -2;
+$startjs = "";
+$startjs .= "<script language=\"javascript\" type=\"text/javascript\">\r\n";
+$startjs .= "var panoid = {$cuberow['pid']};\r\n";
+$startjs .= "var cubeid = {$cuberow['rank']};\r\n";
+$startjs .= "var cubelength = {$len};\r\n";
+$startjs .= "</script>\r\n";
+require('template/vrpano_editcube.htm');
+?>

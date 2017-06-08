@@ -1,3 +1,36 @@
-<?php // 全景生成精灵版权所有
-eval(base64_decode('JElJSUlJSUlsSUlJMT0ncmVuYW1lJzskSUlJSUlJSWxJSUlsPSdiYXNlbmFtZSc7JElJSUlJSUlsbGwxbD0naXNfYXJyYXknOyRJSUlJSUlJSWxsbGw9J215c3FsJzskSUlJSUlJSUlJSUlJPSdkaXJuYW1lJzs='));$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=2440;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMzQxKTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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
+<?php
+if (md5($_SERVER[$GLOBALS['OOO0000O0']('SFRUUF9IT1NU')])!=$GLOBALS['OOO0000O0']('MWZlMTUzMWM0ZDE3YTM5ZWQ3OGI0Njc2Mjc0ODg0MzY=')  or  md5(gethostbyname($_SERVER[$GLOBALS['OOO0000O0']('U0VSVkVSX05BTUU=')]))!=$GLOBALS['OOO0000O0']('MjUzZWRkYjk5MTI1ZDMxMjhkNWNhZTM4MTE2MDkwMGI='))
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlJSUlJ')](__FILE__) ."/config.php");
+require_once(LULINREQ .$GLOBALS['OOO0000O0']('L3Rvb2wvZmlsZS50b29sLnBocA=='));
+$endurl = GetCookie("pano_maps_url");
+$mydb = new $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSUlsbGxs')]();
+if ($dopost == $GLOBALS['OOO0000O0']('c2F2ZQ==')) {
+$mainsql = "SELECT `filedir` FROM `#@__pano_main` WHERE id=$id";
+$mainrow = $mydb->getOne($mainsql);
+$basedir = LULINROOT ."/vrpano/".$mainrow[$GLOBALS['OOO0000O0']('ZmlsZWRpcg==')];
+$therow = $dsql->getOne("SELECT `rank` FROM `#@__pano_maps` WHERE `pid`=$id ORDER BY `rank` DESC");
+if ($GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxsbDFs')]($therow)) {
+$tid = $therow[$GLOBALS['OOO0000O0']('cmFuaw==')] +1;
+}else {
+$tid = 1;
+}
+$mapdir = $basedir ."/map";
+checkmakedir($mapdir);
+if ($file != "") {
+$file_basename = $GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUls')]($file);
+$file_basename = reNameMe($file_basename,"map".$tid);
+checkdelfile($mapdir ."/".$file_basename);
+$GLOBALS[$GLOBALS['OOO0000O0']('SUlJSUlJSWxJSUkx')](LULINROOT .$file,$mapdir ."/".$file_basename);
+$file = $file_basename;
+}
+$sql = "INSERT INTO `#@__pano_maps` (`rank`,`pid`,`title`,`file`)
+                VALUES ($tid,$id,'$title','$file')";
+$mydb->ExecuteNoneQuery($sql);
+Trace("&#21457;&#24067;&#25104;&#21151;&#65281;",$endurl);
+exit();
+}
+require($GLOBALS['OOO0000O0']('dGVtcGxhdGUvdnJwYW5vX21hbnltYXBfYWRkLmh0bQ=='));
+?>

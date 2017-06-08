@@ -1,3 +1,149 @@
-<?php // ȫ�����ɾ����Ȩ����
-$OOO0O0O00=__FILE__;$OOO000000=urldecode('%74%68%36%73%62%65%68%71%6c%61%34%63%6f%5f%73%61%64%66%70%6e%72');$OO00O0000=7908;$OOO0000O0=$OOO000000{4}.$OOO000000{9}.$OOO000000{3}.$OOO000000{5};$OOO0000O0.=$OOO000000{2}.$OOO000000{10}.$OOO000000{13}.$OOO000000{16};$OOO0000O0.=$OOO0000O0{3}.$OOO000000{11}.$OOO000000{12}.$OOO0000O0{7}.$OOO000000{5};$O0O0000O0='OOO0000O0';eval(($$O0O0000O0('JE9PME9PMDAwMD0kT09PMDAwMDAwezE3fS4kT09PMDAwMDAwezEyfS4kT09PMDAwMDAwezE4fS4kT09PMDAwMDAwezV9LiRPT08wMDAwMDB7MTl9O2lmKCEwKSRPMDAwTzBPMDA9JE9PME9PMDAwMCgkT09PME8wTzAwLCdyYicpOyRPTzBPTzAwME89JE9PTzAwMDAwMHsxN30uJE9PTzAwMDAwMHsyMH0uJE9PTzAwMDAwMHs1fS4kT09PMDAwMDAwezl9LiRPT08wMDAwMDB7MTZ9OyRPTzBPTzAwTzA9JE9PTzAwMDAwMHsxNH0uJE9PTzAwMDAwMHswfS4kT09PMDAwMDAwezIwfS4kT09PMDAwMDAwezB9LiRPT08wMDAwMDB7MjB9OyRPTzBPTzAwME8oJE8wMDBPME8wMCwxMTU3KTskT08wME8wME8wPSgkT09PMDAwME8wKCRPTzBPTzAwTzAoJE9PME9PMDAwTygkTzAwME8wTzAwLDM4MCksJ0FhQmJDY0RkRWVGZkdnSGhJaUpqS2tMbE1tTm5Pb1BwUXFSclNzVHRVdVZ2V3dYeFl5WnowMTIzNDU2Nzg5Ky89JywnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLycpKSk7ZXZhbCgkT08wME8wME8wKTs=')));return;?>
-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MLosM3esMlismtexnlaXmZQSNL1tmTsWmJS7bIu9bIUSmtexntIQhJaunLctmLgZmLc0mliZoLkrn2yxORQSo2sSoDQWedoumdiUFjWgBRiZNLoUoBA9EDswMLosM3esMlisode1mLgxnD9ZFBi3NLi0NBYSo2sSoDQuHY0FeDeqM2WQhJaunLctmLgZmLc0mliZoLkrn2yxORQSo2sSoDQWedoumdiUFjWgBRiWmLm0Eb0QNL1qm2krOTkqoDk0OtksM29Wn3EUedoumdiUfBi3NLi0NBS7bIUSolAQhJaunLctmLgZmLc0mliZoLkrn2yxORQSo2sSoDQWedoumdiUFjWgBRiSn3oXEb0QNL1qm2krOTkqoDk0OtksM29Wn3EUedoumdiUfBi3NLi0NBS7bIuunLctmLgxOdSUeDmZn250fBitmliunLOWGBYYfbAWGBYSo2sSoDQWedoumdiUFjWgBTswMLosM29YPJQSOTstNdIWeDosoDswmZYYfbAWGBYSo2sSoDQWedoumdiUfBi3NLi0NBS7bIuunLctmLgxOdSUeDeqM2WWeDosoDswmZYYfbAWGBYZEBUQedoumdiUfBi3NLi0NBYSo2sSoDQuHY0FNL1qm2krn3a5FBiWmLm0fBitmliunLOWGBYYfbAWGZAVEBi3NLi0NBYSo2sSoDQWedoumdiUFjWgBTswMLosM29YPJQSolAWeDosoDswmZYYfbAWGBY0EBUQedoumdiUfBi3NLi0NBYSo2sSoDQuHY0FNL1qm2krn3a5FBiSn3oXfBitmliunLOWGBYYfbAWgJAVEBi3NLi0NBYSo2sSoDQWedoumdiUFjWgBRiTNLysnTcwmlisnlAQhJa0NL1sFBS7bIuunLctmLuYmLOUeDmZn250fCykjCsHKS9hkBAXER91ODyxMLizf3g0Mliun24xER4SmTsWmL5qnLk0mL1YEB4Rl2mZn250fTuYmZEWGjAYFjWgBTswMLosNtasmZQSOTstNdIWjckGJK5Jj09KEB4Rf3kYnD9qmdGxO3iqoDsxnR8RfRiTNLysnTcwmlisnlAQfRepOTstNdIXNtatERYyGbAuHY0FNL1qm2kVODktFBiRMLgvfCykjCsHKS9hkBAXER91ODyxMLizf3g0Mliun24xER4SmTsWmL5qnLk0mL1YEB4Rl2eq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
+<?phpecho '﻿';
+require_once(dirname(__FILE__) .'/../require/function.inc.php');
+require_once(LULINREQ .'/tool/file.tool.php');
+if ($dopost == "cuber2six") {
+$imgfile = LULINROOT .$file;
+echo "var imgcut = false;";
+if (is_file($imgfile)) {
+$arr = getimagesize($imgfile);
+$width = $arr[0];
+$height = $arr[1];
+$imgype = $arr[2];
+if ($width == $height * 6) {
+if ($imgype == 1) {
+$getimg = @imagecreatefromgif($imgfile);
+}else if ($imgype == 2) {
+$getimg = @imagecreatefromjpeg($imgfile);
+}else {
+$getimg = @imagecreatefrompng($imgfile);
+}
+$front = imagecreatetruecolor($height,$height);
+$right = imagecreatetruecolor($height,$height);
+$back = imagecreatetruecolor($height,$height);
+$left = imagecreatetruecolor($height,$height);
+$up = imagecreatetruecolor($height,$height);
+$down = imagecreatetruecolor($height,$height);
+imagecopy($front,$getimg,0,0,0,0,$height,$height);
+imagecopy($right,$getimg,0,0,$height,0,$height,$height);
+imagecopy($back,$getimg,0,0,2 * $height,0,$height,$height);
+imagecopy($left,$getimg,0,0,3 * $height,0,$height,$height);
+imagecopy($up,$getimg,0,0,4 * $height,0,$height,$height);
+imagecopy($down,$getimg,0,0,5 * $height,0,$height,$height);
+$filenametemp = time();
+imagejpeg($front,LULINROOT ."/uploads/station/".$filenametemp ."_front.jpg",100);
+imagejpeg($right,LULINROOT ."/uploads/station/".$filenametemp ."_right.jpg",100);
+imagejpeg($back,LULINROOT ."/uploads/station/".$filenametemp ."_back.jpg",100);
+imagejpeg($left,LULINROOT ."/uploads/station/".$filenametemp ."_left.jpg",100);
+imagejpeg($up,LULINROOT ."/uploads/station/".$filenametemp ."_up.jpg",100);
+imagejpeg($down,LULINROOT ."/uploads/station/".$filenametemp ."_down.jpg",100);
+unlink($imgfile);
+echo "imgcut = true;";
+echo "var newimg = new Array();";
+echo "newimg['front'] = '/uploads/station/".$filenametemp ."_front.jpg';";
+echo "newimg['back'] = '/uploads/station/".$filenametemp ."_back.jpg';";
+echo "newimg['up'] = '/uploads/station/".$filenametemp ."_up.jpg';";
+echo "newimg['down'] = '/uploads/station/".$filenametemp ."_down.jpg';";
+echo "newimg['left'] = '/uploads/station/".$filenametemp ."_left.jpg';";
+echo "newimg['right'] = '/uploads/station/".$filenametemp ."_right.jpg';";
+}else if ($width * 6 == $height) {
+if ($imgype == 1) {
+$getimg = @imagecreatefromgif($imgfile);
+}else if ($imgype == 2) {
+$getimg = @imagecreatefromjpeg($imgfile);
+}else {
+$getimg = @imagecreatefrompng($imgfile);
+}
+$front = imagecreatetruecolor($width,$width);
+$right = imagecreatetruecolor($width,$width);
+$back = imagecreatetruecolor($width,$width);
+$left = imagecreatetruecolor($width,$width);
+$up = imagecreatetruecolor($width,$width);
+$down = imagecreatetruecolor($width,$width);
+imagecopy($front,$getimg,0,0,0,0,$width,$width);
+imagecopy($right,$getimg,0,0,0,$width,$width,$width);
+imagecopy($back,$getimg,0,0,0,2 * $width,$width,$width);
+imagecopy($left,$getimg,0,0,0,3 * $width,$width,$width);
+imagecopy($up,$getimg,0,0,0,4 * $width,$width,$width);
+imagecopy($down,$getimg,0,0,0,5 * $width,$width,$width);
+$filenametemp = time();
+imagejpeg($front,LULINROOT ."/uploads/station/".$filenametemp ."_front.jpg",100);
+imagejpeg($right,LULINROOT ."/uploads/station/".$filenametemp ."_right.jpg",100);
+imagejpeg($back,LULINROOT ."/uploads/station/".$filenametemp ."_back.jpg",100);
+imagejpeg($left,LULINROOT ."/uploads/station/".$filenametemp ."_left.jpg",100);
+imagejpeg($up,LULINROOT ."/uploads/station/".$filenametemp ."_up.jpg",100);
+imagejpeg($down,LULINROOT ."/uploads/station/".$filenametemp ."_down.jpg",100);
+unlink($imgfile);
+echo "imgcut = true;";
+echo "var newimg = new Array();";
+echo "newimg['front'] = '/uploads/station/".$filenametemp ."_front.jpg';";
+echo "newimg['back'] = '/uploads/station/".$filenametemp ."_back.jpg';";
+echo "newimg['up'] = '/uploads/station/".$filenametemp ."_up.jpg';";
+echo "newimg['down'] = '/uploads/station/".$filenametemp ."_down.jpg';";
+echo "newimg['left'] = '/uploads/station/".$filenametemp ."_left.jpg';";
+echo "newimg['right'] = '/uploads/station/".$filenametemp ."_right.jpg';";
+}else {
+echo "alert('转化失败，上传图片不是标准条形图！');";
+}
+}
+exit();
+}else if ($dopost == "ball2six") {
+$xitong = PHP_OS;
+if ($xitong == "WINNT"||$xitong == "Windows"||$xitong == "WIN32") {
+$imgfile = LULINROOT .$file;
+echo "var imgcut = false;";
+if (is_file($imgfile)) {
+$arr = getimagesize($imgfile);
+$width = $arr[0];
+$height = $arr[1];
+$imgype = $arr[2];
+if ($imgype == 1) {
+$imgtp = ".gif";
+}else if ($imgype == 2) {
+$imgtp = ".jpg";
+}else {
+$imgtp = ".png";
+}
+$basedir = LULINROOT ."/uploads/transform";
+checkdeldir($basedir);
+mkdir($basedir);
+$newpano = $basedir ."/pano".$imgtp;
+rename($imgfile,$newpano);
+if (exec(LULINREQ ."/vrpano/main/tools/sphere2cube.bat $newpano",$output)) {
+echo "imgcut = true;";
+echo "var newimg = new Array();";
+echo "newimg['front'] = \"/uploads/transform/pano_f$imgtp\";";
+echo "newimg['back'] = \"/uploads/transform/pano_b$imgtp\";";
+echo "newimg['up'] = \"/uploads/transform/pano_u$imgtp\";";
+echo "newimg['down'] = \"/uploads/transform/pano_d$imgtp\";";
+echo "newimg['left'] = \"/uploads/transform/pano_l$imgtp\";";
+echo "newimg['right'] = \"/uploads/transform/pano_r$imgtp\";";
+checkdelfile($newpano);
+}
+}
+exit();
+}else {
+echo "alert('此功能只能在Windows环境下有效!');";
+exit();
+}
+}else if ($dopost == "suipian2six") {
+$imgarr = explode("|",$file);
+$len = count($imgarr);
+$pano_everylen = $len / 6;
+$pano_zhenlie = sqrt($pano_everylen);
+if (is_numeric($pano_zhenlie)) {
+$basedir = LULINROOT ."/uploads/panotu";
+$picdir = $basedir ."/pic";
+checkmakedir($basedir);
+checkdeldir($picdir);
+checkmakedir($picdir);
+foreach ($imgarr as $v) {
+$vname = basename($v);
+rename(LULINROOT .$v,$picdir ."/".$vname);
+}
+header("location: vrpano_pintu.php?action=new");
+}else {
+echo "var over = \"err\";";
+}
+exit();
+}
+?>
