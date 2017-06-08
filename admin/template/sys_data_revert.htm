@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>数据库维护</title>
+        <link href='style/common.css' rel='stylesheet' type='text/css'/>
+        <script src="js/jquery.js" language="javascript" type="text/javascript"></script>
+        <script language="javascript" type="text/javascript">
+            function getCheckboxItem(){
+                var myform = document.form1;
+                var allSel="";
+                if(myform.bakfile.value) return myform.bakfile.value;
+                for(i=0;i<myform.bakfile.length;i++)
+                {
+                    if(myform.bakfile[i].checked){
+                        if(allSel=="")
+                            allSel=myform.bakfile[i].value;
+                        else
+                            allSel=allSel+","+myform.bakfile[i].value;
+                    }
+                }
+                return allSel;	
+            }
+            //反选
+            function ReSel(){
+                var myform = document.form1;
+                for(i=0;i<myform.bakfile.length;i++){
+                    if(myform.bakfile[i].checked) myform.bakfile[i].checked = false;
+                    else myform.bakfile[i].checked = true;
+                }
+            }
+            //全选
+            function SelAll(){
+                var myform = document.form1;
+                for(i=0;i<myform.bakfile.length;i++){
+                    myform.bakfile[i].checked = true;
+                }
+            }
+            //取消
+            function NoneSel(){
+                var myform = document.form1;
+                for(i=0;i<myform.bakfile.length;i++){
+                    myform.bakfile[i].checked = false;
+                }
+            }
+            //
+            function checkSubmit()
+            {
+                var myform = document.form1;
+                myform.bakfiles.value = getCheckboxItem();
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#c8ddff">
+                <tr>
+                    <td colspan="8" class="td_title">
+                        <table width="98%" border="0" cellspacing="1" cellpadding="1">
+                            <tr> 
+                                <td width="24%" class="td_p8"><b>数据库管理-还原</b></td>
+                                <td width="76%" align="right">
+                                     <input type="button" onclick="window.location.href='sys_data_revert.php'" value="数据还原" class="btn1"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <form name="form1" onSubmit="checkSubmit()" action="sys_data_done.php" method="post" target="stafrm">
+                    <input type='hidden' name='dopost' value='redat' />
+                    <input type='hidden' name='bakfiles' value='' />
+                    <tr class="tr_hui"> 
+                        <td height="24" colspan="8"  style="padding-left: 10px;"><b>发现的备份文件：</b><?php if(count($filelists)==0) echo " 没找到任何备份文件... "; ?></td>
+                    </tr>
+                    <?php echo $backhtml;?>
+                    <tr align="center" class="tr_white"> 
+                        <td height="24" colspan="4">
+                            <input class="btn1" name="b1" type="button" id="b1" onClick="SelAll()" value="全选" /> 
+                            <input class="btn1"  name="b2" type="button" id="b2" onClick="ReSel()" value="反选" /> 
+                            <input class="btn1"  name="b3" type="button" id="b3" onClick="NoneSel()" value="取消" />
+                        </td>
+                    </tr>
+                    <tr class="tr_white"> 
+                        <td height="24" colspan="8"  style="padding-left: 10px;"><b>附加参数：</b></td>
+                    </tr>
+                    <tr class="tr_white"> 
+                        <td height="24" colspan="4"> 
+                            <input name="structfile" type="checkbox" id="structfile" value="<?php echo $structfile?>" checked='1' />还原表结构信息(<?php echo $structfile?>) 
+                            <input name="delfile" type="checkbox" id="delfile" value="1" />还原后删除备份文件 
+                        </td>
+                    </tr>
+                    <tr class="tr_white" align="center"> 
+                        <td height="33" colspan="4">
+                            <input type="submit" name="Submit" value="还原数据" class="btn1" />
+                        </td>
+                    </tr>
+                </form>
+                <tr class="tr_white"> 
+                    <td height="24" colspan="4" style="padding-left: 10px;"><b>进行状态： </b></td>
+                </tr>
+                <tr bgcolor="#FFFFFF"> 
+                    <td height="320" colspan="4">
+                        <iframe name="stafrm" frameborder="0" id="stafrm" width="100%" height="100%"></iframe> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

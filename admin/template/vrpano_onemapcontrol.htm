@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景地图</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                maponoroff();
+            });
+            function lookscene(n){
+                window.open("tool/lookscene/index.php?id="+n);
+            }
+            function getmap(k,n){
+                window.open("tool/getmap/index.php?id="+k+"&key="+n);
+            }
+            function getmapradar(k,n){
+                window.open("tool/getmapradar/index.php?pid="+k+"&rank="+n);
+            }
+            function getradardata(x,rank){
+              x = 180 -x - 90;
+              $.ajax({
+                    url: "vrpano_onemapcontrol.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {rank: rank, value: x,dopost:"mapradar",pid:"<?php echo $id; ?>"},
+                    success: function(data) {
+                        if (ok == true) {
+                            $("#rote"+rank).val(x);
+                        }
+                    }
+                });  
+            }
+            function getmapdata(x,y,key){
+                $.ajax({
+                    url: "vrpano_onemapcontrol.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: key, mapx: x,mapy:y,dopost:"mapxy",pid:"<?php echo $id; ?>"},
+                    success: function(data) {
+                        if (ok == true) {
+                            $("#mapx"+key).val(x);
+                            $("#mapy"+key).val(y);
+                        }
+                    }
+                });                
+            }
+            function maponoroff() {
+                var len = $(".maponoff").length;
+                for (i = 0; i < len; i++) {
+                    if ($(".maponoff").eq(i).attr("value") == 0) {
+                        $(".maponoff").eq(i).addClass("off");
+                    }
+                }
+                $(".maponoff").click(function() {
+                    var key = $(this).attr("key");
+                    var me = $(this);
+                    if ($(this).attr("value") == 1) {
+                        $.ajax({
+                            url: "vrpano_onemapcontrol.php",
+                            type: "POST",
+                            dataType: "script",
+                            data: {id: key, value:0,dopost:"mapopen",pid:"<?php echo $id; ?>"},
+                            success: function(data) {
+                                if (ok == true) {
+                                    me.addClass("off");
+                                    me.attr("value", 0);
+                                }
+                            }
+                        });
+                    } else {
+                        $.ajax({
+                            url: "vrpano_onemapcontrol.php",
+                            type: "POST",
+                            dataType: "script",
+                            data: {id: key, value:1,dopost:"mapopen",pid:"<?php echo $id; ?>"},
+                            success: function(data) {
+                                if (ok == true) {
+                                    me.removeClass("off");
+                                    me.attr("value", 1);
+                                }
+                            }
+                        });                        
+                    }
+                });
+            }
+        </script>
+        <style type="text/css">
+            .mapmainout{
+                width: 182px; height: 260px; overflow: hidden; border: 1px solid #c8ddff; padding: 2px; float: left; _display: inline; margin: 4px;
+            }
+            .mapmain{
+                width: 180px; height: 246px; overflow: hidden; border:1px dotted #c8ddff; padding: 6px 0;
+            }
+            .maptline{
+                width: 160px; height: 28px; overflow: hidden; margin: 0 auto;
+                font: 12px/28px "微软雅黑"; color: #333;
+            }
+            .maptline b{
+                font: bold 12px/28px "微软雅黑";
+            }
+            .mapkong{
+                width: 160px; height: 12px; overflow: hidden; margin: 0 auto;
+            }
+            .mapoffbox{
+                width: 160px; height: 26px; overflow: hidden; margin: 0 auto; margin-bottom: 5px;
+                font: 12px/26px "微软雅黑"; color: #333;
+            }
+            .mapoffbox b{
+                font: bold 12px/26px "微软雅黑";
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>地图注点详细</b>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff" style="margin: 0px;">
+                <tr class="tr_white">
+                    <td style="padding: 4px;">
+                        <?php echo $scenehtml; ?>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-top:none; padding: 0px 10px;">
+                        <input type="button" class="btn1" value="返回上级" onclick="window.location.href = 'vrpano_map.php?id=<?php echo $id; ?>';"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

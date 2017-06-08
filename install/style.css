@@ -1,0 +1,81 @@
+@charset "utf-8";
+html{
+    margin: 0px; padding: 0px;
+}
+body{
+    background: #fff; margin: 0px; padding: 0px;
+    background-attachment: fixed; 
+     font-family: "微软雅黑", "宋体", Helvetica, Arial, Verdana;
+     font-size: 12px;
+}
+ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none;}
+a{text-decoration:none; color: #333; cursor: pointer;}
+a:link{}
+a:visited{}
+a:hover{text-decoration:none; color: #199372;}
+a:active{}
+img{border:0;padding:0; margin:0;}
+p{padding:0; margin:0;}
+b{
+    color: #fff; font-weight: bold;
+}
+
+#toper{
+    width: 960px; height: 76px; overflow: hidden;
+    margin: 14px auto;
+    background: url(images/logo.png) no-repeat;
+}
+#main{
+    width: 960px; height: auto; overflow: hidden;
+    margin: 0 auto;
+    background: #7CAEFB;
+    margin-bottom: 40px;
+}
+
+.printer{
+    width: 960px; height: auto; overflow: hidden; margin: 0 auto; }
+.printer_title{
+    width: auto; height: 50px; overflow: hidden; text-align: center; margin-top: 20px;
+    font: bold 30px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #333;
+}
+.printer_body{
+    font: 12px/22px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #333; border:1px solid #fff; padding: 10px; background: #f5f8fa;
+    width: auto; height: auto; margin: 10px 30px;
+    overflow: hidden;
+}
+
+.submitbox{
+    width: 960px; height: 70px; overflow: hidden; margin-top: 6px; margin: 0 auto; margin-top: 10px; text-align: center;
+}
+
+.btn1{
+    width: 68px; height: 22px; background: url(images/btn1.jpg) no-repeat; overflow: hidden; padding: 0px; margin: 0px; border:none;
+   cursor: pointer; line-height: 22px;
+    font: 12px/22px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #333;
+}
+.btn1:hover{
+    background-position: 0 -22px;
+}
+
+#readpact{
+    vertical-align: middle;
+}
+.submitbox label{
+    vertical-align: middle;
+}
+small{
+    margin-left: 10px; font: 12px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #5eb8c0;
+}
+span{
+    margin-left: 10px; font: 12px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #be0000;
+}
+.onetd{
+    text-align: right;
+}
+
+.endbox{
+    width: auto; height: auto; overflow: hidden;
+}
+.pano{
+    width: auto; height: 500px; overflow: hidden; border:1px solid #dbdbdb; margin: 0 auto; margin-top: 10px;
+}

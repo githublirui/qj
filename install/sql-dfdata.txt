@@ -1,0 +1,53 @@
+INSERT INTO `#@__admintype` (`rank`, `typename`, `system`, `purviews`) VALUES
+(1, '普通管理员', 1, ''),
+(10, '超级管理员', 1, 'admin_AllowAll');
+
+INSERT INTO `#@__sysconfig` (`aid`, `varname`, `info`, `groupid`, `type`, `value`) VALUES
+(1, 'cfg_basehost', '站点根网址', 1, 'string', ''),
+(2, 'cfg_webname', '网站名称', 1, 'string', ''),
+(3, 'cfg_cookie_encode', 'cookie密钥', 2, 'string', ''),
+(4, 'cfg_cmspath', 'CMS目录', 1, 'string', ''),
+(5, 'cfg_upload_size', '上传文件大小限制（kb）', 2, 'number', '1024000');
+
+INSERT INTO `#@__pano_cursor` (`id`, `images`, `scriptdata`) VALUES
+(1, 'cursor.png', '<krpano version="1.0.8">\r\n<events onxmlcomplete="action(cursor);" />\r\n<action name="cursor">\r\nset(cursors.url,  %SWFPATH%/cursor/###);\r\nset(cursors.type, 8way);\r\nset(cursors.move,       0|0|16|16);\r\nset(cursors.drag,      16|0|16|16);\r\nset(cursors.arrow_u,   32|0|16|16);\r\nset(cursors.arrow_d,   48|0|16|16);\r\nset(cursors.arrow_l,   64|0|16|16);\r\nset(cursors.arrow_r,   80|0|16|16);\r\nset(cursors.arrow_lu,  96|0|16|16);\r\nset(cursors.arrow_ru, 112|0|16|16);\r\nset(cursors.arrow_rd, 128|0|16|16);\r\nset(cursors.arrow_ld, 144|0|16|16);\r\n</action>\r\n</krpano>'),
+(2, 'cursor.png', '<krpano version="1.0.8">\r\n<events onxmlcomplete="action(cursor);" />\r\n<action name="cursor">\r\nset(cursors.url,  %SWFPATH%/cursor/###);\r\nset(cursors.type, 4way);\r\nset(cursors.move,      112|0|28|28);\r\nset(cursors.drag,      112|0|28|28);\r\nset(cursors.arrow_r,    0|0|28|28);\r\nset(cursors.arrow_d,   28|0|28|28);\r\nset(cursors.arrow_l,   56|0|28|28);\r\nset(cursors.arrow_u,   84|0|28|28);\r\n</action>\r\n</krpano>'),
+(3, 'cursor.png', '<krpano version="1.0.8">\r\n<events onxmlcomplete="action(cursor);" />\r\n<action name="cursor">\r\nset(cursors.url,  %SWFPATH%/cursor/###);\r\nset(cursors.type, drag);\r\nset(cursors.move,  0|0|32|32);\r\nset(cursors.drag, 32|0|32|32);\r\n</action>\r\n</krpano>'),
+(4, 'cursor.png', '<krpano version="1.0.8">\r\n<events onxmlcomplete="action(cursor);" />\r\n<action name="cursor">\r\nset(cursors.url,  %SWFPATH%/cursor/###);\r\nset(cursors.type, 8way);\r\nset(cursors.move,       0|0|16|16);\r\nset(cursors.drag,      16|0|16|16);\r\nset(cursors.arrow_u,   32|0|16|16);\r\nset(cursors.arrow_d,   48|0|16|16);\r\nset(cursors.arrow_l,   64|0|16|16);\r\nset(cursors.arrow_r,   80|0|16|16);\r\nset(cursors.arrow_lu,  96|0|16|16);\r\nset(cursors.arrow_ru, 112|0|16|16);\r\nset(cursors.arrow_rd, 128|0|16|16);\r\nset(cursors.arrow_ld, 144|0|16|16);\r\n</action>\r\n</krpano>');
+
+
+INSERT INTO `#@__thumbtype` (`id`, `title`) VALUES
+(1, '默认缩略图-右下横向（关）'),
+(2, '默认缩略图-右下横向（开）'),
+(3, '经典缩略图');
+
+
+INSERT INTO `#@__pano_spottype` (`id`, `typename`) VALUES
+(1, '图片类型'),
+(2, 'Flash类型'),
+(3, '动态序列');
+
+INSERT INTO `#@__pano_spotstyle` (`id`, `typeid`, `title`, `url`, `framewidth`, `frameheight`, `frame`, `lastframe`, `speed`) VALUES
+(1, 1, '前进', '/require/vrpano/main/spot/spot1.png', 0, 0, 1, 1, 0.03),
+(2, 1, '放大镜', '/require/vrpano/main/spot/spot2.png', 0, 0, 1, 1, 0.03),
+(3, 1, '左拐', '/require/vrpano/main/spot/spot3.png', 0, 0, 1, 1, 0.03),
+(4, 1, '右拐', '/require/vrpano/main/spot/spot4.png', 0, 0, 1, 1, 0.03),
+(5, 1, '前进箭头', '/require/vrpano/main/spot/spot5.png', 0, 0, 1, 1, 0.03),
+(6, 1, '驻点1', '/require/vrpano/main/spot/spot6.png', 0, 0, 1, 1, 0.03),
+(7, 1, '驻点2', '/require/vrpano/main/spot/spot7.png', 0, 0, 1, 1, 0.03),
+(8, 3, '黄金箭头', '/require/vrpano/main/spot/spot8.png', 50, 50, 1, 100, 0.02),
+(9, 3, '齿轮', '/require/vrpano/main/spot/spot9.png', 40, 40, 1, 50, 0.03),
+(10, 3, '上楼梯', '/require/vrpano/main/spot/spot10.png', 52, 40, 1, 30, 0.03),
+(11, 3, '下楼梯', '/require/vrpano/main/spot/spot11.png', 52, 40, 1, 30, 0.03),
+(12, 1, '前进圆盘', '/require/vrpano/main/spot/spot12.png', 0, 0, 1, 0, 0.03);
+
+
+
+
+INSERT INTO `#@__controltype` (`id`, `controlname`, `info`) VALUES
+(1, '简洁模式', '带有“仰视”、“俯视”、“左转”、“右转”、“全屏”功能，界面非常简洁，黑色半透明。'),
+(2, '经典模式', '带有“仰视”、“俯视”、“左转”、“右转”、“全屏”功能。');
+
+INSERT INTO `#@__taocan` (`id`, `title`) VALUES
+(1, '水晶风格'),
+(2, '黑色经典');

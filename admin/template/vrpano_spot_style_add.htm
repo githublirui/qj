@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景热点新建</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <style type="text/css">
+            .sb{
+                display: none;
+            }
+        </style>
+        <script type="text/javascript">
+            var key = 1;
+            $(document).ready(function(){
+                $("#urlup").uploader("all", "urldata","<?php echo $cfg_cmspath; ?>");
+                $("#heti").uploader("images2", "heti","<?php echo $cfg_cmspath; ?>"); 
+            });
+            function urldata(data){
+                $("#url").val(data);
+            }
+            function checksub() {
+                var title = $("#title").val();
+                if (title == "") {
+                    alert("请填写热点题目");
+                    return false;
+                } else if($("#url").val()==""){
+                    alert("请上传热点图片");
+                    return false;
+                }else if(key==3 && ($("#framewidth").val()==""||$("#frameheight").val()==""||$("#lastframe").val()=="")){
+                    alert("请填写好序列帧参数图片");
+                    return false;
+                }else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            function op(n){
+                key = n;
+                if(n != 3){
+                    $(".sb").hide();
+                }else{
+                    $(".sb").show();
+                }
+            }
+            
+            function heti(data){
+                $(".loginbox").show();
+                $.ajax({
+                    url: "vrpano_makespot.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {dopost: "heti",file:data},
+                    success: function(e) {
+                        $(".loginbox").hide();
+                        if(over=="ok"){
+                            $("#url").val("<?php echo $cfg_cmspath; ?>"+newimg);
+                            $("#framewidth").val(newimgwidth);
+                            $("#frameheight").val(newimgheight);
+                            $("#lastframe").val(newimgtotal);
+                        }
+                    }                    
+                });
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>添加全景热点</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_spot_style_add.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>   
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景热点名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="title" name="title" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">本全景热点名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景热点分类：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $ophtml; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点分类，方便使用和管理</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景热点：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="url" name="url" />
+                            <input type="button" class="btn1" id='urlup' value="点击上传" />
+                            <input type="button" class="btn1 sb" id='heti' value="碎片拼合" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点图片的路径，推荐选择PNG以及GIF格式的图片</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white sb" height="36">
+                        <td  align="right">
+                            <b>热点宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="framewidth" name="framewidth" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white sb" height="36">
+                        <td  align="right">
+                            <b>热点高度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="frameheight" name="frameheight" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white sb" height="36">
+                        <td  align="right">
+                            <b>帧数：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="lastframe" name="lastframe" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white sb" height="36">
+                        <td  align="right">
+                            <b>速度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="speed" name="speed" value="0.03" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </body>
+</html>

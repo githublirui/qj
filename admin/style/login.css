@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0;background:#fff;}
+ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none;}
+a{text-decoration:none;}
+a:link{}
+a:visited{}
+a:hover{text-decoration:underline;}
+a:active{}
+img{border:0;padding:0; margin:0;}
+p{padding:0; margin:0;}
+b{
+    font-weight: normal; 
+}
+
+.main{
+    width: auto; height: 537px; overflow: hidden;
+}
+.top{
+    width: 980px; height: 74px; overflow: hidden; margin: 0 auto;
+}
+.mid{
+    width: auto; height: 392px; overflow: hidden; background: url(../images/login/lg_bg.gif) repeat-x;
+}
+.down{
+    width: 980px; height: 71px; overflow: hidden; margin: 0 auto; text-align: center;
+}
+.down span{
+    font: 12px/60px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #333; margin: 0 5px;
+}
+.down a{
+    font: 12px/60px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #333;
+}
+.logo{
+    width: 288px; height: 39px; overflow: hidden; margin-top: 19px; margin-left: 21px; float: left; _display: inline;
+}
+.topmain{
+    width: auto; height: 74px; overflow: hidden; float: right; font: 12px/74px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666;
+}
+.topmain a{
+    font: 12px/74px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666; margin: 0 8px;
+}
+.topmain span{
+    font: 12px/74px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666; margin-left: 30px;
+}
+.topmain b{
+    font: 12px/74px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #0066cc;
+}
+.mid_mian{
+    width: 980px; height: 392px; overflow: hidden; margin: 0 auto; background: url(../images/login/lg_main1.jpg) no-repeat;
+}
+.logn{
+    width: 335px; height: 314px; overflow: hidden; margin-left: 596px; margin-top: 39px;
+}
+.title{
+    margin: 10px 28px 0 28px; border-bottom: 2px solid #e2e2e2; overflow: hidden;height: 32px;
+    font: 16px/32px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #333;
+}
+.box{
+    margin: 16px 28px 0 28px; overflow: hidden;
+    font: 14px/50px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666;
+}
+.box a{
+    font: 12px/50px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666;
+}
+.inputbox{
+    width: 160px; height: 28px; overflow: hidden; border:2px solid #ccc; font: 14px/28px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666; padding: 0 5px;
+}
+.xiaobox{
+    width: 36px; height: 28px; overflow: hidden; border:2px solid #ccc; font: 14px/28px "微软雅黑","宋体", tahoma, arial, sans-serif; color: #666; padding: 0 5px;
+}
+.inputbox:hover{
+    border-color: #0093dd;
+}
+.xiaobox:hover{
+    border-color: #0093dd;
+}
+.btn1{
+    width: 120px; height: 37px; overflow: hidden; background: url(../images/login/lg_btn1.png) no-repeat; border: 0px; cursor: pointer; margin: 0 5px;
+}
+.btn2{
+    width: 120px; height: 37px; overflow: hidden; background: url(../images/login/lg_btn2.jpg) no-repeat; border: 0px; cursor: pointer; margin: 0 5px;
+}
+.cheaked{
+    border-color: #0093dd;
+}

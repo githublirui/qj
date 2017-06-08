@@ -1,0 +1,238 @@
+
+nav {
+  background: rgba(245, 245, 245, 0.95);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  width: 160px;
+  margin:0 0 0 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+  height: 50px;
+}
+nav ul li:hover {
+  width: 200px;
+  height: 50px;
+}
+nav ul li a {
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  text-decoration: none;
+  color: #555;
+  padding: 18px 0 0 60px;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+
+.aa {
+  background: #f65737;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.bb {
+  background: #ffbb00;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.cc {
+  background: #e2e22c;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.dd {
+  background: #35dc35;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.ee {
+  background: #5990eb;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.ff {
+  background: #de38de;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.gg {
+  background: #d66a6a;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.hh {
+  background: #e0bc4e;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.ii {
+  background: #5eb837;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.jj {
+  background: #5c5cd6;
+  width: 50px;
+  height: 50px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+
+.aa-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.aa-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/aa.png");
+}
+
+.bb-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.bb-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/bb.png");
+}
+
+.cc-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.cc-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/cc.png");
+}
+
+.dd-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.dd-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/dd.png");
+}
+
+.ee-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.ee-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/ee.png");
+}
+
+.ff-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.ff-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/ff.png");
+}
+
+.gg-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.gg-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/gg.png");
+}
+
+.hh-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.hh-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/hh.png");
+}
+
+.ii-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.ii-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/ii.png");
+}
+
+.jj-icon {
+  position: absolute;
+  margin-left: 8px;
+  padding-top: 8px;
+}
+.jj-icon:before {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  content: url("./coin/jj.png");
+}
+
+body {
+  background: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}

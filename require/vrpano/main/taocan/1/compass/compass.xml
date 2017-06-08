@@ -1,0 +1,60 @@
+<!--
+	krpano - compass example
+
+	- it just rotates images accordingly to the viewing direction
+
+	- two examples are used - one compass with rotation pointer
+	  and one compass with rotating plate
+
+	- a user defined global variable "heading" is used for the current
+	  pano heading, the compass and the hotspots are relative to this value
+-->
+
+<krpano>
+
+
+	
+	<!-- events, show a infotext on start, and call the "onviewchange" action on a view change -->
+	<events onxmlcomplete="startup();"
+	        onviewchange="rotatecompasses();"
+			/>
+
+	<!-- show info, set heading, create hotpots -->
+	<action name="startup">
+		<!-- SET HEADING -->
+		set(heading, 0);
+
+		action(add_compass_spots);
+	</action>
+
+	<!-- change the rotation of the compass pointer / compass plate image -->
+	<action name="rotatecompasses">
+		sub(plugin[compass_pointer].rotate, view.hlookat, heading);
+		sub(plugin[compass2_plate].rotate,  heading, view.hlookat);
+	</action>
+
+
+	<!-- enable autorotation -->
+	<autorotate enabled="true" waittime="3.0" accel="0.5" speed="3" horizon="40" tofov="100" />
+
+
+	<!-- compass2 with rotating plate -->
+	<plugin name="compass2" url="compassBg.png" keep="true" zorder="1" children="false"
+	        align="righttop" x="25" y="130"
+	        scale="0.4" scalechildren="true"
+	        destscale="1.0"
+	        onclick="switch(destscale,1.0,0.5);tween(scale,get(destscale));"
+	        />
+
+	<!-- compass2 plate, the rotation will be changed in the "onviewchange" action -->
+	<plugin name="compass2_plate" url="compassPoint.png" keep="true" handcursor="false"
+			parent="compass2" zorder="1"
+			align="center"
+			/>
+
+
+
+
+
+</krpano>
+

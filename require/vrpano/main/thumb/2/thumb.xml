@@ -1,0 +1,87 @@
+<krpano version="1.16">
+<action name="buildthumbs">        
+        if(%1 != NEXT, set(i,0);set(m,0));
+        if(i LT scene.count,
+        if(scene[get(i)].thumburl != none,
+        set(w,#width#);
+        set(h,#height#);
+        copy(thumb, scene[get(i)].thumburl);
+        txtadd(thumbname,"thumb_",get(i));
+        addplugin(get(thumbname));
+        set(plugin[get(thumbname)].url, get(thumb));
+        set(plugin[get(thumbname)].keep, true);
+        set(plugin[get(thumbname)].align, leftbottom);
+        set(plugin[get(thumbname)].width,  get(w));
+        set(plugin[get(thumbname)].height, get(h));
+        set(plugin[get(thumbname)].x, 10);
+        set(plugin[get(thumbname)].y, 10);
+        mul(plugin[get(thumbname)].x, m,3);
+        mul(plugin[get(thumbname)].y, m,3);
+        add(plugin[get(thumbname)].x, 5);
+        add(plugin[get(thumbname)].y, 5);
+        copy(plugin[get(thumbname)].xsmall, plugin[get(thumbname)].x);
+        copy(plugin[get(thumbname)].ysmall, plugin[get(thumbname)].y);
+        add(plugin[get(thumbname)].zorder, 100, i);
+        copy(scenetitles, scene[get(i)].scenetitle);
+        set(plugin[get(thumbname)].showtext,get(scenetitles));
+        set(plugin[get(thumbname)].onhover,showtext(get(showtext)););
+        set(plugin[get(thumbname)].effect,glow(0xFFFFFF,1.0,2,10000));
+        set(plugin[get(thumbname)].jsborder,"1px solid #FFFFFF");
+        copy(plugin[get(thumbname)].thumbpos, m);
+        set(plugin[get(thumbname)].linkedscene, get(scene[get(i)].name) );
+        inc(m);
+        );
+        inc(i);
+        buildthumbs(NEXT);
+        ,
+        openthumbs();
+        );
+</action>
+
+<action name="openthumb">
+        if(%2 != NEXT,
+        set(pos,0);
+        copy(curpos, plugin[%1].thumbpos);
+        set(xdst, 0);
+        set(ydst, 0);
+        );
+
+        if(pos LT curpos,
+        set(w,#width#);
+        set(h,#height#);
+        set(wdex,get(w));
+        add(wdex,10);
+        set(hdex,get(h));
+        add(hdex,10);
+        set(stdex,get(w));
+        add(stdex,20);
+        inc(pos);
+        inc(xdst,get(wdex));
+        sub(xmax, stagewidth, get(stdex));
+        if(xdst GT xmax, inc(ydst,get(hdex));set(xdst,0); );
+        openthumb(%1,NEXT);
+        ,
+        add(xdst,10);
+        add(ydst,10);
+        tween(plugin[%1].x, get(xdst) );
+        tween(plugin[%1].y, get(ydst) );
+        tween(plugin[%1].width, get(w));
+        tween(plugin[%1].height, get(h));
+        );
+</action>
+
+<action name="openthumbs">
+        if(%1 != NEXT,
+        set(i,0);
+        set(events.onclick, set(events.onclick,null); );
+        );
+
+        if(i LT scene.count,
+        txtadd(thumbname,"thumb_",get(i));
+        openthumb(get(thumbname));
+        set(plugin[get(thumbname)].onclick, set(events.onclick,null); loadscene(get(linkedscene),null,MERGE,BLEND(1)); );
+        inc(i);
+        openthumbs(NEXT);
+        );
+</action>
+</krpano>    

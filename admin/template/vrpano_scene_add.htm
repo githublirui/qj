@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景场景新建</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                onoroff();
+            });
+            var panotype = 1;
+            function checksub() {
+                var title = $("#scenename").val();
+                if (title == "") {
+                    alert("请填写项目题目");
+                    return false;
+                } else if($("#ballpano").val()==""&&panotype==1){
+                    alert("请上传球形图全景图片");
+                    return false;
+                }else if(panotype==2&&($("#sixpano1").val()==""||$("#sixpano2").val()==""||$("#sixpano3").val()==""||$("#sixpano4").val()==""||$("#sixpano5").val()==""||$("#sixpano6").val()=="")){
+                    alert("请检查上传全景六张图片");
+                    return false;
+                }else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            $(document).ready(function(){
+                $(".ballpic").uploader("image", "balldata","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp1").uploader("image", "tp1data","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp2").uploader("image", "tp2data","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp3").uploader("image", "tp3data","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp4").uploader("image", "tp4data","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp5").uploader("image", "tp5data","<?php echo $cfg_cmspath; ?>");
+                $("#sixtp6").uploader("image", "tp6data","<?php echo $cfg_cmspath; ?>");
+                $(".pingpic").uploader("image", "pingdata","<?php echo $cfg_cmspath; ?>");
+                $("#cubeboxadd1").uploader("image", "cubeboxback1","<?php echo $cfg_cmspath; ?>"); 
+                $("#cubeboxadd2").uploader("image", "cubeboxback2","<?php echo $cfg_cmspath; ?>"); 
+                $("#cubeboxadd3").uploader("images2", "cubeboxback3","<?php echo $cfg_cmspath; ?>"); 
+                $("#thumbbox").uploader("image", "thumbdata","<?php echo $cfg_cmspath; ?>");
+                $("#luopanbox").uploader("image", "luopandata","<?php echo $cfg_cmspath; ?>");
+                $("#soundfileup").uploader("audio", "sounddata","<?php echo $cfg_cmspath; ?>");
+            });
+            function balldata(data){
+                $(".ballpic").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="200" height="100" />');
+                $("#ballpano").val(data);
+            }
+            function pingdata(data){
+                $(".pingpic").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="200" height="100" />');
+                $("#pingpano").val(data);
+            }
+            function tp1data(data){
+                $("#sixtp1").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano1").val(data);
+            }
+            function tp2data(data){
+                $("#sixtp2").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano2").val(data);
+            }
+            function tp3data(data){
+                $("#sixtp3").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano3").val(data);
+            }
+            function tp4data(data){
+                $("#sixtp4").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano4").val(data);
+            }
+            function tp5data(data){
+                $("#sixtp5").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano5").val(data);
+            }
+            function tp6data(data){
+                $("#sixtp6").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" width="100" height="100" />');
+                $("#sixpano6").val(data);
+            }
+            function cubeboxback1(data){
+                $(".loginbox").show();
+                $.ajax({
+                    url: "vrpano_makecube.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {dopost: "cuber2six",file:data},
+                    success: function(e) {
+                        $(".loginbox").hide();
+                        if(imgcut == true){
+                            $("#sixtp1").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['front'] + '" width="100" height="100" />');
+                            $("#sixpano1").val(newimg['front']);
+                            $("#sixtp2").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['back'] + '" width="100" height="100" />');
+                            $("#sixpano2").val(newimg['back']);
+                            $("#sixtp3").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['left'] + '" width="100" height="100" />');
+                            $("#sixpano3").val(newimg['left']);
+                            $("#sixtp4").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['right'] + '" width="100" height="100" />');
+                            $("#sixpano4").val(newimg['right']);
+                            $("#sixtp5").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['up'] + '" width="100" height="100" />');
+                            $("#sixpano5").val(newimg['up']);
+                            $("#sixtp6").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['down'] + '" width="100" height="100" />');
+                            $("#sixpano6").val(newimg['down']);
+                        }
+                    }                    
+                });
+            }
+            function cubeboxback2(data){
+                $(".loginbox").show();
+                $.ajax({
+                    url: "vrpano_makecube.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {dopost: "ball2six",file:data},
+                    success: function(e) {
+                        $(".loginbox").hide();
+                        if(imgcut == true){
+                            $("#sixtp1").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['front'] + '" width="100" height="100" />');
+                            $("#sixpano1").val(newimg['front']);
+                            $("#sixtp2").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['back'] + '" width="100" height="100" />');
+                            $("#sixpano2").val(newimg['back']);
+                            $("#sixtp3").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['left'] + '" width="100" height="100" />');
+                            $("#sixpano3").val(newimg['left']);
+                            $("#sixtp4").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['right'] + '" width="100" height="100" />');
+                            $("#sixpano4").val(newimg['right']);
+                            $("#sixtp5").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['up'] + '" width="100" height="100" />');
+                            $("#sixpano5").val(newimg['up']);
+                            $("#sixtp6").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['down'] + '" width="100" height="100" />');
+                            $("#sixpano6").val(newimg['down']);
+                        }
+                    }
+                });
+            }
+            function cubeboxback3(data){
+                $(".loginbox").show();
+                $.ajax({
+                    url: "vrpano_makecube.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {dopost: "suipian2six",file:data},
+                    success: function(e) {
+                        $(".loginbox").hide();
+                        if(over == "err"){
+                            alert("错误：非有效全景碎片图！");
+                        }else if(over=="ok"){
+                            $("#sixtp1").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['front'] + '" width="100" height="100" />');
+                            $("#sixpano1").val(newimg['front']);
+                            $("#sixtp2").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['back'] + '" width="100" height="100" />');
+                            $("#sixpano2").val(newimg['back']);
+                            $("#sixtp3").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['left'] + '" width="100" height="100" />');
+                            $("#sixpano3").val(newimg['left']);
+                            $("#sixtp4").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['right'] + '" width="100" height="100" />');
+                            $("#sixpano4").val(newimg['right']);
+                            $("#sixtp5").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['up'] + '" width="100" height="100" />');
+                            $("#sixpano5").val(newimg['up']);
+                            $("#sixtp6").html('<img src="<?php echo $cfg_cmspath; ?>' + newimg['down'] + '" width="100" height="100" />');
+                            $("#sixpano6").val(newimg['down']);
+                        }
+                    }                    
+                });
+            }
+            function thumbdata(data){
+                $("#thumbbox").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" onload="photoin(this,100,100)" />');
+                $("#thumb").val(data);
+            }
+            function luopandata(data){
+                $("#luopanbox").html('<img src="<?php echo $cfg_cmspath; ?>' + data + '" onload="photoin(this,100,100)" />');
+                $("#luopan").val(data);
+            }
+            function sounddata(data){
+                $("#soundfile").val(data);
+            }
+            function showbox(n){
+                if(n==1){
+                    panotype = 1;
+                    $("#ballbox").show();
+                    $("#sixbox,#quick,#pingbox,#suipian").hide();
+                }else if(n==2){
+                    panotype = 2;
+                    $("#ballbox,#pingbox").hide();
+                    $("#sixbox,#quick,#suipian").show();
+                }else if(n==3){
+                    panotype = 3;
+                    $("#ballbox,#sixbox,#quick,#suipian").hide();
+                    $("#pingbox").show();
+                }
+            }
+            function getlenflare(){
+                if(panotype == 1){
+                    if($("#ballpano").val() == ""){
+                        alert("还未上传球形全景图，无法获取光晕位置！！！");
+                    }else{
+                        window.open("tool/lensflare/auto.php?type="+panotype+"&pic="+$("#ballpano").val(), "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                    }
+                }else{
+                    if($("#sixpano1").val() == ""||$("#sixpano2").val() == ""||$("#sixpano3").val() == ""||$("#sixpano4").val() == ""||$("#sixpano5").val() == ""||$("#sixpano6").val() == ""){
+                        alert("还未上传立方体全景图，无法获取光晕位置！！！");
+                    }else{
+                        window.open("tool/lensflare/auto.php?type="+panotype+"&f="+$("#sixpano1").val()+"&b="+$("#sixpano2").val()+"&l="+$("#sixpano3").val()+"&r="+$("#sixpano4").val()+"&u="+$("#sixpano5").val()+"&d="+$("#sixpano6").val(), "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                    }
+                }
+            }
+            function gethlookat(){
+                if(panotype == 1){
+                    if($("#ballpano").val() == ""){
+                        alert("还未上传球形全景图，无法获取光晕位置！！！");
+                    }else{
+                        window.open("tool/gethlookat/auto.php?type="+panotype+"&pic="+$("#ballpano").val(), "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                    }
+                }else{
+                    if($("#sixpano1").val() == ""||$("#sixpano2").val() == ""||$("#sixpano3").val() == ""||$("#sixpano4").val() == ""||$("#sixpano5").val() == ""||$("#sixpano6").val() == ""){
+                        alert("还未上传立方体全景图，无法获取光晕位置！！！");
+                    }else{
+                        window.open("tool/gethlookat/auto.php?type="+panotype+"&f="+$("#sixpano1").val()+"&b="+$("#sixpano2").val()+"&l="+$("#sixpano3").val()+"&r="+$("#sixpano4").val()+"&u="+$("#sixpano5").val()+"&d="+$("#sixpano6").val(), "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                    }
+                }
+            }
+        </script>
+        <style type="text/css">
+            #sixbox,#quick{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>添加全景场景</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_scene_add.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="pid" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>   
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景场景名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="scenename" name="scenename" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">本全景图场景的名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景场景编号：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $autorank; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景场景的编号</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景图类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="radio" name="type" value="1" onclick="showbox(1);" />球形图全景( 不支持苹果 )
+                            <input type="radio" name="type" value="2" onclick="showbox(2);" checked="checked" />立方体六图全景
+                            <input type="radio" name="type" value="3" onclick="showbox(3);" />平面图
+                        </td>
+                        <td class="td_p8" style="padding-top: 6px; padding-bottom: 6px; ">
+                            <span class="red" style="line-height: 20px;">
+                                球形图全景（快捷方便，常用的全景图类型）<br/>
+                                立方体六图全景（浏览流畅，加载素效更佳，支持手机播放）<br/>
+								平面图（高清大图，并非720全景，少用）
+                            </span>
+                        </td>
+                    </tr>
+                    <tr id="ballbox" class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景图上传：<br/><br/>需要安装flash player<br/><a href="http://rj.baidu.com/soft/detail/17153.html?ald" target="_blank"><u>未安装点此下载</u></a></b>
+                        </td>
+                        <td colspan="2" style="padding: 8px;">
+                            <div class="ballpic"></div>
+                            <input type="hidden" name="ballpano" id="ballpano"/>
+                        </td>
+                    </tr>                    
+                    <tr id="quick" class="tr_white" height="36">
+                        <td  align="right">
+                            <b>快捷上传：</b>
+                        </td>
+                        <td style="padding: 8px;">
+                            <input type="button" value="立方体条形图" id="cubeboxadd1" class="btn3" />
+                            <input type="button" value="球形图转化" id="cubeboxadd2" class="btn3" />
+                            <input type="button" value="碎片全聚合" id="cubeboxadd3" class="btn3" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">部分服务器环境可能不兼容，推荐上传六张分图，最稳定<br/><a href="http://720.jum8.com/jiaocheng/cube/" target="_blank"><u><font color="red">球形图转化六图全景教程</font></u></a></span>
+                        </td>
+                    </tr>
+
+                    <tr id="quick" class="tr_white" height="36">
+                        <td colspan="3"><center><font color="red">导入精灵的六张图片，尺寸建议1000px到2500px（推荐用整数）。图片质量不要超过95，体积不要超过1M/张。六图最好直接由ptgui生成，不要用图片处理软件再处理。</font></center></td>
+                    </tr>
+
+                    <tr id="sixbox" class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景图上传：<br/><br/>需要安装flash player<br/><a href="http://rj.baidu.com/soft/detail/17153.html?ald" target="_blank"><u>未安装点此下载</u></a></b>
+                        </td>
+                        <td colspan="2" style="padding: 4px 0 4px 4px;">
+                            <div id="sixtp1" class="sixpic" style="background-position: 0px 0px;"></div>
+                            <div id="sixtp2" class="sixpic" style="background-position: -100px 0px;"></div>
+                            <div id="sixtp3" class="sixpic" style="background-position: -200px 0px;"></div>
+                            <div id="sixtp4" class="sixpic" style="background-position: -300px 0px;"></div>
+                            <div id="sixtp5" class="sixpic" style="background-position: -400px 0px;"></div>
+                            <div id="sixtp6" class="sixpic" style="background-position: -500px 0px;"></div>
+                            <input type="hidden" name="sixpano1" id="sixpano1"/>
+                            <input type="hidden" name="sixpano2" id="sixpano2"/>
+                            <input type="hidden" name="sixpano3" id="sixpano3"/>
+                            <input type="hidden" name="sixpano4" id="sixpano4"/>
+                            <input type="hidden" name="sixpano5" id="sixpano5"/>
+                            <input type="hidden" name="sixpano6" id="sixpano6"/>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" id="suipian" height="36">
+                        <td  align="right">
+                            <b>KRpano碎片切图：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="opencut" value="0"></div>
+                            <input type="hidden" id="opencut" name="opencut" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">只对立方体图有效，增加全景漫游兼容性，会增加文件体积，一般情况不用！</span>
+                        </td>
+                    </tr>
+                    <tr id="pingbox" class="tr_white" height="36">
+                        <td  align="right">
+                            <b>平面图上传：</b>
+                        </td>
+                        <td colspan="2" style="padding: 8px;">
+                            <div class="pingpic"></div>
+                            <input type="hidden" name="pingpano" id="pingpano"/>
+                        </td>
+                    </tr> 
+                    
+                    <script type="text/javascript">
+                        showbox(2);
+                    </script>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩略图上传（选填）：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="thumbbox" id="thumbbox"></div>
+                            <input id="thumb" name="thumb" type="hidden" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">本场景缩略图，主要用于缩略图索引栏</span>
+                        </td>
+                    </tr>
+                                        
+                    <tr style="display:none" class="tr_white" height="36">
+                        <td  align="right">
+                            <b>罗盘图上传（选填）：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="luopanbox" id="luopanbox"></div>
+                            <input id="luopan" name="luopan" type="hidden" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">本场景罗盘，主要用于罗盘模拟特效，确认上传好，请在全局参数里开启</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="20">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>初始视角深度FOV：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="fov" id="fov" value="100"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">初始视角深度FOV</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>视角最小深度FOV：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="fovmin" id="fovmin" value="30"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">视角最小深度FOV（场景拉近）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>视角最大深度FOV：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="fovmax" id="fovmax" value="160"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">视角最大深度FOV（场景拉远）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>视角上限：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="toplook" id="toplook" value="90"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">视角上限（角度）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>视角下限：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="downlook" id="downlook" value="90"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">视角下限（角度）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>默认初始方向：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="hlookat" id="hlookat" value="0"/>
+                            <input type="button" class="btn1" onclick="gethlookat();" value="点击抓取" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">默认初始方向</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="20">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开场景音效：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="opensound" value="0"></div>
+                            <input type="hidden" id="opensound" name="opensound" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开场景音效</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频文件：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="soundfile" id="soundfile" value=""/>
+                            <input type="button" id="soundfileup" class="btn1" value="点击上传"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">音乐文件（要求mp3格式）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频循环次数：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="soundtimes" id="soundtimes" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">音频循环次数（0为无限循环）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频音量大小：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="soundvalue" id="soundvalue" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">音频音量大小（0~1的小数）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频控制按钮定位：</b>
+                        </td>
+                        <td class="td_p8">
+                            <select name="soundalign" id="soundalign">
+                                <option value="1" >左上</option>
+                                <option value="2" >上</option>
+                                <option value="3" >右上</option>
+                                <option value="4" >左</option>
+                                <option value="5" >中</option>
+                                <option value="6" >右</option>
+                                <option value="7" selected="true">左下</option>
+                                <option value="8" >下</option>
+                                <option value="9" >右下</option>
+                            </select>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频控制按钮位置X：</b>
+                        </td>
+                        <td class="td_p8">                            
+                            <input type="text" name="soundx" id="soundx" value="40"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>音频控制按钮位置Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="soundy" id="soundy" value="10"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="20">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开镜头光晕：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openlensflare" value="0"></div>
+                            <input type="hidden" id="openlensflare" name="openlensflare" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕，适合阳光或者灯光强烈的效果</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕位置H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="ath" id="ath" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕横向位置</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕位置V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="atv" id="atv" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕纵向位置</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕位置获取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" id="btn" class="btn1" onclick="getlenflare();" value="点击获取"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕大小：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="flaresize" id="flaresize" value="0.8"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕大小</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕强度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="flareblind" id="flareblind" value="0.6"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕强度，范围0~1</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>镜头光晕曲线：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="flareblindcurve" id="flareblindcurve" value="4"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">镜头光晕曲线，范围1.0~10.0</span>
+                        </td>
+                    </tr>                    
+
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </body>
+</html>

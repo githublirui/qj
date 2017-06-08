@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+            <title>组权限设置</title>
+            <link href="style/common.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff" align="center">
+                <form name='form1' action='sys_group_edit.php' method='post'>
+                    <input type='hidden' name='dopost' value='save'/>
+                    <tr>
+                        <td class="td_title" height="26" style="padding-left:10px;">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr> 
+                                    <td width="24%" class="td_p8"><b>修改用户组</b> </td>
+                                    <td width="76%" class="td_pr8" align="right">
+                                        <input type="button" onclick="window.location.href='sys_group.php'" value="返回管理" class="btn2"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>                            
+                    </tr>
+                    <tr>
+                        <td valign="top" bgcolor="#FFFFFF" align="center">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                    <td width="9%" height="30">组名称：</td>
+                                    <td width="91%" style="text-align:left;">
+                                        <input name="typename" type="text" id="typename" value="<?php echo $groupSet['typename']?>"/> 
+                                    </td>
+                                </tr>
+                                <tr> 
+                                    <td width="9%" height="30">级别值：</td>
+                                    <td width="91%" style="text-align:left;">
+                                        <input name="rank" type="hidden" id="rank" value="<?php echo $groupSet['rank']?>"/><?php echo $groupSet['rank']?>
+                                    </td>
+                                </tr>
+                                <?php echo $html;?>
+                                <tr> 
+                                    <td height="50" align="center">&nbsp;</td>
+                                    <td height="50"  style="text-align:left;">
+                                        <input  class="btn1" type="submit" value="保存"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </body>
+</html>

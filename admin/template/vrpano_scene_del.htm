@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景场景删除</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            function checksub() {
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>全景场景 - 删除确认</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_scene_del.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="del" />
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="25%">
+                            <b>名称</b>
+                        </td>
+                        <td width="75%">
+                            <b>参数</b>
+                        </td>
+                    </tr>   
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>目标场景ID：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $id; ?>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>目标场景名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $row['scenename']; ?>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>删除注意：</b>
+                        </td>
+                        <td class="td_p8">
+                            <font color="be0000">进行删除场景操作，会一并删除场景内所有热点。</font>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="取消" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+body{margin:0;padding:0;background:#fff;}
+ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none;}
+a{text-decoration:none;}
+a:link{}
+a:visited{}
+a:hover{text-decoration:underline;}
+a:active{}
+img{border:0;padding:0; margin:0;}
+p{padding:0; margin:0;}
+b{
+    font-weight: normal; 
+}
+
+#top{
+    width: auto; height: 50px; overflow: hidden; background: #000000;
+}
+#logo{
+    width: 500px; height: 50px; overflow: hidden; background: url(../images/index/logo.png) no-repeat; float: left; _display: inline;
+}
+#topmain{
+    width: auto; height: 50px; overflow: hidden;  float: right; _display: inline; margin-right: 20px; margin-top: 20px;
+    font: 12px/28px "Microsoft Yahei"; color: #eee;
+}
+#topmain span{
+    font: 12px/28px "Microsoft SimSun"; color: #fff; margin: 0 5px;
+}
+#topmain a{
+    font: 12px/28px "Microsoft SimSun"; color: #fff; margin: 0 5px;
+}
+#topmain a:hover{
+    color: #fff; text-decoration: none;
+}
+#leftbox{
+    width: 160px; height: 500px; overflow: hidden; float: left; _display: inline; _margin-right: -3px;
+    background: url(../images/index/menu-shadow.png) top right repeat-y #eee; border-right: 1px solid #ccc;
+}
+#rightbox{
+    width: auto; height: 500px; overflow: hidden;
+}
+
+.cubebox{
+    width: auto; height: auto; overflow: hidden;
+}
+.cube_parent{
+    width: auto; height: 20px; overflow: hidden; border-top:1px solid #fff; border-bottom: 1px solid #e6e6e6; padding: 5px;
+}
+.cube_parent .icon{
+    width: 20px; height: 20px; overflow: hidden; float: left; _display: inline; cursor: pointer;
+}
+.cube_parent .icontitle{
+    width: 100px; height: 20px; overflow: hidden; float: left; font: bold 14px/20px "Microsoft Yahei"; color: #336699; cursor: pointer; margin-left: 5px;
+}
+.cube_child{
+    width: auto; height: auto; overflow: hidden; background: url(../images/index/menu-shadow.png) top right repeat-y #f8f8f8; padding: 5px 0; display: none;
+}
+.cube_chbox{
+    width: auto; height: 30px; overflow: hidden;
+}
+.cube_chbox a{
+    font: 12px/20px "Microsoft Yahei"; color: #666; display: block; padding: 5px 15px; letter-spacing:1px; 
+}
+.cube_chbox a:hover{
+    background: url(../images/index/menu-shadow.png) top right repeat-y #dfeffe; text-decoration: none; color: #000;
+}
+#onoffbtn{
+    width: auto; height: 20px; overflow: hidden; border-top:1px solid #fff; padding: 5px;
+}
+#arrow{
+    width: 20px; height: 20px; overflow: hidden; float: left; _display: inline; background: url(../images/index/arrow.png) no-repeat; cursor: pointer;
+}
+#arrowtext{
+    width: 100px; height: 20px; overflow: hidden; float: left; font: 12px/20px "Microsoft Yahei"; color: #666; cursor: pointer; margin-left: 5px;
+}
+
+#main {
+    height:100%;
+    width:100%;
+    z-index:0;
+    overflow: auto;
+}

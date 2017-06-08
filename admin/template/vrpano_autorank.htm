@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>场景自动排序</title>
+        <link href='style/common.css' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <?php echo $javascript; ?>
+        <script type="text/javascript">
+            var done = 1;
+            var scenelen = scene.length;
+            function startdo(){
+                if (done == 1) {
+                    $("#tai").html("准备排序");
+                    done = 2;
+                    $(".hd").show();
+                    $("#pd1").html("0/"+scenelen);
+                    if(scenelen>0){
+                        rankdo(0);
+                    }else{
+                        window.location.href = endurl;
+                    }                    
+                } else if (done == 2) {
+                    alert("正在排序中");
+                } else {
+                    alert("已经排序完毕");
+                }
+            }
+            function rankdo(n){
+                if(n==0){
+                    $("#tai").html("开始排序!");
+                }
+                $("#line1").css("width", (n/scenelen)*200 +"px");
+                $("#pd1").html(n+"/"+scenelen);
+                $.ajax({
+                    url: "vrpano_autorankdo.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "rank",sceneid:scene[n],key:n,therank:scenerank[n],filename:filename,total:scenelen},
+                    success: function(data) {
+                        if (end == true) {
+                            rankok();
+                        }
+                    }
+                });
+            }
+            function rankok(){
+                $("#line1").css("width", 200 +"px");
+                $("#pd1").html(scenelen+"/"+scenelen);
+                $("#tai").html("排序完毕!");
+                done = 0;
+                window.location.href = endurl;
+            }
+            $(document).ready(function(){
+                var pc = false;
+                for(i=0;i<scenelen;i++){
+                    if(scenerank[i] != (i +1)){
+                        pc = true;
+                    }
+                }
+                if(pc == true){
+                    startdo();
+                }else{
+                    rankok();
+                }
+            });
+        </script>
+        <style type="text/css">
+            .scrollbox{
+                width: 200px; height: 22px; overflow: hidden; padding: 2px; border:1px solid #C60; margin: 4px 0; float: left;
+            }
+            .scrollline{
+                width: 0px; height: 22px; overflow: hidden; background: url(images/common/loadbar.gif) repeat-x;
+            }
+            .panodata{
+                width: auto; height: 22px; overflow: hidden; border:1px solid #c8ddff; background: #f6f6f6; float: left; margin: 6px; padding: 0 8px;
+                font: 12px/22px "微软雅黑"; color: #be0000; text-align: center; border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr>
+                    <td height="30" class="td_title" colspan="2"> 
+                        <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                            <tr> 
+                                <td width="24%" class="td_p8"><b>场景自动排序</b> </td>
+                                <td class="td_pr8" width="76%" align="right"></td>
+                            </tr>                            
+                        </table>
+                    </td>
+                </tr>
+                <tr class="tr_hui" height="36" align="center">
+                    <td width="15%"><b>名称</b></td>
+                    <td><b>参数</b></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>ID</b></td>
+                    <td style="text-align: left; padding-left: 10px;"><span class="green"><?php echo $id; ?></span></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>项目名称</b></td>
+                    <td style="text-align: left; padding-left: 10px;"><span class="green"><?php echo $row['panoname']; ?></span></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>场景总数</b></td>
+                    <td style="text-align: left; padding-left: 10px;"><span class="green"><?php echo $scenelen; ?></span></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>排序状态</b></td>
+                    <td style="text-align: left; padding-left: 10px;" id='tai'>未排序</td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>场景进度</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class="scrollbox">
+                            <div id="line1" class="scrollline"></div>
+                        </div>
+                        <div id="pd1" class="panodata"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

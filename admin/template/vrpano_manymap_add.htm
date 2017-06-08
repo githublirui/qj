@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>发布地图</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#uploads").uploader("all","litpicGet","<?php echo $cfg_cmspath; ?>");
+            });
+            var litpicGet = function(data){
+                $("#file").val(data);
+                $("#litpicview").attr("src","<?php echo $cfg_cmspath; ?>"+data);
+            };
+            function checkSubmit(){                    
+                return true;
+            }
+        </script>
+        <style>
+            #litpicviewbox{
+                width: 120px; height: 90px; overflow: hidden; border:1px solid #eee; margin: 6px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <form name="form1" action="vrpano_manymap_add.php" enctype="multipart/form-data" method="post" onsubmit="return checkSubmit()">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr>
+                        <td height="24" class="td_title" colspan="2"> 
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr> 
+                                    <td width="24%" class="td_p8"><b>发布图集</b> </td>
+                                    <td class="td_pr8" width="76%" align="right">
+                                        <input type="button"  onclick="window.location.href='<?php echo $endurl; ?>';" value="地图管理" class="btn2"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>地图标题：</b></td>
+                        <td class="td_p8"><input style="width:240px;" type="text" name="title" /><span class="red">（必填）</span></td>
+                    </tr>
+
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>地图图片：</b></td>
+                        <td class="td_p8">
+                            <input type="text" name="file" id="file" />
+                            <input type="button" class="btn1" value="浏览" id="uploads" />
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>缩略图预览：</b></td>
+                        <td class="td_p8">
+                            <div id="litpicviewbox"><img id="litpicview" src="images/vrpano/thumb.png" onload="photoin(this,120,90)" /></div>                        
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white" height="8">
+                        <td colspan="2"></td>
+                    </tr>
+
+
+                    <tr class="tr_hui" height="40">
+                        <td colspan="2" align="center">
+                            <input type="submit" class="btn1" value="提交"/>
+                            <input type="button" class="btn1" onclick="window.location.href='<?php echo $endurl; ?>';" value="返回" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

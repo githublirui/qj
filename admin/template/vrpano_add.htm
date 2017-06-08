@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景新建</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            function checksub(){
+                var title = $("#panoname").val();
+                if(title == ""){
+                    alert("请填写项目题目");
+                    return false;
+                }else{
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>添加全景项目</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_add.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>   
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景项目名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="panoname" name="panoname" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">项目名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>图片质量：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="zip" name="zip" value="90" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">填写数值（0~100），推荐（85—95）</span>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href='<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </body>
+</html>

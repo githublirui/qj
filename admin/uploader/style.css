@@ -1,0 +1,86 @@
+@charset "utf-8";
+*{
+    font: 12px "微软雅黑", "宋体", Helvetica, Arial, Verdana;
+}
+body{
+    margin:0;padding:0;background:#fff; overflow:auto;
+     font-family: "微软雅黑", "宋体", Helvetica, Arial, Verdana;
+     font-size: 12px;
+}
+ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none;}
+a{text-decoration:none; color: #333; cursor: pointer;}
+a:link{}
+a:visited{}
+a:hover{text-decoration:none; color: #199372;}
+a:active{}
+img{border:0;padding:0; margin:0;}
+p{padding:0; margin:0;}
+b{
+    color: #199372; font-weight: bold;
+}
+#subbox{
+    width: auto; height: 24px; overflow: hidden; margin-top: 4px; display: none;
+}
+.btn1{
+    width: 68px; height: 22px; background: url(images/btn1.jpg) no-repeat; overflow: hidden; padding: 0px; margin: 0px; border:none;
+    color: #666; cursor: pointer; line-height: 22px;
+}
+.btn1:hover{
+    background-position: 0 -22px;
+}
+.btn2{
+    width: 78px; height: 22px; background: url(images/btn2.jpg) no-repeat; overflow: hidden; padding: 0px; margin: 0px; border:none;
+    color: #fffae7; cursor: pointer; line-height: 22px;
+}
+.btn2:hover{
+    color: #fff;
+}
+
+#control{
+    width: auto; overflow: hidden; margin: 10px 0 6px 0;
+}
+#selected{
+    width: auto; height: auto; overflow: hidden;
+}
+.selectbox{
+    width: auto; height: 20px; overflow: hidden; margin: 2px 0; padding: 3px 8px; border:1px solid #dbdbdb; background: #f8f8f8;
+}
+.selectbox span{
+    font: 12px/20px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #199372; margin-left: 20px;
+}
+.selectbox b{
+    font: bold 12px/20px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #199372;
+}
+.selectbox span.r{
+    font: 12px/20px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #be0000; margin-left: 20px;
+}
+.selectbox b.r{
+    font: bold 12px/20px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #be0000;
+}
+
+#result{
+    width: auto; height: auto; overflow: hidden;
+}
+.resultbox{
+    width: 180px; height: 70px; overflow: hidden; border:1px solid #ace; float: left; _display: inline; margin: 3px;
+}
+.imgbox{
+    width: 60px; height: 60px; overflow: hidden; border:1px solid #d6d6d6; margin: 4px; float: left; _display: inline;
+}
+.imginfo{
+    width: 110px; height: 70px; overflow: hidden; float: left;
+}
+.imgtitle{
+    width: 100px; height: 22px; overflow: hidden; margin-top: 4px; margin-left: 2px;
+    font: 12px/22px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #333;
+}
+.imgdata{
+    width: 100px; height: 16px; overflow: hidden; border:1px solid #e6e6e6; background: #fff; padding: 1px;
+}
+.line{
+    height: 16px; overflow: hidden; background: url(images/loadbar.gif) center center repeat-x;
+}
+.imgtxt{
+    width: 100px; height: 22px; overflow: hidden; margin-left: 2px;
+    font: 12px/22px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #333;
+}

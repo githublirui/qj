@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景地图</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                onoroff();
+                $("#mappointimg").uploader("image", "mappointdata","<?php echo $cfg_cmspath; ?>");
+                $("#mappointactiveimg").uploader("image", "mappointactivedata","<?php echo $cfg_cmspath; ?>");
+                $("#mappicup").uploader("image", "mappicdata","<?php echo $cfg_cmspath; ?>");
+                $("#radarcolor").ColorPicker({
+                    onSubmit: function(hsb, hex, rgb, el) {
+                        $(el).val(hex);
+                        $(el).ColorPickerHide();
+                    },
+                    onBeforeShow: function() {
+                        $(this).ColorPickerSetColor(this.value);
+                    }
+                }).bind('keyup', function() {
+                    $(this).ColorPickerSetColor(this.value);
+                });
+            });
+            function mappointdata(data){
+                $("#mappoint").val(data);
+                $("#mappointimg").children("img").attr("src","<?php echo $cfg_cmspath; ?>"+data);
+            }
+            function mappicdata(data){
+                $("#mappic").val(data);
+                $("#onemap").html('<img src="<?php echo $cfg_cmspath; ?>'+data+'" onload="photoin(this,120,120);" />');
+            }
+            function mappointactivedata(data){
+                $("#mappointactive").val(data);
+                $("#mappointactiveimg").children("img").attr("src","<?php echo $cfg_cmspath; ?>"+data);
+            }
+            function checksub() {
+                var title = 123;
+                if (title == "") {
+                    alert("请填写项目题目");
+                    return false;
+                } else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            
+            function showmp(n) {
+                $(".mp").attr("class", "mp btn1");
+                $(".mp").eq(n - 1).attr("class", "mp btn2");
+                $(".mpbox").hide();
+                $(".mp" + n).show();
+                var len = $(".mp"+n).find("img").length;
+                for(i=0;i<len;i++){
+                    $(".mp"+n).find("img").eq(i).attr("src",$(".mp"+n).find("img").eq(i).attr("src"));
+                }
+                $("#maptype").val(n);
+            }
+            
+            function onetian(n){
+                var k=n-1;
+                $(".tian").children(".box").removeClass("me");
+                $(".tian").children(".box").eq(k).addClass("me");
+                $("#mapbasepos").val(n);
+            }
+        </script>
+        <style type="text/css">
+            .mappointimg{
+                width: 50px; height: 50px; overflow: hidden; cursor: pointer;
+            }
+            .mapimgbox{
+                width: 120px; height: 120px; overflow: hidden; background: url(images/vrpano/nomap.jpg) no-repeat;
+            }
+            .tian{
+                width: 72px; height: 72px; overflow: hidden;
+            }
+            .tian .box{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding.jpg) no-repeat; cursor: pointer; margin: 1px;
+            }
+            .tian .box:hover{
+                background-image: url(images/vrpano/ding3.jpg);
+            }
+            .tian .box.me{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding2.jpg) no-repeat;
+            }
+            .tian .box.a1{
+                background-position: 0px 0px;
+            }
+            .tian .box.a2{
+                background-position: -22px 0px;
+            }
+            .tian .box.a3{
+                background-position: -44px 0px;
+            }
+            .tian .box.a4{
+                background-position: 0px -22px;
+            }
+            .tian .box.a5{
+                background-position: -22px -22px;
+            }
+            .tian .box.a6{
+                background-position: -44px -22px;
+            }
+            .tian .box.a7{
+                background-position: 0px -44px;
+            }
+            .tian .box.a8{
+                background-position: -22px -44px;
+            }
+            .tian .box.a9{
+                background-position: -44px -44px;
+            }
+            
+            .mapouter{
+                width: 150px; height: 150px; overflow: hidden; margin: 5px; float: left;
+                border:1px solid #e6e6e6; border-radius:5px; background: #fbfbfb;
+            }
+            .mapouter .map{
+                width: 140px; height: 140px; overflow: hidden; border: 1px solid #e6e6e6; padding: 1px; background: #fff;
+                margin: 3px;
+            }
+            .mapouter .map span{
+                width: 140px; height: 140px; overflow: hidden; display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <center>
+                        <?php echo panomenu($id,4); ?>
+                    </center>
+                </tr>
+            </table>
+
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:4px;" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>全局参数设置</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_map.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff" style="margin: 0px;">
+                    <tr class="tr_hui" height="30" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>    
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>项目名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $mainrow['panoname']; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">项目名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开启地图：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openmap" value="<?php echo $maprow['openmap']; ?>"></div>
+                            <input type="hidden" id="openmap" name="openmap" value="<?php echo $maprow['openmap']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开启地图</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+                    
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>标注点图片：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" id="mappoint" name="mappoint" value="<?php echo $maprow['mappoint']; ?>" />
+                            <div class="mappointimg" id="mappointimg"><img src="<?php echo $mappoint; ?>" onload="photoin(this,50,50);" /></div>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景地图上，非选中的标注点图片( 点击图片可修改 )</span>
+                        </td>
+                    </tr>         
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>鼠标选中注点图片：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" id="mappointactive" name="mappointactive" value="<?php echo $maprow['mappointactive']; ?>" />
+                            <div class="mappointimg" id="mappointactiveimg"><img src="<?php echo $mappointactive; ?>" onload="photoin(this,50,50);" /></div>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景地图上，鼠标选中时的标注点图片( 点击图片可修改 )</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>雷达半径：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" id="radarlength" name="radarlength" size="6" value="<?php echo $maprow['radarlength']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">雷达半径</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>雷达颜色：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" id="radarcolor" name="radarcolor" size="6" value="<?php echo $maprow['radarcolor']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">雷达颜色<a href="cl" target="_blank">&nbsp;&nbsp;<font color="red"><u>颜色选择器</u></font></a></span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>地图定位：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" name="mapbasepos" id="mapbasepos" value="1" />
+                            <div class="tian">
+                                <div class="box a1 me" onclick="onetian(1);"></div>
+                                <div class="box a2" onclick="onetian(2);"></div>
+                                <div class="box a3" onclick="onetian(3);"></div>
+                                <div class="box a4" onclick="onetian(4);"></div>
+                                <div class="box a5" onclick="onetian(5);"></div>
+                                <div class="box a6" onclick="onetian(6);"></div>
+                                <div class="box a7" onclick="onetian(7);"></div>
+                                <div class="box a8" onclick="onetian(8);"></div>
+                                <div class="box a9" onclick="onetian(9);"></div>
+                            </div>
+                        </td>
+                        <td class="td_p8"></td>
+                    </tr>
+                    <?php echo $mapbassposscript; ?>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>地图X坐标：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="mapx" id="mapx" value="<?php echo $maprow['mapx']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">地图X坐标（正负整数），根据定位来偏移</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>地图Y坐标：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="mapy" id="mapy" value="<?php echo $maprow['mapy']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">地图X坐标（正负整数），根据定位来偏移</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>透明度：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="alpha" id="alpha" value="<?php echo $maprow['alpha']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">透明度（0~1）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>地图类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="mp btn2" value="单张地图" onclick="showmp(1);"/>
+                            <input type="button" class="mp btn1" value="多张地图" onclick="showmp(2);"/>
+                            <input type="hidden" id="maptype" name="maptype" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">地图类型</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>地图：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <div class="mapimgbox" id="onemap"><?php echo $onemaphtml; ?></div>
+                            <input type="hidden" name="mappic" id="mappic" value="<?php echo $maprow['mappic']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">地图</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>上传地图图片：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input class="btn1" type="button" id="mappicup" value="点击上传" />
+                        </td>
+                        <td class="td_p8"></td>
+                    </tr> 
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>场景位置管理：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="button" class="btn1" value="详细场景" onclick="window.location.href = 'vrpano_onemapcontrol.php?id=<?php echo $id; ?>';"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">场景位置管理</span>
+                        </td>
+                    </tr>                   
+                    <tr class="tr_white mpbox mp1" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>是否开启地图飞出：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openscale" value="<?php echo $maprow['openscale']; ?>"></div>
+                            <input type="hidden" id="openscale" name="openscale" value="<?php echo $maprow['openscale']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开启地图飞出</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>飞出前缩放比率：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="beforescale" id="beforescale" value="<?php echo $maprow['beforescale']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">飞出前缩放比率（0~1）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>飞出后缩放比率：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="afterscale" id="afterscale" value="<?php echo $maprow['afterscale']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">飞出后缩放比率（0~1）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>是否开启地图渐隐：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openhide" value="<?php echo $maprow['openhide']; ?>"></div>
+                            <input type="hidden" id="openhide" name="openhide" value="<?php echo $maprow['openhide']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开启地图渐隐</span>
+                        </td>
+                    </tr>                    
+                    <tr class="tr_white mpbox mp1" height="36">
+                        <td  align="right">
+                            <b>渐隐透明度：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="hideval" id="hideval" value="<?php echo $maprow['hideval']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">渐隐透明度（0~1）</span>
+                        </td>
+                    </tr>
+
+                    
+                      
+                    <tr class="tr_white mpbox mp2" height="36">
+                        <td  align="right">
+                            <b>地图宽度：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="mapw" id="mapw" value="<?php echo $maprow['mapw']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp2" height="36">
+                        <td  align="right">
+                            <b>地图高度：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="text" name="maph" id="maph" value="<?php echo $maprow['maph']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp2" height="36">
+                        <td  align="right">
+                            <b>地图管理：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="button" class="btn1" value="地图管理" onclick="window.location.href = 'vrpano_manymap.php?id=<?php echo $id; ?>';"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">地图管理</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white mpbox mp2" height="36">
+                        <td  align="right">
+                            <b>地图：</b>
+                        </td>
+                        <td colspan="2" style="padding: 6px;">
+                            <?php echo $maps; ?>
+                        </td>
+                    </tr> 
+
+                    <tr class="tr_white mpbox mp2" height="36">
+                        <td  align="right">
+                            <b>场景位置管理：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="button" class="btn1" value="详细场景" onclick="window.location.href = 'vrpano_manymapcontrol.php?id=<?php echo $id; ?>';"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">场景位置管理</span>
+                        </td>
+                    </tr>
+                    
+                    <?php echo $showmpscript; ?>                    
+                </table>
+
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="70%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

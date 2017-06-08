@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>输出全景</title>
+        <link href='style/common.css' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <style type="text/css">
+            .scrollbox{
+                width: 200px; height: 22px; overflow: hidden; padding: 2px; border:1px solid #C60; margin: 4px 0; float: left;
+            }
+            .scrollline{
+                width: 0px; height: 22px; overflow: hidden; background: url(images/common/loadbar.gif) repeat-x;
+            }
+            .panodata{
+                width: auto; height: 22px; overflow: hidden; border:1px solid #c8ddff; background: #f6f6f6; float: left; margin: 6px; padding: 0 8px;
+                font: 12px/22px "微软雅黑"; color: #be0000; text-align: center; border-radius: 4px;
+            }
+            .hd{
+                display: none;
+            }
+        </style>
+        <?php echo $javascript; ?>
+        <script type="text/javascript">
+            var done = 1;
+            var scenelen = scene.length;
+            var showpiclen = showpic.length;
+            var uishowpiclen = uishowpic.length;
+            var smartspotlen = smartspot.length;
+            var videolen = video.length;
+            var applevideolen = applevideo.length;
+            var photolen = photo.length;
+            var cubelen = cube.length;
+            function startdo(){
+                if (done == 1) {
+                    $("#tai").html("准备输出");
+                    done = 2;
+                    $(".hd").show();
+                    $("#pd1").html("0/"+scenelen);
+                    $("#pd2").html("0/"+showpiclen);
+                    $("#pd3").html("0/"+smartspotlen);
+                    $("#pd4").html("0/"+videolen);
+                    $("#pd5").html("0/"+applevideolen);
+                    $("#pd6").html("0/"+uishowpiclen);
+                    $("#pd7").html("0/"+photolen);
+                    $("#pd8").html("0/"+cubelen);
+                    creatdir();
+                } else if (done == 2) {
+                    alert("正在输出中");
+                } else {
+                    alert("已经输出完毕");
+                }
+            }
+            function creatdir(){
+                var len = scene.length;
+                if(len<1){
+                    $("#tai").html("全景项目没有场景!");
+                    done = 0;
+                }else{
+                    $("#tai").html("开始输出!");
+                    step1();
+                }
+            }
+            function step1(){
+                $("#tai").html("创建全景静态路径!");
+                $.ajax({
+                    url: "vrpano_panomaker.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "step1"},
+                    success: function(data) {
+                        if (step1ok == true) {
+                            $("#tai").html("全景静态路径创建完成");
+                            step2();
+                        }
+                    }
+                });
+            }
+            function step2(){
+                $("#tai").html("创建全景基本框架!");
+                $.ajax({
+                    url: "vrpano_panomaker.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "step2"},
+                    success: function(data) {
+                        if (step2ok == true) {
+                            $("#tai").html("创建全景基本框架完成");
+                            step3(0);
+                        }
+                    }
+                });
+            }
+            function step3(n){
+                if(n==0){
+                    $("#tai").html("开始输出场景文件!");
+                }
+                $("#line1").css("width", (n/scenelen)*200 +"px");
+                $("#pd1").html(n+"/"+scenelen);
+                $.ajax({
+                    url: "vrpano_panomaker.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "step3",sceneid:scene[n],key:n,total:scenelen},
+                    success: function(data) {
+                        if (step3ok == true) {
+                            $("#line1").css("width", 200 +"px");
+                            $("#tai").html("场景文件输出完成");
+                            $("#pd1").html(scenelen+"/"+scenelen);
+                            step4(0);
+                        }
+                    }
+                });
+            }
+            function step4(n){
+                if(showpiclen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出展示图片文件!");
+                    }
+                    $("#line2").css("width", (n/showpiclen)*200 +"px");
+                    $("#pd2").html(n+"/"+showpiclen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step4",pic:showpic[n],key:n,total:showpiclen},
+                        success: function(data) {
+                            if (step4ok == true) {
+                                $("#line2").css("width", 200 +"px");
+                                $("#tai").html("展示图片文件输出完成");
+                                $("#pd2").html(showpiclen+"/"+showpiclen);
+                                step5();
+                            }
+                        }
+                    });
+                }else{
+                    $("#line2").css("width", 200 +"px");
+                    step5();
+                }                
+            }
+            function step5(){
+                $("#tai").html("创建重要XML文件!");
+                $.ajax({
+                    url: "vrpano_panomaker.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "step5"},
+                    success: function(data) {
+                        if (step5ok == true) {
+                            $("#tai").html("创建重要XML文件完成");
+                            step6(0);
+                        }
+                    }
+                });
+            }
+            function step6(n){
+                if(smartspotlen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出智能热点!");
+                    }
+                    $("#line3").css("width", (n/smartspotlen)*200 +"px");
+                    $("#pd3").html(n+"/"+smartspotlen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step6",pic:smartspot[n],key:n,total:smartspotlen},
+                        success: function(data) {
+                            if (step6ok == true) {
+                                $("#line3").css("width", 200 +"px");
+                                $("#tai").html("智能热点文件输出完成");
+                                $("#pd3").html(smartspotlen+"/"+smartspotlen);
+                                step7(0);
+                            }
+                        }
+                    });
+                }else{
+                    $("#line3").css("width", 200 +"px");
+                    step7(0);
+                }                
+            }
+            function step7(n){
+                if(videolen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出视频热区!");
+                    }
+                    $("#line4").css("width", (n/videolen)*200 +"px");
+                    $("#pd4").html(n+"/"+videolen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step7",pic:video[n],key:n,total:videolen},
+                        success: function(data) {
+                            if (step7ok == true) {
+                                $("#line4").css("width", 200 +"px");
+                                $("#tai").html("视频热区文件输出完成");
+                                $("#pd4").html(videolen+"/"+videolen);
+                                step8(0);
+                            }
+                        }
+                    });
+                }else{
+                    $("#line4").css("width", 200 +"px");
+                    step8(0);
+                }                
+            }
+            function step8(n){
+                if(applevideolen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出苹果视频文件!");
+                    }
+                    $("#line5").css("width", (n/applevideolen)*200 +"px");
+                    $("#pd5").html(n+"/"+applevideolen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step8",pic:applevideoimg[n],video:applevideo[n],key:n,total:applevideolen},
+                        success: function(data) {
+                            if (step8ok == true) {
+                                $("#line5").css("width", 200 +"px");
+                                $("#tai").html("苹果视频文件输出完成");
+                                $("#pd5").html(applevideolen+"/"+applevideolen);
+                                step9();
+                            }
+                        }
+                    });
+                }else{
+                    $("#line5").css("width", 200 +"px");
+                    step9();
+                }                
+            }
+            
+            function step9(){
+                $("#tai").html("创建地图文件!");
+                $.ajax({
+                    url: "vrpano_panomaker.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: id, dopost: "step9"},
+                    success: function(data) {
+                        if (step9ok == true) {
+                            $("#tai").html("创建地图文件完成");
+                            step10(0);
+                        }
+                    }
+                });
+            }
+            
+            function step10(n){
+                if(uishowpiclen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出展示图片文件!");
+                    }
+                    $("#line6").css("width", (n/uishowpiclen)*200 +"px");
+                    $("#pd6").html(n+"/"+uishowpiclen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step10",pic:uishowpic[n],key:n,total:uishowpiclen},
+                        success: function(data) {
+                            if (step10ok == true) {
+                                $("#line6").css("width", 200 +"px");
+                                $("#tai").html("展示图片文件输出完成");
+                                $("#pd6").html(uishowpiclen+"/"+uishowpiclen);
+                                step11(0);
+                            }
+                        }
+                    });
+                }else{
+                    $("#line6").css("width", 200 +"px");
+                    step11(0);
+                }                
+            }
+            
+            function step11(n){
+                if(photolen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出相册图集!");
+                    }
+                    $("#line7").css("width", (n/photolen)*200 +"px");
+                    $("#pd7").html(n+"/"+photolen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step11",photoid:photo[n],key:n,total:photolen},
+                        success: function(data) {
+                            if (step11ok == true) {
+                                $("#line7").css("width", 200 +"px");
+                                $("#tai").html("相册图集输出完成");
+                                $("#pd7").html(photolen+"/"+photolen);
+                                step12(0);
+                            }
+                        }
+                    });
+                }else{
+                    $("#line7").css("width", 200 +"px");
+                    step12(0);
+                }                
+            }
+            
+            function step12(n){
+                if(cubelen > 0){
+                    if(n==0){
+                        $("#tai").html("开始输出swf物体!");
+                    }
+                    $("#line8").css("width", (n/cubelen)*200 +"px");
+                    $("#pd8").html(n+"/"+cubelen);
+                    $.ajax({
+                        url: "vrpano_panomaker.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {id: id, dopost: "step12",cubeid:cube[n],key:n,total:cubelen},
+                        success: function(data) {
+                            if (step12ok == true) {
+                                $("#line8").css("width", 200 +"px");
+                                $("#tai").html("swf物体输出完成");
+                                $("#pd8").html(cubelen+"/"+cubelen);
+                                stepn();
+                            }
+                        }
+                    });
+                }else{
+                    $("#line8").css("width", 200 +"px");
+                    stepn();
+                }                
+            }
+            
+            function stepn(){
+                $("#tai").html("全景文件输出完毕！位置在<?php echo LULINROOT ?>/putout/vrpano"+id);
+                done = 0;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr>
+                    <td height="30" class="td_title" colspan="2"> 
+                        <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                            <tr> 
+                                <td width="24%" class="td_p8"><b>输出全景</b> </td>
+                                <td class="td_pr8" width="76%" align="right"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="tr_hui" height="36" align="center">
+                    <td width="15%"><b>名称</b></td>
+                    <td><b>参数</b></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>ID</b></td>
+                    <td style="text-align: left; padding-left: 10px;"><span class="green"><?php echo $id; ?></span></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>项目名称</b></td>
+                    <td style="text-align: left; padding-left: 10px;"><span class="green"><?php echo $row['panoname']; ?></span></td>
+                </tr>
+                <tr class="tr_white" height="36" align="center">
+                    <td><b>进行状态</b></td>
+                    <td style="text-align: left; padding-left: 10px;" id='tai'>未输出</td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>场景进度</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line1" class="scrollline"></div>
+                        </div>
+                        <div id="pd1" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>展示图片</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line2" class="scrollline"></div>
+                        </div>
+                        <div id="pd2" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>智能热点</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line3" class="scrollline"></div>
+                        </div>
+                        <div id="pd3" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>视频热区</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line4" class="scrollline"></div>
+                        </div>
+                        <div id="pd4" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>苹果视频</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line5" class="scrollline"></div>
+                        </div>
+                        <div id="pd5" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>弹出图片</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line6" class="scrollline"></div>
+                        </div>
+                        <div id="pd6" class="panodata"></div>
+                    </td>
+                </tr>
+                <tr class="tr_white hd" height="36" align="center">
+                    <td><b>相册图集</b></td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        <div class='scrollbox'>
+                            <div id="line7" class="scrollline"></div>
+                        </div>
+                        <div id="pd7" class="panodata"></div>
+                    </td>
+                </tr>
+
+                <tr class="tr_white" height="36" align="center">
+                    <td><b></b></td>
+                    <td style="text-align: left; padding-left: 10px;"><input type='button' class='btn3' value="开始输出文件" onclick='startdo();' />&nbsp;&nbsp;&nbsp;&nbsp;<a href="../putout/vrpano<?php echo $id; ?>" target="_blank" class="tr_white hd"><input type='button' class='btn3' value="在线观看全景" /></a></td>
+                </tr>
+            </table>
+        </div>
+		
+    </body>
+</html>

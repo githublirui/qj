@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<krpano version="1.16">
+    <style name="skin_base" url="%SWFPATH%/control/control.png" />
+    <style name="skin_glow"
+        ondown="copy(skin_lockglow,name); skin_buttonglow(get(name)); if(ondown2, ondown2() );"
+        onover="if(skin_lockglow === null, copy(skin_lockglow,name); skin_buttonglow(get(name),0.3) ); "
+        onout="if(skin_lockglow === name, ifnot(pressed, skin_buttonglow(null);delete(skin_lockglow); ));"
+        onup="if(hovering, skin_buttonglow(get(name),0.3), skin_buttonglow(null);delete(skin_lockglow); ); if(onup2, onup2() );"
+    />
+           
+    <events devices="fullscreensupport" onexitfullscreen="set(layer[skin_btn_fs].crop, '0|576|64|64');" onenterfullscreen="set(layer[skin_btn_fs].crop, '64|576|64|64');"/>
+
+
+    <layer name="skin_control_bar" keep="true" type="container" bgcolor="0x000000" bgalpha="0.5" align="#controlpos#" width="100%" height="40" x="#x#" y="#y#" y_opened="20" y_closed="-42" zorder="3">
+        <layer name="skin_topborder" style="skin_base" crop="2|0|60|12" align="topleft" edge="bottomleft" width="100%" height="12" x="0" y="0" enabled="false" />
+        <layer name="skin_btmborder"  style="skin_base"           crop="2|52|60|12"   align="bottomleft" edge="topleft" width="100%" height="12" x="0" y="0" enabled="false" />
+        <layer name="skin_btn_map"    style="skin_base|skin_glow" crop="64|128|64|64" align="leftbottom"  x="90"   y="4"   scale="0.5" ondown2="skin_showthumbs(false); skin_showmap();" visible="false" />
+        <layer name="skin_btn_lt"     style="skin_base|skin_glow" crop="0|192|64|64"  align="bottom"      x="-100" y="4"   scale="0.5" ondown2="set(hlookat_moveforce,-1);" onup2="set(hlookat_moveforce,0);" />
+        <layer name="skin_btn_rt"     style="skin_base|skin_glow" crop="64|192|64|64" align="bottom"      x="-60"  y="4"   scale="0.5" ondown2="set(hlookat_moveforce,+1);" onup2="set(hlookat_moveforce,0);" />
+        <layer name="skin_btn_up"     style="skin_base|skin_glow" crop="0|256|64|64"  align="bottom"      x="-20"  y="4"   scale="0.5" ondown2="set(vlookat_moveforce,-1);" onup2="set(vlookat_moveforce,0);" />
+        <layer name="skin_btn_dn"     style="skin_base|skin_glow" crop="64|256|64|64" align="bottom"      x="+20"  y="4"   scale="0.5" ondown2="set(vlookat_moveforce,+1);" onup2="set(vlookat_moveforce,0);" />
+        <layer name="skin_btn_in"     style="skin_base|skin_glow" crop="0|320|64|64"  align="bottom"      x="+60"  y="4"   scale="0.5" ondown2="set(fov_moveforce,-1);"     onup2="set(fov_moveforce,0);" />
+        <layer name="skin_btn_ou"     style="skin_base|skin_glow" crop="64|320|64|64" align="bottom"      x="+100" y="4"   scale="0.5" ondown2="set(fov_moveforce,+1);"     onup2="set(fov_moveforce,0);" />
+        <layer name="skin_btn_gyro"   style="skin_base|skin_glow" crop="0|384|64|64"  align="bottom"      x="140"  y="4"   scale="0.5" ondown2="skin_showmap(false);" onclick="switch(plugin[skin_gyro].enabled);" visible="false" devices="html5" />
+        <layer name="skin_btn_fs"     style="skin_base|skin_glow" crop="0|576|64|64"  align="bottom"      x="140"  y="4"   scale="0.5" onclick="switch(fullscreen);" devices="fullscreensupport" />
+        <layer name="skin_btn_hide"   style="skin_base|skin_glow" crop="0|448|64|64"  align="right"       x="50"   y="0"   scale="0.5" onclick="skin_hideskin()" />
+    </layer>
+    <layer name="skin_control_kg" keep="true" type="container" bgcolor="0x000000" bgalpha="0" align="#controlpos#" width="100%" height="40" x="#x#" y="#y#" y_opened="20" y_closed="-42" zorder="3">
+        <layer name="skin_btn_show"   style="skin_base|skin_glow" crop="64|448|64|64" align="right"  x="50"    y="0" scale="0.5" alpha="0" visible="false" onclick="skin_showskin()" />
+    </layer>
+    <layer name="skin_buttonglow" keep="true" style="skin_base" crop="64|384|64|64" align="center" x="0" y="1" alpha="0.0" visible="false" enabled="false" />
+    
+    <action name="skin_buttonglow">
+        if(%1 != null,
+            set(strength,0.7);
+            if(%2 != null, set(strength,%2));
+            set(layer[skin_buttonglow].parent, %1);
+            set(layer[skin_buttonglow].visible, true);
+            tween(layer[skin_buttonglow].alpha, get(strength), 0.07);
+            ,
+            tween(layer[skin_buttonglow].alpha, 0.0, 0.1, default, set(layer[skin_buttonglow].parent, null); set(layer[skin_buttonglow].visible, false); );
+            );
+        </action>
+        <action name="skin_hideskin">
+            copy(back_widthdata,layer[skin_control_bar].height);
+            set(layer[skin_btn_hide].visible,false);
+            tween(layer[skin_control_bar].height, 0, 0.5, easeOutQuint);
+            set(layer[skin_btn_show].visible,true);
+            tween(layer[skin_btn_show].alpha, 1, 0.25, easeOutQuint);
+        </action>
+        <action name="skin_showskin">
+            tween(layer[skin_control_bar].height, get(back_widthdata), 0.5, easeOutQuint);
+            set(layer[skin_btn_show].visible,false);
+            set(layer[skin_btn_hide].visible,true);
+            tween(layer[skin_btn_show].alpha,0,0);
+        </action>
+</krpano>

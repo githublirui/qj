@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景地图修改</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+    <body>        
+        <div class="main">
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr class="tr_hui" height="30" align="left">
+                    <td colspan="4" class="td_p8">
+                        <input type="button" onclick="window.location.href = 'vrpano_manymap_add.php?id={lulin:global.id/}';" value="添加新地图" class="btn2"/>
+                        <input type="button" onclick="window.location.href = '{lulin:global.endurl/}';" value="返回上级" class="btn1"/>
+                        <input type="button" onclick="window.open('tool/lookscene/index.php?id={lulin:global.id/}');" value="预览" class="btn1"/>
+                    </td>
+                </tr>
+                <tr class="tr_hui" height="30" align="center">                        
+                    <td width="30%">
+                        <b>名称</b>
+                    </td>
+                    <td width="30%">
+                        <b>缩略图</b>
+                    </td>
+                    <td width="40%">
+                        <b>操作</b>
+                    </td>
+                </tr>
+                {lulin:datalist row='5'}
+                <tr class="tr_white">                                            
+                    <td align="center">[field:title /]</td>   
+                    <td align="center" height="90"><img src="[field:global.cfg_cmspath/]/vrpano/vrpano[field:pid/]/map/[field:file /]" height="80" /></td>    
+                    <td align="center">
+                        <input type="button" onclick="window.location.href = 'vrpano_manymap_edit.php?id=[field:id /]&page=[field:page /]'" value="修改" class="btn1"/>
+                        <input type="button" onclick="window.location.href = 'vrpano_manymap_del.php?id=[field:id /]'" value="删除" class="btn1"/>
+                    </td>
+                </tr>
+                {/lulin:datalist}
+                <tr align="center" class="tr_white" height="46"> 
+                    <td colspan="3">
+                        {lulin:pagelist listsize="5"/}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

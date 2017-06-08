@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <title>修改360物体</title>
+            <link href="style/common.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="js/jquery.js"></script>
+            <script type="text/javascript" src="uploader/uploader.js"></script>
+            <script type="text/javascript" src="js/photocenter.js"></script>
+            
+            <script type="text/javascript">
+                function checkSubmit(){                    
+                    return true;
+                }
+            </script>
+            <style>
+                #litpicviewbox{
+                    width: 120px; height: 90px; overflow: hidden; border:1px solid #eee; margin: 6px 0;
+                }
+                .option1{
+                    background: #e6e6e6;
+                }
+                .option2{
+                    background: #c6c6c6;
+                }
+                .option3{
+                    background: #fff;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="main">
+            <form name="form1" action="vrpano_cube_edit.php" enctype="multipart/form-data" method="post" onsubmit="checkSubmit()">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <input type="hidden" id="delimg" name="delimg" value="" />
+                <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr>
+                        <td height="24" class="td_title" colspan="2"> 
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr> 
+                                    <td width="24%" class="td_p8"><b>修改360物体</b> </td>
+                                    <td class="td_pr8" width="76%" align="right">
+                                        <input type="button"  onclick="window.location.href='<?php echo $endurl; ?>';" value="返回管理" class="btn2"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>360物体标题：</b></td>
+                        <td class="td_p8"><input style="width:240px;" type="text" name="title" value="<?php echo $row['title']; ?>" /><span class="red">（必填）</span></td>
+                    </tr>
+                    <tr class="tr_white" height="8">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>宽度：</b></td>
+                        <td class="td_p8"><input type="text" name="width" value="<?php echo $row['width']; ?>" /><span class="red">（不超过600）</span></td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>高度：</b></td>
+                        <td class="td_p8"><input type="text" name="height" value="<?php echo $row['height']; ?>" /><span class="red">（不超过400）</span></td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>上传360物体：</b></td>
+                        <td class="td_p8"><input type="button" class="btn1" id="images_up" value="点击上传"/></td>
+                    </tr>
+                    <tr class="tr_white" height="32">
+                        <td width="160"  align="right"><b>详情：</b></td>
+                        <td class="td_p8"><div id="images_box" style="margin:10px 0;"></div></td>
+                    </tr>
+                    <?php echo $scripthtml; ?>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $("#images_up").uploader("images2","imageGet","<?php echo $cfg_cmspath; ?>");
+                        });
+                        function imageGet(data){
+                            $("#images_box").addimgbox(data,"images","<?php echo $cfg_cmspath; ?>");
+                        }
+                    </script>
+                    
+
+                    <tr class="tr_hui" height="40">
+                        <td colspan="2" align="center">
+                            <input type="submit" class="btn1" value="提交"/>
+                            <input type="button" class="btn1" onclick="window.location.href='<?php echo $endurl; ?>';" value="返回" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1017 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景热点添加</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        
+        <link rel="stylesheet" href="../require/kindeditor/themes/default/default.css" />
+        <script charset="utf-8" src="../require/kindeditor/kindeditor-all.js"></script>
+        <script charset="utf-8" src="../require/kindeditor/zh_CN.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                onoroff();
+                $("#showpicup").uploader("image", "showpicdata","<?php echo $cfg_cmspath; ?>");
+                $("#smartspotpicup").uploader("image", "smartspotpicdata","<?php echo $cfg_cmspath; ?>");
+                $("#applevideoup").uploader("applevideo", "applevideodata","<?php echo $cfg_cmspath; ?>");
+                $("#applevideoimgup").uploader("image", "applevideoimgdata","<?php echo $cfg_cmspath; ?>");
+                $("#videoup").uploader("all", "videodata","<?php echo $cfg_cmspath; ?>");
+                $("#fillcolor,#fillcolorhover,#bordercolor,#bordercolorhover,#showpicbordercolor").ColorPicker({
+                    onSubmit: function(hsb, hex, rgb, el) {
+                        $(el).val(hex);
+                        $(el).ColorPickerHide();
+                    },
+                    onBeforeShow: function() {
+                        $(this).ColorPickerSetColor(this.value);
+                    }
+                }).bind('keyup', function() {
+                    $(this).ColorPickerSetColor(this.value);
+                });
+            });
+            function gettargethv(){
+                var id = $("#panotarget").val();
+                if(id==0){
+                    alert("场景不存在！！！");
+                }else{
+                    window.open("tool/targethv/index.php?id="+id, "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }                
+            }
+            function getsmartpostion(){
+                var aid = $("#aid").val();
+                var smartimg = $("#smartspotpic").val();
+                if(smartimg == ""){
+                    alert("热点图不存在！！！");
+                }else{
+                    window.open("tool/smart/index.php?id="+aid+"&img="+smartimg, "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }
+            }
+            function getsmartdata(data){
+                var dataarr = data.split("|");
+                $("#smartscale").val(dataarr[0]);
+                $("#smartatv").val(dataarr[1]);
+                $("#smartath").val(dataarr[2]);
+                $("#smartrz").val(dataarr[3]);
+                $("#smartrx").val(dataarr[4]);
+                $("#smartry").val(dataarr[5]);
+                $("#smartwidth").val(dataarr[6]);
+                $("#smartheight").val(dataarr[7]);
+            }
+            function getvideopostion(){
+                var aid = $("#aid").val();
+                var video = $("#video").val();
+                if(video == ""){
+                    alert("视频不存在！！！");
+                }else{
+                    window.open("tool/video/index.php?id="+aid+"&video="+video, "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }
+            }
+            function getvideodata(data){
+                var dataarr = data.split("|");
+                $("#videoscale").val(dataarr[0]);
+                $("#videoatv").val(dataarr[1]);
+                $("#videoath").val(dataarr[2]);
+                $("#videorz").val(dataarr[3]);
+                $("#videorx").val(dataarr[4]);
+                $("#videory").val(dataarr[5]);
+                $("#videowidth").val(dataarr[6]);
+                $("#videoheight").val(dataarr[7]);
+            }
+            function showpicdata(data){
+                $("#showpic").val(data);
+            }
+            function smartspotpicdata(data){
+                $("#smartspotpic").val(data);
+            }
+            function videodata(data){
+                $("#video").val(data);
+            }
+            function applevideodata(data){
+                $("#applevideo").val(data);
+            }
+            function applevideoimgdata(data){
+                $("#applevideoimg").val(data);
+            }
+            function checksub() {
+                var title = $("#title").val();
+                if (title == "") {
+                    alert("请填写热点题目");
+                    return false;
+                }else if ($("#hotpoints").val() == "" && $("#spottype").val() == "2") {
+                    alert("请获取多边形热点");
+                    return false;
+                }else if ($("#smartspotpic").val() == "" && $("#spottype").val() == "3") {
+                    alert("请添加智能热点的图片");
+                    return false;
+                }else if($("#showpic").val() == "" && $("#action").val() == "2"){
+                    alert("请添加图片");
+                    return false;
+                } else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            function getspotstyle(n,id){
+                $(".spotbox").removeClass("me");
+                $(".spotbox").eq(n).addClass("me");
+                $("#spotstyle").val(id);
+            }
+            function showtb(n) {
+                $(".tb").attr("class", "tb btn1");
+                $(".tb").eq(n - 1).attr("class", "tb btn2");
+                $(".tbcube").hide();
+                $(".tb" + n).show();
+                $("#spottype").val(n);
+            }
+            function showac(n) {
+                $(".ac").attr("class", "ac btn1");
+                $(".ac").eq(n - 1).attr("class", "ac btn2");
+                $(".acbox").hide();
+                $(".ac" + n).show();
+                $("#action").val(n);
+                var v = $(".ac" + n).find("img").length;
+                for(i=0;i<v;i++){
+                    $(".ac" + n).find("img").eq(i).attr("src",$(".ac" + n).find("img").eq(i).attr("src"));
+                }
+            }
+            function getspot() {
+                var tp = document.form1.spottype.value;
+                if (tp == 1) {
+                    var id = document.form1.aid.value;
+                    var styleid = document.form1.spotstyle.value;
+                    var h = document.form1.spoth.value;
+                    var v= document.form1.spotv.value;
+                    window.open("tool/getspot/index.php?id=" + id + "&styleid=" + styleid+"&h="+h+"&v="+v, "pano", "width=" + (screen.availWidth - 10) + ",height=" + (screen.availHeight - 50) + ",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }
+            }
+            function getploygonal() {
+                var tp = document.form1.spottype.value;
+                if (tp == 2) {
+                    var id = document.form1.aid.value;
+                    window.open("tool/getploygonal/index.php?id=" + id, "pano", "width=" + (screen.availWidth - 10) + ",height=" + (screen.availHeight - 50) + ",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }
+            }
+            function getpanotarget(n, id) {
+                $(".panobox").removeClass("me");
+                $(".panobox").eq(n).addClass("me");
+                $("#panotarget").val(id);
+            }
+            function getphoto(n, id) {
+                $(".photobox").removeClass("me");
+                $(".photobox").eq(n).addClass("me");
+                $("#photo").val(id);
+            }
+            function getcube(n, id) {
+                $(".cubebox").removeClass("me");
+                $(".cubebox").eq(n).addClass("me");
+                $("#cube").val(id);
+            }
+            function getpoints(data) {
+                $("#hotpoints").val(data);
+                var dataarr = data.split("&&");
+                var datahtml = "";
+                var p;
+                for (i = 0; i < dataarr.length; i++) {
+                    p = dataarr[i].split("||");
+                    datahtml += '<div class="pointdata"><div class="pointdata1">' + p[0] + '</div><div class="pointdata2">' + p[1] + '</div></div>';
+                }
+                $("#hotpointsbox").html(datahtml);
+            }
+            
+            var editor;
+            KindEditor.ready(function(K) {
+                editor = K.create('textarea[name="textinfo"]', {
+                    resizeType : 1,
+                    allowPreviewEmoticons : false,
+                    allowImageUpload : true,
+                    items : [
+                        'source', '|','fontname', 'fontsize', '|', 'forecolor', 'bold', 'italic', 'underline',
+                        'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', '|', 'link']
+                });
+            });
+        </script>
+        <style type="text/css">
+            .pointdata{
+                width: 320px; height: 24px; overflow: hidden; background: url(images/vrpano/point.png) no-repeat; margin: 4px; cursor: pointer;
+            }
+            .pointdata:hover{
+                background-position: 0 -24px;
+            }
+            .pointdata1{
+                width: 145px; height: 24px; overflow: hidden; float: left; font: 12px/24px "微软雅黑"; text-align: right; color: #666;
+            }
+            .pointdata2{
+                width: 145px; height: 24px; overflow: hidden; float: right; font: 12px/24px "微软雅黑"; text-align: left; color: #666;
+            }
+        </style>
+        <style type="text/css">
+            .spotbox{
+                width: 126px; height: 126px; overflow: hidden; border:1px solid #c8ddff; cursor: pointer; float: left; _display: inline; margin: 4px; background: #fff;
+            }
+            .spotbox.me{
+                background: url(images/common/color.gif) center center no-repeat;
+            }
+            .spotbox .spotimg{
+                width: 120px; height: 120px; overflow: hidden; border:1px solid #e6e6e6; margin: 2px; background: #fff;
+            }
+            .spotbox .spotimgmask{
+                width: 120px; height: 120px; overflow: hidden; position: absolute; background: url(images/common/none.png);
+            }
+        </style>
+        <style type="text/css">
+            .panobox{
+                width: auto; height: 40px; overflow: hidden; border:2px solid #c8ddff;
+                cursor: pointer; float: left; _display: inline; margin: 4px; background: #fff;
+                padding: 4px 8px;
+            }
+            .panobox:hover{
+                border-color: #ace;
+            }
+            .panobox.me{
+                border-color: #4f94d9; background: #f5f9ff;
+            }
+            .panobox .panotitle{
+                width: auto; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+            .panobox .panocode{
+                width: 100px; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+        </style>
+        <style type="text/css">
+            .panoboxme{
+                width: auto; height: 40px; overflow: hidden; border:2px solid  #BFD67C;
+                cursor: default; float: left; _display: inline; margin: 4px; background: #f2ffcc;
+                padding: 4px 8px;
+            }
+            .panoboxme .panotitleme{
+                width: auto; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+            .panoboxme .panocodeme{
+                width: 100px; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+        </style>
+        <style type="text/css">
+            .photobox{
+                width: auto; height: 145px; overflow: hidden; border:2px solid #c8ddff;
+                cursor: pointer; float: left; _display: inline; margin: 4px; background: #fff;
+                padding: 8px;
+            }
+            .photobox:hover{
+                border-color: #ace;
+            }
+            .photobox.me{
+                border-color: #4f94d9; background: #f5f9ff;
+            }
+            .photobox .phototitle{
+                width: auto; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333; margin-top: 4px;
+            }
+            .photobox .photoimg{
+                width: 120px; height: 120px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333; border:1px solid #e6e6e6;
+            }
+        </style>
+        <style type="text/css">
+            .cubebox{
+                width: auto; height: 40px; overflow: hidden; border:2px solid #c8ddff;
+                cursor: pointer; float: left; _display: inline; margin: 4px; background: #fff;
+                padding: 4px 8px;
+            }
+            .cubebox:hover{
+                border-color: #ace;
+            }
+            .cubebox.me{
+                border-color: #4f94d9; background: #f5f9ff;
+            }
+            .cubebox .cubetitle{
+                width: auto; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+            .cubebox .cubecode{
+                width: 100px; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+        </style>        
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>添加全景热点</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_spot_add.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" id="aid" name="aid" value="<?php echo $aid; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="40%">
+                            <b>参数</b>
+                        </td>
+                        <td width="40%">
+                            <b>备注</b>
+                        </td>
+                    </tr>   
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景热点名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="title" name="title"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">本全景热点名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否右键显示名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openshowspotname" value="1"></div>
+                            <input type="hidden" id="openshowspotname" name="openshowspotname" value="1" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">在鼠标指向目标热点时，是否以文字形式显示热点的名称</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>适应设备：</b>
+                        </td>
+                        <td class="td_p8">
+                            <select name="devicetype">
+                                <option value="all" selected="selected">全部</option>
+                                <option value="flash">PC(flash)</option>
+                                <option value="html5">Apple(html5)</option>
+                            </select>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">适应设备种类</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>热点类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="tb btn2" value="简易热点" onclick="showtb(1);"/>
+                            <input type="button" class="tb btn1" value="透明热区" onclick="showtb(2);"/>
+                            <input type="button" class="tb btn1" value="自由图片" onclick="showtb(3);"/>
+                            <input type="button" class="tb btn1" value="视频热区" onclick="showtb(4);"/>
+                            <input type="hidden" id="spottype" name="spottype" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">
+							简易热点：在素材库中选择已上传好的热点，支持动态图和flash<br/>
+							透明热区：选择一个区域范围作为热点，支持鼠标移至变色（大部分移动端不支持）<br/>
+							自由图片：自己上传任意图片作为热点，添加场景贴图<br/>
+							视频热区：将视频贴至场景中							
+							</span>
+                        </td>
+                    </tr>
+                    <?php echo $pingjs; ?>
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>热点选择：<br/>（蓝底为动态图标）</b>
+                        </td>
+                        <td colspan="2" style="padding:4px;">
+                            <?php echo $spothtml; ?>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>全景热点坐标H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="spoth" name="spoth" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点坐标H</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>全景热点坐标V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="spotv" name="spotv" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点坐标V</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>全景热点坐标抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="btn1" value="抓取" onclick="getspot();"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点坐标V</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>鼠标指向触发动画：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openanimate" value="0"></div>
+                            <input type="hidden" id="openanimate" name="openanimate" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">在鼠标指向目标热点时，才发生动画效果</span>
+                        </td>
+                    </tr>
+
+
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>全景热区坐标：</b>
+                        </td>
+                        <td style="padding: 4px;">
+                            <input id="hotpoints" type="hidden" name="hotpoints" />
+                            <div id="hotpointsbox"></div>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热区坐标</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>全景热区抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="btn1" value="热区抓取" onclick="getploygonal();"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热区抓取<a href="http://720.jum8.com/jiaocheng/zhuaqu/" target="_blank">&nbsp;&nbsp;<font color="red"><u>抓取教程</u></font></a></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>热区属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="fillcolor" maxlength="6" size="6" name="fillcolor" value="ffffff"/>
+                            <b>-- 透明度 - </b><input type="text" id="fillalpha" maxlength="6" size="6" name="fillalpha" value="0"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">热区填充颜色<a href="cl" target="_blank">&nbsp;&nbsp;<font color="red"><u>颜色选择器</u></font></a></span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>边框属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="bordercolor" maxlength="6" size="6" name="bordercolor" value="ffffff"/>
+                            <b>-- 透明度 - </b><input type="text" id="borderalpha" maxlength="6" size="6" name="borderalpha" value="0"/>
+                            <b>-- 宽度 - </b><input type="text" id="borderwidth" maxlength="6" size="6" name="borderwidth" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">热区填充颜色</span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>鼠标指向热区属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="fillcolorhover" maxlength="6" size="6" name="fillcolorhover" value="ffffff"/>
+                            <b>-- 透明度 - </b><input type="text" id="fillalphahover" maxlength="6" size="6" name="fillalphahover" value="0.2"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">热区填充颜色</span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>鼠标指向边框属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="bordercolorhover" maxlength="6" size="6" name="bordercolorhover" value="ffffff"/>
+                            <b>-- 透明度 - </b><input type="text" id="borderalphahover" maxlength="6" size="6" name="borderalphahover" value="0.8"/>
+                            <b>-- 宽度 - </b><input type="text" id="borderwidthhover" maxlength="6" size="6" name="borderwidthhover" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">热区填充颜色</span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>上传图片：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input id="smartspotpic" type="input" name="smartspotpic" />
+                            <input type="button" class="btn1" id="smartspotpicup" value="点击上传"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传热点图片</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>智能热点位置抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="btn1" value="位置抓取" onclick="getsmartpostion();"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">智能热点位置抓取<a href="http://720.jum8.com/jiaocheng/zhuaqu/" target="_blank">&nbsp;&nbsp;<font color="red"><u>抓取教程</u></font></a></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>图片宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="" id="smartwidth" name="smartwidth"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>图片高度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="" id="smartheight" name="smartheight"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>放大级别：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="1" id="smartscale" name="smartscale"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>位置V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="smartatv" name="smartatv"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>位置H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="smartath" name="smartath"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>                    
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>旋转Z：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="smartrz" name="smartrz"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>旋转X：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="smartrx" name="smartrx"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb3" height="36">
+                        <td  align="right">
+                            <b>旋转Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="smartry" name="smartry"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>上传视频：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input id="video" type="input" name="video" />
+                            <input type="button" class="btn1" id="videoup" value="点击上传"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传视频，要求flv格式</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>智能热点位置抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="btn1" value="位置抓取" onclick="getvideopostion();"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">智能热点位置抓取<a href="http://720.jum8.com/jiaocheng/zhuaqu/" target="_blank">&nbsp;&nbsp;<font color="red"><u>抓取教程</u></font></a></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="" id="videowidth" name="videowidth"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>高度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="" id="videoheight" name="videoheight"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>放大级别：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="1" id="videoscale" name="videoscale"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>位置V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="videoatv" name="videoatv"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>位置H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="videoath" name="videoath"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>                    
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>旋转Z：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="videorz" name="videorz"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>旋转X：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="videorx" name="videorx"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>旋转Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" value="0" id="videory" name="videory"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>开启初始自动播放：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openstartplay" value="0"></div>
+                            <input type="hidden" id="openstartplay" name="openstartplay" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">开启初始自动播放</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>我已确定苹果支持：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openapplevideo" value="0"></div>
+                            <input type="hidden" id="openapplevideo" name="openapplevideo" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">已确定苹果支持文件OK，没有上传苹果支持视频请勿开启</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>上传苹果支持视频：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input id="applevideo" type="input" name="applevideo" />
+                            <input type="button" class="btn1" id="applevideoup" value="点击上传"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传苹果支持视频，要求mp4或者m4v格式</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white tbcube tb4" height="36">
+                        <td  align="right">
+                            <b>上传苹果用视频缩略图：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input id="applevideoimg" type="input" name="applevideoimg" />
+                            <input type="button" class="btn1" id="applevideoimgup" value="点击上传"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传苹果用视频缩略图，要求尺寸等同于视频</span>
+                        </td>
+                    </tr>
+
+                    <script type="text/javascript">
+                        showtb(1);
+                    </script>
+
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开启热点点击事件：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openaction" value="0"></div>
+                            <input type="hidden" id="openaction" name="openaction" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red"><font color="red">若要开启下面的功能，这个开关一定要打开</font></span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>热点事件类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="ac btn2" value="场景行走" onclick="showac(1);"/>
+                            <input type="button" class="ac btn1" value="弹出图片" onclick="showac(2);"/>
+                            <input type="button" class="ac btn1" value="超链接" onclick="showac(3);"/>
+                            <input type="button" class="ac btn1" value="点击飞出" onclick="showac(4);"/>
+                            <input type="button" class="ac btn1" value="相册图集" onclick="showac(5);"/>
+                            <input style="display:none" type="button" class="ac btn1" value="360物体" onclick="showac(6);"/>
+                            <input type="hidden" id="action" name="action" value="1"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点事件类型</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景（点击选择）：</b>
+                        </td>
+                        <td colspan="2" style="padding: 4px;">
+                            <?php echo $panohtml; ?>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="targeth" name="targeth" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置H</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="targetv" name="targetv" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置V</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class='btn1' onclick="gettargethv();" value="点击抓取" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置抓取</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>场景转场效果：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input name="screenchange" type="radio" value="1" ></input>自然过渡（推荐）
+                            <input name="screenchange" type="radio"  value="2" checked="checked" ></input>镜头推进
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">鼠标拖拽模式</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white acbox ac2" height="36">
+                        <td  align="right">
+                            <b>展示图片：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="showpic" id="showpic" size="30" />
+                            <input type="button" class="btn1" id="showpicup" value="上传图片"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传展示图片</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac2" height="36">
+                        <td  align="right">
+                            <b>触发模式：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="radio" name="showpictype" id="showpictype" value="1" checked="checked" />鼠标点击
+                            <input type="radio" name="showpictype" id="showpictype" value="2" />鼠标经过
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">展示的图片弹出的触发模式</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac2" height="36">
+                        <td  align="right">
+                            <b>图片边框属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="showpicbordercolor" maxlength="6" size="6" name="showpicbordercolor" value="ffffff"/>
+                            <b>-- 透明度 - </b><input type="text" id="showpicborderalpha" maxlength="6" size="6" name="showpicborderalpha" value="0.5"/>
+                            <b>-- 宽度 - </b><input type="text" id="showpicborderwidth" maxlength="6" size="6" name="showpicborderwidth" value="6"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">图片边框属性</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac3" height="36">
+                        <td  align="right">
+                            <b>外部超链接：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" size="40" id="httplink" name="httplink" value="" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">外部超链接，格式是http://www.xxx.com</span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white acbox ac4" height="36">
+                        <td  align="right">
+                            <b>注意：</b>
+                        </td>
+                        <td class="td_p8" colspan="2">
+                            此效果仅适用于【自由图片】【视频热区】
+                        </td>                        
+                    </tr>
+
+                    <tr class="tr_white acbox ac5" height="36">
+                        <td  align="right">
+                            <b>图集：</b>
+                        </td>
+                        <td class="td_p8" colspan="2">
+                            <?php echo $photohtml; ?>
+                        </td>                        
+                    </tr>
+
+                    <tr class="tr_white acbox ac6" height="36">
+                        <td  align="right">
+                            <b>360物体：</b>
+                        </td>
+                        <td class="td_p8" colspan="2">
+                            <?php echo $cubehtml; ?>
+                        </td>                        
+                    </tr>
+
+                    <script type="text/javascript">
+                        showac(1);
+                    </script>
+
+
+
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否显示热点文字信息：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openinfo" value="0"></div>
+                            <input type="hidden" id="openinfo" name="openinfo" value="0" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">鼠标移至热点弹出一段文字框，可以添加链接，文字效果等</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="infowidth" name="infowidth" value="200"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">推荐（200—350）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>热点文字信息：</b>
+                        </td>
+                        <td colspan="2" style="padding:0px;">
+                            <textarea name="textinfo" style="width:100%; height:200px; overflow: hidden;"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

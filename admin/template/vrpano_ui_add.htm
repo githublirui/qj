@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景热点添加</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                onoroff();
+                $("#imgfileup").uploader("image", "imgfiledata","<?php echo $cfg_cmspath; ?>");
+                $("#videofileup").uploader("video", "videofiledata","<?php echo $cfg_cmspath; ?>");
+            });
+            function imgfiledata(data){
+                $("#imgfile").val(data);
+            }
+            function videofiledata(data){
+                $("#videofile").val(data);
+            }
+            function checksub() {
+                var title = $("#title").val();
+                var v1 = $("#imgfile").val();
+                var v2 = $("#videofile").val();
+                if (title == "") {
+                    alert("请填写UI题目");
+                    return false;
+                }else if(v1==""&&v2==""){
+                    alert("请填上传文件");
+                    return false;
+                }else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            function showtb(n){
+                $(".tb").attr("class","tb btn1");
+                $(".tb").eq(n-1).attr("class","tb btn2");
+                $(".tbcube").hide();
+                $(".tb" + n).show();
+                var len = $(".tb"+n).find("img").length;
+                for(i=0;i<len;i++){
+                    $(".tb"+n).find("img").eq(i).attr("src",$(".tb"+n).find("img").eq(i).attr("src"));
+                }
+                $("#uitype").val(n);
+            }
+        </script>
+        </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>添加UI皮肤</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_ui_add.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="pid" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景UI皮肤名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="title" name="title" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤名称（无实际作用，仅供管理方便使用）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景UI皮肤类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="tb btn2" value="图片" onclick="showtb(1);"/>
+                            <input type="button" class="tb btn1" value="视频" onclick="showtb(2);"/>
+                            <input type="hidden" id="uitype" name="uitype" value="1"/>       
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤类型</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>上传UI皮肤图片：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="imgfile" name="imgfile" value="<?php echo $row['imgfile']; ?>" />
+                            <input type="button" class="btn1" id="imgfileup" value="上传图片"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤文件的上传</span>                            
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>上传UI皮肤视频：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="videofile" name="videofile" value="<?php echo $row['videofile']; ?>" />
+                            <input type="button" class="btn1" id="videofileup" value="上传视频"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤视频的上传</span>                            
+                        </td>
+                    </tr>
+                    <script type="text/javascript">
+                        showtb(1);
+                    </script>
+                    
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

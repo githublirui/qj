@@ -1,0 +1,81 @@
+<krpano version="1.16">
+<plugin name="t_box" url="%SWFPATH%/thumb/t_box.png" zorder="100" alpha="0.9" blendmode="NORMAL" align="#thumbpos#" edge="#thumbpos#" x="#x#" y="#y#" ox="0" oy="0" width="100%" height="58" refreshrate="" scale="1" smoothing="True" mask="" rotate="0" visible="True" enabled="True" capture="True" handcursor="True" keep="True" children="True" preload="False" scalechildren="False" autosize="none" background="False"/>
+<plugin name="t_box_left" url="%SWFPATH%/thumb/mapleft.png" zorder="1000" alpha="1" blendmode="NORMAL" align="left" edge="left" x="0" y="0" ox="0" oy="0" width="" height="" refreshrate="" scale="1" smoothing="True" mask="" rotate="0" visible="True" enabled="True" capture="False" handcursor="True" keep="True" children="True" preload="False" Intro="" style="" effect="" parent="t_box" scalechildren="True" onhover="showtext('向左');" onclick="set(enabled,false);add(thedex,#width#,5);add(dst,get(plugin[tb_box_sc].x),thedex);tween(plugin[tb_box_sc].x,get(dst),0.3,easeInOutQuad,);set(enabled,true);" />
+<plugin name="t_box_right" url="%SWFPATH%/thumb/mapright.png" zorder="1000" alpha="1" blendmode="NORMAL" align="right" edge="right" x="0" y="0" ox="0" oy="0" width="" height="" refreshrate="" scale="1" smoothing="True" mask="" rotate="0" visible="True" enabled="True" capture="False" handcursor="True" keep="True" children="True" preload="False" parent="t_box" scalechildren="True" onhover="showtext('向右');" onclick="set(enabled,false);add(thedex,#width#,5);sub(dst,get(plugin[tb_box_sc].x),thedex);tween(plugin[tb_box_sc].x,get(dst),0.3,easeInOutQuad,);set(enabled,true);"/>
+<plugin name="tb_box_sc" url="%SWFPATH%/thumb/t_box.png" zorder="100" alpha="1" blendmode="NORMAL" align="left" edge="left" x="0" y="-2" ox="0" oy="0" width="1" height="1" refreshrate="" scale="1" smoothing="True" mask="" rotate="0" visible="True" enabled="True" capture="False" handcursor="True" keep="True" children="True" preload="False" Intro="" style="" effect="" parent="t_box" scalechildren="False"/>
+<plugin name="tb_select" url="" zorder="99" alpha="1" blendmode="NORMAL" align="left" edge="left" y="0" ox="0" oy="0" width="#width#" height="#height#" refreshrate="" scale="1" smoothing="True" mask="" rotate="0" visible="True" enabled="True" capture="False" handcursor="True" keep="True" children="True" preload="False" effect="glow(0x00FFFF,0.7,4,4)" onloaded="set(effect,glow(0xffa800,0.8,4,4););" />
+
+<action name="buildthumbs">
+        if(%1 != NEXT, add(plugin[t_box].height, #height#,8);set(i,0);set(m,0));
+        if(m LT scene.count,
+        if(scene[get(i)].thumburl != "",
+        set(w,#width#);
+        set(h,#height#);
+        copy(thumb, scene[get(i)].thumburl);
+        copy(scenetitle, scene[get(i)].scenetitle);
+        add(ii,i,1);
+        txtadd(thumbname,"thumb_",get(ii));
+        addplugin(get(thumbname));
+        set(plugin[get(thumbname)].url, get(thumb));
+        set(plugin[get(thumbname)].scenename, get(scenetitle));
+        set(plugin[get(thumbname)].keep, true);
+        set(plugin[get(thumbname)].align, left);
+        set(plugin[get(thumbname)].width,  get(w));
+        set(plugin[get(thumbname)].height, get(h));
+        set(plugin[get(thumbname)].alpha, 0.5);
+        set(plugin[get(thumbname)].parent, tb_box_sc);        
+        set(plugin[get(thumbname)].y, 1);
+        add(thedex,#width#,5);
+        mul(plugin[get(thumbname)].x, m,thedex);
+        set(plugin[get(thumbname)].zorder, 150);
+        set(plugin[get(thumbname)].linkedscene, get(scene[get(i)].name) );
+        set(plugin[get(thumbname)].onhover,showtext(get(scenename)););
+        set(plugin[get(thumbname)].onover, set(effect,glow(0x00FFFF,0.7,4,4););set(alpha,1););
+        set(plugin[get(thumbname)].onout, set(effect,);set(alpha,0.5););
+        txtadd(clickdata,"loadscene(scene",get[i]);
+        txtadd(clickdata,clickdata,", null, MERGE,BLEND(1.5));");
+        set(plugin[get(thumbname)].linkedscene, get(scene[get(i)].name) );
+        set(plugin[get(thumbname)].onclick, loadscene(get(linkedscene),null,MERGE,BLEND(1)););
+        inc(m);
+        );
+        inc(i);
+        buildthumbs(NEXT););
+</action>
+<action name="thumb_start">
+      thumb_show_tb(%1);
+      mul(thumbfullwidth,thedex,m);
+      sub(thumbfullwidth,get(thumbfullwidth),5);
+      sub(thumbendx,get(thumbfullwidth),stagewidth);
+      add(thumbendx,get(thumbendx),25);
+      mul(dst,get(plugin[thumb_%1].x),1);
+      sub(thumbsheng,get(thumbfullwidth),get(plugin[thumb_%1].x));
+      sub(thumbsheng,get(thumbsheng),get(thedex));
+      div(hrafwindow,stagewidth,2);
+      sub(thumbmidx,get(plugin[thumb_%1].x),get(hrafwindow));
+      div(hrefwidth,#width#,2);
+      add(thumbmidx,get(thumbmidx),get(hrefwidth));
+      
+      if(thumbfullwidth LT stagewidth,
+      set(dst,-30);
+      ,
+      if(dst LT hrafwindow,
+      set(dst,-30);
+      ,
+      if(thumbsheng LT hrafwindow,
+      set(dst,get(thumbendx));
+      ,
+      set(dst,get(thumbmidx));
+      );
+      );
+      );
+      mul(dst,get(dst),-1);      
+      tween(plugin[tb_box_sc].x,get(dst),0.4,linear);
+</action>
+<action name="thumb_show_tb">
+      set(plugin[tb_box_sc].visible,true);
+      copy(plugin[tb_select].url,plugin[thumb_%1].url);
+      copy(plugin[tb_select].parent,plugin[thumb_%1].parent);
+      copy(plugin[tb_select].x,plugin[thumb_%1].x);
+      copy(plugin[tb_select].y,plugin[thumb_%1].y);
+</action>
+</krpano>    

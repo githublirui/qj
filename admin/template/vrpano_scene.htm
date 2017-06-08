@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景场景</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            function lookscene(n){
+                window.open("tool/lookscene/index.php?id="+n);
+            }
+        </script>
+    </head>
+    <body>        
+        <div class="main">
+            <center>
+                        {lulin:global.id function="panomenu(@me,1)"/}
+                    </center>
+                </tr>
+            </table>
+
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:4px" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="32"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <input type="button" onclick="window.location.href = 'vrpano_scene_add.php?id={lulin:global.id/}';" value="添加场景" class="btn2"/>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr class="tr_hui" height="30" align="center">
+                    <td width="5%">
+                        <b>排序</b>
+                    </td>
+                    <td width="15%">
+                        <b>名称</b>
+                    </td>
+                    <td width="15%">
+                        <b>样式</b>
+                    </td>
+                    <td width="8%">
+                        <b>缩略图</b>
+                    </td>
+                    <td width="8%">
+                        <b>热点数目</b>
+                    </td>
+                    <td width="8%">
+                        <b>调序</b>
+                    </td>
+                    <td width="41%">
+                        <b>操作</b>
+                    </td>
+                </tr>
+                {lulin:datalist row='20'}
+                <tr class="tr_white">
+                    <td align="center">[field:rank /]</td>   
+                    <td align="center">[field:scenename /]</td>   
+                    <td align="center">[field:type function="cheaktype(@me)" /]</td>
+                    <td align="center">[field:thumb function="checkthumb(@me)" /]</td>
+                    <td align="center">[field:id function="hotsopt(@me)" /]</td>
+                    <td align="center"><input type="button" class="btnup" onclick="window.location.href = 'vrpano_scenerank.php?id=[field:id/]&tp=up';" /><input type="button" class="btndown" onclick="window.location.href = 'vrpano_scenerank.php?id=[field:id/]&tp=down';" /></td>
+                    <td align="center">
+
+                        <input type="button" onclick="window.location.href = 'vrpano_scene_edit.php?id=[field:id /]';" value="场景设置" class="btn1"/>
+                        <input type="button" onclick="window.location.href = 'vrpano_spot.php?id=[field:id /]';" value="热点管理" class="btn1"/>
+                        <input type="button" onclick="lookscene('[field:id/]');" value="场景预览" class="btn1"/>
+                        <input type="button" onclick="window.location.href = 'vrpano_scene_del.php?id=[field:id /]';" value="删除场景" class="btn1"/>
+                    </td>
+                </tr>
+                {/lulin:datalist}
+                <tr align="center" class="tr_white" height="46"> 
+                    <td colspan="7">
+                        {lulin:pagelist listsize="5"/}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

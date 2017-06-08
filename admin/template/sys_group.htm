@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset={lulin:global.cfg_soft_lang/}"/>
+        <title>系统用户组管理</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#c8ddff" align="center">
+                <tr> 
+                    <td height="28" colspan="3" class="td_title">
+                        <table width="99%" border="0" cellspacing="1" cellpadding="1">
+                            <tr> 
+                                <td width="24%" style="padding-left:10px;"><b>系统用户组管理</b> </td>
+                                <td width="76%" align="right"><b>
+                                        <a href="sys_group_add.php">增加一个用户组</a> |
+                                        <a href="sys_admin_user.php">管理系统用户</a>
+                                    </b>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="tr_hui" align="center" > 
+                    <td width="20%" height="30">等级</td>
+                    <td width="45%">组名称</td>
+                    <td width="35%">管理</td>
+                </tr>
+                {lulin:datalist row='10'}
+                <tr align="center" class="tr_white">
+                    <td height="30">[field:rank/]</td>
+                    <td height="30">[field:typename/]</td>
+                    <td>
+                        <input type="button" onclick="window.location.href='sys_group_edit.php?rank=[field:rank/]'" value="权限设定" class="btn1"/>
+                    </td>
+                </tr>
+                {/lulin:datalist}
+                <tr align="center" class="tr_white" height="46"> 
+                    <td colspan="3">
+                        {lulin:pagelist listsize="5"/}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

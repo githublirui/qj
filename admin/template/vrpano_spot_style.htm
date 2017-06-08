@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景场景新建</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript"></script>
+        <style type="text/css">
+            .spotbox{
+                width: 122px; height: 150px; overflow: hidden; border:1px solid #c8ddff; padding: 4px; background: #fbfbfb; border-radius: 4px; float: left; margin: 5px;
+            }
+            .spotbox .spotimg{
+                width: 120px; height: 120px; overflow: hidden; border:1px solid #c8ddff; background: #fff; cursor: pointer;
+            }
+            .spotbox .spotimg:hover{
+                border-color: #aaccee;
+            }
+            .spotbox .spotcd{
+                 width: 108px; height: 20px; overflow: hidden; text-align: center; margin: 0 auto; margin-top: 6px;
+            }
+            .spotbox .spotcd a{
+                width: 46px; height: 18px; overflow: hidden; float: left; display: block; text-align: center; border:1px solid #88b5e2; background: #aaccee;
+                font: 12px/18px "微软雅黑", "宋体", Helvetica, Arial, Verdana; color: #fff; margin: 0 3px;
+            }
+            .spotbox .spotcd a:hover{
+                background: #88b5e2; border-color: #6d9fd1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>全景热点样式管理</b>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr class="tr_hui" height="36" align="left">
+                    <td class="td_p8">
+                        <input type="button" class="btn4" onclick="window.location.href = 'vrpano_spot_style_add.php?id=<?php echo $typeid; ?>';" value="新加全景热点" />
+                    </td>
+                </tr>
+                <tr class="tr_white" height="36">                    
+                    <td  align="left" class="td_p8">
+                        分类：<?php echo $tphtml; ?>
+                    </td>
+                </tr>
+                <tr class="tr_white" height="36">                    
+                    <td  align="left" style="padding:5px;">
+                        <?php echo $html; ?>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

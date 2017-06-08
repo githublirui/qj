@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>360物体图片处理</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <?php echo $startjs; ?>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                cutcube(0);
+            });
+            function cutcube(n){
+                $(".scrollline").css("width", (n/cubelength)*360 +"px");
+                $(".databox").html("( "+n+"/"+cubelength+" )");
+                $.ajax({
+                    url: "vrpano_editcubedo.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {panoid: panoid,cubeid: cubeid, dopost: "cut",key:n,total:cubelength},
+                    success: function(data) {
+                        if (ok == true) {
+                            $(".scrollline").css("width", 360 +"px");
+                            $(".databox").html("( "+cubelength+"/"+cubelength+" )");
+                            cutcubeend();
+                        }
+                    }
+                });
+            }
+            function cutcubeend(){
+                window.location.href = "<?php echo $endurl; ?>";
+            }
+        </script>
+        <style>
+            #main{
+                width: 402px; height: 102px; overflow: hidden; border:2px solid #c6c6c6; margin: 0 auto; margin-top: 100px; padding: 2px;
+            }
+            #mainbox{
+                width: 400px; height: 100px; overflow: hidden; border:1px dashed #c6c6c6;
+            }
+            .title{
+                width: 400px; height: 34px; overflow: hidden; font: bold 14px/34px "微软雅黑"; text-align: center; color: #333;
+            }
+            .scrollbox{
+                width: 360px; height: 22px; overflow: hidden; padding: 2px; border:1px solid #C60; margin: 4px auto;
+            }
+            .scrollline{
+                width: 0px; height: 22px; overflow: hidden; background: url(images/common/loadbar.gif) repeat-x;
+            }
+            .databox{
+                width: 400px; height: 24px; overflow: hidden; font: 12px/24px "微软雅黑"; text-align: center; color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="mainbox">
+                <div class="title">360物体</div>
+                <div class="scrollbox">
+                    <div class="scrollline"></div>
+                </div>
+                <div class="databox">( 1/12 )</div>
+            </div>            
+        </div>
+    </body>
+</html>

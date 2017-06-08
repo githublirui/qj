@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景热点添加</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                onoroff();
+                $("#imgfileup").uploader("image", "imgfiledata","<?php echo $cfg_cmspath; ?>");
+                $("#videofileup").uploader("video", "videofiledata","<?php echo $cfg_cmspath; ?>");
+                $("#showpicup").uploader("image", "showpicdata","<?php echo $cfg_cmspath; ?>");
+            });
+            function imgfiledata(data){
+                $("#imgfile").val(data);
+            }
+            function videofiledata(data){
+                $("#videofile").val(data);
+            }
+            function showpicdata(data){
+                $("#showpic").val(data);
+            }
+            function checksub() {
+                var title = $("#title").val();
+                if (title == "") {
+                    alert("请填写UI题目");
+                    return false;
+                } else {
+                    $(".loginbox").show();
+                    $(".loginbox").css("margin-top", $(window).scrollTop() + 120 + "px");
+                    return true;
+                }
+            }
+            function showtb(n) {
+                $(".tb").attr("class", "tb btn1");
+                $(".tb").eq(n - 1).attr("class", "tb btn2");
+                $(".tbcube").hide();
+                $(".tb" + n).show();
+                var len = $(".tb" + n).find("img").length;
+                for (i = 0; i < len; i++) {
+                    $(".tb" + n).find("img").eq(i).attr("src", $(".tb" + n).find("img").eq(i).attr("src"));
+                }
+                $("#uitype").val(n);
+            }
+            function imguidata(){
+                window.open("tool/imgui/index.php?id=<?php echo $id; ?>", "ui");
+            }
+            function onetian(n){
+                var k=n-1;
+                $(".tian").children(".box").removeClass("me");
+                $(".tian").children(".box").eq(k).addClass("me");
+                $("#uipos").val(n);
+            }
+            function showac(n) {
+                $(".ac").attr("class", "ac btn1");
+                $(".ac").eq(n - 1).attr("class", "ac btn2");
+                $(".acbox").hide();
+                $(".ac" + n).show();
+                $("#action").val(n);
+            }
+            function getpanotarget(n,id){
+                $(".panobox").removeClass("me");
+                $(".panobox").eq(n).addClass("me");
+                $("#panotarget").val(id);
+            }
+            function gettargethv(){
+                var id = $("#panotarget").val();
+                if(id==0){
+                    alert("场景必须不存在！！！");
+                }else{
+                    window.open("tool/targethv/index.php?id="+id, "pano", "width="+ (screen.availWidth - 10) +",height="+ (screen.availHeight-50) +",top=0,left=0,scrollbars,toolbar=no,location=no;menubar=no,resizable=yes");
+                }                
+            }
+            function uibackdata(data){
+                onetian(data['uipos']);
+                $("#uix").val(data['uix']);
+                $("#uiy").val(data['uiy']);
+                $("#uiscale").val(data['uiscale']);
+                $("#uizorder").val(data['uizorder']);
+                $("#uialpha").val(data['uialpha']);
+            }
+        </script>
+        <style type="text/css">
+            .tian{
+                width: 72px; height: 72px; overflow: hidden;
+            }
+            .tian .box{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding.jpg) no-repeat; cursor: pointer; margin: 1px;
+            }
+            .tian .box:hover{
+                background-image: url(images/vrpano/ding3.jpg);
+            }
+            .tian .box.me{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding2.jpg) no-repeat;
+            }
+            .tian .box.a1{
+                background-position: 0px 0px;
+            }
+            .tian .box.a2{
+                background-position: -22px 0px;
+            }
+            .tian .box.a3{
+                background-position: -44px 0px;
+            }
+            .tian .box.a4{
+                background-position: 0px -22px;
+            }
+            .tian .box.a5{
+                background-position: -22px -22px;
+            }
+            .tian .box.a6{
+                background-position: -44px -22px;
+            }
+            .tian .box.a7{
+                background-position: 0px -44px;
+            }
+            .tian .box.a8{
+                background-position: -22px -44px;
+            }
+            .tian .box.a9{
+                background-position: -44px -44px;
+            }
+        </style>
+        <style type="text/css">
+            .panobox{
+                width: auto; height: 40px; overflow: hidden; border:2px solid #c8ddff;
+                cursor: pointer; float: left; _display: inline; margin: 4px; background: #fff;
+                padding: 4px 8px;
+            }
+            .panobox:hover{
+                border-color: #ace;
+            }
+            .panobox.me{
+                border-color: #4f94d9; background: #f5f9ff;
+            }
+            .panobox .panotitle{
+                width: auto; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+            .panobox .panocode{
+                width: 100px; height: 20px; overflow: hidden; font: 12px/20px "微软雅黑"; color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="36"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>修改UI皮肤</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_ui_edit.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="id" value="<?php echo $id;?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                    <tr class="tr_hui" height="36" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景UI皮肤名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="title" name="title" value="<?php echo $row['title']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤名称（无实际作用，仅供管理方便使用）</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>开启开关：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openui" value="<?php echo $row['openui']; ?>"></div>
+                            <input type="hidden" id="openui" name="openui" value="<?php echo $row['openui']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">开启开关</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景UI皮肤类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="tb btn2" value="图片" onclick="showtb(1);"/>
+                            <input type="button" class="tb btn1" value="视频" onclick="showtb(2);"/>
+                            <input type="hidden" id="uitype" name="uitype" value="1"/>     
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤类型</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    
+                    <tr class="tr_white tbcube tb1" height="36">
+                        <td  align="right">
+                            <b>上传UI皮肤图片：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="imgfile" name="imgfile" value="<?php echo $row['imgfile']; ?>" />
+                            <input type="button" class="btn1" id="imgfileup" value="上传图片"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤文件的上传</span>                            
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr class="tr_white tbcube tb2" height="36">
+                        <td  align="right">
+                            <b>上传UI皮肤视频：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="videofile" name="videofile" value="<?php echo $row['videofile']; ?>" />
+                            <input type="button" class="btn1" id="videofileup" value="上传视频"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景UI皮肤视频的上传</span>                            
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>位置抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="btn1" id="imgui" value="位置抓取" onclick="imguidata();"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">位置抓取元素的各项参数</span>                            
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>UI定位：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" name="uipos" id="uipos" value="<?php echo $row['uipos']; ?>" />
+                            <div class="tian">
+                                <div class="box a1 me" onclick="onetian(1);"></div>
+                                <div class="box a2" onclick="onetian(2);"></div>
+                                <div class="box a3" onclick="onetian(3);"></div>
+                                <div class="box a4" onclick="onetian(4);"></div>
+                                <div class="box a5" onclick="onetian(5);"></div>
+                                <div class="box a6" onclick="onetian(6);"></div>
+                                <div class="box a7" onclick="onetian(7);"></div>
+                                <div class="box a8" onclick="onetian(8);"></div>
+                                <div class="box a9" onclick="onetian(9);"></div>
+                            </div>
+                        </td>
+                        <td class="td_p8"></td>
+                    </tr>
+                    <?php echo $uiposjs; ?>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>UI坐标X：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="uix" name="uix" value="<?php echo $row['uix']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">UI坐标X</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>UI坐标Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="uiy" name="uiy" value="<?php echo $row['uiy']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">UI坐标Y</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩放比率：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="uiscale" name="uiscale" value="<?php echo $row['uiscale']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">缩放比率</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>层级：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="uizorder" name="uizorder" value="<?php echo $row['uizorder']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">层级</span>
+                        </td>
+                    </tr>  
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>透明度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="uialpha" name="uialpha" value="<?php echo $row['uialpha']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">透明度</span>
+                        </td>
+                    </tr>  
+                    <?php echo $uitypejs; ?>
+                    
+                    <tr class="tr_white" height="10">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开事件：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openaction" value="<?php echo $row['openaction']; ?>"></div>
+                            <input type="hidden" id="openaction" name="openaction" value="<?php echo $row['openaction']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开事件</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>事件类型：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class="ac btn2" value="全景漫游" onclick="showac(1);"/>
+                            <input type="button" class="ac btn1" value="弹出图片" onclick="showac(2);"/>
+                            <input type="button" class="ac btn1" value="超链接" onclick="showac(3);"/>
+                            <input type="hidden" id="action" name="action" value="1"/>                            
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">全景热点事件类型</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景（点击选择）：</b>
+                        </td>
+                        <td colspan="2" style="padding: 4px;">
+                            <?php echo $panohtml; ?>
+                            <?php echo $panojshtml; ?>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置H：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="targeth" name="targeth" value="<?php echo $row['targeth']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置H</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置V：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" id="targetv" name="targetv" value="<?php echo $row['targetv']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置V</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac1" height="36">
+                        <td  align="right">
+                            <b>目标场景转场位置抓取：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="button" class='btn1' onclick="gettargethv();" value="点击抓取" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">目标场景转场位置抓取</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white acbox ac2" height="36">
+                        <td  align="right">
+                            <b>展示图片：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="showpic" id="showpic" size="30" value="<?php echo $row['showpic']; ?>" />
+                            <input type="button" class="btn1" id="showpicup" value="上传图片"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">上传展示的图片</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white acbox ac2" height="36">
+                        <td  align="right">
+                            <b>图片边框属性：</b>
+                        </td>
+                        <td class="td_p8">
+                            <b>颜色 - </b><input type="text" id="showpicbordercolor" maxlength="6" size="6" name="showpicbordercolor" value="<?php echo $row['showpicbordercolor']; ?>"/>
+                            <b>-- 透明度 - </b><input type="text" id="showpicborderalpha" maxlength="6" size="6" name="showpicborderalpha" value="<?php echo $row['showpicborderalpha']; ?>"/>
+                            <b>-- 宽度 - </b><input type="text" id="showpicborderwidth" maxlength="6" size="6" name="showpicborderwidth" value="<?php echo $row['showpicborderwidth']; ?>"/>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">图片边框属性</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white acbox ac3" height="36">
+                        <td  align="right">
+                            <b>外部超链接：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" size="40" id="httplink" name="httplink" value="<?php echo $row['httplink']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">外部超链接，格式是http://www.xxx.com</span>
+                        </td>
+                    </tr>
+                    
+                    <?php echo $actionhtml; ?>
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

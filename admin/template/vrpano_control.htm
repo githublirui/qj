@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景修改</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <link href="style/ui/jquery.ui.all.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="uploader/uploader.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                onoroff();
+            });
+            function onetian(n){
+                var k=n-1;
+                $(".tian").children(".box").removeClass("me");
+                $(".tian").children(".box").eq(k).addClass("me");
+                $("#thumbpos").val(n);
+            }
+            function onecontrol(n){
+                var k=n-1;                
+                $(".controlbox").children(".box").removeClass("me");
+                $(".controlbox").children(".box").eq(k).addClass("me");
+                $("#controlpos").val(n);
+            }
+        </script>
+        <style type="text/css">
+            .tian{
+                width: 72px; height: 72px; overflow: hidden;
+            }
+            .tian .box{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding.jpg) no-repeat; cursor: pointer; margin: 1px;
+            }
+            .tian .box:hover{
+                background-image: url(images/vrpano/ding3.jpg);
+            }
+            .tian .box.me{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding2.jpg) no-repeat;
+            }
+            .tian .box.a1{
+                background-position: 0px 0px;
+            }
+            .tian .box.a2{
+                background-position: -22px 0px;
+            }
+            .tian .box.a3{
+                background-position: -44px 0px;
+            }
+            .tian .box.a4{
+                background-position: 0px -22px;
+            }
+            .tian .box.a5{
+                background-position: -22px -22px;
+            }
+            .tian .box.a6{
+                background-position: -44px -22px;
+            }
+            .tian .box.a7{
+                background-position: 0px -44px;
+            }
+            .tian .box.a8{
+                background-position: -22px -44px;
+            }
+            .tian .box.a9{
+                background-position: -44px -44px;
+            }
+        </style>
+         <style type="text/css">
+            .controlbox{
+                width: 72px; height: 72px; overflow: hidden;
+            }
+            .controlbox .box{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding.jpg) no-repeat; cursor: pointer; margin: 1px;
+            }
+            .controlbox .box:hover{
+                background-image: url(images/vrpano/ding3.jpg);
+            }
+            .controlbox .box.me{
+                width: 22px; height: 22px; overflow: hidden; float: left; _display: inline; background: url(images/vrpano/ding2.jpg) no-repeat;
+            }
+            .controlbox .box.a1{
+                background-position: 0px 0px;
+            }
+            .controlbox .box.a2{
+                background-position: -22px 0px;
+            }
+            .controlbox .box.a3{
+                background-position: -44px 0px;
+            }
+            .controlbox .box.a4{
+                background-position: 0px -22px;
+            }
+            .controlbox .box.a5{
+                background-position: -22px -22px;
+            }
+            .controlbox .box.a6{
+                background-position: -44px -22px;
+            }
+            .controlbox .box.a7{
+                background-position: 0px -44px;
+            }
+            .controlbox .box.a8{
+                background-position: -22px -44px;
+            }
+            .controlbox .box.a9{
+                background-position: -44px -44px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loginbox">
+            <div class="main">
+                <div class="line"></div>
+                <div class="text">正在提交中......</div>
+            </div>
+        </div>
+        <div class="main">
+            <center>
+                        <?php echo panomenu($id,2); ?>
+                    </center>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:4px;" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>全局控制面板设置</b>
+                    </td>
+                </tr>
+            </table>
+            <form name="form1" action="vrpano_control.php" method="post" style="margin: 0px;" onsubmit="return checksub();">
+                <input type="hidden" name="dopost" value="save" />
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff" style="margin: 0px;">
+                    <tr class="tr_hui" height="30" align="center">
+                        <td width="20%">
+                            <b>名称</b>
+                        </td>
+                        <td width="35%">
+                            <b>参数</b>
+                        </td>
+                        <td width="45%">
+                            <b>备注</b>
+                        </td>
+                    </tr> 
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>全景项目名称：</b>
+                        </td>
+                        <td class="td_p8">
+                            <?php echo $row['panoname']; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">项目名称</span>
+                        </td>
+                    </tr>
+                    
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开启整体风格：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="opentaocan" value="<?php echo $row['opentaocan']; ?>"></div>
+                            <input type="hidden" id="opentaocan" name="opentaocan" value="<?php echo $row['opentaocan']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">若开启整体风格，一般不用再开启下方的缩略图和控制面板</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>整体风格模板：</b>
+                        </td>
+                        <td style="padding: 8px;">
+                            <?php echo $taocanhtml; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">选择模版套餐，推荐“黑色经典”</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>单张缩略图宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="taocanwidth" value="<?php echo $row['taocanwidth']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">单张缩略图宽度</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>单张缩略图高度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="taocanheight" value="<?php echo $row['taocanheight']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">单张缩略图高度</span>
+                        </td>
+                    </tr>
+
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+
+
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开启缩略图：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="openthumb" value="<?php echo $row['openthumb']; ?>"></div>
+                            <input type="hidden" id="openthumb" name="openthumb" value="<?php echo $row['openthumb']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">缩略图启动开关</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩略图样式：</b>
+                        </td>
+                        <td style="padding: 8px;">
+                            <?php echo $thumbtypehtml; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">缩略图样式</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>单张缩略图宽度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="thumbwidth" value="<?php echo $row['thumbwidth']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">单张缩略图宽度</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>单张缩略图高度：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="thumbheight" value="<?php echo $row['thumbheight']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">单张缩略图宽度</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩略图定位：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" name="thumbpos" id="thumbpos" value="<?php echo $row['thumbpos']; ?>" />
+                            <div class="tian">
+                                <div class="box a1 me" onclick="onetian(1);"></div>
+                                <div class="box a2" onclick="onetian(2);"></div>
+                                <div class="box a3" onclick="onetian(3);"></div>
+                                <div class="box a4" onclick="onetian(4);"></div>
+                                <div class="box a5" onclick="onetian(5);"></div>
+                                <div class="box a6" onclick="onetian(6);"></div>
+                                <div class="box a7" onclick="onetian(7);"></div>
+                                <div class="box a8" onclick="onetian(8);"></div>
+                                <div class="box a9" onclick="onetian(9);"></div>
+                            </div>
+                        </td>
+                        <td class="td_p8"></td>
+                    </tr>
+                    <?php echo $thumbposscript; ?>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩略图位置X：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="thumbx" value="<?php echo $row['thumbx']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">缩略图位置X</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>缩略图位置Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="thumby" value="<?php echo $row['thumby']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">缩略图位置Y</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="15">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>是否开启控制面板：</b>
+                        </td>
+                        <td class="td_p8">
+                            <div class="onoff" target="opencontrol" value="<?php echo $row['opencontrol']; ?>"></div>
+                            <input type="hidden" id="opencontrol" name="opencontrol" value="<?php echo $row['opencontrol']; ?>" />
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">是否开启控制面板</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>控制面板样式：</b>
+                        </td>
+                        <td style="padding: 8px;">
+                            <?php echo $controltypehtml; ?>
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">控制面板样式</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>控制面板定位：</b>
+                        </td>
+                        <td style="padding: 6px;">
+                            <input type="hidden" name="controlpos" id="controlpos" value="<?php echo $row['controlpos']; ?>" />
+                            <div class="controlbox">
+                                <div class="box a1 me" onclick="onecontrol(1);"></div>
+                                <div class="box a2" onclick="onecontrol(2);"></div>
+                                <div class="box a3" onclick="onecontrol(3);"></div>
+                                <div class="box a4" onclick="onecontrol(4);"></div>
+                                <div class="box a5" onclick="onecontrol(5);"></div>
+                                <div class="box a6" onclick="onecontrol(6);"></div>
+                                <div class="box a7" onclick="onecontrol(7);"></div>
+                                <div class="box a8" onclick="onecontrol(8);"></div>
+                                <div class="box a9" onclick="onecontrol(9);"></div>
+                            </div>
+                        </td>
+                        <td class="td_p8"></td>
+                    </tr>
+                    <?php echo $controlposscript; ?>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>控制面板位置X：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="controlx" value="<?php echo $row['controlx']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">控制面板位置X</span>
+                        </td>
+                    </tr>
+                    <tr class="tr_white" height="36">
+                        <td  align="right">
+                            <b>控制面板位置Y：</b>
+                        </td>
+                        <td class="td_p8">
+                            <input type="text" name="controly" value="<?php echo $row['controly']; ?>" /> 像素
+                        </td>
+                        <td class="td_p8">
+                            <span class="red">控制面板位置y</span>
+                        </td>
+                    </tr>
+
+                    
+
+                </table>
+                <table width="100%" border="0" cellspacing="1" cellpadding="1"  style="border:1px solid #c8ddff;border-top:none;">
+                    <tr>
+                        <td height="50" colspan="3">
+                            <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                                <tr>
+                                    <td width="15%">&nbsp;</td>
+                                    <td width="15%"><input type="submit" class="btn1" value="确定"/></td>
+                                    <td width="15%"><input type="button" class="btn1" value="重置" onclick="document.form1.reset();"/></td>
+                                    <td width="55%"><input type="button" class="btn1" value="返回" onclick="window.location.href = '<?php echo $endurl; ?>';"/></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

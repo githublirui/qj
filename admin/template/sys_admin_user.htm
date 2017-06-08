@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>管理员帐号</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="main">
+            <table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#c8ddff">
+                <tr>
+                    <td height="30" colspan="5" class="td_title td_p8">
+                        <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                            <tr>
+                                <td width="24%"><b>管理员帐号</b> </td>
+                                <td width="76%" align="right" class="td_pr8">
+                                    <input type="button" onclick="window.location.href='sys_admin_user_add.php'" value="增加管理员" class="btn2"/>
+                                    <input type="button" onclick="window.location.href='sys_group.php'" value="用户组管理" class="btn2"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>                
+                <tr class="tr_hui">
+                    <td width="18%" height="24" align="center">登录ID</td>
+                    <td width="13%" align="center">笔名</td>
+                    <td width="22%" align="center">级别</td>
+                    <td width="22%" align="center">频道</td>
+                    <td width="23%" align="center">管理项</td>
+                </tr>
+                {lulin:datalist row='10'}
+                <tr class="tr_white" align="center">
+                    <td rowspan="2">[field:userid/]</td>
+                    <td rowspan="2">[field:uname/]</td>
+                    <td  height="30">[field:usertype/]</td>
+                    <td  height="30">[field:typeid function="GetChannel(@me)"/]</td>
+                    <td rowspan="2">
+                        <input type="button" onclick="window.location.href='sys_admin_user_edit.php?id=[field:id/]&dopost=edit'" value="更改" class="btn1"/>
+                        <input type="button" onclick="window.location.href='sys_admin_user_del.php?id=[field:id/]&userid=[field:userid/]&dopost=delete'" value="删除" class="btn1"/>
+                    </td>
+                </tr>
+                <tr  class="tr_white">
+                    <td colspan="2" height="30" align="center" bgcolor="#FFFFFF">
+                        登录时间：[field:logintime function="GetDateTimeMk(@me)"/]　登录IP：[field:loginip/]
+                    </td>
+                </tr>
+                {/lulin:datalist}
+                <tr align="center" class="tr_white" height="46"> 
+                    <td colspan="5">
+                        {lulin:pagelist listsize="5"/}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.16" >
+    <skin_settings cube#rank#_open="0" cube#rank#_drect="1" cube#rank#_id="1" cube#rank#_speed="3" cube#rank#_total="#total#" />
+    <layer name="cube#rank#" onloaded="cube#rank#start();" scalechildren="true" visible="false" enabled="True" keep="false" type="container" bgcolor="0x000000" bgalpha="0.7" align="center" width="#maxwidth#" height="#maxheight#" x="0" y="0" zorder="1000">
+        <layer name="cube#rank#_phototext" keep="false" type="container" bgcolor="0x000000" bgalpha="0" align="top" width="100%" height="40" x="0" y="0" zorder="1001">
+            <layer name="cube#rank#_phototext_title" url="%SWFPATH%/plugins/textfield.swf" align="center" edge="center" width="95%" height="32" autoheight="true" x="0" y="0" zorder="1002" enabled="true" background="false" border="false" html="#title#" css="text-align:center; color:#FFFFFF; font-family:微软雅黑; font-size:16px; line-height:32px;" textshadow="0" visible="true" />
+        </layer>
+        <layer name="cube#rank#_show" keep="false" type="container" bgcolor="0x000000" bgalpha="0" align="top" width="#width#" height="#height#" x="0" y="40" zorder="1001">
+            #photo#</layer>
+        
+        <layer name="cube#rank#_control" keep="false" type="container" bgcolor="0x000000" bgalpha="0" align="bottom" width="100%" height="45" x="0" y="10" zorder="1001">
+            <layer  name="cube#rank#_play" visible="true" url="%SWFPATH%/cube/skin/play.png" alpha="0.6" align="center"  edge="center"  width="50" height="50" x="0" y="0" onclick="cube#rank#playbtn();" onhover="showtext('暂停/播放');" crop="40|50|50|50" zorder="1005"></layer>
+            <layer  name="cube#rank#_left" visible="true" url="%SWFPATH%/cube/skin/play.png" alpha="0.6" align="center"  edge="center"  width="40" height="40" x="-45" y="0" onclick="cube#rank#playup();" onhover="showtext('逆时针');" crop="0|5|40|40" zorder="1005"></layer>
+            <layer  name="cube#rank#_right" visible="true" url="%SWFPATH%/cube/skin/play.png" alpha="0.6" align="center"  edge="center"  width="40" height="40" x="45" y="0" onclick="cube#rank#playdown();" onhover="showtext('顺时针');" crop="90|55|40|40" zorder="1005"></layer>
+            <layer  name="cube#rank#_speed" visible="true" url="%SWFPATH%/cube/skin/sound.png" alpha="0.8" align="right"  edge="center"  width="65" height="22" x="50" y="0" onclick="cube#rank#speed();" onhover="showtext('调整速度');" crop="0|0|65|22" zorder="1005"></layer>
+        </layer>
+            
+        <layer  name="cube#rank#_photobox_close" url="%SWFPATH%/cube/skin/x.png" align="righttop"  edge="righttop"  width="30" height="30" x="-10" y="-10" onhover="showtext('点击关闭');" onclick="set(layer[cube#rank#].visible,false);set(skin_settings.cube#rank#_open,0);" zorder="1015"/>
+    </layer>
+    <action name="cube#rank#start">
+        set(chax,1);
+        set(chay,1);
+        if(layer[cube#rank#].width GT stagewidth,
+            div(chax,stagewidth,700);
+        );
+        if(layer[cube#rank#].height GT stageheight,
+            div(chay,stageheight,500);
+        );
+        if(chax LT chay,
+            set(layer[cube#rank#].scale,get(chax));
+        ,
+            set(layer[cube#rank#].scale,get(chay));
+        );
+    </action>
+    <action name="cube#rank#next">
+            if(skin_settings.cube#rank#_drect == 1,
+            if(skin_settings.cube#rank#_id LT skin_settings.cube#rank#_total,
+            set(cubenow,get(skin_settings.cube#rank#_id));
+            add(cubenext,get(skin_settings.cube#rank#_id),1);
+            ,
+            set(cubenow,get(skin_settings.cube#rank#_id));
+            set(cubenext,1);
+            );
+            ,
+            if(skin_settings.cube#rank#_id GT 1,
+            set(cubenow,get(skin_settings.cube#rank#_id));
+            sub(cubenext,get(skin_settings.cube#rank#_id),1);
+            ,
+            set(cubenow,get(skin_settings.cube#rank#_id));
+            set(cubenext,get(skin_settings.cube#rank#_total));
+            );
+            );
+       
+            txtadd(cubenowlayer,cube#rank#_img,get(cubenow));
+            txtadd(cubenextlayer,cube#rank#_img,get(cubenext));            
+            
+            set(layer[get(cubenowlayer)].visible,false);
+            set(layer[get(cubenextlayer)].visible,true);
+            set(skin_settings.cube#rank#_id,get(cubenext));
+            div(speeddata,0.08,get(skin_settings.cube#rank#_speed));
+            if(skin_settings.cube#rank#_open == 1,delayedcall(cube#rank#action,get(speeddata), cube#rank#next()););
+    </action>
+    <action name="cube#rank#playup">
+        set(skin_settings.cube#rank#_drect,-1);
+        set(layer[cube#rank#_left].crop,0|55|40|40);
+        set(layer[cube#rank#_right].crop,90|5|40|40);
+    </action>
+    <action name="cube#rank#playdown">
+        set(skin_settings.cube#rank#_drect,1);
+        set(layer[cube#rank#_left].crop,0|5|40|40);
+        set(layer[cube#rank#_right].crop,90|55|40|40);
+    </action>
+    <action name="cube#rank#playbtn">
+        if(skin_settings.cube#rank#_open == 1,set(skin_settings.cube#rank#_open,0);set(layer[cube#rank#_play].crop,40|0|50|50);,set(skin_settings.cube#rank#_open,1);cube#rank#next();set(layer[cube#rank#_play].crop,40|50|50|50););
+    </action>
+    <action name="cube#rank#speed">
+        if(skin_settings.cube#rank#_speed == 3,
+        set(skin_settings.cube#rank#_speed,1);set(layer[cube#rank#_speed].crop,0|44|65|22);,
+        if(skin_settings.cube#rank#_speed == 1,
+        set(skin_settings.cube#rank#_speed,2);set(layer[cube#rank#_speed].crop,0|22|65|22);,
+        set(skin_settings.cube#rank#_speed,3);set(layer[cube#rank#_speed].crop,0|0|65|22);
+        );
+        );
+    </action>
+</krpano>

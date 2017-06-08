@@ -1,0 +1,342 @@
+DROP TABLE IF EXISTS `#@__admin`;
+
+CREATE TABLE `#@__admin` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `usertype` float unsigned DEFAULT '0',
+  `userid` char(30) NOT NULL DEFAULT '',
+  `pwd` char(32) NOT NULL DEFAULT '',
+  `uname` char(20) NOT NULL DEFAULT '',
+  `tname` char(30) NOT NULL DEFAULT '',
+  `email` char(30) NOT NULL DEFAULT '',
+  `typeid` text,
+  `logintime` int(10) unsigned NOT NULL DEFAULT '0',
+  `loginip` varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__admintype`;
+
+CREATE TABLE `#@__admintype` (
+  `rank` float NOT NULL DEFAULT '1',
+  `typename` varchar(30) NOT NULL DEFAULT '',
+  `system` smallint(6) NOT NULL DEFAULT '0',
+  `purviews` text,
+  PRIMARY KEY (`rank`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__controltype`;
+
+CREATE TABLE `#@__controltype` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `controlname` varchar(60) NOT NULL,
+  `info` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_cube`;
+
+CREATE TABLE `#@__pano_cube` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pid` int(11) NOT NULL,
+  `title` varchar(60) NOT NULL,
+  `rank` int(11) NOT NULL,
+  `imglist` text NOT NULL,
+  `width` int(11) NOT NULL DEFAULT '600',
+  `height` int(11) NOT NULL DEFAULT '400',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_cursor`;
+
+CREATE TABLE `#@__pano_cursor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `images` varchar(50) NOT NULL,
+  `scriptdata` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_main`;
+
+CREATE TABLE `#@__pano_main` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '全景项目id',
+  `panoname` varchar(40) NOT NULL COMMENT '全景项目名称',
+  `filedir` varchar(120) NOT NULL COMMENT '全景项目路径',
+  `sendtime` int(10) NOT NULL COMMENT '发布时间',
+  `cursor` int(3) NOT NULL DEFAULT '0' COMMENT '鼠标样式',
+  `cursortype` int(1) NOT NULL DEFAULT '1',
+  `license` text NOT NULL COMMENT '右键版权信息',
+  `openthumb` int(1) NOT NULL DEFAULT '0' COMMENT '是否开启缩略图',
+  `thumbtype` int(11) NOT NULL DEFAULT '1' COMMENT '缩略图样式',
+  `thumbwidth` int(11) NOT NULL DEFAULT '80' COMMENT '缩略图宽度',
+  `thumbheight` int(11) NOT NULL DEFAULT '80' COMMENT '缩略图高度',
+  `thumbpos` int(1) NOT NULL DEFAULT '8',
+  `thumbx` int(11) NOT NULL DEFAULT '0',
+  `thumby` int(11) NOT NULL DEFAULT '0',
+  `openipadrate` int(1) NOT NULL DEFAULT '0' COMMENT 'IPAD智能旋转',
+  `openautorate` int(1) NOT NULL DEFAULT '0' COMMENT '自动旋转',
+  `autoratespeed` float NOT NULL DEFAULT '5' COMMENT '自转速度',
+  `autorateaddspeed` float NOT NULL DEFAULT '1.5' COMMENT '自转加速度',
+  `autoratetime` float NOT NULL DEFAULT '1' COMMENT '自动旋转时间间隔',
+  `zip` int(3) NOT NULL DEFAULT '75' COMMENT '压缩比率',
+  `openluopan` int(1) NOT NULL DEFAULT '0',
+  `luopanalign` int(1) NOT NULL DEFAULT '1',
+  `luopanx` float NOT NULL DEFAULT '0',
+  `luopany` float NOT NULL DEFAULT '0',
+  `openallmusic` int(1) NOT NULL DEFAULT '0',
+  `musicfile` varchar(60) NOT NULL,
+  `musictimes` int(11) NOT NULL DEFAULT '0',
+  `musicvalue` float NOT NULL DEFAULT '1',
+  `opencontrol` int(1) NOT NULL DEFAULT '0',
+  `controltype` int(11) NOT NULL DEFAULT '1',
+  `controlpos` int(1) NOT NULL DEFAULT '8',
+  `controlx` int(11) NOT NULL DEFAULT '0',
+  `controly` int(11) NOT NULL DEFAULT '100',
+  `musicalign` int(11) NOT NULL DEFAULT '7',
+  `musicx` double NOT NULL DEFAULT '10',
+  `musicy` double NOT NULL DEFAULT '10',
+  `opentaocan` int(1) NOT NULL DEFAULT '0',
+  `taocantype` int(11) NOT NULL DEFAULT '1',
+  `taocanwidth` int(11) NOT NULL DEFAULT '80',
+  `taocanheight` int(11) NOT NULL DEFAULT '80',
+  `openautonext` int(11) NOT NULL DEFAULT '0',
+  `autonexttime` float NOT NULL DEFAULT '15',
+  `zhiding` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_map`;
+
+CREATE TABLE `#@__pano_map` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `openmap` int(1) NOT NULL DEFAULT '0',
+  `mappoint` varchar(60) NOT NULL DEFAULT 'mappoint.png',
+  `mappointactive` varchar(60) NOT NULL DEFAULT 'mappointactive.png',
+  `radarlength` float NOT NULL DEFAULT '0.5',
+  `radarcolor` varchar(6) NOT NULL DEFAULT 'FF0000',
+  `mappic` varchar(60) NOT NULL,
+  `maptype` int(3) NOT NULL DEFAULT '1',
+  `mapbasepos` int(1) NOT NULL DEFAULT '1',
+  `mapx` int(11) NOT NULL DEFAULT '0',
+  `mapy` int(11) NOT NULL DEFAULT '0',
+  `alpha` float NOT NULL DEFAULT '1',
+  `openscale` int(1) NOT NULL DEFAULT '0',
+  `beforescale` float NOT NULL DEFAULT '0.3',
+  `afterscale` float NOT NULL DEFAULT '1',
+  `openhide` int(1) NOT NULL DEFAULT '0',
+  `hideval` float NOT NULL DEFAULT '0.3',
+  `mapw` varchar(30) NOT NULL DEFAULT '200',
+  `maph` varchar(30) NOT NULL DEFAULT '200',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_maps`;
+
+CREATE TABLE `#@__pano_maps` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `title` varchar(50) NOT NULL,
+  `file` varchar(120) NOT NULL,
+  `rank` int(11) NOT NULL DEFAULT '1',
+  `pid` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_photo`;
+
+CREATE TABLE `#@__pano_photo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pid` int(11) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `litpic` varchar(100) NOT NULL,
+  `imglist` text NOT NULL,
+  `rank` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_scene`;
+
+CREATE TABLE `#@__pano_scene` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pid` int(11) NOT NULL,
+  `scenename` varchar(40) NOT NULL COMMENT '全景场景标题',
+  `type` int(11) NOT NULL COMMENT '全景图类型',
+  `rank` int(11) NOT NULL COMMENT '排序号',
+  `thumb` int(1) NOT NULL DEFAULT '0' COMMENT '是否有缩略图',
+  `luopan` int(1) NOT NULL DEFAULT '0',
+  `openlensflare` int(1) NOT NULL DEFAULT '0' COMMENT '开启光晕',
+  `fov` double NOT NULL DEFAULT '100',
+  `hlookat` double NOT NULL DEFAULT '0',
+  `ath` double NOT NULL COMMENT '光晕H',
+  `atv` double NOT NULL COMMENT '光晕V',
+  `flaresize` float NOT NULL DEFAULT '0.8' COMMENT '光晕大小',
+  `flareblind` float NOT NULL DEFAULT '0.6' COMMENT '光晕强度',
+  `flareblindcurve` float NOT NULL DEFAULT '4' COMMENT '光晕强度曲线',
+  `opensound` int(1) NOT NULL DEFAULT '0' COMMENT '是否开启音效',
+  `soundfile` varchar(40) NOT NULL COMMENT '音效文件',
+  `soundtimes` int(11) NOT NULL DEFAULT '0' COMMENT '音效循环次数',
+  `soundvalue` float NOT NULL DEFAULT '1',
+  `openonemap` int(1) NOT NULL DEFAULT '0',
+  `onemapx` float NOT NULL DEFAULT '0',
+  `onemapy` float NOT NULL DEFAULT '0',
+  `onemaprote` double NOT NULL DEFAULT '0',
+  `fovmin` int(11) NOT NULL DEFAULT '30',
+  `fovmax` int(11) NOT NULL DEFAULT '160',
+  `toplook` double NOT NULL DEFAULT '90',
+  `downlook` double NOT NULL DEFAULT '90',
+  `openmaps` int(1) NOT NULL DEFAULT '0',
+  `mapsx` float NOT NULL DEFAULT '0',
+  `mapsy` float NOT NULL DEFAULT '0',
+  `mapsrote` double NOT NULL DEFAULT '0',
+  `mapsid` int(11) NOT NULL DEFAULT '0',
+  `opencut` int(1) NOT NULL DEFAULT '0',
+  `soundalign` int(11) NOT NULL DEFAULT '7',
+  `soundx` double NOT NULL DEFAULT '40',
+  `soundy` double NOT NULL DEFAULT '10',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_spot`;
+
+CREATE TABLE `#@__pano_spot` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `openstartplay` int(1) NOT NULL DEFAULT '0',
+  `aid` int(11) NOT NULL,
+  `title` varchar(60) NOT NULL COMMENT '热点标题',
+  `openshowspotname` int(1) NOT NULL DEFAULT '1',
+  `spottype` int(1) NOT NULL DEFAULT '1' COMMENT '热点类型',
+  `spotstyle` int(11) NOT NULL COMMENT '热点图片风格',
+  `spoth` double NOT NULL COMMENT '热点h轴向',
+  `spotv` double NOT NULL COMMENT '热点v轴向',
+  `screenchange` int(11) NOT NULL DEFAULT '2',
+  `openaction` int(1) NOT NULL DEFAULT '0',
+  `action` int(11) NOT NULL DEFAULT '1' COMMENT '热点事件类型',
+  `panotarget` int(11) NOT NULL DEFAULT '0' COMMENT '热点漫游指向',
+  `hotpoints` text NOT NULL,
+  `fillcolor` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `fillalpha` float NOT NULL DEFAULT '0',
+  `fillcolorhover` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `fillalphahover` float NOT NULL DEFAULT '0.2',
+  `bordercolor` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `borderalpha` float NOT NULL DEFAULT '0',
+  `borderwidth` int(11) NOT NULL DEFAULT '2',
+  `bordercolorhover` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `borderalphahover` float NOT NULL DEFAULT '0.8',
+  `borderwidthhover` int(11) NOT NULL DEFAULT '2',
+  `showpic` varchar(80) NOT NULL,
+  `showpictype` int(11) NOT NULL DEFAULT '1',
+  `showpicbordercolor` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `showpicborderalpha` float NOT NULL DEFAULT '0.5',
+  `showpicborderwidth` int(11) NOT NULL DEFAULT '10',
+  `targeth` double NOT NULL DEFAULT '0',
+  `targetv` double NOT NULL DEFAULT '0',
+  `httplink` varchar(200) NOT NULL,
+  `smartspotpic` varchar(60) NOT NULL,
+  `smartscale` double NOT NULL DEFAULT '1',
+  `smartatv` double NOT NULL DEFAULT '0',
+  `smartath` double NOT NULL DEFAULT '0',
+  `smartrz` double NOT NULL DEFAULT '0',
+  `smartrx` double NOT NULL DEFAULT '0',
+  `smartry` double NOT NULL DEFAULT '0',
+  `video` varchar(60) NOT NULL,
+  `videoscale` double NOT NULL DEFAULT '1',
+  `videoatv` double NOT NULL DEFAULT '0',
+  `videoath` double NOT NULL DEFAULT '0',
+  `videorz` double NOT NULL DEFAULT '0',
+  `videorx` double NOT NULL DEFAULT '0',
+  `videory` double NOT NULL DEFAULT '0',
+  `smartwidth` int(11) DEFAULT NULL,
+  `smartheight` int(11) DEFAULT NULL,
+  `videowidth` int(11) DEFAULT NULL,
+  `videoheight` int(11) DEFAULT NULL,
+  `openapplevideo` int(1) NOT NULL DEFAULT '0',
+  `applevideo` varchar(60) NOT NULL,
+  `applevideoimg` varchar(60) NOT NULL,
+  `photo` int(11) NOT NULL DEFAULT '0',
+  `cube` int(11) NOT NULL DEFAULT '0',
+  `devicetype` varchar(60) NOT NULL DEFAULT 'all',
+  `openinfo` int(1) NOT NULL DEFAULT '0',
+  `textinfo` text NOT NULL,
+  `infowidth` int(11) NOT NULL DEFAULT '200',
+  `openanimate` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_spotstyle`;
+
+CREATE TABLE `#@__pano_spotstyle` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `typeid` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(50) NOT NULL,
+  `url` varchar(120) NOT NULL,
+  `framewidth` float NOT NULL DEFAULT '0',
+  `frameheight` float NOT NULL DEFAULT '0',
+  `frame` int(11) NOT NULL DEFAULT '1',
+  `lastframe` int(11) NOT NULL DEFAULT '1',
+  `speed` double NOT NULL DEFAULT '0.03',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_spottype`;
+
+CREATE TABLE `#@__pano_spottype` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `typename` varchar(60) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__pano_ui`;
+
+CREATE TABLE `#@__pano_ui` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pid` int(11) NOT NULL,
+  `title` varchar(60) NOT NULL,
+  `uitype` int(11) NOT NULL DEFAULT '1',
+  `imgfile` varchar(60) NOT NULL,
+  `videofile` varchar(60) NOT NULL,
+  `openui` int(1) NOT NULL DEFAULT '0',
+  `uipos` int(1) NOT NULL DEFAULT '1',
+  `uix` float NOT NULL DEFAULT '0',
+  `uiy` float NOT NULL DEFAULT '0',
+  `uiscale` float NOT NULL DEFAULT '1',
+  `uizorder` int(11) NOT NULL DEFAULT '100',
+  `uialpha` float NOT NULL DEFAULT '1',
+  `openaction` int(1) NOT NULL DEFAULT '0',
+  `action` int(11) NOT NULL DEFAULT '1',
+  `panotarget` int(11) NOT NULL DEFAULT '0',
+  `targeth` double NOT NULL DEFAULT '0',
+  `targetv` double DEFAULT '0',
+  `showpic` varchar(120) NOT NULL,
+  `showpicbordercolor` varchar(6) NOT NULL DEFAULT 'ffffff',
+  `showpicborderalpha` float DEFAULT '0.5',
+  `showpicborderwidth` int(11) NOT NULL DEFAULT '10',
+  `httplink` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__sysconfig`;
+
+CREATE TABLE `#@__sysconfig` (
+  `aid` smallint(8) unsigned NOT NULL AUTO_INCREMENT,
+  `varname` varchar(20) NOT NULL DEFAULT '',
+  `info` varchar(100) NOT NULL DEFAULT '',
+  `groupid` smallint(6) NOT NULL DEFAULT '1',
+  `type` varchar(10) NOT NULL DEFAULT 'string',
+  `value` text,
+  PRIMARY KEY (`aid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__taocan`;
+
+CREATE TABLE `#@__taocan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `#@__thumbtype`;
+
+CREATE TABLE `#@__thumbtype` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(40) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+

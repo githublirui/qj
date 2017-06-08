@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>全景地图</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/photocenter.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                maponoroff();
+            });
+            function lookscene(n){
+                window.open("tool/lookscene/index.php?id="+n);
+            }
+            function getmap(k,n){
+                var mapid = $("#mapsid"+n).val();
+                window.open("tool/getmaps/index.php?id="+k+"&key="+n+"&mapid="+mapid );
+            }
+            function getmapradar(k,n){
+                window.open("tool/getmapradar/index.php?pid="+k+"&rank="+n);
+            }
+            function getradardata(x,rank){
+                x = 180 -x - 90;
+                $.ajax({
+                    url: "vrpano_manymapcontrol.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {rank: rank, value: x,dopost:"mapradar",pid:"<?php echo $id; ?>"},
+                    success: function(data) {
+                        if (ok == true) {
+                            $("#rote"+rank).val(x);
+                        }
+                    }
+                });  
+            }
+            function getmapdata(x,y,key){
+                $.ajax({
+                    url: "vrpano_manymapcontrol.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {id: key, mapx: x,mapy:y,dopost:"mapxy",pid:"<?php echo $id; ?>"},
+                    success: function(data) {
+                        if (ok == true) {
+                            $("#mapx"+key).val(x);
+                            $("#mapy"+key).val(y);
+                        }
+                    }
+                });                
+            }
+            function maponoroff() {
+                var len = $(".maponoff").length;
+                for (i = 0; i < len; i++) {
+                    if ($(".maponoff").eq(i).attr("value") == 0) {
+                        $(".maponoff").eq(i).addClass("off");
+                    }
+                }
+                $(".maponoff").click(function() {
+                    var key = $(this).attr("key");
+                    var me = $(this);
+                    if ($(this).attr("value") == 1) {
+                        $.ajax({
+                            url: "vrpano_manymapcontrol.php",
+                            type: "POST",
+                            dataType: "script",
+                            data: {id: key, value:0,dopost:"mapopen",pid:"<?php echo $id; ?>"},
+                            success: function(data) {
+                                if (ok == true) {
+                                    me.addClass("off");
+                                    me.attr("value", 0);
+                                }
+                            }
+                        });
+                    } else {
+                        $.ajax({
+                            url: "vrpano_manymapcontrol.php",
+                            type: "POST",
+                            dataType: "script",
+                            data: {id: key, value:1,dopost:"mapopen",pid:"<?php echo $id; ?>"},
+                            success: function(data) {
+                                if (ok == true) {
+                                    me.removeClass("off");
+                                    me.attr("value", 1);
+                                }
+                            }
+                        });                        
+                    }
+                });
+            }
+        </script>
+        <style type="text/css">
+            .mapmainout{
+                width: 182px; height: 460px; overflow: hidden; border: 1px solid #c8ddff; padding: 2px; float: left; _display: inline; margin: 4px;
+            }
+            .mapmain{
+                width: 180px; height: 446px; overflow: hidden; border:1px dotted #c8ddff; padding: 6px 0;
+            }
+            .maptline{
+                width: 160px; height: 28px; overflow: hidden; margin: 0 auto;
+                font: 12px/28px "微软雅黑"; color: #333;
+            }
+            .maptline b{
+                font: bold 12px/28px "微软雅黑";
+            }
+            .mapkong{
+                width: 160px; height: 12px; overflow: hidden; margin: 0 auto;
+            }
+            .mapoffbox{
+                width: 160px; height: 26px; overflow: hidden; margin: 0 auto; margin-bottom: 5px;
+                font: 12px/26px "微软雅黑"; color: #333;
+            }
+            .mapoffbox b{
+                font: bold 12px/26px "微软雅黑";
+            }
+            .mapimg{
+                width: 160px; height: 160px; overflow: hidden; border:1px solid #e6e6e6; border-radius: 5px; background: #fbfbfb; margin: 5px auto; cursor: pointer;
+            }
+            .mapingin{
+                width: 150px; height: 150px; overflow: hidden; background: #fff; border:1px solid #e6e6e6; padding: 1px; margin: 3px;
+            }
+            .mapingin span{
+                width: 150px; height: 150px; overflow: hidden; display: block; font: bold 20px/150px "微软雅黑"; color: #c8ddff;
+            }
+            .mapingin span center{
+                width: 150px; height: 150px; overflow: hidden; display: block; font: bold 20px/150px "微软雅黑"; color: #c8ddff;
+            }
+            .choose{
+                width: 100%; height: 100%; overflow: hidden; position: fixed; display: none;
+            }
+            .choosebox{
+                width: 80%; height: auto; overflow: hidden; margin: 0 auto; margin-top: 100px; border:1px solid #c8ddff; background: #fff;
+            }
+            .choosetitle{
+                width: auto; height: 34px; overflow: hidden; background: #f8f8f8; border-bottom: 1px solid #c8ddff;
+            }
+            .choosebt{
+                width: auto; height: 34px; overflow: hidden; float: left;
+                font: bold 14px/34px "微软雅黑"; color: #333; margin-left: 10px;
+            }
+            .choosex{
+                width: auto; height: 34px; overflow: hidden; float: right; cursor: pointer;
+                font: bold 14px/34px "微软雅黑"; color: #333; margin-right: 10px;
+            }
+            .choosebody{
+                width: auto; overflow: hidden; padding: 5px;
+            }
+            .choosecube{
+                width: 160px; height: 160px; overflow: hidden; border:1px solid #e6e6e6; border-radius: 5px; background: #fbfbfb; margin: 5px; cursor: pointer; float: left;
+            }
+            .choosecubein{
+                width: 150px; height: 150px; overflow: hidden; background: #fff; border:1px solid #e6e6e6; padding: 1px; margin: 3px;
+            }
+            .choosecubein span{
+                width: 150px; height: 150px; overflow: hidden; display: block; font: bold 20px/150px "微软雅黑"; color: #c8ddff;
+            }
+            .choosecube:hover{
+                background: #eee; border-color: #ace;
+            }
+        </style>
+        <?php echo $mapjs; ?>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".choosex").click(function(){
+                    $(".choose").hide();
+                });
+            });
+            var chooserank = 1;
+            function choosemap(n){
+                chooserank = n;
+                $(".choose").show();
+                var len = $(".choose").find("img").length;
+                for(i=0;i<len;i++){
+                    $(".choose").find("img").eq(i).attr("src",$(".choose").find("img").eq(i).attr("src"));                    
+                }
+            }
+            function chooseback(n){                
+                $.ajax({
+                    url: "vrpano_manymapcontrol.php",
+                    type: "POST",
+                    dataType: "script",
+                    data: {rank:chooserank, value:n,dopost:"mapid",pid:"<?php echo $id; ?>"},
+                    success: function(data) {
+                        if (ok == true) {
+                            $("#ch"+chooserank).html('<span><img src="'+ mapsrc[n] +'" onload="photoin(this,150,150);" /></span>');
+                            $("#mapsid"+chooserank).val(mapid[n]);
+                            $(".choose").hide();
+                        }
+                    }
+                });     
+            }
+        </script>
+    </head>
+    <body>
+        <div class="choose">
+            <div class="choosebox">
+                <div class="choosetitle">
+                    <div class="choosebt">点击选择地图</div>
+                    <div class="choosex">关闭</div>
+                </div>
+                <div class="choosebody">
+                    <?php echo $maps; ?>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-bottom:none; padding: 0px 10px;">
+                        <b>地图注点详细</b>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="2" cellspacing="1" bgcolor="#c8ddff" style="margin: 0px;">
+                <tr class="tr_white">
+                    <td style="padding: 4px;">
+                        <?php echo $scenehtml; ?>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8ddff" align="center">
+                <tr>
+                    <td height="30"  class="td_title" style="border:1px solid #c8ddff; border-top:none; padding: 0px 10px;">
+                        <input type="button" class="btn1" value="返回上级" onclick="window.location.href = 'vrpano_map.php?id=<?php echo $id; ?>';"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

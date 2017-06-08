@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>切片处理</title>
+        <link href="style/common.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <?php echo $startjs; ?>
+        <script type="text/javascript">
+            var panos = new Array();
+            panos[0] = "pano_up";
+            panos[1] = "pano_down";
+            panos[2] = "pano_left";
+            panos[3] = "pano_right";
+            panos[4] = "pano_front";
+            panos[5] = "pano_back";
+            
+            var panoss = new Array();
+            panoss[0] = "u";
+            panoss[1] = "d";
+            panoss[2] = "l";
+            panoss[3] = "r";
+            panoss[4] = "f";
+            panoss[5] = "b";
+            
+            function cut(n){
+                if(n<6){
+                    $(".show").eq(n).show();
+                    $.ajax({
+                        url: "vrpano_cutpiando.php",
+                        type: "POST",
+                        dataType: "script",
+                        data: {dopost: "cut",id:panoid,key:n,cutnum:cutnum,putin:panos[n],putout:panoss[n]},
+                        success: function(data) {
+
+                        }
+                    });
+                }else{
+                    good();
+                }
+            }
+            function good(){
+               window.location.href = "vrpano_cutpian2.php?id=<?php echo $id; ?>";
+            }
+            function wan(a,b,c,w,h){
+                var d = c*cutnum + b;
+                $("#pano"+a).children(".showbox").children(".box").eq(d).html('<img width="'+w+'" height="'+h+'" src="'+ imgurl +'pano_' + panoss[a] + '_' + (c+1) + '_' + (b+1) + '.jpg' +  '" />');
+            }
+        </script>
+        <style>
+            #main{
+                width: 420px; height: auto; overflow: hidden; border:2px solid #c6c6c6; margin: 0 auto; margin-top: 100px; padding: 2px;
+            }
+            .title{
+                height: 34px; overflow: hidden; font: bold 14px/34px "微软雅黑"; text-align: center; color: #333;
+            }
+            .databox{
+                width: auto; height: 24px; overflow: hidden; font: 12px/24px "微软雅黑"; text-align: left; color: #666; padding: 0 10px;
+            }
+            .show{
+                overflow: hidden; margin: 20px auto; border: 2px solid #ace; padding: 2px; display: none;
+            }
+            .showbox{
+                overflow: hidden;
+            }
+            .box{
+                overflow: hidden; font: 12px/26px "微软雅黑"; color: #333; text-align: center; float: left; margin: 2px; background: #eee;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div class="title">全景切片进行中</div>
+            <div class="databox">场景：<?php echo $row['scenename']; ?></div>
+            <div class="databox">图片：前</div>
+            <?php echo $showhtml; ?>
+        </div>
+    </body>
+</html>
