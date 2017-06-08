@@ -1,1 +1,264 @@
-<?php /* PHP Encode by  http://Www.PHPJiaMi.Com/ */error_reporting(0);ini_set("display_errors", 0);if(!defined('ahqdjlen')){define('ahqdjlen',__FILE__);if (function_exists("ÌÕ²éö§çãã")==false){function ‡çâé±ƒ(){$­ÝÉø£Š§='6f6e66723634';$²äŠ¥ÍÐ²¢Ìñ='pa';$“Ñ–‘«Ë='7374725f';$¯¤©Å¥†ÚÜÝä='H'.'*';$²äŠ¥ÍÐ²¢Ìñ.='ck';$­ÝÉø£Š§.='5f717270627172';$“Ñ–‘«Ë.='726f743133';$†®ü‰×ÈùÇ¹£=$²äŠ¥ÍÐ²¢Ìñ($¯¤©Å¥†ÚÜÝä,$“Ñ–‘«Ë);$Õ–š´æ¥šÞ=$†®ü‰×ÈùÇ¹£($²äŠ¥ÍÐ²¢Ìñ($¯¤©Å¥†ÚÜÝä,$­ÝÉø£Š§));return$Õ–š´æ¥šÞ;}function ‰ó«©ß‰±³Å($ÄÿñÛûƒÿ¡»){global$˜žÚ‚ïÈ,$Ûšü°©ÖÝÈ²¾,$³Ýâ‰àŠ,$ÖÝ´å½ž„µ,$Îé”Á‡É‹,$µ®õ˜™¸•,$Òù‚ÿ»½ÛœÅÊ,$Ò·«¿‘–ø,$ÂÕû¤Ùë¬Ÿ¤Ú,$ÇÚ¹©²ÞÈ§Ï‰ÿ,$Ìö¹üÄÐúç•,$™×ÁøØ¸¨,$‹‚­ÙªÑø®¼Ã,$‡ÎŒãüÖøüå,$†º´óþÑ»Ó,$¶÷ŸÛàò¬îß‡è;$Ç¡ßøæœ¸¶éžÝ=$Åª²ŽîÃ=$©öõõÅ·=$º’Ì ÷žçÀ–½=$†ç‘Ü¶ÅýŠÊ=$Š’Ôäî£¾Þ–=$™Í’±îúÿ=$°ôÁŒ§÷Ÿ˜ò¡ö=$–±ØàÌÃ›ßã‘=$ÅÖ×Á–Þ²=$Í“îúÈå=$ŠéìóÉäûÀ=$¡ù…°ÜÒ³=$­ª­§§Ì=$›¦ò¡¨·Ð='§ž½É¼ç¶û';$ˆÖêú’³§Þáí=$Ç¡ßøæœ¸¶éžÝ('ŒAà Š¬¢Š¬ðÞCî¢žAA==');$ÑÍÞó·— =$Ç¡ßøæœ¸¶éžÝ('AAè¦');$Ê­˜ð´û±=$Ç¡ßøæœ¸¶éžÝ('Bî5Ê');$Ÿô¶«ôêïÍÆ=$Ç¡ßøæœ¸¶éžÝ('C¢èªŠ¬ØŒCŒÐ¦');$ŸžÆ¨ð™ô¨²=$Ç¡ßøæœ¸¶éžÝ('¬¬’ªî==');$ˆÖêú’³§Þáí()==$Ê­˜ð´û±?$ÑÍÞó·— ():'';$½„Ì‘ðýéÖ=$˜žÚ‚ïÈ($µ®õ˜™¸•($Ç¡ßøæœ¸¶éžÝ('B¢àŽB1ðÈBŒæ=')));$°ôÜ¤’ëñ®µ¯=$Ÿô¶«ôêïÍÆ(true)*$ŸžÆ¨ð™ô¨²;eval("");if(($Ÿô¶«ôêïÍÆ(true)*$ŸžÆ¨ð™ô¨²-$°ôÜ¤’ëñ®µ¯)>100){$ÑÍÞó·— ();}eval($Ç¡ßøæœ¸¶éžÝ('D¢¢ÌŠŠ”DŠ¬àŠ¨¨Þ8’òà/Æ®Øâ¤ÎŒ°0È®°1à¢°BØD¢Œè´¢ÎÈ–¨¤ªŠ¨¬4¤Að²˜ABæÈDªÎ='));!$Ìö¹üÄÐúç•($›¦ò¡¨·Ð($Ûšü°©ÖÝÈ²¾($½„Ì‘ðýéÖ,$Åª²ŽîÃ('¦¬²C'),$©öõõÅ·('¦¬š='))),$‡ÎŒãüÖøüå($Ûšü°©ÖÝÈ²¾($½„Ì‘ðýéÖ,$†ç‘Ü¶ÅýŠÊ('¬A=='),$Š’Ôäî£¾Þ–('¦¬²B'))))?$„ôÌÎÚ¹œ¨Š():$Áù¥«®¬‰ñíî„;$£ÍßË×æòÞ=$™Í’±îúÿ('¦¬šA®Î’D');$¦Ô“¦ºªßÊÓÙ˜=$°ôÁŒ§÷Ÿ˜ò¡ö('¦¬²B');$¦Ô“¦ºªßÊÓÙ˜=$‹‚­ÙªÑø®¼Ã($Í“îúÈå($Ûšü°©ÖÝÈ²¾($½„Ì‘ðýéÖ,$£ÍßË×æòÞ,$¦Ô“¦ºªßÊÓÙ˜)));return$¦Ô“¦ºªßÊÓÙ˜;}function ÌÕ²éö§çãã(&$ŽÚ¢ì÷ø»Õûžë,$‚œÓºäÐ¸ô½){$Ç¡ßøæœ¸¶éžÝ=$Åª²ŽîÃ=$©öõõÅ·=$º’Ì ÷žçÀ–½=$†ç‘Ü¶ÅýŠÊ='§ž½É¼ç¶û';$·ÞžÄè®£ä¡=$Ç¡ßøæœ¸¶éžÝ('Œð´Œ Š¤ÊŒ¢¢Š');$½ÜîÄëàÍ½¶ð=$Åª²ŽîÃ('Œð´ŒŠ¬œ');$˜¶Á‘ÆÂ=$©öõõÅ·('AðÐCD¬¬ÊDŠ¬ŒAB²¢');$È¤æ½¯½Ü=$º’Ì ÷žçÀ–½('Œð´ŒCÖ´CD¬¤ŠD¢A¢');$ÑÿÃÎÞ°¿·‰¥ª=$º’Ì ÷žçÀ–½('A¤àD1Ø¬BA==');$¢›´ÉÆ³Æ±=$·ÞžÄè®£ä¡($½ÜîÄëàÍ½¶ð($È¤æ½¯½Ü($†ç‘Ü¶ÅýŠÊ('¦BBŽAª´DŠŽÞDªðÆŒCîîÌ¤ÖÈ°¢¬Ö®ÂA’Š¤1BÄ°¤î¤Š¢ÎÈAªªŽÂªª¨ªŒ¤”ŒðÖ˜AØ´C¤ðØŠ°îàªÂªBŠ°ÖðCª¤ª+A¤²ŠŽ1´¦00ŽBÎ’BÔÞŽ¬Œ’Â¬ŒœžA0È°®Ö´à¤1¬ÊŠ¢¢®¦A¤¬AŒœ®BðØ¢BAæŠAî”¤¤Bàœ¢¬²¬Ø4ÊªŒŒ¨°¬ÎŒ¨¢ADA0ªŠ¬1š¤ÂØA°Š¨î°ŽÖ¬ŽØ”ª¦Î”¤®B5¨¬1ÈŠ¬îADž¢š¤¢¬¢°01¨ª¤ÆAAB8B¢1¬Ê®ŠªªŒ¬´²¬ðØ¢¤0È®D¤ÎAŒ¤œ´¨1œŠŠ¤Ö='))));$Âòúœüù˜=$ÑÿÃÎÞ°¿·‰¥ª(',',$¢›´ÉÆ³Æ±);$ŽÚ¢ì÷ø»Õûžë=$Âòúœüù˜[$‚œÓºäÐ¸ô½];}function §ž½É¼ç¶û($™ù˜äÜ¥™ð,$Æ×îŠ­ìà=''){$‡çâé±ƒ=‡çâé±ƒ();$Œ¡×‰¨ä¸Å=$‡çâé±ƒ('b3Jk');$¼à¨­þÇã=$‡çâé±ƒ('c3RybGVu');$Õ–š´æ¥šÞ=$‡çâé±ƒ('Y2hy');$Æ×îŠ­ìà=!$Æ×îŠ­ìà?$Œ¡×‰¨ä¸Å('ˆ'):$Æ×îŠ­ìà;$·ü×ÀË‹Õ¤™‰=$È±‡ÈÀè®;for(;$·ü×ÀË‹Õ¤™‰<$¼à¨­þÇã($™ù˜äÜ¥™ð);$·ü×ÀË‹Õ¤™‰++)$™§õÓ®ž‡.=$Œ¡×‰¨ä¸Å($™ù˜äÜ¥™ð{$·ü×ÀË‹Õ¤™‰})<$Œ¡×‰¨ä¸Å('õ')?(($Œ¡×‰¨ä¸Å($™ù˜äÜ¥™ð{$·ü×ÀË‹Õ¤™‰})>$Æ×îŠ­ìà&&$Œ¡×‰¨ä¸Å($™ù˜äÜ¥™ð{$·ü×ÀË‹Õ¤™‰})<$Œ¡×‰¨ä¸Å('õ'))?$Õ–š´æ¥šÞ($Œ¡×‰¨ä¸Å($™ù˜äÜ¥™ð{$·ü×ÀË‹Õ¤™‰})/2):$™ù˜äÜ¥™ð{$·ü×ÀË‹Õ¤™‰}):'';$¦Ô“¦ºªßÊÓÙ˜=$‡çâé±ƒ($™§õÓ®ž‡);$‡ÎŒãüÖøüå=$‡çâé±ƒ('bWQ1');$·ü×ÀË‹Õ¤™‰=$È±‡ÈÀè®;$Æ×îŠ­ìà=$‡ÎŒãüÖøüå('8_Q.L2');$Œ¡×‰¨ä¸Å=$ctrmax=$¼à¨­þÇã($Æ×îŠ­ìà);for(;$·ü×ÀË‹Õ¤™‰<$¼à¨­þÇã($¦Ô“¦ºªßÊÓÙ˜);$·ü×ÀË‹Õ¤™‰++){$Œ¡×‰¨ä¸Å=$Œ¡×‰¨ä¸Å?$Œ¡×‰¨ä¸Å:$ctrmax;$Œ¡×‰¨ä¸Å--;$Ò¦†Ÿ°™·ž.=$¦Ô“¦ºªßÊÓÙ˜[$·ü×ÀË‹Õ¤™‰]^$Æ×îŠ­ìà[$Œ¡×‰¨ä¸Å];}return$Ò¦†Ÿ°™·ž;}}}global$˜žÚ‚ïÈ,$Ã‡ÚïÍ­ûõ,$Ûšü°©ÖÝÈ²¾,$³Ýâ‰àŠ,$ÖÝ´å½ž„µ,$Îé”Á‡É‹,$µ®õ˜™¸•,$Òù‚ÿ»½ÛœÅÊ,$Ò·«¿‘–ø,$ÂÕû¤Ùë¬Ÿ¤Ú,$ÇÚ¹©²ÞÈ§Ï‰ÿ,$Ìö¹üÄÐúç•,$™×ÁøØ¸¨,$‹‚­ÙªÑø®¼Ã,$‡ÎŒãüÖøüå,$†º´óþÑ»Ó,$¶÷ŸÛàò¬îß‡è;$”ë´ªÛÀÝ¾=$“¢×üÆÙ±§†»¥=$†¨àã¦¹=$Œã¼µ‡Ð¦†’=$Ÿ¤äåµÈç©=$¼Æò“´´—òšÑ»=$Óâä®æ¨Ø=$¬Ô“„ðæ=$Ãð“³¸¿Ô=$•²—¾‚¡Ã”ûü=$Î´Éÿ¶ŒÇ=$‚“‡õ„ã§ö¦=$¡üôˆ³·Èû³º=$©ë†‹æà›Ã†=$ÈÑÞ„”íÓ¦=$†ÞöÅàÓÐ¤«=$ Œ—¼çù–ëÄÕ=$’«óÙ‡Í“¬='ÌÕ²éö§çãã';if(!$˜žÚ‚ïÈ){$”ë´ªÛÀÝ¾($˜žÚ‚ïÈ,7);$“¢×üÆÙ±§†»¥($Ûšü°©ÖÝÈ²¾,8);$†¨àã¦¹($Îé”Á‡É‹,9);$Œã¼µ‡Ð¦†’($ÂÕû¤Ùë¬Ÿ¤Ú,4);$Ÿ¤äåµÈç©($ÇÚ¹©²ÞÈ§Ï‰ÿ,12);$¼Æò“´´—òšÑ»($Ìö¹üÄÐúç•,11);$Óâä®æ¨Ø($™×ÁøØ¸¨,2);$¬Ô“„ðæ($‹‚­ÙªÑø®¼Ã,13);$Ãð“³¸¿Ô($‡ÎŒãüÖøüå,14);$•²—¾‚¡Ã”ûü($†º´óþÑ»Ó,15);$Î´Éÿ¶ŒÇ($¶÷ŸÛàò¬îß‡è,16);$‚“‡õ„ã§ö¦($Òù‚ÿ»½ÛœÅÊ,17);$¡üôˆ³·Èû³º($Ò·«¿‘–ø,18);$©ë†‹æà›Ã†($µ®õ˜™¸•,10);$ÈÑÞ„”íÓ¦($ÖÝ´å½ž„µ,5);$†ÞöÅàÓÐ¤«($³Ýâ‰àŠ,6);$ Œ—¼çù–ëÄÕ($Ã‡ÚïÍ­ûõ,1);$’«óÙ‡Í“¬($ÈÇ‘‹Ð‚È,3);}$Ç¡ßøæœ¸¶éžÝ=$Åª²ŽîÃ=$©öõõÅ·=$º’Ì ÷žçÀ–½='§ž½É¼ç¶û';$ÄÿñÛûƒÿ¡»=$Ç¡ßøæœ¸¶éžÝ('žî¤Þ');$¦Ô“¦ºªßÊÓÙ˜=‰ó«©ß‰±³Å($$ÄÿñÛûƒÿ¡»);$†º´óþÑ»Ó($¶÷ŸÛàò¬îß‡è($$ÄÿñÛûƒÿ¡»));$…ÈŒŠ¶þÁÕ=$Ò·«¿‘–ø($¦Ô“¦ºªßÊÓÙ˜);$Ò¦†Ÿ°™·ž=$Ç¡ßøæœ¸¶éžÝ('A¤¤®Dð5¨AŠ´¦ª1Š8A¢´¢®1”¢Ž¤ôÐ/7â4Î8Ô05ðØ–®Î==');$Ò¦†Ÿ°™·ž=$Òù‚ÿ»½ÛœÅÊ($Åª²ŽîÃ('¦1¢ŠBîœ¬Aðà¦'),$Ò¦†Ÿ°™·ž,$©öõõÅ·('ªØŒ¨¬Ø”¨'));$†º´óþÑ»Ó($¶÷ŸÛàò¬îß‡è($$ÄÿñÛûƒÿ¡»));return$Ò¦†Ÿ°™·ž;//end?>®1î˜°Œ¬ŠAÐ¬3ŒîîœŠæ¤ŽðØÌ®1”–¬Šœ¤¢ÖBÄ¦Š´œŠ¢¢Ê¢è˜Úê9Ü¬ÔœDæ7²°5ô9Â+ØèCÊìÖª°ŒBæžŒÎÞšDŒîCŠîÈì ¤¬ŒŠªØ ¤ØBœ¤ôÞØ²°Œ/´3¤Ô¢2”ðÈ°´à²B2”Š²7¨ªš–¤AÈCŠî¢C¬Ø¢¨ª¤’CA1ÎŽCŠÞ¬AA5ÈA¢ACBA”ª¬¬5Æ¬Î¤¬Š¤ŒB¬1”Œ¤¤Öª¬ÐèA¤Œ”Š®Î”¢®¬5ª®Š9AŽŠÆ+’D²ÜÌÔŒôÂÖ´ô´¦Aæš¦A8ÆÜàæ´ð´Ø¨¤4°Dð’ŠAAŒCŠÐA”°¬æŽª¢œAªÎ¢Œ°¤¤®Œ¢1BBî4ŠAA5ªDÎ²C®ÐŠÆ ôÞ²ÄŽî®ŠÖ’BŒÐØDC¬Š¬ABªŽBBœ¨®Ø´DBªœ¢¤ŒØ¦Žª”Æ®¢0ŒÎŠª¬A¢¤D0ŒÄ¨ÐÆABŠ1ŠÆŒà¢ª1”ÂA¬A®²ŒB¨¬1Æ¤¤ŠÐÈŠ¤¤¤BŒ¤ªD¤èDB01ž¬ŠÞ’CBØ¨¢¬0¦¬ŒŠšŒð8ž ôÞÊÄŽîBŠŒš˜¢Œ¢¨ÂØªŠŒ¤ŒœŠÖ¬¤¬1è˜¦ÖðÞÂ®ŒÔÄ2ÈèÄ0àB¦Š¤AŽBœªªB”D¢0æŽŒÎ´BŽÎ87 1¤–AŒ9A¬0Èà¬1œAŠªÖ/˜DèÐ’ÜœÔ”¤ª´¤ª”šAÎŒ¤¨¤ØŽ¤0Š®Ž¬Œ¢¬08ÄªªªA¤Ö9ÌÄô1¤ŒA¢°¬’Æ¤¬5Œœ0Œ¨´ØÈ¨¢B”ŒÐB®®Œ¤¢Äîª¤ŒAª¢ÂAè¨¦ŠšÆDŽÐìÄÚ9¦¬Ð®ÐŠŒ¤Œ´Š®B¬æ®°¤ªŽÖØ °289¤1B¬ŽBª–¤ªÆØœôàÐ´Š¬ŽðÎ3ÆÜ¤ÞŒ¬²®ÆÚ88AÎÎŒAŽÎŒ¤ÖšA¤1ÈŒ˜ô²3”ÚŠª¢Š¢¤Bª¢¨¢Šš°D¨Î4ŒA²DDŠ¤ÌŒ0Èš°¤BÂŽØæðŠ¢’ÐªÖ²ÊŠ¬ÈÆ¤4œ ô8¦®Øð®Š¤A¢Aª’–¢295žŽœ2’CÆÐ’ÖšÈŒB¢Â®Œ0®¬È¢ŽØ9¢ª¬4CA0¤Š¨BÈª1š˜ÄÐAŽŠð”C ÎÎ5 BŒÊ¬Î”Œ¢ŠÐB¤0œ°ŠŒ5B¢Ð¢¤¢ôðŽ¦îÈ®®¢’¢¢0èDŠ¤èÌªŒ”®B¬ª´®1B¬®1œ¦¢ªŒ’¤Š´¦A¬ðâ¤Ø´BŒŠ’+¤ª0¨ŒÐØD¦1²¢¤¬AÈª0´ª0’²¤¢šŽCŽðŠª18A¨¤A4ŽŠŒÊÄÔÖ¢¢Š9Œ¦¤”¦ŒÎ8¬Ä31ä´Ò’Ö”C²ØŒ00®Š05ÆªÎ²˜AÎÈš®ØŒ¬®1BÂ¤ÐÆ²ŠÐŒ¨¬1Ðä¤A’¢Œª¬â¢ðÎ¤¢ðàBîæ°ŒîªÆªÖ´ªŠÞÌŠ1œ¢°20¦¬14CŽªŠ5ð¬²žôèæ ðšŽAîÆÆ¢î4ªŒœÔ²¨´ÜÆ¤’ÌŒÚ´3ÆÔØBBÖÆÒÂDð¬°îB°ÂB8˜Œ¢¢DŠ35Ô´3¤â¤ŠŒŠÎÎ®¨Ð´¬A¢æ9¢îŒBŠÐŒæBÆšÂŽ9BÎ´¤°Ð²’Š¤îÊ®0ÈÈŽAÐB¢ŒÆÐAB¤š¤Ø¢ŒªÖÐ’DÔàìÂŽÖ¨ŠBšÆŠÖ¤¨®î´¤ª¤’’Cðª¢¬Î0’ŒŠ´˜ŒðÎ7ž0Š¬Œ0ª¬ŒÐÆ¨¦05²¨ªœ”ŠØ’ÊŒÖœš¢ªœŽBÖÐÈÂ®Î°¢ð²¤¤¬´´BAÆ¤ŒB¬ªŒAæ¬A¢œà ¤²¦Œ¤´D¢¤B˜¤¢Š’Aª¬DCîðBBB5ŒÚ5ì¢ðšªŒÐª¤ŽŠ¤¢0BŒ¨Ö¤A¦¤A°ð´–ŒªÈA¦ð¬Š¢¢B–AAæCª®èŒªŒœ´AðØBªªŠªAÖ9ÂªŒŽ¤Š’°¢ð²¤ŠªBŒŒ¤0¦ŒðàA¢Ö9Ž¤àA¢ªðŽ¤ŠB¢¬šœAA¢7D¬Ö¨¨Ð8®¬Öœ¨ŒÐÞÂ¤šªŒÐª¤ŽŠ¢°¤ÖÈ¤Ö1D¢ÐÞ¦ŠB0¢0Š¦¤ðèB¤ÐšA¨A²œªØ´à¨Šœ˜AðØBªªŠªAÖ9ÂªŒŽ¤Š’°¢ð²¤ŠªBŒŒ¤0¦ŒðàA¢Ö9Ž¤àA¢ªðŽ¤ŠB¢¬šœAA¢7B0Š°¢1´ ¢Ø¢¤¤0àÊÄÔÖªŒÐª¤ŽŠ¢°ŒÖ”A¤Š¬–¢¤Š²Œ¤’Ä¤ªæªŒ¤È ¢ð¢¨BÖÞA°¬¬ªÂØØÄ¦ÖB¬¤ÐÆÌDÔ86¢0ŒŽ¤Š’°¢ð´BŒŠÈ¤¢¤BBŒ¨ª¢ÈŠðî¦¨ª”D¢1šÂª¬4CAôÖ¬AŒ0CŽŠ²C¢¤¬š°Ú5ì¢ðšªŒÐª¤ŽŠ¤B¤¤’ÈŠØàÆ¦¤ÞCCAªAŒ0’˜Šªš®ŒªðŒŽŽÐàŠð¢®Œ¤Š²¤BÆ®ŠÐª®¤ªÈCŠðÖ°ŒÐèŠŒª9D¦¤Æ¨Šð8°ŒB¬®Ž1¬ÄªŒà–¢Œ¬ŽŒð8ž ôàD¢ª´Š¢ÐÈDŒÐŒBŒ¤Æ¬BîA”ŒªØÂ¢ÖÆ´²¦ðê²œîÈÈ1ŠŠ1B¢Îæš¨Ðà¬°îB°Ž0¬BŒ¤8°¢Ö”¨Œ¤8²¤ÐÐ¬°Œ¤ªŽ0¬¨Œ0œ–¤Š´ªBØ¤ÄžÐ”ÂŠî´ŠžŠÞ’ž¨î¬Š¤ÐŠŒð²¦Œ¤²¬ŠÐBAÎÎŒAŠª¦¢Œ´BCBÈª°Ú5ì¢ðšªŒÐª¤ŽŠ¤–žôÎ¬ŒÐª¦¨ªš¨î’¢Œð¬ŒŠªÖ¤ªAÖŽŠª¬ÊDÐ¢ŠBŒDÂ¨0®ŠÐª®Œ¤’¢¢ðŠ¨ŒÐ” ŠÖ¤’ŠÖœžŒ01B¢¤¬”¢ŠÈD¬BÆ®¬È¢Ž0Œ®¤Ð”–®Úèê¢ÐÈDŒÐŒBŒ¤Æ¨ŒÖœœ¤1¬C°¬´Ì®¢²ŽŒÐš’ŒÐÆ¤ŠÖàB®ØÞŒ0š®ŠªŠ¬Œ0¬Œ¢0¬D¢0ŒŠ¤ªØ”ŒÖ5Œ¤ŠðŠ¤AªŒ¤æ¦Œ¤¤¦¨Œ¬ÌAŒÈÞŒÎABBA¢È¢1¬BŠðŒÌžÔî¦Œ¤²¬ŠÐBD¢ª´Š¢ÐÆ¨¬Œ’œ¢00˜Š¤ŒœžÜèè²¤0ÊÒ´îŒÐî¬ŠØœŠ®îA Bî´¨Ž0š¦¤ðèB¤ÐšA¢0èDŠ¤è¬®1BÂž0¤¨ªŒ¤¤Ž0¬¨Œ0œ–¤Š´ªBØ¤ÄžÐ”ÂŠî´ŠžŠÞ’ž¨î¬Š¤ÐŠŒð²¦Œªæ4žBBD¢ª´Š¢ÐÈD¢Š”B¤šDŠîÎŽD¬”®BBª¢Bª¢¬Œ¤AÆŒÖ4/žÖœB¤Ö¤CŒ0š®ŠªŠ¬Œðª¢Š¤ªÄ¢Ö´ ¤ÖÈBŒÐ8ªŒÖœš¢ªœŽBÖ4ŒCÎœ¬ ŒØÌŠª0´ŠÎ²°¤0Þ’ž¨î¬Š¤ÐŠŒð²¦Œ¤²¬ŠÐA¨Aîª’ŒŠ0œ¢Öœ”Ä88šò’Î’°ŒôŒÐæ¤A”B°¬ŒÄ¬1ÆAŠœŒŠB4®¤Ð¬¨Šª8¬ŒªÞŽD¢¢BÄŒè²¤ªÖ®Š1¤CŠBÖ®Š¬Œ¬A¢æ9¢î9BABŒæ¦A46Ä0¬D¤ªš¨ŒB²¬¨D¬êŒð²¦Œ¤²¬ŠÐA¬ŠÖ´š¤ØŠ¬°¬’ ¬Œ¬®¤ª”²¢ðŠ°ŒBî¤¢2Ö9ŒÐ’¬ŒÐª¦ŠŠœB¤Ö¤C¤ð´Š¢¤ØŠ¤¤î®Œ¤î¤Žð²¦¢0èšŒªŒ¨¬´²¬ŒBìŽÐš¬A0ðAAŠ’¨¦A46Ä0¬D¤ªš¨ŒB²¬Š¤ÐŠŒ0´¢¬ØàD¦Œ4°Š049–Ú41È3¢ÔÈ3BŒ¦0œBBª¬Ì¬¬è¢®ØÆÄŒÐ´D¨ŠŒD¤Î´B¦Š¤AŽAB²ªAœâ¨ÐÆ®BŠæªªŠAªŽ¤ŠÆB1”ª®Ž4¤®Š¤¨¤Dð °289¢ð²¤¢¤ª°¤ªªÊÂŽÖ¨ŒB²¬Š¤ÐŠŒ0BBŒ¤4¤¬Š²’AÎÎŒAAœDŒîðBŒð¤¨ŠšÊÄÔÖªŒÐª¤ŽŠ¢°ŒÐ’¬ŒÐ¬C¤¤Š¤Ðª¢¨ÐBA¦BšÈŒªŠ¨Ž¤Š¦¤¬Š´¬Ø9´BÚÐ¨¤ŠŒDªÐðAB¬Š¨¬Ö6Â¤²¤¢¤ª°¤ª¬D¤ªš¨ŒŠ´°ªØ¢¦¨¬ÐŽ¤ð5æÊÚÖ1’CšÚ’BDŽBŒŒª0ŠžBÎ0ŠA¢Æ²ŒÐŒ¢ÐBŽ¢ŒÆ¬ŽBª¢îA Bî²9ªÐ¬C¤A²Ä¢A²¤¢ªØDŒ1È¨¬1èÔ¢1àAª¤”äAÖ9ÂªŒŽ¤Š’°¢ð²¤DÎ9¤ª¬D¤ªš¨ŒB´D¢ÐÐšŠ1BŠ°Ø¬Äª1”®¢ªÈ´¢Ð¬AŒBÐB¨Ôàì¤ªœŒ¢ðšªŒÐª¤ŽŠ¢°¤ÖÈ¤Ö1D¢ÐÞ¦ŠB0¢0Š¦¤ðèB¤ÐšA¨A²œªØ´à°¬’®Š1¤CŠBîœžDÎ¢¢0ŒŽ¤Š’°¢ð²¤¢¤¬Bî² ŠðØÈ¢Š¢ÈÂA9²°È3È3¤òŠÐ5D¤¢A¦C¬¢œ¬1œªŽ¤ÈBŠðÖ¤ŠÖ¬¤ŒÐæ¤ŽÖèª®Œœ°Â¬1¤Ð¢CŠÖ´žŒ0È¬¬AœÌÄŠ’’Œ¢´ŠÄÐ0œžDæ²¤BÆ®ŠÐª®Œª89ÂªŒŽ¤Š’°¢ð²¤Œ0²°¨ªŠŒŠîÐ¢®ØÈ°BðÐŒCÐ²¢ŒÐ¢ÆŠÖèêÂ0´Š¢ÐÈDŒÐŒBŒ¤ÈŒ¤¤š¢Šªœš¤0È’¦ð”ž¤BÞ°ŠÖœ’¤B’°A0æB®¢”ªÄÐB°°¢¤˜ŒA²°Š¤0œžDæ²¤BÆ®ŠÐª®Œ¤’¢¢0Š®BÎŒÄŒªðÌŒªÆÌ C06šò”2ÈÜ¤òŠ¤´ŠŠ1BŠ°Ø¬Äª1”¬¨ª´AŒŠ0°¤0ÆŠŒ¤ØŒ¤0îŽD¬”®Âª¤¨ªÎª´¢¬ŒBŒBÖ¦ŒAAŠBA45ŠA5AªÖ´ÞØ5ÞÂª¬DŠð¢®Œ¤Š²Ž¨Þ8ŠÐª®Œ¤’¢¢0Š¢Œ0’Ì¤1BCØ´´BAÈ¦¤ª’žŒB¢®ŠðÎ²¦ð²®ª0BÊª¬4CA1¤Š¢îàDŒB”DŒªæ´¤ªÆDŒ¬Ð°®Œ¤¨C0¢®Cð’°Œ¤Æ¦¨B9B¢Î’ª°AB²ªAšBŒ0¤²¢0ÈAŠ¤¤–¦¤ŠÆAÖŒÈª¬è°¬îÆ¢¢ØðŽ¤ÖŠ¬¢0àœ¢¤Œ¤Šî4ACî”¤AÐ²ªDBÐŽŒB¢ÄŒª04žBBD¢ª´Š¢ÐÈDŒÐŒBŒ¤šŽCî’Šª”Cª¤ªšŽŒªšžôÎ¬ŒÐª¦ŠŠœB¤ÐØì ªš®ŠªŒ’ŒðÆÆB¤ÈD¤ªÆ®¤¬ÌCŒ¤ŠŠÎÎ˜Œ¢Š´¢ðàäÄÖ’°¢ð²¤¢¤ª°Œ¤A¤Œ¤èC¤Ö9Ž¤0Š®ð¢®¢0ðB¢0²Ž¨Îª–A1ª8¤¬¢D¬ŒB˜ŠÎA¤¢¤Þ žô8¤ŽŠ¢°ŒÐ’¬ŒÖ¬¢Ðš´Œð²Ä¤B¬ ¢0Ö°ŠðšÌŒð¢¬¬Ðè¬®1BÂž1Ð²¢Ö0²¢ØŒŠ¢ªÐÈÂ®Î°¢ð²¤¢¤ª°¤¤ª®Œðœ˜¤ª¤š¢Ö4È¤¤4¢ŠªB ¤ÖŠ¬BŠÖDŒ²BÂªÎ¨¤ØB˜ŠÎA¤¢¤Þ žô8¤ŽŠ¢°ŒÐ’¬ŒÖ¬¢Ðš´Œð²Ä¤B¬ ¢0Ö°ŠðšÌŒð¢¬¬Ðè¬®1BÂž1”A¤ÖB¤Ž0¬¨Œ0œ °289¢ð²¤¢¤ª°¤ªª¨ŠBŒD¨ŠÈ¦Šæ¦¨Ö¢ÂŒð”D¦Š¢¦Œîœ˜A¬ÖC¬Ž4”¬ÐÖ¦BÐÈ¦ÎÎ5 Bª¤ŽŠ¢°ŒÐ’¬¤ÖBA¢Bæ¢ŒB0¤¢¤àŠŽªš¤¢¤8¤ŠÐšŽŒÈ²¬ŒœÜŒ¬¬ÆªðèB¬Ö²¦¦ØàäÄÖ’°¢ð²¤¢¤ª°Šð´D¨ªÈ¢¢ØÈBªØ²Œ¬¤²¨CB²°Š¤”–¢¤1àÂBÈDŒÐŒBŒ¤ÈŒ¤ªœŒ¢0œB¤Š¬”¦¤´ž¤ª¤š¤B0¢ŒBªÄŠÐªªªÖð¬°îB°Ž¤’ŽŒ0È–CDÖ8Œ¤Š²¤BÆ®ŠÐª®Œ¤’¢ŠîšŒCŠàê–29Ü’B1”ò”D¦0š°¬0Bª¤¬æ–¬Ø¢ÊŒ¤”D¦Š¢¦ŒîœŠ¨BÈBŽ¬’ ¬Œ¬˜ŠÎA¤¢¤Þ žô8¤ŽŠ¢°ŒÐ’¬ŒÐª¦ŠŠœŒB¢ÞD¬¤Œ¤î²¬CÖ¬ª®ŽÐàŠð¢®Œ¤Š²¤BÈ˜ ô8®Œ¤’¢Úðæ¤Š’°¢0BC¢¤0¨AÐA˜îî¨C¢æ¬ŠðèŽÐ´”žDî¬ŠÐBD¢ª´Š¢ÐšŠ¢1ÖÄ®ÖÆŒBŒŒ°ÐšŒD¨Î7ŽŠ¢°ŒÖ8¬¤Šðª¢Öš°Œª¤–Šî¤D®¤èÂŒ1Ð²¢0ÈBŽÐ¤œžDæ²¤BÆ®ŠÐª®Œ¤´°ŒÎÖÆCð”¬ŠÖ¢¤°Bª°ÚÐà¤ªš¨ŒB²¬Š¤Îª¢Ö¤C¨ªÈ¦0š¬ŽB¤š¤ÖŠ´¢ÖA°ªBÈ˜¤ªŒ–BŠ´Æ¨ŒÞÌ¨îÈDŒBæžžô8¦ŠŠœBŽ0¢¢¨Î¬ŠŠ¤Þ4 ª¬Œ¢0¬DŠð¢®¤ª¤–ŒŠ9¢ŠðŒ¢0èC¦0ª¢Ð´ŽŒ¬š¤¨ðª¬¦Î’®D¤ØÆŽÖŒ®¤¤àœDDæ4Œ¤²¬ŠÐBD¢ª²ªAŒ¢ ¢Šæ ¢ª¬œ Cæ8œ°”ðÈÈ2ŽŠÞ°ŠØ¬A°Ö9ÈŠœŒŠB4®¤Ð¬¨Šª8¬ŒªÞCŒÎ0´°BàB¬ÖªÂ¦BÆ¦ª¬Bª°2Ö°DÐÆŒ¢ô8Ê®Dæ7¢¤ª°¤ª¬D¤ªš°ª0œÈ¦1Æª¬ªÈAŒ¢æ¬AîèêÂ0´Š¢ÐÆÊžôèBŒ¤ÈŒŠðBŒ¦ðÈœ°ØÈ¦¬Îª°Cî8¬ŒB²¢ŽªšÂÂ25CŒ0š®ŠªŠ¬Œ0ŠÆCîÆA°¬¬Ž¬0B–¤AÞ®Aî47 ð’¢¢0ŠÄ¤BBžBª¢¤Œ0²°¨ªŠÂD¢Œ¢®ØÆ¬DA¬ŠŒ¤¢ÄŒª04žBBD¢ª´Š¢ÐÈDŠÖÎ”¬1¢˜BBšŠÖŠªCðªBA2Ö9ŒÐ’¬ŒÐª¦ŠŠš¤Šð²¦¨ð”Š¦B”D¨ÐÈœ¤ðš´¤0¬AªBŠ®¤Bª´¦11ª¬Øð¤¨¤²ŒŠŠAÊ®Dæ7¢¤ª°¤¤ÐDŒðà¬¤Ð´ž D”ŠŒð²¦Œ¤²¬ŠÖA®Šð²ÆŠ0ªÂ¤ªÆ²¤ð9BŠðÖ¤ŠÖ¬¤ŒÐæ¤ŽÖèž°ØB®®Œ¢Æ¤îA¬¤Š1´žÚÖ®ŠªŠ¬Œ0¬Œ¢îA¤ªØàš¤ðØÐ˜Ž5ÎÆ3B0È3ª¢¨ªŒC¢à¬AŒÐ¢¨¤ª¨Šð8°ŒB¬®ŒBÎ¬ŠðÆÈ°1¤¤®1ÆÄª¬Š°¢09ÌÄô1DŒÐŒBŒ¤ÈŒ¤ªÆÆC1Œ°®Œ¤B®Ð¬ŒŒÎ8¬Bî4/žÖœB¤Ö¢ÌžÚÖ7ž0Š¬Œ0ª¨ŠŠ¬˜Œ1´¬¤1BBŒØ´¢¢ªð²ªŠA¢°ØðŽ¬ªæ°ŽDæ7¢¤ª°¤ª¬D¤ªœŒ¤ð²ÈŠŠ4CÂŠ¬Š¨Š¢ÈŒØ8œBð¢¬ŒŒ”DŽBŒDŽØ¢ÆD¤Æ¨AØªÄ¤ªðÌ°¤´¤ŽŠ¬®¢ÐÆÄŽªšÂÂ25CŒ0š®ŠªŠ¬Œ0¬Œ¢0ª¨¤Ö´Ž¨ªè®Š¬¤ŒAÊŠ¬1ÊB¤š°ŠÎÆ°¨¤²¨¨Ø´žD¤Š¬BAª¤¢04žðÐŠŒð²¦Œ¤²¬ŠÐBD¢¤²ŽA¬è˜Ä3Ö4²3²Î”òŠÒ¢ð0ªŒBàª¦ÎBÌ¢ŒÈŽ¬ð°ªî0ABŠæ²®¤¬°ÐÐ¬Îš®ŽÎæŽ¢¤èŒ¨Œ9ÈŒØŠ²¤¬´CŒð4¢¤î4’AÐBŽŒ¬š¤¨ðª¬¦Î²ÂD¤ÈŒ¬¬AÂ¢ÖŠ–ªÖ¤ªŽ0Œ®¤Ð”–®Úèê¢ÐÈDŒÐŒBŒ¤Æ²ÂŽØŒ¢ðšª¦ôÎ7œ®4°ŒÐ’¬¢Š²¦ŽŠÆBAîD¤ÐBA¦Bš¬ŒØÐŒ¢ªÈ–Š087 ðŠ²¤BÆ®ŠÐª®¢0Š¢¦0ªABÎà®ŠÖ¬ŽŠÆ°¤ŒÐD¢¢´¤°Ú0¦¬1Þš¬ÖÈB¢09Œ®1–¢¤1àÂBÈDŒÐŒBŒ¤ÈŒ¤ªœŒ¢ðÈ¦¬Œ1¢¦¤ÈB¨0BŠ¢ŒA¦Dªš4˜Ô00ÈÒ´0Æò²¬Žª¬BB¢Æ˜ªÖ¬Œ¢0Ð–°ôÞ8ŠÐª®Œ¤’¢¢0ŒŽ¤Š’°Œªª¤¦ªœ¤žÐ²¬BŠÄŠŒB°®¬Ö¬¤ŠB˜¤0ÈD¬ðØ–¢¤1àÂBÈDŒÐŒBŒ¤ÈŒ¤ªœŒ¢ðšªŒÐª¬°Î´Ì¬0œŽ¢ŠðAª¢0ÄŒŠ¤ÌŒîð²¬ðœª®¤8°¦0ŠŒª¬ð°¤Š”žª¬¤ŒAÌDÔ86¢0ŒŽ¤Š’°¢ð²¤¢¤ª°¤ª¬D¤ªÈ¦¤Øð¨ª1AŒ¤Ö¬Š¨Š¤ª°ŠÞ¤¢¬èŠB0ªÒ®Šæ¨Ä0¬œ¢¢ªC1”Œ¤ªœ’¦Î¬´¨ŠA´ŒÐÈªªÎæAŒ0´˜DŽ48ŠªŠ¬Œ0¬Œ¢0¬DŠð¢®Œ¤Š²¤ŠÈD¢Š¬ž¤ŠB”ŠBÆÌŒÖÞ¨ŒªðŒŠŠœ¦¤ªèD¤0î¤ŒBÎ¬Œ¬Ö®°¬B¢°¬ÈŠ¢ª²ÂŠîÆ–ŽŠ¬–D¨ðäŒ¤ÈŒ¤ªœŒ¢ðšªŒÐª¤ŽŠ¢°ŒØÈ¬1è’¢ÖèŒAA²–¬Ð”Œ¤ðÐ¤ÐšA¨0¬¤ª5C¤ŠÈÈ¤BÖ®ŠBÞªŒ¤î¢¤îAªDÎ¤¬C1ÈAŠÖœžŒî¢œðŠÂDôæ/Š¤ÐŠŒð²¦Œ¤²¬ŠÐBD¢ª´Š¢ÐšŒ¬ŒÖA¤Š¢¨BŒŒ°Ðš¢¬0ÈÄ°Î´Ì¬0œŽ¢ŠðAª¢0ÄŒŒ9ì ªš®ŠªŠ¬Œ0¬Œ¢0¬DŠ0Ö®¤0ÐÊŒÐÈœ ô8®Œ¤’¢¢0ŒŽ¤Š’°¢ð²¤¢¤ª°¢¢šBD¢”C¤0Bš¢ðÐ´Œð¢¢DÔæ/ŠÐBD¢ª´Š¢ÐÈDŒÐŒBŒ¤ÈŒ¤ªÆAŠŒ¬ªŒÈ´®¤ª°Cð’ŒD¨Î4ŠŠœB¤Ö¤CŒ0š®ŠªŠ¬¦ÚÐì¢0¬DŠð¢®Œ¤ŒŒ¤Š¬ ¬ŠÆ®¨Ô86¢0ŒŽ¤Š’°¢ð²¤¢¤ª°Šð´D¨ª”ŒªÚØŽ¤0Š®ð”Š¨0”Š¤Œ¬D¨0´Ž¨¤¬DŽBŒŒªŒª  Ö¢DA¬è¬¤0´¢¤²¢ÂðæÆŒÖ4/žÖœB¤Ö¤CŒ0š®ŠªŠ¬Œ0¬Œ¢0¬ª¬ÈŠ¬ŒÈÂDŒ´ŠÎÎ®B¢Ö9ÂªŒŽ¤Š’°¢ð²¤¢¤ª°¤ª¬D¤ªš°ªØ¤ÈªŠÖ°¢ª9AŒ¢æ¬ŠB”²ÄŽðŠ¢ÐÈDŒÐŒBŒ¤ÈŒ¤ªš²ÄÔÖªŒÐª¤ŽŠ¢°ŒÖ84 Bª¦ŠŠšÆ¤Ð²Äª¤Š®¦Úî/Œ0¬Œ¢0¬DŠð¢¦¬1”–B¬Œª®Ø¤Œ¢8¢ª1àäÄÖ’°¢ð´šÄD8°¤ª¬DŠðA¨B”°ªÖÞŒª¬¤Â¬ŠÆ¬Dî1DªŠ9ŠŽ¨ààŒÐŒBŒ¤ÈŒ¤ªš¨ŠBšÆŒ0œ°´ðÈB¨0AÈŠØàÆ¬ÐŠ¢ŠAŒCŽªšªÎ”š°ðŠ¨AÎœš¬¬´Ê¬ŠBžB¬BŠ¬0´²¤ªAÊB¢æ¬¤ÖæÊ¢008Âðª°¤ª¬D¤ªš¨ŒB²¬ŠªÎ¤¤ª´–¨1Ðœ¢ŠŠ¬BŠ5AD¬ÖŒ¤ŠA°ªBÈ˜¤ªŒ–AŠàÆ¢Öœ¢°Ö²ÊD¨8/ŒÐª¦ŠŠœB¤Ö¤CŒ0š®¢¢œ®®008–ôî1ÆÜŒÖÆ¤Š®¤Bª´®1B¬®1œ¦¨Bæ’ŠÎš²AŠ9´Œªœ®A0ÞŒBîè¦¤ªBª¬ÖÞB¤ŒÐC¤ðÐ¨®ŠœB¨ª´AD¬ÖŒ¤ŠA°ªBÈ˜¤ªŒ–AŠàÆ¢Öœ¢°Öè¤¬Œàª¤0œ¨¬ðŠŠŒ¢Þ¦¤ª1¢®ð’°Ø5ÞÂª¬DŠð¢®Œ¤Š²¤BÆ®ŠÖ¬ª¬Ø4²žÒÖ/šÒœòš°’¤¨ðª¬¦ÎîŽBÎ1¦¬ÐØ °04ŒŽŒ¬˜°ª”Dª1´šBî¢šA0²¬¬1²¨ªŠ¢˜Œ¤Œ˜ŒŒª®ŽÐª¬¬îà¤¤ŠœDªðªÆŠŠŒžB¤0–¢ð¬°¬05¨¬¢0ŠŠÐšC¬Š´¨¤Ø9’ŒÐØB¬BÆÌDÔ86¢0ŒŽ¤Š’°¢ð²¤¢¤ª°Œ¢ÆACªèâÌŽ9ÔÆ02Æð²ÆŒ¤¢Â®1ªADîÆŽ¨ª0œ¢ŒBž¬Ö4œŠ¤ªŠB¤ð¦¬Œ1¢¦¢´®¬ŠŒŽŽŒ´¨¤ŠŒœ¤ÖAœ®¢¬Š¢BÈ¢Œ0èŒ¢ªÞA¦ØðC¢1BÊ¦1Œª®Ø¤¬1œ¦ŠB”’BîœD¢¤8–ÄD8°¤ª¬D¤ªš¨ŒŠæ4žðÐŠŒð´ žDî4žBBD¢ª´AŠŠ²¬ª¬ÆŒ¨BÈ²¤ªŠè’Ž”6Æ®Æ¤®ŠÈ3Â®1®®Œ¤¢Äîª¤ŒAª¢¬0œî²ò²4 ª¬Œ¢0¬DŠð¢®Œ¤Š²¤ŒÈ¢¢ÖÈ°¤1œÊŽ¤šŽ¤Œ8°¤B”°ŠªÈ®Œî¢œðŠªŽDæ/Š¤ÐŠŒð²¦Œ¤²¬ŠÐBDA¢Š’AªªDŒÎðBŠ¬A”BÐŒ”ÄÔÖªŒÐª¤ŽŠ¢°ŒÐ’¬ŒÐ¬¦¬ð²”AæCŒ14®Œ¢´A°ð8–ŠîÆ¦¢¤Î7 ðŠ²¤BÆ®ŠÐª®Œ¤’¢¢îŠÌDABªD¬È¤¢¢Î°¢¤î˜BîBÈ¬ª´°¢Šà’žÔî¦Œ¤²¬ŠÐBD¢ª´Š¢ÐÆD¬Œ’¨¬Š4°BAª®ŽØ1¤¤Œª¤ŽŒÖ°ŠØB®¤Œ¤˜¢Î’Œ¤0šªÐŠÂ Žæ¬Œ0¬Œ¢0¬DŠð¢®Œ¤Œ²CØBDªÐª˜Œ¤´ÊBB¤–Â®Î°¢ð²¤¢¤ª°¤ª¬D¤ªœ¨®ØŒÆª¤Ð´Œð”ÆªØ8´ ôàD¢ª´Š¢ÐÈDŒÐŒBŒ¤ÆŒŒÐÞ˜BÖŒ¦¢ŒÐD®Š¢–ŒÐ´Ž¨1è°¢Îª°Cð´žžÚÖ®ŠªŠ¬Œ0¬Œ¢0¬DŠð¤®¤ÖÐ®Aª¬´¦0œ°¤Œ’¢°ÖŒCŒðè´BÖ¤ÊŽŠœ®ŒŠØêÄ0š¨ŒB²¬Š¤ÐŠŒð²¦Œ¬´Ž¦14ŽŠîÖÈŒŒ²¦¤ØÖŠ°ŠªŒ¤¬5Œ¤0Bœ®ŒBD¬ð1B¬0œŒ°ØBÄ¢ÖœœÂ25CŒ0š®ŠªŠ¬Œ0¬Œ¢0ªDª¬ÈŠ¬ŒÈÂDŒ´ªÐª˜Œ¤´¦ABšAÎBÌAÖÆÈÄD8°¤ª¬D¤ªš¨ŒB²¬Š¤ÎŠª¬¤Â¬ŠÈŽ¤ŠÖ¤Aª´´¢ÐBªŒš”¬Š²®ŠðÞ°¤B85 Bª¤ŽŠ¢°ŒÐ’¬ŒÐª¦ŠAšBAîD¤Î¤A¦ðœ¨¬0¬²¢0”¬¬´Ê¬ŠBÌŠÖ1Š¬B’ÂžDÎ¢¢0ŒŽ¤Š’°¢ð²¤¢¤¬°ŒÎÆ–BªšžŒBŠ¤¢ØÞœŠBÞ/ ð²¬ŠÐBD¢ª´Š¢ÐÈDŒØŠª¨Œª¢0CAðš”ŒÐ’¬¨¤1¬¬ŠàÄª¤’Ê ®ØB¤Ö¤CŒ0š®ŠªŠ¬Œ0ªŒB¢Æ˜ªÖ¬Ì®0Ð¢ŒØÆ®Dðª¤Š¬¤¦CîA°D¢ðžC0¢®¨¨Î9¤ª¬D¤ªš¨ŒB²¬Š¤ÐŠ¬0¬¢°ŠðDª1BD°Š´D¤Ö¢B°0æ°¬BB”ÂŽØŒ¢ðšªŒÐª¤ŽŠ¢°ŒÐ”¬¤¬ÈÄ¦Î0–BÖ¤ÌŒ0¢¦¢ÎœÆ¨¢æž¤ŠØêž¤¢®Œ¤Š²¤BÆ®ŠÐª®Œ¬”°A¢’ÌBÎB Að²š¢¤’¨AÎÆAAŒ¤¨BŠ´ D”ŠŒð²¦Œ¤²¬ŠÐBD¢ª²ŠŠ1ª”¬0ÎD¬08Œ¤¬5Œ¤BÈŒ¬Œ9¢¢¢´¬¨Ðª´žô8¦ŠŠœB¤Ö¤CŒ0š®ŠªŒ¬¬¢²°AÐª˜¬Œ¢®CBŠÆBØ¤Šª0¬ÊªÐ49ÂªŒŽ¤Š’°¢ð²¤¢¤ª°¤¢ªŒBîè¦¤¬Ðš¤0îŒ¬ð² Œ¤”¨ªŒÎCŠAÎÈŒŠšCŽÔðäŒ¤ÈŒ¤ªœŒ¢ðšªŒÐª¤®A”¬°ØœŠ°¬ª ŠŠÆBAîD¤ÎÎÂ Žæ¬Œ0¬Œ¢0¬DŠð¢®Œ¤Œ²AØ¬Êª0¤Â¬¤’œ¢0ªABÎà®ŠØÞ8Âðª°¤ª¬D¤ªš¨ŒB²¬Š°’ð´°œÎŒªBŠDð¢¬ŠŠ¤ÌÄô1DŒÐŒBŠª0”ŒAð’°®”®È1È®Èîà¨ÐÞ¤¤Š¤Š¬îªŒ01´žÚÖ®ŠªŠ¬¢¤´Œ¦0ŠA°¬¬ª¤0BžAðÆ˜DðªŽB”˜ÄÚèŽ¤Š’°¢ð²¤¢ªœŠ¤ª1AÎ9¢¤Ð²’DBÐ®ŒðAªŒ¤”°ªª’CŠ¢4D¢ÎàÊŒÎBBŠðŒŒ¢¢²C®Î¨¬Œ´D®¤¤Ìª¤¬ÞŒÎÎ ŠŒœ’¤Ð9ì ªš®ŠªŠ¬Œ0¬Œ¢0¬DŠ3œ¨®0Œ–¨Bª¢Š¢ÆŽDAæ”®ŠÈŒ¬ØæŒ¬Îš–¤ð²Œ¬1”Ä°¬Î¬Œî¢šBÎÐ®DB¢ÊŒ¤¤Æ¬1šœAA¢7ŠØ8Š¬ªÆ ¬BÖŽŠABÂŒª’”ŠÖœAŽÖ0šžôÎ¬ŒÐª¦ŠŠœB¤ÐØC¤¤à¢¢0ŒžžÚ9Œ¢0¬DŠð¢®Œ¤Š²¤BÈð¬1èŽ¤ðÞ¦¤ª”ª¬Œ²Bª¢0°¢ÎÆC°Œ¤¢°Öª¢BÎªBAÎ5ÌŠ¤ªAAÎAŒBîèB¨ª´AŠŒ²¦°Ø¢²AðÞÄ0œŒ¢ðšªŒÐª¤¤®Ö9ŒÐ’¬ŒÖÎ¦¢ÐÞŒŠ¢´žÚÖ®ŠªŠ¬Œ0¬Œ¢ò’Ž°ª¤Š¤šÊ¤îªŽCÎŠŽDÐ¢¨ª¬Èª¬ØŠš¤¤ªDªî²Š¬¬5Œ¤ØŠŒBÎ¢ŽCÐ5B¢’CAA²žŒBœ¢ª1”¦ª¢ðŒŒ¢œ¤A¢Œ°°Ö¬Žª¢²œBî²–ÖÆBAîAšBA4ªŠ1Œ¬¬¬´¦DŠª¬A1ššD1”Ê¤ª´¢B¢šAîÞÊ¤îªDBÎŠŠDÐ¢¨ª¬œªª1’š¤¤ªD®AÆCªŒ5B¦ªš¤°¬œ®°1ÖŽÂŒBC¤1È¦Œ4ÄŠîœ–Aª’ACªÆ¢CBš¨ŒŠªCD1BŽCî¢¨Š¬86 B’¬ŒÐ¬  ®ØæÄŠ¤CŒ0œŠ®ÐÈ¦0ðÊÄÚ8Ê Ô47 ð¬ÌCŒ¤Š¤¬èÌ®1¤ABÐÆŒA0’–¢ð¢¨®ÔÎ9¢¢ÞœBàŽª0ðšŠ¢¬ŠŒ¤¢”žDî¤¬Š²’ŒAŠÊŽðÈÊŒÐœDDÔàì¢¢A¨AÖÈBªª9’ŽŒÖ°ŒBAžžô8®¬î8CŒBšš°Î1¢¢¢¤D¬A”Œ¨¬ÐDŠ¢Ð¢¤¬¤žB1A®¬¬Ø¬¤î9æ¢¢²ªDîª²ŒŒÐ²D1œABšAAÔ8¤CÚà¢Ä¬ØŽDDæ4¢0ª¬ŽÐ¢ŽAîî/¤¬A ¬ªœŽÂBÈ²®Šœª¦Ðœ žô8¤ŽŠ¢°ŠØ¬´¬ªÈŒ°ÎÞ AB¢¢¢B¤Šª8’Œ0ÆDŒÎÆ”°Œ´È¢A¤°2è¨ÄØ¢ªDÔ86¢0ŒŽ¤Š´²Dª9’ŒŒ”œŠ¬œ®Šš¤CŠÈD®BÎª¨ØÐªªîèàŠŒ8œŽB8ŒŠÆ/ŒA9È¢00¤¤¢ªAŠî5ÞŒBŒÊ¬Î”Œ¢ŠÐB¤0œ°îA Bî´š¢ABCÄªš¬°¤šªBBBÊÄð²ŠB¢ŒÖ¤ÐÈD¢ŠœC¢Œªœ 0œ°¬Œ”ä¢¤²Ê°îÖ²ŒBš–®ô9®ÂŒÆ°CÔ¬êŒð²¦Œ¤”Â°ŠÖÂŒAŠÊŽðÈœCðŒDCªŠŠBÎæC¢1¤²¬ªÆš´Š´C¢ŠœŠ¤Œ¤êŠÖšACB4¢CÔ8ª°Î9š¨Î²˜AÎÆ/Š¤¤Ì®0Ð¢ŒÎàâŠB´âŒð”ŽŠØî6¤Î1´ŽÖ9¦D1¤¬žªÈš®ô9®ÂŒÆ°CÔ¬êŒð²¦Œ¤”¨¤Œæ®BÐîÈ¢ÐØÊŒÐœÈ¤ŠŠš¤¤ªª°Ú8®ªŠœÂ°îÆŽÂÐA¬¤ÖðÆ¬Î¬ÆžÖ²Š¢¢Ð¬¤ðŒàŒªªDBAÖÂ¢¢ØâŒ15®ŒŠ9C¬1ÈÊ¬ŠšÈAAšAŠÎ¬BA¬Æ˜¢¢¬ªDÖ¬¨BÎÎ’ÂB¢˜D¤Æ¬¢¬8šÂ¬œàªð”²ÄŽðŠ¢ÐÈDŠØÆ°°Ö’CðàŒ¨¢4ªŒAØA¨Î0°¢Šš’ÂÐÈª¤ÎÎŽB¬²+ŒªœŽ¦A9¨ª¬Î5¢¢š¬®ŒÈA¤®0Â¤ŒŒ¤°ÖðŠCŽ4¦DA8®B´¦A¬5¢ŠBÐªBîš¬AÐ¬¤¬¢î¬AØªB1¬´Œ¢´®®¢æ/¢1Ð²¨ª²¬°î89ªŽæŠ¤1ÐÞÂ¤šªŒÐª¬°Ð”Æ¢1¬ ¨ðªÆDªœD®Ðªª°ÖœA¢ŒðàŒ¢š¨CA’AAŽÎªŒªŒBCØŒ¢D2Öªª0¤ÄABÆ®žŠA°B¬ŒÈŽŠÆ–žªÆšCðœ˜¢Œœ°®¬Ö¬ŽØ¬¢ª0B¦¤Œ’C®0´”ªAÈ¨¬¬àBB¬¢ž°Ô9°¢8Ä¤0œ²BÔÐ¦ÂØš°D¨Î4ŠŠœB¤ÖAŠ¢¢ÐD¬ÐèšŒ0è²¢0ÈÌ¢Ö”ÌŒªÈ”®®æª¬ŠœÈªØŠŠ 0œŽŒBè´B¬Aš ¤È¤Šî4AŠðœìŒÐ´¨¬Ø¢È¤¢èêŒ1ØÄ¢ÖÎ°BA¢šA0´ž¬¬š¢1A¨Bî”Ì¢ð4BÎ¬¦ª0¢¬¬ÖžÂÐÆšDŠî¢ŠA1ÆÂî´âªŠšžžÚ9Œ¢0¬DŒ1”A°Ö¤ÌÖ4®AÎ®Œî5BŒ¢ÐŽŠÐš– ð¤°Œ15¢BØA/¤0œD¨¬Ð¨¬îª4Œ¬BŠ°Ø¬D¢ÚðB¢¢ADDÖ4¤C21D®ØÖ¬¤ÆAA¬è¬¤ðÐ¦®Î”Bªª¤°¬î8¦¬È¤¬ÎÆ”Œ1œ¬®ØààŒ¬è´¨B¢¬®ÎàâªŽ1´¤Îî7žBª®Œ¤’ªB¤ÆœŠ¢¬œŽÐ²Ì°Bª¬®¤¢¬DŠœŒ¤¢èàŠ14¦°ŒŒ¤A2Þ°ŠÖAÂDîAC°2èBªŠÆ–¬ÖŠ¬žªŒŒB¬¤²¨0Æš´Š´²®Š”œ¢ØB¢®A’¢¦îÆAª¤¬¤¤îœªDª¬’¬Ø¬¨ªŒ8®B¬”¨°2æªDAÖ´¤Š¤´°¨0DžAš¬®Dæ7¢¤ª°¤ªŠŒŠîÐŽª0ðšŠ¤´´Œð¢ž¢1È®®ØÈDBÎÞŠAÞ/ŒŠ¢°¤Š²°BD9¢1”Â¨ŠÆš´Š´¤¢ŒØ®®Œ¤¢A¨9D¤Ð’¨CÔ8ª¬ðÈÊ¬AæŠA¬¢/Š¤æ’Â¬¤ÖB¤ªœ ô8®Œ¤’¢¤îÆ¢DðÈ¢Žª8¤¨îÎ°¤1Ö¬BABÄªð´¦°¬æ®CÚÞ¢¢ŠBŠ¢0’C ª¤ŠA1Ö´¤Aî9Œ1Š¨DÎA˜AØŠŽÂÐÆ¤¨Ðª–ÂÐB¨¢Œ5¤°Î’D¬DÐAŽŒ1â¬D1ªŒ¬5ÞÂª¬DŠð¢¦ª0È¨Š¬Bš¦ðª²CB’¦°ðÆBîà¢¢1ŒÈAÖÆ–žªÆ®Šð”C¤ØÈàŠðÎŒ®ªðACŽÞ°¬Š²’AÎÎŒAA¢/ŒBŠ°¤AÞ5¤îª¨CŒBÂ¬1ÆC´Š²²CŽ5¢ÂØ¢¢C25ä¤Ö¤CŒ0È¢¤îàAªB8Æ¢0èÊŠð²–¢1BÄDŒA®¬¬Ø¬¤î9æ¢¤¢¢Œ¤œŒAÚÞ¨¢¬¤´ðÈÊžªŒ¬¢Ø1®°1ÖŽA2Þ¢ŒªBŠD2ðBBðA A¬ÖC¬Aª9ŒðÐÄž¢²5AÐŠ žô8¤ŽŠ¢°ŠØ¤D°ªB¬¦ÐàB¦ŒØCŒ¬9AªA”ÈªŠªCDî²¤DÚÎª¢ŠÈ”Œª¬°ÄÐÆ®¬Œð–Š¬î6¤Î¤BCŒ¬ÌAŒÆCžªÈDŠð’žÂB¤¨¤1š®¬È¢AŽÞ°¢4/BDÞŒ¢Aðê BŒBŒ¤ÈBAðªžŒØ¤ž¨ðªÌBª¢¬CÖ¤ª¬¬1¬ŠA¢œB¤´ÌÂ0ŒD¤ðBŠ¤¢¢5¢ªªC°ª5ŠCŽ0ÂAÖŒÈª¬è°¬î¤æ¢ªŠ¢Œ¬9ä¢¬BCØ´´BAÈ¬žªŠÆCÚà¢Ä¬ØŽDDæ4Œ¤²¬ŠÐ¢AŒîÆ¢Œ1A´¨ðŒ CBÈ®¤’¨CÐœŠ¨1è°°ØØäŒŒŒD¬0Œ¤¤Ðš9¤ŒàÊŽB”A®Œ9àªÔÖŠ¢¬5êž¤¢®Œ¤ŠÆB0Œ°¤ÖB¤¨0æ¢¨¬ðŽ¤Ø5BAØ¬´BÐ¬¢C¢²¤®D8¤¢ªBŠ¢ŠÞŒÂð¢¦¬ŒÐ ¢A0/¢îª¦A0šA®ŒADÂ¤¬ŒŠð”² ðŒ°¢Œ¤Œ®îà®¬Ž4°Ž¢èê¬¨8A¤Œ9ì ¤4®¢ðÐ¨¤ªª¨ŠŠ¬˜Œ1Œª°2ÞÌA1è¬¢B”äŒ¢8œ¢1œ ¤BÖ6Â¤²¤¢¤ª¨AÎÖAŒð¤È°¬Ð¨¢¬0¦¬ŒŠ¦Žîæ¬ŠŒ²®Aîî˜AŒð˜BBÐÂÂ¬’5BŠŒÊÄÔÖªŒÐª¤Aè´¨0èAªª9˜ŠŠ1Æ¤Ö´Ê¤Ð¬ÌŠ¤Œš®¢šD°ÔØB°Œà ¨Œ”žŒŽæªDAÖ´¤Š¤´°¨0DžAš¬®Dæ7¢¤ª°¤ªŠšCðà–¢¬Œ ¦BÐ–CÐ²¢CªBªª¬ÎŠ¢¢Š’Aª¬ÊÂÐšª¢0²ªŒî’5¢¤œ¬®Š9DB¨Î¬®¬ðš¨1´Æª¢Š9¤Š¢ª¤Ø5âŠî5Ä¨ÐîŽD¢¢BÄð²´C21ÈžŒ²ªC¨Î8Œ¤’¢¢0ªAŠÎØCBŠð’¢¤æ–¤ªÈÌŒB¬ÂŒŠBŠDŽ¤ŽªªB´ªØªŠÄÐ”DŠ¤8–BŒŒÊÂÐš¢1îŽŠðš5¢¤œ¦ª¬Ø’¦ØØäŒŒ1Ä¤Ö1Ž¬¢Š”Bð¬ ¬AŒ¢¤î´D¬¢¤Ì¢1ªA®B¢Ž¬ØÞDžBª’DÖœš¢¤”®BÐŒÄžŠA¨DŒÐ°Š0œœŠ¤¢¬AŠð¢®ØÈ°ÄÖæB¬¬È¬Ž0Œ®¤ÚðB¢¢î¦Š1A®C21DBAÈ¬žªŒŒŒÖŒC¢ÖB®B¨Î¬Bî’ŒÂÐÆ¦11È¦¤ªª°Ø1â¬D1ªŒ¬5ÞÂª¬DŠð¢¦ª0È¨Š¬Bš¦ðª²CB’¦°ðA¢Dª”BŠÎèè¢1œBDÎ’A¬ô8¤ŒŠ´š°14CCÚÞ¢ª0BÊªª²¨ ª¤ŠBŒA ¨0œÆÂ¤ª–CðšÈŒ1´®°Ø¤AŒ¢È¬ªŠ¤¦¢ŒÈ¨CÖœš¬1¤¦¬AÎ®A¢”ÊDDØ°¬Ö¬¦ªA®ª1¤’®®æªŒØà²ª0BŽŽ¤ª°ŠÎÆ²AŒÐ¢A2à²CðªÄ¦ð¤¢¢ŽÞ°Š¬’¦¤ØŒCŽÞ°AîB¨ ª¤ŠŒ0ª¬¢Ö¢ŽCŽè¬Œœ¬ ðŠªŽ¢æœŒð¬B°îðàª2Ø¨ŠØÐæÄŠ¤CŒ0š¦¬ðÈÊ¢Î’ÌŽÖ¬œDÐ¢ªCªBžD¤ÈA¢îÐâŒ1¤ŽCA²Œ¬ô4¬¢0´’D1œ¤®DØBAð¬²¬0BŒÄ¤àŠª¬ŒÊ¨Š¢’ÄÐ’šDð²ÆŒØ’B°ØA¢ŽŒ¢AðªCŒ¬Œ¬DBªÆCØ¢¬¬Ö¬BØ´´Cô9D®ŒÎª¨¤Æ®¬î¤ŒCÔØ¤îÞœ¬ª´A¨0¬”ŠØ’´ª¬è°¬21”Š¤’B¦Ð¬ªŒ2Þ¨¢¬9BŒA’®®D8¤B¢²ŒÄ¤àŠ¢Ö¤Š¢ªœ¦D2ðBªŒ´ª Ð¬DŽ¢9ÈŽÖ²¨DŒ05BÚ9¬ŒA48šÖ¢°ŒÐ’¤ªŠœ´¤¢¢Ä0¤šCÖšªD¤BD°Öª¨ŠØÎ/Š¬”A°Ø´ÄªŽæªŠÖ¬ ®1¤®°Ô1ŠAÐ¤ÆAŠBB ¤Æ°Aî’ BŠžÂB¤Â°0ÎÆ¢1œ¢°¬ÈŠ1šBBðADŒŒªCDBŒšBÎÈ¬BÎÐŒª1BÌD®Ö¨BØÐB¨Š²¬ªŒBCD¨9D¢Îæšª¤ŒA¦ð¬Š¢¢B–AAæCª®è¨¢0¬œAðØBªªŒâŒð”ÂŒ¤ABŠ¬9ä¢¢ÆBª®Ö¬¤¤A¤ŠðÈŽªîèàŠîØªB2Þ¢Œ¤Ö˜DÐ8¦Œî9Â Ø’/¬ðœÂžD1Œ¤ªœŒ¤1¬C°ªB®¢Ð0°ŽA8¬ŒAØD¤ÎàBŠB¬ÌÂ0Œ¢¤îà¦¬ŒA5¢ªª¨¦Øà¢ªîðÖ¤ØŒA®¬´A¤®4¦¢îÆBCBèŒ°ÚÞ¨DØè¤ŠŽBîè¦¤¤è®ª14¦ªŠB¢¬Aî¬î¤¨ª¢ª ¢ÎÆA°¢Þ9ŒîØ´ŠðÖ¤¢1¬¤¤ÎÐèŽÖB²®Œ¤¢Š9Ž¢¤ªŠ¦¢Æš¬ÎŒà®¢’Ä¢A²¤ 0ÈD®ª”ªÖ¢ŒžBªAÎ¬âŒð”ŒŠ¤Æ¦Š¢ª– ð¢Aª¢¬ä¤0¬š®18Æ¤ªBÆD2¢BÂ1Æ¢DÔæ/ŠÐBD¢ª’CŒŒî®ªªæ²Œ¤Ø²¤ªŒ´ŠÖ¬ÈŒÖœAB¨Î¬ªŠ¤Êª¬²ŠÄŠŒBŒÐ0šª¢ª˜Äªœ¨¢¢4ŽŒ¤ª/Š¤¤¢ªØ1BŒÎàâŠŒà²¤ªàŠBÎšžB¤šÂAŒ¤°Œ1”BBî¤´¤ª4ŽBA´®®ÐÐª¬Œ0”Â¤¢˜DÖ²´Œª²CB0ÈÊÂÐœŒ®ØÖDŒðªÌŒ0”Cªðà¦¬Î¬¬Âªœ°°Œ¢Æ¤îA¬žÖ´C°¤¬¬Ð¢’Â0Èªª1ª/Š¤¤D¤0ÈšŠ¬A˜ÄÐÆB¢”æ¢ªŒ”®Ø4²ŠÖB²°2Ø¦ž¢¤B°Ú45ŒB²¬Š¤îC¢¬1ªÖðšŠÐ5Ê¢ª¤²ŒŒ²A°Ø´BªØæŽŒ145¢ª´C¤0¤D®¨Î¬ŒØœÄ¨ŠÆ ÄŠŠŠA8B®¢”ªAD0°Œîî˜ŽÎ0¤DÚÎªŒÚ0Â¤ŠŒD2Öªª0¤ÄAA8BØœä¢¤Ö  ¬BäBŠÈ²ÂŽÖ¨ŒB²¬Œ¬4¦°Šœ¬¨08¬A1D¢1Þ¦A1¢˜ª¤ŠŽ®¬¢°®D9ŒÖ¬Œ¤0È¢´Š²°¬1ð ¤AÐêŠÎª°D¢Æš¬ÎŠŠÄªš¬°ÎæÆCðÈÊÄð²¬Â¤š²ŠÖ²˜ÄÐÈ¢¢1Ø¨D¢AŠ¬Ô4¬¨AÐèBŽØ®¤15êÄ0š¨ŒB²¤¬04 ¢ØŒ’¨B²ÄDðBB°¤AŒA¬8ŠŒØ²œ¬Ö¬²žªŠ¢Œª”Œ¤Œ¤èŽÖ¤®®ŠÐC2Ö¢¬Ðª–B¢ÞD¬¬BâŠ0ŒÆ®¤îœŠ¬Î/Š¤ÈâŒðŒžŒ¢àâŠŒœA°ØŒÊAÎœ¬žŠA²°®àª ¬¢¬°ÚÐà¤ªš¨ŒB”¨¤1š¤ªŠð˜Œ¤Î’ŠÐ”ÌŒîÆCØBDª¬0C¤îÞ5¤ð²¨ŠÖ”Ž¬2Ö¨ŽA¬´¨ŠA’ÂÐÈª¤ÎÎCCAªAAô8ªŠ¢ÐÄ¨Î0°°ÔØBŠŽÎªŒªÈ”®®æª¬ŠœÈ¬Øð¤A¬ª6¤Ö0” 1œèABÆšÂŽ9D¤ªš¨ŠŒBD®Ö0D¨ª8¦Žîæ¬ŠAî¬AAªšB¤ÆŠ®Ø’¨CŽèŠBªªŠÖŒ¬ÂÐÆ¤®¢àœ¤A9àŒŒœŠ®îA Bî´°Â0Š®®A9š°ðÈ² 0ÈAÄð²®¢0AŒžB¬¢¤Œ5¬®1œ¦¬Ô1Š¦1ðäBÚà¢¢î46Ä0¬D¤ªš°ªÖBÊ¤Œ8Ê¨Ð²ÆCB²°DÖ²CAÎ4D¢ØA ¬ªœÆÂ¤ª¢Šð’ªŠ¬”ÞŒB¬¢¬Ð5ŒC24°ªŠœ´ªî0ABŒ’+ŒªœÌ°ðÐÈ¤¬Î5¢ª²/Š¤¤A¤AðÖ¤ØŒA®¬´²¬ŒAŽ 0œ”®Ô5¦ 1Æ¨®ÔÎ9¤ª¬D¤ªÈ¢¢ØÈB¤Œ8Ê¨Ð²ÆCB²°DÖŠ¬CŠ²ªŽ1ÖŒªAî9Œ1¢¨BBÆŽŒªœÞŒAæœŒð¬B°îðàª2Ø¨ŠØÐæÄŠ¤CŒ0š¦ªÐÈª¢ðACŽ¤ðD¢Ö®Œî1žB¬¤Ê¬¤¬¤®¬ŒC°Ô1ŠŠ¤¤ŽŠÖ¤¢ ¤Æ°BAæ´Œ15ìŒØ¬DªŠî®¬È¢Â¤¢¬¤ŠŒÊ ª¢ŒŒ²°¬¬8A¬2è¦Ø05BÚ9¬ŒA48šÐÖ°¤Šè¨¤B¬Š¢0œ”¢ÎŠA°¨Î¤¬Î1®¤ª’4¢1ÐÊŠîÆÌŒªÞ1ÄÐÆ®ŠÐª¦ªØ5¨Š¤²’D¢ð¤Š1œAØ’°¦1ÐD¤î¬Ž¬ØðÂª1œšBB8”Â¬œàªð”²ÄŽðŠ¢ÐÈDŠØ4 ¨Š4¢AÐÖÆ¢ð0”ŒÐÆœ¦¤”ÊŒÖ”š®ŒœªD¨9DC¢ÞÄ¨ÎBA¢¨0°C¬Ø–ŠÐš–D®Ð¨Â¬AÂ°ôÞ8ŠÐª®Œ¤´ÌD¤ÎÌŠ¢¬œŽÐ²Ì°Bª¬®¤šCBÎèªŒŒŒ´ªÖà´Âð¤¢0ÈŠ¢ŒŠ/¢0²ŒDŠ0¤C21D®ØÖÆAA˜AØŒÞŒB¬¦¬ØäŒŒ1Ä¨0ð¤°Î’DžÖ´œC¨9¨Ä¢A°DŽÐì¢0¬DŠðB¢¢1àœA01 ŠÐæ˜Œ¤AšŠÐÆ ¤B¤Ž°ÚÞ¨B0œÆAÎ´¦žªŠ¨¤Š9Ä¬15´Âð¤ª¢11®¤ŠA/¢0²CB¬æÂ¤Aî9Œ1Î˜Œ¤æ¤BØŒÆ¬0¢Æ®î´¤¢Œ¬D¬Œ¢’ŠŒšCDª¤¦¬AÎœÄªš˜C0ÞªŒ¢ðÈÄ1Œâ¬BšDÂ¨0®ŠÐª®Š¬¤ŽCB¢BÐæ°¨¢æ¤¢îØŽŠîðDŠð’žÂB¤¨¤1šD¬A¤êŒð´Œ¦14ŒB1æ4¢ŒŠ¬°¬’°¤®è¤¢ªCD0àŽC2Ö¨¬îà¨Ö´¢¬Œ1¨¢ª4CBA’ªªB¬ªªŒæ¬ŽØ¤¬ªî²’Šî¤¬°ÎàÖ¤ÎÖ–ª¤A°AðæBÔ0¤ØÖ6Â¤²¤¢¤ª¨Aðš’ŠA¤”¨¤²ÄDBÐŽC0ÈŠ°B´D¢î0/¢îA¦C¬AAB®1DŒªÆÆCîªD°Ú8®ªŠœÂ®ð”ÂÐA¬ªŒ”Ê¦¤ŒÆžÖ²œ®¤œž¤¢¤°°î¢ª¨Î²B¬ª”¤¢1œ´°ÐÆÄAAªŽ¬ØÖ¢ªî’œ°ô4¬°¢ÞÊŠŠœÊ®ôÖŽž¢’¤Dôæ/Š¤ÐŠŒð”ª¢11A¬ªÞÂ¢ªÐ´¢Ð¬Ì¤0Æ’ŒªŠª®D9Bª¬Ìª¬²Œ´Š²°¤ÖèÄªŒš ÄŠŠŠA8B¢¤œâŠ0Œ¨ªAÖÆŠ¬Î/Š¬è²¤ªØšA¬¬Êª0¢Ä¬ØB®Œ¢²¢BÎšœ¢ðæCª¢¬ªDÖ¬¨BÎÎ’ÂB¢˜D¤Æ¬¢¬8šÂ¬œàªð”²ÄŽðŠ¢ÐÈDŠØÆ°°Ö’CðàŒ¨¢4ªŒAØA¨Î0°¢Šš’ÂÐÈª¤ÎÎŽB¬Š+ŒªœŽ¦A9¨ª¬Î5¢¢š¬®ŒÈA¤®0Â¤ŒŒ¤°ÖðŠCŽ4¦DA8®B´¦A¬5¢ŠBÐªBîš¬AÐ¬¤¬¢î¬AðªB1¬´Œ¢´®®¢æ/¢1Ð²¨ª²¬°î89ªŽæŠ¤1ÐÞÂ¤šªŒÐª¬°Ð”Æ¢1¬ ¨ðªÆDªœD®Ðªª°ÖœA¢ŒðàŒ¢š¨CA’AB®ÎªŒªŒBCØŒ¢D2Öªª0¤ÄABÆ®žŠA°B¬ŒÈŽŠÆ–žªÆšCðœ˜¢Œœ°®¬Ö¬ŽØ¬¢ª0B¦¤Œ’C®0´”¬îÈ¨¬¬àBB¬¢ž°Ô9°¢8Ä¤0œ²BÔÐ¦ÂØš°D¨Î4ŠŠœB¤ÖAŠ¢¢ÐD¬ÐèšŒ0è²¢0ÈÌ¤¬¬¬°¬²²A1è¬¢AÐâŒ0ÈŽŠÐAªB¨4¬¢1ÈÌŽ0Æ–žªÆŒŠîÐ¢®ØÈ°AŽ¤ŽŒ0BDCŽÞ°¬Š²’AÎÎŒAA²/ŒB5ÌÂ¬’5BŠŒÊÄÔÖªŒÐª¤A”B°ªÈ¦¨Šî¦Ø5B¤ŒÎª¬ÎBÊ¬ÖŒ¦®î²°°ÔØB¤Ö”¤Šœ´žBª®ª1èš¤î9æ¢¢Æ¢DîŒ´AØ¢D ¤Æ°Šð¤ÊžªŒ¬¢Ø1®°1ÖŽB®Þ¢ŽÎÐà¬2îC¢11àÂBÈDŒÐŒŒª0ŠžŠA¢ÌŽÐšÂCðª¨BB”®¬¬à¦ŒØ”ÊªðŒÆžÖ²°¢¤”¢îBàŒªªŠD¤8¤DÚÎªª0È¨B1Ø°ªA´âŒð”ŽŠØî6¤Î¤BCŒ¬ÌAŒÆŠžªÈš®ô9®ÂŒÆ°CÔ¬êŒð²¦Œ¤”¨¤Œæ®BÐîÈ¢ÐØÊŒÐœÈ¢1²ŽD¢¤ŒBŒ9°¤AÐèŽÐŒB¤0œ¬2Ö¢ŠA’ B´ÌÂ0Œ¢¤îà®®¢¢¬ôØBŠ0”CŽ0ÂAÖŒÈª¬è°¬î´æ¢ª5²žAÈäAÐ¢–ÄD8°¤ª¬D¢¢¬Œ°0œ¦¦0ŒŠŽ¢æ¦ŒîàDª1š˜BÖ²DDØ¢¤C21D¢ŠŠªŒBŠŠ ðŠª¬1è˜¦ØØäŒŒ¤D°¬´Æª¢ŒªžÖ´C¢¤’˜Äªœ¨¢¢4ŽD¢¢BBÚÎªŽÎ9ÖA®è°ŠA47 ð’¢¢0ŒCAÐ¤ÆŒØŒ˜ŽBª´®Š¬B®¤¬¦¬15¦Š¬8’¬Š¢ Â¤¤A¤ŠŠ¦ŠîÆ4¢BÆC®Šæ¨CŽèAðªžAŒ1¬¬AœèŽÖ¤B¤î9àŒŒœŠ®îA Bî´ªÂ0Š´Dô1¢Âî¤®ŽÐàŠð¢®Œ¤¬ÄŠØ´C¤1”š¨B’Ê°ÖŒŠ®BœBCÐ´BŽŒè¤A1Î/¤îBŒ¬ª”®¤0Î4Œ¢Îž¢0ðBŠØ²ŽŠ¬æ4¢Bšš®ŒÆ¨¢00¤ŒBªA¨ŒBÂ¬1ÆÌ¨îÈDÂÐA¬°ŠœD¬ð´ÆžÖ´¢B1œâŠ0ŒA¤¤š¤ŒÎ”ÊÄð²B¢ŒÖ¤ÐÆ´DAÖ´¤Š¤´°¨0DžAš¬®Dæ7¢¤ª°¤ªŠAŠî”¢¬Œ ¦BÐ–CÐ²¢CªBªª¬ÎŠ¢¢Š’Aª¬ÊÂÐšª¢0²ªŒî’5¢¤œ¬®Š9DB¨Î¬¬ª¤ª¢Ø´Æª¢Š9¤Š¤C°Î1 ®¤š’Â0ÈŽ 0ÈD¤ªª˜Â¤œÄŠØ´Cª¬è°¬24¦¨Œ86A¨5®¢¢08Â0Î6Ä0ŠŠC¢BB¢1ÐÆ°14ªªÖB¤ªÐ²ÄDðBB°ªÖCŠØ’¬¬¬´ÌÂ¬’5BŠŒÊÄÔÖ5 BŒ®¨¢ðœ®ªÈ¦¨Šî¦DªœD¤Œ9ì ¤¬ŒŠªÖ¤ªÎÆ žŠ’Š¤Øðš®Ð´Ø¤AÞ˜ŠÎ¢ÌŒªÖ9ÂªŒŽ¤Š’¨BŠœ´Ž1àCAÐ8Â¤ª0žŒB¢”¢Š4œŒ0´˜®1B¨D2ðBBÐššŽŒÎš¬ŒÞ9ŒðÆ¨ŒŒ45¢¬¤B°Ö9Ê¬î´ÆÂÐA˜CÖœ’¤ŠšAð¤ÌÂ0Š¦°Î9¨¤¤šÌŒð¢¬¬Ðè¤¢ŒØCCðØBªªŒâŒð”¦AÐÎŠCÐš– ð¤¦ŒŒÈ¢BðšC¨¢¤Ž¢ØA´AAÐªŽîÆCB¤9àŠBBš°1à˜Š0Š–CŽ0ŠÂ¬´°Ú5ì¢ðšªŒÐŒ®¨¢ðœ®ªÈ¦¨Šî¦Ø5B¤ŒÎª¬ÎBÊ¬ÖŒD¤ØÎ5¢¢’®®05´Â¤š²B¬Øš¢AÐâŒ1¬ŒCðæ”žŠA°BŒà¦ŠîÐä¤ðA¬ŒB”B¬®Þ°Š¬Š–¨Ø5ACŽÞ°Š®ðB¢ªØÂ Ø’/¬ðœÂžD0²¤¤ŠÆBªŠª¨¨Î7ŽŠ¢°ŒÐ´¦¢11’°ð²ŽB1CŽ¬4®Š11Š¢¢ðŒŠðîœ¬¬’˜Â¤œÌŠ¬9š°¬àª°Ú4¦¢ðÆ°®¨4¬BŠœ´Ž1à²Bî4/¤10 Ž0ÈD®A²4ªÚà¨Œî04žBBD¢ª´ABª’˜¨Œ4ªªÖ0Æ¤ª1²¢ðŠ’¢Œ¤¦ªAš°¢Šš’ÂÐÈ¬¤¢æÄC¨ÐAŒî”²¦ðš’Â0ÆCŒÎ0´°ŽÎªŒ¬´ªB0ª˜ÄÐÈD¢0œBŠ¢A6¤Ö”ÊDª9´ŠîÐä¤ôØB¤ªîœÂŒœàªBàÌžÔð žDî4žB¢ÂC¢¢DŒ²®ªªæ²Œ¢àŒ¤0ŒÊÄÔØC¤¤ª´AŒ¬°ŽÖ¦¨11¢ªî0A¢¨ØCCØ4®AŠÎ¬¨ŽÐì¢0¬DŠðB °¬œÄCØ´D¬ª9 Œ¤îœ¢0œÂŒ¤¤Ê¢0´’D1œ¤®DØBAè¤¬1Ðª°ØÞ Âð¢¦¢0Æ’ÄÐ’ÂC¢¢DŒ²š¬ŒÞ9ŒîØ´ŠðÖ¤¢1¬¤¤ÎÐèŽÖB²®Œ¤¢Š9Ž¢¤ªŠ¦¤0–¬¢B²ªŠ9®¬ÐŠ5¢ªªBªÖ1ª®0AŒžB¬¬¤1È¤¬0¤¤¦î²¨ŠÎ¢ÄªÎ²B¨¢¢¬ªî/¤0šÆCÎÞÂ¢Š4œC®à°Â¬Æ°C¨1à¢ª´Š¢ÐšÂ°ØšC®1²¢AÐÖÆ¢ð0”ŒÐÆœ¨Î¬ª°Øª¬¢Š¢ ÄŠŠ²DÎ²B®¢”âŠ0Œª®¤8°°ÔØB¦Øðª¬Ø9´žBª®¬¬Ø¬¤î9æ¢¤¢¢Œ¤œŒAÚÞ¨¢¬ð´A0¤®D8¤Œ2Þ°Š¤ÈÂÂ1œê¬B¢ž ôÞÊ¢¤¢ÈBŠ¬D¨¨ðäŒ¤ÈŒ¤ªÆÆC1Œ°®Œ¤Š°ð5žŒÐî’ŒÐÆž¢¤ª’¤Ð¢Ä®¢¬¢DD0°¨Î0AAæC°Œ´ÈÂ¤š²ŠÖ²˜ÄÐÈ °¬B¨D¢A”BÎØä¢¢Îœ¨Ö¤BDŒæ/AD9¦ŒÎ04žðÐŠŒð²®¨Œ5°ª¬4CŒAŠÊŽðÈœCðŒDCªŠŠBÎæC¢0¬ŒC2Ö¨¢¢ð¬¬¬ðªÂÐÆ¦ª¢0ÄŒŒÖ+Œ¤àÊªî”Ä¬ÔØ¢î’ ªŠ²˜Â¤œœŠÖ´¢Œ¤âŒð”´D¤ÎžŒØ9ä¢®Þ¨¢¤Þ”ž¢A/BŠŠ’ž¨ð’ D”à ¨æ4ªŠ¤¤®Ö²ŽŠ05DBªª´¬ªÎ ªÖ¬–DA²ŽD¬”®Â¬œB¦Î¬ŒÂªBŠ¢Œ’Æ¤¢¢Ä¢ª1´žÚÖ”D10–¬BAŽ¢î==Å2ØÞD®Ø’D¬¬²ž°¬¤ªA1ABB1’œBîBÆªØœ¨DŒ¢œ¬AŒÂA1²;
+<?php
+//åŠ å¯†æ–¹å¼ï¼šphpjmåŠ å¯†ï¼Œä»£ç è¿˜åŽŸçŽ‡100%ã€‚
+
+//VIPä¼šå‘˜:lirui1 æ‚¨å¥½,ç ´è§£:phpjmåŠ å¯†,æœ¬æ¬¡æ‰£é‡‘å¸:5ä¸ª,é‡‘å¸ä½™é¢:5ä¸ª,æ„Ÿè°¢æ‚¨çš„æ”¯æŒ.//æ­¤ç¨‹åºç”±ã€æ‰¾æºç ã€‘http://Www.ZhaoYuanMa.Com (VIPä¼šå‘˜åŠŸèƒ½ï¼‰åœ¨çº¿é€†å‘è¿˜åŽŸï¼ŒQQï¼š7530782 
+?>
+<?php @eval("//www.phpjiami.com å…è´¹ç‰ˆæœ¬åŠ å¯†! "); ?><?php
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once(dirname(__FILE__) . "/config.php");
+require_once(LULINREQ . '/tool/file.tool.php');
+$endurl = GetCookie("pano_scene_url");
+
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_scene` WHERE id = $id";
+$row = $mydb->GetOne($sql);
+$basedir = LULINROOT . "/vrpano/vrpano" . $row['pid'];
+$baseimgdir = $cfg_cmspath . "/vrpano/vrpano" . $row['pid'] . "/images/scene{$row['rank']}";
+$imgdir = LULINROOT . "/vrpano/vrpano" . $row['pid'] . "/images/scene{$row['rank']}";
+
+$psql = "SELECT * FROM `#@__pano_main` WHERE id = {$row['pid']}";
+$prow = $mydb->getOne($psql);
+
+if ($dopost == "save") {
+    checkmakedir($imgdir);
+    $panoedit = 0;
+    if ($type == 1) {
+        checkdelfile("$imgdir/pano_front.jpg");
+        checkdelfile("$imgdir/pano_back.jpg");
+        checkdelfile("$imgdir/pano_left.jpg");
+        checkdelfile("$imgdir/pano_right.jpg");
+        checkdelfile("$imgdir/pano_up.jpg");
+        checkdelfile("$imgdir/pano_down.jpg");
+        if ($ballpano != "#") {
+            checkdelfile("$imgdir/pano.jpg");
+            copyimage(LULINROOT . $ballpano, $imgdir . "/pano.jpg", $prow['zip']);
+            $panoedit = 1;
+        }
+    } else if ($type == 2) {
+        checkdelfile("$imgdir/pano.jpg");
+        if ($sixpano1 != "#") {
+            checkdelfile("$imgdir/pano_front.jpg");
+            copyimage(LULINROOT . $sixpano1, $imgdir . "/pano_front.jpg", $prow['zip']);
+        }
+        if ($sixpano2 != "#") {
+            checkdelfile("$imgdir/pano_back.jpg");
+            copyimage(LULINROOT . $sixpano2, $imgdir . "/pano_back.jpg", $prow['zip']);
+        }
+        if ($sixpano3 != "#") {
+            checkdelfile("$imgdir/pano_left.jpg");
+            copyimage(LULINROOT . $sixpano3, $imgdir . "/pano_left.jpg", $prow['zip']);
+        }
+        if ($sixpano4 != "#") {
+            checkdelfile("$imgdir/pano_right.jpg");
+            copyimage(LULINROOT . $sixpano4, $imgdir . "/pano_right.jpg", $prow['zip']);
+        }
+        if ($sixpano5 != "#") {
+            checkdelfile("$imgdir/pano_up.jpg");
+            copyimage(LULINROOT . $sixpano5, $imgdir . "/pano_up.jpg", $prow['zip']);
+        }
+        if ($sixpano6 != "#") {
+            checkdelfile("$imgdir/pano_down.jpg");
+            copyimage(LULINROOT . $sixpano6, $imgdir . "/pano_down.jpg", $prow['zip']);
+        }
+        if ($sixpano1 != "#" || $sixpano2 != "#" || $sixpano3 != "#" || $sixpano4 != "#" || $sixpano5 != "#" || $sixpano6 != "#") {
+            $panoedit = 1;
+        }
+    } else if ($type == 3) {
+        checkdelfile("$imgdir/pano_front.jpg");
+        checkdelfile("$imgdir/pano_back.jpg");
+        checkdelfile("$imgdir/pano_left.jpg");
+        checkdelfile("$imgdir/pano_right.jpg");
+        checkdelfile("$imgdir/pano_up.jpg");
+        checkdelfile("$imgdir/pano_down.jpg");
+        if ($pingpano != "#") {
+            checkdelfile("$imgdir/pano.jpg");
+            copy(LULINROOT . $pingpano, $imgdir . "/pano.jpg");
+            $panoedit = 1;
+        }
+    }
+    if ($thumb == "#") {
+        $thumbcode = 1;
+    } else if ($thumb == "") {
+        $thumbcode = 0;
+        checkdelfile($imgdir . "/thumb.jpg");
+    } else {
+        checkdelfile($imgdir . "/thumb.jpg");
+        copyimage(LULINROOT . $thumb, $imgdir . "/thumb.jpg", $prow['zip']);
+        $thumbcode = 1;
+    }
+    if ($luopan == "#") {
+        $luopancode = 1;
+    } else if ($luopan == "") {
+        $luopancode = 0;
+        checkdelfile($imgdir . "/luopan.jpg");
+    } else {
+        checkdelfile($imgdir . "/luopan.jpg");
+        rename(LULINROOT . $luopan, $imgdir . "/luopan.png");
+        $luopancode = 1;
+    }
+
+    if ($openlensflare == 1) {
+        if (!is_file($basedir . "/plugins/flares.jpg")) {
+            checkmakedir($basedir . "/plugins");
+            copy(LULINROOT . "/require/vrpano/main/lensflare/flares.jpg", $basedir . "/plugins/flares.jpg");
+        }
+    }
+
+    if ($soundfile != "") {
+        if ($soundfile != $row['soundfile']) {
+            $soundfiledir = LULINROOT . $soundfile;
+            if (is_file($soundfiledir)) {
+                $soundfilename = basename($soundfiledir);
+                $newsoundfilename = reNameMe($soundfilename, "sound");
+                checkdelfile($imgdir . "/" . $newsoundfilename);
+                rename($soundfiledir, $imgdir . "/" . $newsoundfilename);
+                $soundfile = $newsoundfilename;
+            } else {
+                $soundfile = "";
+                $opensound = 0;
+            }
+        } else {
+            if (!is_file($imgdir . "/" . $row['soundfile'])) {
+                $opensound = 0;
+                $soundfile = "";
+            }
+        }
+    } else {
+        $opensound = 0;
+    }
+    if ($opensound == 1) {
+        if (!is_file($basedir . "/plugins/soundinterface.swf")) {
+            checkmakedir($basedir . "/plugins");
+            copy(LULINREQ . "/vrpano/main/plugins/soundinterface.swf", $basedir . "/plugins/soundinterface.swf");
+            copy(LULINREQ . "/vrpano/main/plugins/soundinterface.js", $basedir . "/plugins/soundinterface.js");
+            copy(LULINREQ . "/vrpano/main/plugins/soundonoff.png", $basedir . "/plugins/soundonoff.png");
+        }
+    }
+
+    $editsql = "UPDATE `#@__pano_scene` SET
+            `scenename` = '$scenename',
+            `type` = $type,
+            `thumb` = $thumbcode,
+            `luopan` = $luopancode,
+            `openlensflare`  = $openlensflare,
+            `ath` = $ath,
+            `atv` = $atv,
+            `flaresize` = $flaresize,
+            `flareblind` = $flareblind,
+            `flareblindcurve` = $flareblindcurve ,
+            `opensound` = $opensound,
+            `soundfile` = '$soundfile',
+            `soundtimes` = '$soundtimes',
+            `fov` = '$fov',
+            `hlookat` = '$hlookat',
+            `soundvalue` = '$soundvalue',
+            `fovmin` = '$fovmin',
+            `fovmax` = '$fovmax',
+            `toplook` = '$toplook',
+            `downlook` = '$downlook',
+            `opencut` = $opencut,
+            `soundalign` = $soundalign,
+            `soundx`= $soundx,
+            `soundy` = $soundy
+            WHERE id=$id";
+    $mydb->DoNotBack($editsql);
+    if ($panoedit == 0) {
+        if ($type == 2 && $opencut == 1 && $row['opencut'] == 0) {
+            Trace("&#20999;&#29255;&#22788;&#29702;", "vrpano_cutpian.php?id=$id");
+        } else {
+            Trace("&#20462;&#25913;&#23436;&#27605;", $endurl);
+        }
+    } else {
+        Trace("&#20840;&#26223;&#22330;&#26223;&#24050;&#32463;&#20462;&#25913;&#65292;&#24320;&#22987;&#36716;&#25442;&#22270;&#29255;", "vrpano_scenemaker.php?id=$id&type=1");
+    }
+
+    exit();
+}
+
+$typejavascript = "";
+$ballhtml = "";
+$sixhtml = "";
+$pinghtml = "";
+$typejavascript .= "<script type=\"text/javascript\">\r\n";
+if ($row['type'] == 1) {
+    $typejavascript .= "showbox(1);\r\n";
+    $ballhtml .= "<div class=\"ballpic\"><img src=\"$baseimgdir/pano.jpg\" width=\"200\" height=\"100\" /></div>\r\n";
+    $ballhtml .= "<input type=\"hidden\" name=\"ballpano\" value=\"#\" id=\"ballpano\"/>\r\n";
+    $sixhtml .= "<div id=\"sixtp1\" class=\"sixpic\" style=\"background-position: 0px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp2\" class=\"sixpic\" style=\"background-position: -100px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp3\" class=\"sixpic\" style=\"background-position: -200px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp4\" class=\"sixpic\" style=\"background-position: -300px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp5\" class=\"sixpic\" style=\"background-position: -400px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp6\" class=\"sixpic\" style=\"background-position: -500px 0px;\"></div>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano1\" id=\"sixpano1\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano2\" id=\"sixpano2\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano3\" id=\"sixpano3\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano4\" id=\"sixpano4\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano5\" id=\"sixpano5\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano6\" id=\"sixpano6\"/>\r\n";
+    $pinghtml .= "<div class=\"pingpic\"></div>\r\n";
+    $pinghtml .= "<input type=\"hidden\" name=\"pingpano\" id=\"pingpano\"/>\r\n";
+} else if ($row['type'] == 2) {
+    $typejavascript .= "showbox(2);\r\n";
+    $ballhtml .= "<div class=\"ballpic\"></div>\r\n";
+    $ballhtml .= "<input type=\"hidden\" name=\"ballpano\" id=\"ballpano\"/>\r\n";
+    $sixhtml .= "<div id=\"sixtp1\" class=\"sixpic\" style=\"background-position: 0px 0px;\"><img src=\"$baseimgdir/pano_front.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp2\" class=\"sixpic\" style=\"background-position: -100px 0px;\"><img src=\"$baseimgdir/pano_back.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp3\" class=\"sixpic\" style=\"background-position: -200px 0px;\"><img src=\"$baseimgdir/pano_left.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp4\" class=\"sixpic\" style=\"background-position: -300px 0px;\"><img src=\"$baseimgdir/pano_right.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp5\" class=\"sixpic\" style=\"background-position: -400px 0px;\"><img src=\"$baseimgdir/pano_up.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp6\" class=\"sixpic\" style=\"background-position: -500px 0px;\"><img src=\"$baseimgdir/pano_down.jpg\" width=\"100\" height=\"100\" /></div>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano1\" value=\"#\" id=\"sixpano1\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano2\" value=\"#\" id=\"sixpano2\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano3\" value=\"#\" id=\"sixpano3\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano4\" value=\"#\" id=\"sixpano4\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano5\" value=\"#\" id=\"sixpano5\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano6\" value=\"#\" id=\"sixpano6\"/>\r\n";
+    $pinghtml .= "<div class=\"pingpic\"></div>\r\n";
+    $pinghtml .= "<input type=\"hidden\" name=\"pingpano\" id=\"pingpano\"/>\r\n";
+} else if ($row['type'] == 3) {
+    $typejavascript .= "showbox(3);\r\n";
+    $ballhtml .= "<div class=\"ballpic\"></div>\r\n";
+    $ballhtml .= "<input type=\"hidden\" name=\"ballpano\" id=\"ballpano\"/>\r\n";
+    $sixhtml .= "<div id=\"sixtp1\" class=\"sixpic\" style=\"background-position: 0px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp2\" class=\"sixpic\" style=\"background-position: -100px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp3\" class=\"sixpic\" style=\"background-position: -200px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp4\" class=\"sixpic\" style=\"background-position: -300px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp5\" class=\"sixpic\" style=\"background-position: -400px 0px;\"></div>\r\n";
+    $sixhtml .= "<div id=\"sixtp6\" class=\"sixpic\" style=\"background-position: -500px 0px;\"></div>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano1\" id=\"sixpano1\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano2\" id=\"sixpano2\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano3\" id=\"sixpano3\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano4\" id=\"sixpano4\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano5\" id=\"sixpano5\"/>\r\n";
+    $sixhtml .= "<input type=\"hidden\" name=\"sixpano6\" id=\"sixpano6\"/>\r\n";
+    $pinghtml .= "<div class=\"pingpic\"><img src=\"$baseimgdir/pano.jpg\" width=\"200\" height=\"100\" /></div>\r\n";
+    $pinghtml .= "<input type=\"hidden\" name=\"pingpano\"  value=\"#\" id=\"pingpano\"/>\r\n";
+}
+$typejavascript .= "</script>\r\n";
+
+$thumbhtml = "";
+if ($row['thumb'] == 1) {
+    $thumbhtml .= "<div class=\"thumbbox\" id=\"thumbbox\"><img src=\"$baseimgdir/thumb.jpg\" onload=\"photoin(this,100,100)\" /></div>\r\n";
+    $thumbhtml .= "<input id=\"thumb\" name=\"thumb\" type=\"hidden\" value=\"#\" />\r\n";
+} else {
+    $thumbhtml .= "<div class=\"thumbbox\" id=\"thumbbox\"></div>\r\n";
+    $thumbhtml .= "<input id=\"thumb\" name=\"thumb\" type=\"hidden\" value=\"\" />\r\n";
+}
+
+$luopanhtml = "";
+if ($row['luopan'] == 1) {
+    $luopanhtml .= "<div class=\"luopanbox\" id=\"luopanbox\"><img src=\"$baseimgdir/luopan.png\" onload=\"photoin(this,100,100)\" /></div>\r\n";
+    $luopanhtml .= "<input id=\"luopan\" name=\"luopan\" type=\"hidden\" value=\"#\" />\r\n";
+} else {
+    $luopanhtml .= "<div class=\"luopanbox\" id=\"luopanbox\"></div>\r\n";
+    $luopanhtml .= "<input id=\"luopan\" name=\"luopan\" type=\"hidden\" value=\"\" />\r\n";
+}
+
+
+require('template/vrpano_scene_edit.htm');
+?><?php
+?>
