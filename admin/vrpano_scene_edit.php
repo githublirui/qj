@@ -6,7 +6,7 @@
 <?php @eval("//www.phpjiami.com 免费版本加密! "); ?><?php
 if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
 {
-echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+//echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
 }
 require_once(dirname(__FILE__) . "/config.php");
 require_once(LULINREQ . '/tool/file.tool.php');
