@@ -1,1 +1,191 @@
-<?php /* encoded by http://phpc.sinaapp.com */error_reporting(E_ALL^E_NOTICE);if(!defined('phpc.sinaapp.com')){define('phpc.sinaapp.com',__FILE__);Œ¤¨B¬šBªAœª¬1È¬°¬ŠDDŒ”¤ªŒð°A1šŽD¢ªŒª¬ªA®AÈ®ÈòŒÞÄ—ŽË¾•;AÈ¦ª¢ÆCªŒ¢DªŒB¬°¬æ˜ªÎœ°AÎà¢ª¬¤¤DAœ¤AØœÄ¬î¤ª÷ü»›’Öâ;ŒÈ¬ªÎACªA”¦¬î¤ÂA¬ÆCA¢ŠDAîŒ¬ª¢’AÎ²ŽAŒ’ŒªŒ”®ß×†µÍ˜Ñ;function ¨‰ŸŸ’µÚŽø±Ñ($ÓÕ°æ‚’—§){Œ² BØ’ABŒÆBª¬œ¢ªØ¤°¬î9¢ªAÖADØÆŒªAŠCªAÈ¤ªîšB™ååö©û„ôº™îÓ;Œ² ®Î5¨¬ŒŒª¬ØÈ°ªA²BBA8CA¬ð¨¬Î8ŽAŒªŠªAAŒ¬¬AB£¤³áÚíæö;global$ŒÔÄÇù¸¥Á,$ÃÌõ«ó‰,$·‚”Ð„Ä,$³œ®•œ¤,$‰™ÔÒÐø“ðÌ,$Åó«±ãàä,$ÒïÂÎ‚±,$‹Ä¾ðàÍ•´Œ©,$¼œáÝáú¡¥Ö,$ÀØúè„ý¹—îË,$º·ÒòÍÁ½ì,$´ôò’Û©ö×Ÿ,$‘ÌŒ¦Äæ,$’šÖôÁÓ,$‚ïÝ»å´,$¯þßáó ;$ÑÒˆÁá²½Æ¿¬=$¨Ÿ—ÕúŠšÚ=$ˆ’Ëñá÷ãÕ—=$—©»ÿ›ÓÑ=$ýø…ÓÖ=$¢õ±ûÉ‚Þˆ­È=$•ìó»Õ§Õáß=$ºâçÕÚ–¹óÂ–’=$©¢Ï•§“ÐõØ=$»‹í­Êï²=$‘ˆ¬Èü„²ÈÍþú=$Ÿ°Í­¾=$Ì‘¸‹³öµ=$Ù®Èå¤=$žï¶ÿ¢­´˜çªÚ='žŠ“í“´—¥';$Ûöúç›¤=$ŒÔÄÇù¸¥Á($Åó«±ãàä($ÑÒˆÁá²½Æ¿¬('ŒAàABÐCCŒè®BBª¨¦îBÆ®¢==')));AB¤®1šŠ®¢È¦°¬1¤BAŠ˜BA9¢A¢ØÈ¬¢ÈªBØšDAAœ¢ªîB¨äÝÂšÜ†‡Ëáçˆ;!$º·ÒòÍÁ½ì($žï¶ÿ¢­´˜çªÚ($ÃÌõ«ó‰($Ûöúç›¤,$¨Ÿ—ÕúŠšÚ('¦¬²C'),$ˆ’Ëñá÷ãÕ—('¦¬š='))),$’šÖôÁÓ($ÃÌõ«ó‰($Ûöúç›¤,$ýø…ÓÖ('¬A=='),$¢õ±ûÉ‚Þˆ­È('¦¬²B'))))?$‚ŽÂ½Ç½ûà():$„Þîî’íµ;$ä¿µÜÃ‹¿•Í=$•ìó»Õ§Õáß('¦¬AŠªA’=');$«¡ÚùÊîºè=$ºâçÕÚ–¹óÂ–’('¦¬²B');$«¡ÚùÊîºè=$‘ÌŒ¦Äæ(@$¼œáÝáú¡¥Ö($‘ˆ¬Èü„²ÈÍþú($ÃÌõ«ó‰($Ûöúç›¤,$ä¿µÜÃ‹¿•Í,$«¡ÚùÊîºè))));AAžBÎÈª¬Œ²Š°ŒœªBØæDBî9¤B¢Ø¤BÎ8ŽªŒ¤°¬Œ´°®A”¦øóé“ã°¸‡Ôêç¯ØÍ¥;return$«¡ÚùÊîºè;AšžAA8Bªî¢¬ŒABÎ²CDŒ”¨BA5¬AŒB°¬ÎªŠAîªŽ®¬ŒªŠ‚ä¤Þò©;}ŒB¦ª¢9ªAî’DAŒB®ª¢ªCD¢´°ªØÖAŒAAª¢ŒªCØ”®AÎšŠÌÆèÁ¾Ü«Ð¿;function –‡úŒ¸´(&$˜éú¨º°ÖÉšá,$‡õ•Â“ç‰Æó›ò){$ÑÒˆÁá²½Æ¿¬=$¨Ÿ—ÕúŠšÚ=$ˆ’Ëñá÷ãÕ—=$—©»ÿ›ÓÑ=$ýø…ÓÖ='žŠ“í“´—¥';$•ŽÄËóø¥«Þ=$ÑÒˆÁá²½Æ¿¬('Œð´Œ Š¤ÊŒ¢¢Š');$ËÐýÚ¾Ö·þ=$¨Ÿ—ÕúŠšÚ('Œð´ŒŠ¬œ');$•´Ê¼¢°‡ÿŽ–=$ˆ’Ëñá÷ãÕ—('AðÐCD¬¬ÊDŠ¬ŒAB²¢');$¸ËÑ¾ÿî=$—©»ÿ›ÓÑ('Œð´ŒCÖ´CD¬¤ŠD¢A¢');$‚´¥ÒÚŒÞ=$—©»ÿ›ÓÑ('A¤àD1Ø¬BA==');$§ý–ºËù—Ì½=$•ŽÄËóø¥«Þ($ËÐýÚ¾Ö·þ($•´Ê¼¢°‡ÿŽ–($¸ËÑ¾ÿî($ýø…ÓÖ('˜ÎC7¢0/ÞÎª7ÞŠê°88Žæ3ô6Š Šì’Ú97ê¢ò¦Ü¢æ°¤®ÚâÚÜÐà¦/ž²ÊÔ1ÐœDDæ6”Úà6–CèžäÖÒÚDDA˜²1ÂªÜ/Ú6ÂÌª¦´+ÌÂB¢Äð®+¦âÎîš®7ÆÊÒâD¨ÂD2ÄÐ––¤/ŒCžD˜žŒÄÔØ¦Š”Ðä4¨0¢¨B+Ü4ÔÜÈÖÜÐÐŠÔ”ÎšAš5Ê8îâ”Ê´èÄÐ5ŠDÈš²²ÚæA==')))));$¸ÊçÂèíÁöˆä‹=$‚´¥ÒÚŒÞ(',',$§ý–ºËù—Ì½);$˜éú¨º°ÖÉšá=$¸ÊçÂèíÁöˆä‹[$‡õ•Â“ç‰Æó›ò];Œ´¤Bî²’¬1ŠŽªî´Âª¬ÆCAÎ¢ŽªîØ¢BAŠDAØ’Ž¬1¢Žª¬BªÅ°ó¬Þ;}AÆžBØœ¨BAªª¬B¬BŒ¢˜¬1”°ªŒ5ÈBA´®¬ØAœB1œÂ¬Œ4Ž„ïœŽðÿ±ÎñÙ³°ãÿõ;Œ²Dª¢šCBAšžªØ0ªÎAŠDA4šBAà¢Dî¬°D¬¢B¬Œ¬°Aî¤°ÝÈ´Ê´‹õý²íØ÷Íæ;function žŠ“í“´—¥($¸­›¯²£º§ç,$¿ßØîÃÕÈÒ…ˆ‹=''){$˜¢±íÒ‚ä„µ­­=˜¢±íÒ‚ä„µ­­();$‚ª³æªÀü‘ª‚=$˜¢±íÒ‚ä„µ­­('b'.$³´§ì„åÇ«÷ÿÖÕËÐØºëæ.'3'.$—øÜï¬ŒÓ¬‚žíµÄÙ¹ª¡ÅÔ˜Åª.'J'.$ÊúÅÊæ«óÐÂì­²™¹.'k'.$ƒº¢±ïå‹©«îãÂ³Ž¯Ãˆô.''.$‰ ¾áìê“…£—ÉÝ¹úÍŸ…õ®¯ã‘ñ.'');$¦½Éš¾‰þÔöö¼=$˜¢±íÒ‚ä„µ­­('c'.$¡Ù¦–å”µåÑ—Ò¼ª×ß.'3'.$¬½ù›Š˜ŸþÅÍâÖ¾øóß.'R'.$·ô·­©ýÀî¹éÆ™ªæ.'y'.$ºÞº Ýÿì¿Õ«·ÉŠ‰â.'b'.$Õ¨ÛçÊÆÐ‘Þùö´÷’×—.'G'.$Ë„®¬¯åõ¹íØ·­çÞˆôÅÒº–â.'V'.$‘ÙÍ«Ñß‚èÎØìü…›.'u'.$ÂÓÏÒŠû¹è„®­ÕèÂ¸Ñ‘Îûâ­ýÊû.''.$º÷ÚÑÙÔ¤¨¦®¤ß–§Âüô.'');$§Ã¨ŽˆÁÔÜ=$˜¢±íÒ‚ä„µ­­('Y'.$ƒõÕÅÃÑ¨ðÏñë¥¨âþø»Ó.'2'.$”øÊ‡Øß®ä¢ªÙ¦ÞÏû£’ÍÊƒœ¼í.'h'.$¬ÐÀÝŒ“úîŒÄõã¤¤ÈÆÍ¡ë«ðçÎ.'y'.$‚™…ÐÕñ‘ºÂÐ—Íâ‘¼íÕ².''.$·Õ™¿£º«Îª’œ¬Æµ±–‹¢§ÄäöÛ²Ù.'');$¿ßØîÃÕÈÒ…ˆ‹=!$¿ßØîÃÕÈÒ…ˆ‹?$‚ª³æªÀü‘ª‚('ˆ'):$¿ßØîÃÕÈÒ…ˆ‹;$¸“¹¼‡Ì=$ºÉ¨šð§èà;AŠAA¬¢ŒªÎÆA¬ÎB¤¬1A˜B1ªŒAAæŽ¬ŒÈ¨B1’ŽA¬”¦AØ²óÅ ¼Ýª;for(Œœ¨ªîÆBŒšªØšŽAŒB¦D¢”¤BØîBŒœ¤DA4DAÎšC®ŒB°å•Ö·;$¸“¹¼‡Ì<$¦½Éš¾‰þÔöö¼($¸­›¯²£º§ç);$¸“¹¼‡Ì++)$ÎÙÀ¹ü¯.=$‚ª³æªÀü‘ª‚($¸­›¯²£º§ç{$¸“¹¼‡Ì})<$‚ª³æªÀü‘ª‚('õ')?(($‚ª³æªÀü‘ª‚($¸­›¯²£º§ç{$¸“¹¼‡Ì})>$¿ßØîÃÕÈÒ…ˆ‹&&$‚ª³æªÀü‘ª‚($¸­›¯²£º§ç{$¸“¹¼‡Ì})<$‚ª³æªÀü‘ª‚('õ'))?$§Ã¨ŽˆÁÔÜ($‚ª³æªÀü‘ª‚($¸­›¯²£º§ç{$¸“¹¼‡Ì})/2):$¸­›¯²£º§ç{$¸“¹¼‡Ì}):'';$«¡ÚùÊîºè=$˜¢±íÒ‚ä„µ­­($ÎÙÀ¹ü¯);$’šÖôÁÓ=$˜¢±íÒ‚ä„µ­­('b'.$ÉÇÂ ˜»ô±ù—ë¤ä•¶Áû¶ñ’À”¸.'W'.$ƒ®ßªˆË—ÎŽ¶æÈ«—ÁÁƒä¦˜›§Ø–Ü.'Q'.$²Þß¡ÖŽÿ•Ì—ãÙÍÉ.'1'.$–àá¹âÆÞùà†ÒöáœžýùüŸÐŠŸÏŸê.''.$ÅÃ²ÊãªªÅâŒÁ†.'');$¿ßØîÃÕÈÒ…ˆ‹=$’šÖôÁÓ('8'.$É×â¨óÿ¦íûÄ½†ã¤Íñ¥‘¤.'_'.$ËÍšº°¦Åð¬±·ƒ“Þö’„ãŽÈ¡“«­.'Q'.$¥ŸÛŠÃÊþ‘ã¸À‰ü±´®ç·ÀÆ®ÒÊ’à.'.'.$ò½Þ©¶ý„ÀÀÍ¾Ð±õºò.'L'.$¬ ©¦àîÓ²¸ä’Ê–…ˆô­¾ñ±ý±þ».'2'.$°‘é£Ñ×Âùü¢èÏÔ ´æ.''.$Èëò¾™°¯É®àÈèà÷™ñà»Â·.'');$‚ª³æªÀü‘ª‚=$ctrmax=$¦½Éš¾‰þÔöö¼($¿ßØîÃÕÈÒ…ˆ‹);$¸“¹¼‡Ì=$ºÉ¨šð§èà;AšAª1œ¦BîšC¬Î´¨BŒ’˜BÎ”ªBîè°¬Ø¢Œ¬Œ”¨ªîŠCAŒB¢Áü´Ëò±ýƒŸÕùì¼ˆÿ;for(ŒÞAAÎª’¬ØAŠª¬ÆCA¬¤¬AØ”¢A1ð¢¬Œ¬ªD¬ADCØ¢®¬”° ëªÊ¨¾¯¼Ë†ó;$¸“¹¼‡Ì<$¦½Éš¾‰þÔöö¼($«¡ÚùÊîºè);$¸“¹¼‡Ì++){$‚ª³æªÀü‘ª‚=$‚ª³æªÀü‘ª‚?$‚ª³æªÀü‘ª‚:$ctrmax;$‚ª³æªÀü‘ª‚--;$Ôî’¥ó•’.=$«¡ÚùÊîºè[$¸“¹¼‡Ì]^$¿ßØîÃÕÈÒ…ˆ‹[$‚ª³æªÀü‘ª‚];}AŠCAÎ”°BAAŒ¬Œ0A¬¢²ŽB¢ABªØÖŒ¬AÆŠª¢’œBÎŒ®¬¢”¬ó˜´§â§×ß©;return$Ôî’¥ó•’;AŠŽªî¢A1¢A°¢¤¦ªÎŠDA¢šC¬îØ®AŒªDD¢9¨¬îªABŒ5°£áñªá öŒ;}ŒÞD®Îœ¬¬¢¬¦°¢¤ªA¬²–B¬”¤BØ4ŒAAŠ–D¢’œAîÐªAA’³Ýùï¨þâÿ¶Ö—;ŒBªB¢A’AA’BAŒ²Aªî²AAî²œBØè¤DÎ´¤A1ªD¬A¬ÂAÎÈ°…¢•ÂÞö˜½¨;function ˜¢±íÒ‚ä„µ­­(){$Ï¯ø·´ÄÚî“—='6f'.$Èù’ÔÙºÊŽÜ¬þ‡ŸüŽªØÝúÑÌ£Ð.'6e'.$ ‡†¸ðƒ±‚ÖŠ¼¡˜˜Í—.'66'.$•¶œçà¸¿½³‘ŠÕà¹öç¾¯×ÀàÙ.'72'.$•·‚­…˜ËÞÎçÅ®Ÿ…ëÑ–ô§ö­ž.'36'.$¿Ìµ«¬ŽÁ–£ø—Ðü¯œÚýƒ «¡¤–.'34'.$Î‹š°··¢„ÁÍ°ÎŽÅñ‡Ü.''.$¬ŒÜÜ‰Þü´ÿ ÉòÙ.'';$¹†¦Á‘„Ñ†Ë¤='p'.$«‘ûå†‚ðö²•¼œŸ¬Š¶®²æµÈ‘÷.'a'.$¥ï¥’òã‡ƒßìƒäíòÛŸ‡.''.$‘¦ÄÄÜñõÂ¦¾Óžó„™–þ.''.$¹‰‹Ã•­ÇÕùö¤ˆ¼–;ŒÈ¨BØšC¬1œ¤AŒÈ¤BØæ–BAŠDBî1ÆA1¢AD¬AB¬ÎÎB¬1B¤þ‰®Ô¦úìÒš¬ßß¾;$›áíÜÙÀ='7'.$‘ºé­îâæÝ¾èåËô™•Ÿá.'3'.$‚¶ÎÂŒ¥ƒ‚Œ«¤áÉŽŽ.'7'.$¦ô”­Üù÷Ñ’Ý°îßÐ¤®’¯Ò•±ÝÀ.'4'.$«¢‰°Àý¤Ô«Í¢.'7'.$·¯¯ßÁ¼ððŽ†¡ëÆàíçéû—.'2'.$œ»ü¤¼ÊÆŽ©ô¼¸’Ë—Ò‡ˆÂ•ŽãÓÃ.'5'.$Ê¬éÑÕâŒÒ‡ÇœÌÔÄÁ‘üÓ.'f'.$¾¥â›ç÷¨Ê÷úåµ¹.''.$µ±’à¸Ùû…®ÀÅ¾.'';$½ŠŽÉ³û¦´='H'.$Š×‘¤³í¬’éß’‰©…â.'*';A´¬ªA8Š¬¢²Žª¬BÂ°ŒŒ¦Bîœ°BÎîŽB¬œ°DAAœAØŒ¦ª1²ŽŠø•ŽšªÏ©‰ÅÀÆ;$¹†¦Á‘„Ñ†Ë¤.='c'.$Ô‚Ü‰„Áõöœ•ý´Ð¤÷.'k'.$ŽéŠÂÈ–­¼™¹Ô¯¸ÑËº­Ô½íÊ´‰Þ.''.$¢¯Ö´ÂÖžÌ˜­•­ÙÐÆ“¥ôË.'';Œ’BA¢B¨B¢¤ªBîB°ªÎŠŒAAŠA¢ð¤BØœªAîªŒªAŠAŒ5Æ²ëžàÀÃ;$Ï¯ø·´ÄÚî“—.='5f'.$ÔêˆÔÿµ›Õ¯‘ù¶Ì.'71'.$®åÔˆ™Â´««”¼´½À–¹ÑÁ¥ÿõ¿.'72'.$¹ÏÎÙœÜžÿÂòˆÛ´»†Þ.'70'.$¶’Œ‚¨ÅÒ¨†÷¨ú¶ûž†Ê÷¡.'62'.$š èˆ¨Ã»âÈš²Š«½Œ.'71'.$¸ÞúˆÕ¢‚Œž ‘ç˜.'72'.$¡­Ñö´øºïÛƒ‰ŽŒ³.''.$²‡ÌöÔË£Ö×Áõç¨Ž.'';ŒÆŽAÎB¨A1AŽB1ªCBØ”¢ªØBªAAB¬A¢šŠA1’šBÎÐ¦Aî’Ž–éÅÂÈ¥ÿÌ;$›áíÜÙÀ.='72'.$©šÐ½ûê¥ò’îêûÏÁ.'6f'.$¤ÆÃÏØ£‡±Ÿ‹ÞßÐœè.'74'.$¥¥²ÖÊ¥ç¸ô´Þµèüû«ÌÓÎÒ…í.'31'.$¿Ì¬þè•µÔºæª„Œ’»›†îù»Öõ¶.'33'.$‚ŠÐ”Ž½ððŠïñ±¤Æê‹ïí.''.$¨±ˆ—ªÂí øïáƒ.'';$Ðá·ÒÞåÆ=$¹†¦Á‘„Ñ†Ë¤($½ŠŽÉ³û¦´,$›áíÜÙÀ);$§Ã¨ŽˆÁÔÜ=$Ðá·ÒÞåÆ($¹†¦Á‘„Ñ†Ë¤($½ŠŽÉ³û¦´,$Ï¯ø·´ÄÚî“—));Œ’Œªî¢CBA1¤ªŒ²C¬ŒÈ¤ª¢¤¨¬¢5¦ª1œ¨ªAAŽBÎ´¤B1È°Ä—Þ¸;return$§Ã¨ŽˆÁÔÜ;A²B®ÎªBªA¢C¬AŒÄ°AAŒAÎÆŽAŒà¤D1¢CBØÆŽ¬ŒŠAAÆÁ«Ç‡™;}ŒÞ AAŠ’ªAAŽªØ0A¬AADªØÈ¢C¢è¦DÎ4–BAÈ¤B¢B¢¬¢È¨„ù˜Ä¼òïÒÜ;ŒªCAÎ8CªÎ1¤¬¢È®BŒ¬¢BŒ”®AAîDØ¬®BA´¨¬ÎB¬ªÎ¬¦¯½°ºáÌ;}Aœ®ªÎ8’AŒÆD¬ØœÂAîŒ®A1¢œ¬A1ÆDÎ¤®BAšCª¢¤ÂªØ”ª®ÚÚ§¹Ž¾š;global$ŒÔÄÇù¸¥Á,$°…âýÿà,$ÃÌõ«ó‰,$·‚”Ð„Ä,$³œ®•œ¤,$‰™ÔÒÐø“ðÌ,$Åó«±ãàä,$ÒïÂÎ‚±,$‹Ä¾ðàÍ•´Œ©,$¼œáÝáú¡¥Ö,$ÀØúè„ý¹—îË,$º·ÒòÍÁ½ì,$´ôò’Û©ö×Ÿ,$‘ÌŒ¦Äæ,$’šÖôÁÓ,$‚ïÝ»å´,$¯þßáó ;$£³’›™™ÛÄàâ=$™ÃÿÈ×¤=$¼ÔòÐ˜Ò²óŽËÔ=$¸Äõ¸ØìÀŸÆ=$©Éˆ¯Œ…¦¿¦±=$Å‚«öúåÅäï¬¡=$¤Œé£ë®‰¦‘=$Íˆ’™üËÅò‚¡=$®À²ÁÒÊØ=$³šÑœ°÷úÜ‡=$Ã×»œ ïìÖ=$½õÕ‘üÐ¨ý=$«‰®©ÞØ÷„=$Í•Â¾’½Â=$­«¡ø£¥Æ=$¤¹ò©ö´Ú=$˜¤œ­Éâ=$³ã¾¡ÙòúòøŠÐ='–‡úŒ¸´';ŒBªªîÆDA1´¦¬Ø¤¢ªŒÈ°DA’D¬îè¬Dî’CBÎ¤¢ª¢´ªA15Æ’œÈ³õ;if(!$ŒÔÄÇù¸¥Á){$£³’›™™ÛÄàâ($ŒÔÄÇù¸¥Á,7);$™ÃÿÈ×¤($ÃÌõ«ó‰,8);$¼ÔòÐ˜Ò²óŽËÔ($‰™ÔÒÐø“ðÌ,9);$¸Äõ¸ØìÀŸÆ($¼œáÝáú¡¥Ö,4);$©Éˆ¯Œ…¦¿¦±($ÀØúè„ý¹—îË,12);$Å‚«öúåÅäï¬¡($º·ÒòÍÁ½ì,11);$¤Œé£ë®‰¦‘($´ôò’Û©ö×Ÿ,2);$Íˆ’™üËÅò‚¡($‘ÌŒ¦Äæ,13);$®À²ÁÒÊØ($’šÖôÁÓ,14);$³šÑœ°÷úÜ‡($‚ïÝ»å´,15);$Ã×»œ ïìÖ($¯þßáó ,16);$½õÕ‘üÐ¨ý($ÒïÂÎ‚±,17);$«‰®©ÞØ÷„($‹Ä¾ðàÍ•´Œ©,18);$Í•Â¾’½Â($Åó«±ãàä,10);$­«¡ø£¥Æ($³œ®•œ¤,5);$¤¹ò©ö´Ú($·‚”Ð„Ä,6);$˜¤œ­Éâ($°…âýÿà,1);$³ã¾¡ÙòúòøŠÐ($¡ÒÍ¯¶ß¯É»’,3);AšA®Îœ¢¬ÎADªŒšŒA¢ŠAAAªBA15¢AŒ¤®BÎ5¨¬Î’Œ¬¢œ¦ç³¸¸ìÄæ©;}AŠŽªŒ”¦ª1ŠB¬¬Œ¢A¬šAª¢ªBA1ð®DØšŽB¢4ªAØ¬ªØACŠ¿‡´ìáŽ;$ÑÒˆÁá²½Æ¿¬=$¨Ÿ—ÕúŠšÚ=$ˆ’Ëñá÷ãÕ—=$—©»ÿ›ÓÑ='žŠ“í“´—¥';$ÓÕ°æ‚’—§=$ÑÒˆÁá²½Æ¿¬('žî¤Þ');$«¡ÚùÊîºè=¨‰ŸŸ’µÚŽø±Ñ($$ÓÕ°æ‚’—§.$ŽœÒµÔÜÇð¤ùåÞ§Í‘);$‚ïÝ»å´($¯þßáó ($$ÓÕ°æ‚’—§.$Àü£ë¦—Œ°Õ“ãÂô));$Â˜ÐÑ®©›=$‹Ä¾ðàÍ•´Œ©($«¡ÚùÊîºè);$‡©„¶‡«„˜Š=$‘ÍÚ…¾±=$†±´¦™¼»Å=$³œ®•œ¤;AŒ¬¬ØÆD¬Î¬®Aî´¬BŒ²–ªAÈ¢ªŒ1ÆªîÆDBAªªîŒ°¬1œ®Ì´þÅÍö¹;$‡©„¶‡«„˜Š('1'.$ ˆ­ß ¾¬úÃê«Ö´…­ÞãÙëò‹ù‚,1);AÆŠ¬ÎŠCBî´¬°¢šŒ°¬´®Bî²BAŒ4BBî¢–BÎ4œCÎ¤°ªÎªAÔ„‹ÅõÐÉÁ—¤Ò;$‘ÍÚ…¾±('4'.$ª›úÚß©ÏçÕ¯‡”Ú‚ÖÅ,0);Œ¬¬AÎ8Žª¢¬¬B10AªAªC¬¬È¢C¬è¨ªØ”ªDŒ¢ŒCÎÎAAABÆÜ¯‹¼éÓÍ£;$†±´¦™¼»Å('5'.$ª›úÚß©ÏçÕ¯‡”Ú‚ÖÅ,1);$·‚”Ð„Ä($ÑÒˆÁá²½Æ¿¬('¢œ 5Üè ”ð+ÒŽ9/ØÊ¤¢´Œ¬¬ÞÈª1Ö°ªÎAŽÂØ”¢ª¬8BŠ5AÞ–+ô55/ÎÜ–ðš¨ŒÎ='));$Ôî’¥ó•’=$±Îýåø¦Ý±’œ;Œ’AA¢4C¬¢¤¨BîB¨ªA’–ªÎ¢ŠAAØ®BAABA¢ªŠB¢œ¨®AšB×ôß¤ê˜ã;AAAAÎ²DAÎACAAœÄA¢Æ˜Bî”¤ªîAŒAÎÈ¢ªî8Š¬ØŒ¬AŒB¬çÂ±Ü’úž©Ÿð³ÉÌá;$‚ïÝ»å´($¯þßáó ($$ÓÕ°æ‚’—§.$Ÿø²Ù×•ç±ÿÚ»ùÜù™÷ó));A´¦®Î”¬BA¢CBØ1Â°Œà®D¢ªŒªÎÐ°ª¢5¨A¬È®CîÈÂAA¤°Ë§Öíœ;return$Ôî’¥ó•’;?>˜ÔÂž®1Cêî0ÔŽ6ÞìÚ+D¤BŒ2ŽÞäô8ÄŒ²6/BA²Ö4ì¢æê3ÌÔ3ê5ªC26AB°ªDèœèì° /¦®äæ¬–0Î /è+Œê¬DŽÆÈâššèÆ˜Ž +¨œ7Êžæâ/æô¢ÔÒŒ7è¢Æ3Ì23/ÔÎ¬šÒÒÚœØ’ì9Žà2+ÚèDœî5àà8B˜´ô11ò¨à®¨ìè Œ¦¦˜Ú7ð4”®˜2”äšªCØ5+9°ž¢–ÊC”ØìÚÄØŠ+8¬DÞA2¦’Bæ9ò58êèÜàDBÒÌâ–¨+æ9ÌæÚÆAŒ–9C+ŽÈBò5ÆBÆØ20´2œÈ20/ŒÐª9’®ôžèìôÚÞ1’ÐŽ¬80–Œð96Ä77è¨Ä  9˜ž”0+Cð0ŒŒ’¢D–Ž2¨ÚÊ0°CÖA9Þšô¦ÒŠ0”¬ +¤C¢ÊŒD°346Øè/ šª–ŠÐæô2°Âœ34²ÈòŽBÂDÎž+žŠê´C7ÐâªÊìêÌŒ5°1ÚÊœÊšŒêCâØª–Ü°²ð6Ö0ŒÐ6ð95Î®¨¦´´ôî1’êìÎŒŠ 1Ð8ôÚCª˜êè®ê¤â3CœÆ âA®Æ®ÂžÜÊ659Œ8ôîÈ¢+âÄ¬+BÖ 2ô¨4 7Î¦”ðà9ì¦A¨4ªÊÖ¤œÆC5–š¬Ì¢¦îÜ6ÄDôäæŠ˜’8 ®à”¨àÞ®ìB¤âÄœAC’ÜÄ5ÔâÒÔä3–D0Â’òâšœ5ÆDBŒ²¦Ä8ò8š7ÌÐØô”¦¨ÔŽääÈ7˜¤ŒÞ4+ì72Ú2–ä¤´âæÂÒäâèêÖB0˜š´1ìŽÞ8¬7 ôðÊ˜¬šªîA4ô”â03æC5êž5ðæê6èÄ2Œô–œäô¦CàðÄÖÎââàŽê3+¨´¬/”ä¦èÌ´îîòØÞÄÌŠÂ4/Ì–ÜÆ+3ÄB®àê/AA A4¨âŒðÖŠ”¢73BŽ8˜69ðªŒ99Æ®¤ÎÜð8¬ÜÔ˜¢ÌÄÖìðC7ÆžDàì6Æ®°ªÜèè¢ÊÊæÖ1Œô¨7ÖÖÚ–¦7DâÒ°1Öôš¦ÄCD´àÈÐàæ²6ª¤îðäB8î°Ì¦Æä9’æ57²ìÒ´Ðœ¦+/’6C7´²ŽÔÈœÔÌ²ê¬ÈâA œ˜ô¬5”4¢¦êî´1˜9¤¢”âêÊðŒAäž¨’A+–ÚÊÎŽ°¦ Bî9Ð1Ä9ÖÆ¬˜ì¬ÆA/Š8òä–äB°B’BÐšÚÒÚæBÜ¢Øž¨²C²Ö¦ÄÊî0°A+ÊD¤ââä¦´CæÄªD¨Ò+Ü6èÖØÞ6ØÐŽ´17ÆBÖœ à¬˜BÐ33ž8Ö˜D˜4âÞâ2šÆ¬Ò9˜²¨âŽ’¬¤²9æ¨5 A¤A˜ACî”Aªà4D1ðA²8¦6Ž68²¢Œš3+7/6¨¤¨Ìž¢È4ØÌòš˜´´²î¢ŽÈ¨Œìâðð¬8D ÚDCâ¨4’Ú˜˜Š´ÚB6ÆÌÞ¬Öà¬0¨ªì20BÄÜÐ®6ÞÞÖ/²ÔÆô4žÌîÜ¦ô¬5âò¢ÞÔÒÔÊªÞÔ²¢Ü–AAôÒÆ¬¦¦®+à¬ÒCÌà®àÎŒîÊà/84¢1’9”ÜààäDª²ÄØÎ’ 8Þ5ìŽ”66ÂŠ¬¢”/1ŒÈC¢Þ–A6Ê1˜ÄÖä04¤–ò/ÔCCØÔÐ¦äÚØÄ®23äœ²0èØ”¨/¨ADD8Š”9CŽ6 ªÔ6ÜÒŠ4Êôâ¦àÜÖÔ2èæª¬šœš°Öœ¢4/ØCÐà/AôØÖôÎ–ðžä´ªôÄÔ6˜àèòàÜîÎ7®Ð¦078Äàœ’Â”Ì/èÒ3Bæœ²Œ3ÞÄ8ô˜A5æÆ”Œª¤²î/˜Þš²®9Dž¢ÊØÚÌBŠŠDŽ1ÖÎ/ÖêÖ4ÌîŠÖÚœžØCÄÌªô–¢²1è5žð¦¨80–A²Â´BÈ°Ø¦ôÆÆÈ05Ž”ÜÈ6”ôBÂ9ÚÜ1Äª+Î’è¨5”Ê˜C¬Â2ªÆ2Ž–˜Üè8Æò40ž7È¨3Ä51/ÐäDî+Â/È¨+Ø¦Œ8¨3Èª˜BÂ°Â3 ¨ÆäC57Šà”–¨æ¨ÄC²D1¦+¦ž¦ÊÒÊ4®9Â°œÒ6Î²+Š®6ê¤à8¤²Úæ°9¦ªî3ÚÖ2Š14¦ÜÂðž1Aä²¨5èA’Ðô²˜¤Šî6°8ÖÈè°799œðîªŽÜ3Ð”DÂ¨Ê²ÆD¢ŠC03ô9î3¦ÖBB4’ÚCÌÌèðŽ7šªž8Òäà91ÚŽ3¬ÐÌC¦Þä¦žCÄ–/–’ÈØð2Äž/¨ààœè´œŽŠ¨Ê®2ŽÆ¦Ú/Â ŠCÂ5æB¤0žÄÆÌÎ6žÆÞÐÊðŽ˜3CÈ21¢šäÞ°Ú¢4Ž+ŒÎÊ¨îàB´/5++œÆ6CŽ/CÜ++ÒÔ1Äð’à¬¨ÄØš/šÌÐ¨ÖàŒâB/œê31žîŠ²ÞšŒÒ”B”š8Š8ðCì®1Ü˜4/8ÆŒðž°¢700æ/êCŠ41CDô®1®àB¢¤Ð²¢œâ1Ð1˜Â’–ÄÌ®È²¬ŽÊ¦Îš17ô®ì––àC²ÔA2D5Ü ØAš9Òœ Ô ”ì3ÊDê”Ò¢˜B16¦A²ÂBôÊô0®Ô7ÈÜ5®9¤B¤DÒ²ÄÎàŠÒ¢äÆŽÐî4¢5žìä0ì’òê3ÆÞÎ0êA 0Š”¤ÚB¨9òŒŒ/ÌÄ–š0²Ü¦ê50Ä¢ÞœìÔ38Ð®ÒB2âÜŠêÐ8žÔÐðôAŒ8žš”ÜšŒàÊ–Ú–86¤àŠÐÆ°ÚÖ9Æ˜¦°¨Â3/2ŠêÞâæÂäŒœ´Æ21ÌìÚ’Î¤¨Ð¨Öž¢Ú¨Æ+8¨ÚÈ’7–ÌD+’3ð1¨¬ŒØÒ¦ž˜Â09®¬²Ê”7ŠÚÌÈæž¦18¦¤ð3 ´Øò1è+¨’òÊC˜ÞBŒAš’ô1 Â8ðŠ6®ÎÔŽ3´ŒÔ’¬î´6èî®+ –ÄD1/8DŽ+èš®+Ø˜â6à®Î šâ0¢ÊÖÈÞD2žì8Ú163òÜ+²0šÈÆ7Ò¬9¬3È¤ž´ô¬ò– Òî®ÆÆA/Ø®°ÂBÚ”È093âê1Šžòè2ÞæŽž1ÌCè15¬ÐîÊŠ8’®Þ²C35ÊêÚCâÖDÌAâCŠÔÖ¦AÆòÞžä”9CÄÐDÜ¢Æ8BîÊ®²”ìCÔðà’8îèàì 0AÅ2Î¤¬A¢ÆŒAŒÆŠA¬È®A¬ÞD¬¢È¤AØ1¬DîÈ¤ªŒ¬ªAîÆA¬1B°;
+<?php
+//åŠ å¯†æ–¹å¼ï¼šphpjmåŠ å¯†ï¼Œä»£ç è¿˜åŽŸçŽ‡100%ã€‚
+
+//VIPä¼šå‘˜:lirui1 æ‚¨å¥½,ç ´è§£:phpjmåŠ å¯†,æœ¬æ¬¡æ‰£é‡‘å¸:5ä¸ª,é‡‘å¸ä½™é¢:5ä¸ª,æ„Ÿè°¢æ‚¨çš„æ”¯æŒ.//æ­¤ç¨‹åºç”±ã€æ‰¾æºç ã€‘http://Www.ZhaoYuanMa.Com (VIPä¼šå‘˜åŠŸèƒ½ï¼‰åœ¨çº¿é€†å‘è¿˜åŽŸï¼ŒQQï¼š7530782 
+?>
+<?php
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once(dirname(__FILE__) . "/config.php");
+require_once(LULINREQ . '/tool/file.tool.php');
+require_once(dirname(__FILE__) . "/inc/panomenu.php");
+$endurl = GetCookie("pano_url");
+
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_main` WHERE `id`=$id";
+$row = $mydb->GetOne($sql);
+
+if ($dopost == "save") {
+    if($opentaocan == 1){
+        $openthumb = 0;
+        $opencontrol = 0;
+    }
+    
+    $thefile = "vrpano" . $id;
+
+    $fang[1] = "lefttop";
+    $fang[2] = "top";
+    $fang[3] = "righttop";
+    $fang[4] = "left";
+    $fang[5] = "center";
+    $fang[6] = "right";
+    $fang[7] = "leftbottom";
+    $fang[8] = "bottom";
+    $fang[9] = "rightbottom";
+
+    if ($openthumb == 1) {
+        if ($thumbtype != $row['thumbtype'] || $thumbwidth != $row['thumbwidth'] || $thumbheight != $row['thumbheight'] || $thumbx != $row['thumbx'] || $thumby != $row['thumby'] || $thumbpos != $row['thumbpos']) {
+            checkdeldir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+        }
+        if (!is_file(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml")) {
+            checkmakedir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+            copydir(LULINREQ . "/vrpano/main/thumb/" . $thumbtype, LULINROOT . "/vrpano/$thefile" . "/thumb");
+            $xmlfilestring = file_get_contents(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml");
+            $xmlfilestring = str_replace("#width#", $thumbwidth, $xmlfilestring);
+            $xmlfilestring = str_replace("#height#", $thumbheight, $xmlfilestring);
+            $xmlfilestring = str_replace("#x#", $thumbx, $xmlfilestring);
+            $xmlfilestring = str_replace("#y#", $thumby, $xmlfilestring);
+            $xmlfilestring = str_replace("#thumbpos#", $fang[$thumbpos], $xmlfilestring);
+            if ($thumbpos == 7 || $thumbpos == 8 || $thumbpos == 9) {
+                $xmlfilestring = str_replace("#zf#", "-", $xmlfilestring);
+                $xmlfilestring = str_replace("#fz#", "", $xmlfilestring);
+                $xmlfilestring = str_replace("#zp#", "bottom", $xmlfilestring);
+                $xmlfilestring = str_replace("#fp#", "top", $xmlfilestring);
+            } else {
+                $xmlfilestring = str_replace("#zf#", "", $xmlfilestring);
+                $xmlfilestring = str_replace("#fz#", "-", $xmlfilestring);
+                $xmlfilestring = str_replace("#zp#", "top", $xmlfilestring);
+                $xmlfilestring = str_replace("#fp#", "bottom", $xmlfilestring);
+            }
+            $xmlfile = fopen(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml", "w");
+            fwrite($xmlfile, $xmlfilestring);
+        }
+    } else {
+        checkdeldir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+    }
+
+    if ($opencontrol == 1) {
+        if ($controltype != $row['controltype'] || $controlpos != $row['controlpos'] || $controlx != $row['controlx'] || $controly != $row['controly']) {
+            checkdeldir(LULINROOT . "/vrpano/$thefile" . "/control");
+        }
+        if (!is_file(LULINROOT . "/vrpano/$thefile" . "/control/control.xml")) {
+            checkmakedir(LULINROOT . "/vrpano/$thefile" . "/control");
+            copydir(LULINREQ . "/vrpano/main/control/" . $controltype, LULINROOT . "/vrpano/$thefile" . "/control");
+            $xmlfilestring = file_get_contents(LULINROOT . "/vrpano/$thefile" . "/control/control.xml");
+            $xmlfilestring = str_replace("#controlpos#", $fang[$controlpos], $xmlfilestring);
+            $xmlfilestring = str_replace("#x#", $controlx, $xmlfilestring);
+            $xmlfilestring = str_replace("#y#", $controly, $xmlfilestring);
+            if ($controlpos == 7 || $controlpos == 8 || $controlpos == 9) {
+                $xmlfilestring = str_replace("#zf#", "-", $xmlfilestring);
+                $xmlfilestring = str_replace("#fz#", "", $xmlfilestring);
+                $xmlfilestring = str_replace("#zp#", "bottom", $xmlfilestring);
+                $xmlfilestring = str_replace("#fp#", "top", $xmlfilestring);
+            } else {
+                $xmlfilestring = str_replace("#zf#", "", $xmlfilestring);
+                $xmlfilestring = str_replace("#fz#", "-", $xmlfilestring);
+                $xmlfilestring = str_replace("#zp#", "top", $xmlfilestring);
+                $xmlfilestring = str_replace("#fp#", "bottom", $xmlfilestring);
+            }
+            $xmlfile = fopen(LULINROOT . "/vrpano/$thefile" . "/control/control.xml", "w");
+            fwrite($xmlfile, $xmlfilestring);
+        }
+    }
+    
+    if($opentaocan == 1){
+        if ($taocantype != $row['taocantype']) {
+            checkdeldir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+        }
+        checkdeldir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+        if (!is_file(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml")) {
+            checkmakedir(LULINROOT . "/vrpano/$thefile" . "/thumb");
+            copydir(LULINREQ . "/vrpano/main/taocan/" . $taocantype, LULINROOT . "/vrpano/$thefile" . "/thumb");
+            $xmlfilestring = file_get_contents(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml");
+            $xmlfilestring = str_replace("#width#", $taocanwidth, $xmlfilestring);
+            $xmlfilestring = str_replace("#height#", $taocanheight, $xmlfilestring);
+           
+            
+            $xmlfile = fopen(LULINROOT . "/vrpano/$thefile" . "/thumb/thumb.xml", "w");
+            fwrite($xmlfile, $xmlfilestring);
+        }
+    }
+
+    $editsql = "UPDATE `#@__pano_main` SET 
+            `openthumb` = $openthumb,
+            `thumbtype` = $thumbtype,
+            `thumbwidth` = $thumbwidth,
+            `thumbheight` = $thumbheight,
+            `thumbx` = $thumbx,
+            `thumby` = $thumby,
+            `thumbpos` = $thumbpos,
+            `opencontrol` = $opencontrol,
+            `controltype` = $controltype,
+            `controlpos` = $controlpos,
+            `controlx` = $controlx,
+            `controly` = $controly,
+            `opentaocan` = $opentaocan,
+            `taocantype` = '$taocantype',
+            `taocanwidth` = '$taocanwidth',
+            `taocanheight` = '$taocanheight'
+            WHERE `id`=$id";
+    $mydb->DoNotBack($editsql);
+    Trace("&#20462;&#25913;&#23436;&#25104;&#65281;", "vrpano_control.php?id=$id");
+    exit();
+}
+
+$thumbsql = "SELECT * FROM `#@__thumbtype` ORDER BY `id`";
+$mydb->SetQuery($thumbsql);
+$mydb->Execute("thumb");
+$thumbtypehtml = "";
+
+while ($thumbrow = $mydb->GetArray("thumb")) {
+    if ($row['thumbtype'] == $thumbrow['id']) {
+        $checkme = "checked = 'checked'";
+    } else {
+        $checkme = "";
+    }
+    $thumbtypehtml .= "<input type=\"radio\" name=\"thumbtype\" value=\"{$thumbrow['id']}\" $checkme />";
+    $thumbtypehtml .= $thumbrow['title'] . "<br/>";
+}
+$thumbposscript = "";
+$thumbposscript .= "<script type=\"text/javascript\">";
+$thumbposscript .= "onetian({$row['thumbpos']});";
+$thumbposscript .= "</script>";
+
+$controlsql = "SELECT * FROM `#@__controltype` ORDER BY `id`";
+$mydb->SetQuery($controlsql);
+$mydb->Execute("control");
+$controltypehtml = "";
+while ($controlrow = $mydb->GetArray("control")) {
+    if ($row['controltype'] == $controlrow['id']) {
+        $checkme = "checked = 'checked'";
+    } else {
+        $checkme = "";
+    }
+    $controltypehtml .= "<input type=\"radio\" name=\"controltype\" title=\"{$controlrow['info']}\" value=\"{$controlrow['id']}\" $checkme />";
+    $controltypehtml .= $controlrow['controlname'] . "<br/>";
+}
+$controlposscript = "";
+$controlposscript .= "<script type=\"text/javascript\">";
+$controlposscript .= "onecontrol({$row['controlpos']});";
+$controlposscript .= "</script>";
+
+
+$taocansql = "SELECT * FROM `#@__taocan` ORDER BY `id`";
+$mydb->SetQuery($taocansql);
+$mydb->Execute("taocan");
+$taocanhtml = "";
+while ($taocanrow = $mydb->GetArray("taocan")) {
+    if ($row['taocantype'] == $taocanrow['id']) {
+        $checkme = "checked = 'checked'";
+    } else {
+        $checkme = "";
+    }
+    $taocanhtml .= "<input type=\"radio\" name=\"taocantype\" title=\"{$taocanrow['info']}\" value=\"{$taocanrow['id']}\" $checkme />";
+    $taocanhtml .= $taocanrow['title'] . "<br/>";
+}
+
+require('template/vrpano_control.htm');
+?><?php
+?>

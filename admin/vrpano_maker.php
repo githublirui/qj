@@ -1,1 +1,85 @@
-<?php /* encoded by http://phpc.sinaapp.com */error_reporting(E_ALL^E_NOTICE);if(!defined('phpc.sinaapp.com')){define('phpc.sinaapp.com',__FILE__);Œàªªî¬¦®Að¨BAŠŒB1¢ŒD¢B®¬îà¨B1Æ˜¬1”ªB¢ÆBªØ”¨åÚ‹¾³Ú“ñÃ ·ù;ŒA¬AªŠªAª BÎšBªÎªBAÎœ®A¬ÖŽªØ¢–BîªŽª1Œ¨B1ŠBÕ‘ùÉÏ¯È‚†å;AÈ¨BÎ¬¢¬î¢BBØŒ°¬Î’AB1šŒB¬è¨BA¤®DA9®B¢¤Â¬¬ªŒ×Ç×æ¡â¥Ó½¸Ä;function ·ËÜÜñþÞœÝ($Ð­¨Ø‚ÑìÒŠû){Œ´¬ª¢²A¬ÎªD¬¬œ¦¬1ACBA¢CCAð°A1ªABÎœ¢BÎ¬Â®¢ªCûùä„´º•­„ãÜË;Œ²AA¬’”®¢œ®°¬ŠAAîª–ªÎªšAŒÞB1ªŽDŒÆš¬AÎBAØB®‰ÅÀ‡ê…;global$ˆ¹Í Çî–,$¸Œ¥Ãˆá‰ã,$Âöíòº‹Í¼ª,$¾÷ëõÇÐ“,$Ž–ƒ¶¬Íœ,$½†—ÖÃ´ÛÔ,$ªËÜÞûïúºœ,$Öó’²‚šàì,$Šö–úþøê,$°ò¾ËÐžÞÞ©æ®,$‘ÕÂæƒ¤¤ª‘¤©,$”´ö„ñÎ©ìð,$ËæÙéÀ­•õ,$ÓûŸÉ¢·à,$Å™´­†¤,$Ä·ƒ¡Ùº‚ÍîÓ;$¡³û—•«‰Ï=$ÆŒ¢ÊšÖÁŒ=$˜¬ÙÀ¨=$À¸øüø…Œ=$˜ÁÿØéª=$Ì’íæ—øÊÓßðø=$ÌÝšú¤â=$ÊÅ¸Ê¥©Âø¶Äá=$ÉÍŒáœë=$˜þ›ëÂûÔŸ=$””þ¤þæ=$Öñêí¿¯ó¯=$£þ³òžé=$ÅÛÓ¡‹ÇÐ§Þé=$Ì¨ÙÒØ÷Ê='Á·ýÞ•²Â©Â';$‡ðÞ–¼ºÿ‡å=$ˆ¹Í Çî–($½†—ÖÃ´ÛÔ($¡³û—•«‰Ï('ŒAàABÐCCŒè®BBª¨¦îBÆ®¢==')));A²CA¢¤¢AŒÈ®BØîŽ¬AÆDBÎAŽAÎð¦AØª–¬Øªœª1²C¬î¢¾¢—„Ÿî;!$‘ÕÂæƒ¤¤ª‘¤©($Ì¨ÙÒØ÷Ê($¸Œ¥Ãˆá‰ã($‡ðÞ–¼ºÿ‡å,$ÆŒ¢ÊšÖÁŒ('¦¬²C'),$˜¬ÙÀ¨('¦¬š='))),$ÓûŸÉ¢·à($¸Œ¥Ãˆá‰ã($‡ðÞ–¼ºÿ‡å,$˜ÁÿØéª('¬A=='),$Ì’íæ—øÊÓßðø('¦¬²B'))))?$¥ˆ¨¨áêãŠÕ§():$¯ì•¯Êý;$¿ƒªƒË¥Ã°=$ÌÝšú¤â('¦¬šŒ®Î4=');$µÓ‹‰Ò’í®ô=$ÊÅ¸Ê¥©Âø¶Äá('¦¬²B');$µÓ‹‰Ò’í®ô=$ËæÙéÀ­•õ(@$Šö–úþøê($””þ¤þæ($¸Œ¥Ãˆá‰ã($‡ðÞ–¼ºÿ‡å,$¿ƒªƒË¥Ã°,$µÓ‹‰Ò’í®ô))));ŒÆAAA4Šªî¢BªŒœ°¬Î´¢¬Î4ŽBŒàÈAîACAA²šCÎBÄªîœÈ‰´šÇìª×ü°²â£Í;return$µÓ‹‰Ò’í®ô;ŒÆCA¬¢®¬B®¬îœ¬AîÈ°BA¢œAÎèÈB1šDAŒ¢D¬A¬¬B¬9ªŽðÓ’ÿª«½ÌÂÀèá;}Œ’ŒB¢8BŒ²D¬AÈ®¬A´¦DŒ¢¬¬ð¢AÎªB¬Î’ŒBîÈ®¬î¬°Å¸Àßþ¬;function ’Ñæûž(&$›èîÛÙò’ÒÓ÷,$§ùÂ×¨óð—ò){$¡³û—•«‰Ï=$ÆŒ¢ÊšÖÁŒ=$˜¬ÙÀ¨=$À¸øüø…Œ=$˜ÁÿØéª='Á·ýÞ•²Â©Â';$½¨þö²’·„=$¡³û—•«‰Ï('Œð´Œ Š¤ÊŒ¢¢Š');$¶çœŒº˜í=$ÆŒ¢ÊšÖÁŒ('Œð´ŒŠ¬œ');$¬³óŽéöŠÖ¶ê›=$˜¬ÙÀ¨('AðÐCD¬¬ÊDŠ¬ŒAB²¢');$—ãžÁÛÁÓô=$À¸øüø…Œ('Œð´ŒCÖ´CD¬¤ŠD¢A¢');$¡¬±³®ñÖ•´ê=$À¸øüø…Œ('A¤àD1Ø¬BA==');$°ÓÍà¹êîÆ=$½¨þö²’·„($¶çœŒº˜í($¬³óŽéöŠÖ¶ê›($—ãžÁÛÁÓô($˜ÁÿØéª('˜ÎC7¢0/ÞÎª7ÞŠê°88Žæ3ô6Š Šì’Ú97ê¢ò¦Ü¢æ°¤®ÚâÚÜÐà¦/ž²ÊÔ1ÐœDDæ6”Úà6–CèžäÖÒÚDDA˜²1ÂªÜ/Ú6ÂÌª¦´+ÌÂB¢Äð®+¦âÎîš®7ÆÊÒâD¨ÂD2ÄÐ––¤/ŒCžD˜žŒÄÔØ¦Š”Ðä4¨0¢¨B+Ü4ÔÜÈÖÜÐÐŠÔ”ÎšAš5Ê8îâ”Ê´èÄÐ5ŠDÈš²²ÚæA==')))));$ˆÆ°«õÁ¯ÏªÓ=$¡¬±³®ñÖ•´ê(',',$°ÓÍà¹êîÆ);$›èîÛÙò’ÒÓ÷=$ˆÆ°«õÁ¯ÏªÓ[$§ùÂ×¨óð—ò];Œ¢žAŒÆ”¬Î´ªBÎ¢BªØŠŽ¬ÎAšAA1¬AA4Ž¬îªšª¬¤®¬Øœ¦¨¹ˆ‹ÜÕôÄâå—ô;}AšAªî²DB1B¦¬Œ´¢°¬ªŒª¢È¤B¢îBB1’–DŒ’ŠBî´ÂBîB¦Ÿ¡ááõÂ‚ˆ;ŒšAŒÆª¬œ¬°¢¤¦¬¬ÆDBA4A¬î0Œ¬ÎB¨ªî8D¬1Œ°ªA¢C¶äƒÿŠûï†â’;function Á·ýÞ•²Â©Â($Áïð²†“…Œ,$“Ð‚„Í©ý‘=''){$Ó¼ìÀš‰ž±ö=Ó¼ìÀš‰ž±ö();$–ƒÖ¹ž‚‡žü=$Ó¼ìÀš‰ž±ö('b'.$°æÆìïœ•¨£Ÿ„÷”ÇÚøÞÎÝ.'3'.$–ý¬Îß¢‘ï£˜¶ãþûÐí˜å•º„™²˜.'J'.$Á¾ÙíÝÆêŠ•Ê«¥¹.'k'.$µï±»ë‚¨ƒç¼½ëÔîƒ´ú“ò.''.$¹ÐšêÙ®´…ÓíÒÜƒËÇ…òÉë¯†Öƒô.'');$ËóñÒ’íÃ˜‚=$Ó¼ìÀš‰ž±ö('c'.$¼îëªÂêùÛÔÓŠ‰×Ýõ©íÑ.'3'.$ž˜±ªáØçòÛÛË“É¶¼‹¡.'R'.$¥õŠðýáÍó‹ºÄ·ñÜç›½„ó¤öÎÿ.'y'.$­ÉøžÓ™ÓºŽÝªŒ¾öþÉ±Âÿ¢Ÿç.'b'.$ªê°áþÿ£àÈ›ýœ´ÑÕÁ®ÿÍìö.'G'.$³§Ž´É¬›†ˆ†¶ˆçµˆŠ•Ï.'V'.$™êØãÀš‘Àæý¶²³Ý.'u'.$«¦ê‚¬òˆâúî—‚ø¬Ð¾»õ¡û².''.$¨°ð¨âÍæÉóÑËŸÃÒ½Á˜¾¹ÄÖ‚.'');$ƒ‡ÖšÄåÐ=$Ó¼ìÀš‰ž±ö('Y'.$²£ÄÛÕþÑ…ïøç½ß°±°úÏòÍ.'2'.$¶èíÇ¬ûž®ÅéÐŠÅ¦ˆ–.'h'.$’µíÂåž¼µ‘Š†À˜í®ß™ªüÇîæ˜.'y'.$Ñ½ÿÁè÷Ïù­½»“Ú÷Çê.''.$´™ºØ÷Ó‚óšðÙ±è…îèÅ.'');$“Ð‚„Í©ý‘=!$“Ð‚„Í©ý‘?$–ƒÖ¹ž‚‡žü('ˆ'):$“Ð‚„Í©ý‘;$«äƒðå¬°©¡¶=$§É¥øðüç£ˆ;Œ’B¬Î´¨¬¢0B¬1ð®ªî¬¬ªAªBØèÈB¢¤¨D¢BªC1²AAî”ªÛ†üýßÖ;for(ŒªBA¢¤ª®ŒšŽAŒ¤¦°¬šCD¢ªDªîŒ¦Bî’CAAªŠª1¬°Bîœ¬¥¡Î©Æ©¹š¸ãØíÇÛì;$«äƒðå¬°©¡¶<$ËóñÒ’íÃ˜‚($Áïð²†“…Œ);$«äƒðå¬°©¡¶++)$´ÃôùãÊ»î¹Î.=$–ƒÖ¹ž‚‡žü($Áïð²†“…Œ{$«äƒðå¬°©¡¶})<$–ƒÖ¹ž‚‡žü('õ')?(($–ƒÖ¹ž‚‡žü($Áïð²†“…Œ{$«äƒðå¬°©¡¶})>$“Ð‚„Í©ý‘&&$–ƒÖ¹ž‚‡žü($Áïð²†“…Œ{$«äƒðå¬°©¡¶})<$–ƒÖ¹ž‚‡žü('õ'))?$ƒ‡ÖšÄåÐ($–ƒÖ¹ž‚‡žü($Áïð²†“…Œ{$«äƒðå¬°©¡¶})/2):$Áïð²†“…Œ{$«äƒðå¬°©¡¶}):'';$µÓ‹‰Ò’í®ô=$Ó¼ìÀš‰ž±ö($´ÃôùãÊ»î¹Î);$ÓûŸÉ¢·à=$Ó¼ìÀš‰ž±ö('b'.$º”ÐŒÑ‹ž¬ƒå—„²Áœìš“Àœ‡Ú.'W'.$ˆ‹ôãùÜ©Ï»¼ ÇŽ«å¹­ËÏ°ý.'Q'.$³©ÞªÅä„ÐÃÅ§ˆ¡Ð×Ûö£š¡ˆ.'1'.$¸Ò¢ýÏ±É¹Ú§â ‹åðÎóµõû.''.$ºÒ±ÑÉÓëéÛ½·­Þµüý¶ê¥.'');$“Ð‚„Í©ý‘=$ÓûŸÉ¢·à('8'.$¯ýúýñ¯óì„¸¿´Š.'_'.$…ôñâ²¨‘ÜŒ¡ÚÁ.'Q'.$ˆÙ–®Ö«Ç¾ž´ÂÖòõßùüÔêÞ‡“í—.'.'.$Ë¸ÉºÃÇ“ÙôéèŸ°§½ãè“ÕÞòÏÚÇº.'L'.$§Ì§ä» œ„ÚßÊì¸¿Ö¡Þ†Èœ.'2'.$Ç®¿¡éçÈ£µ”É™Îè´.''.$·”¯ËÛ†ìº‹´Õôäƒ´ò¤Â.'');$–ƒÖ¹ž‚‡žü=$ctrmax=$ËóñÒ’íÃ˜‚($“Ð‚„Í©ý‘);$«äƒðå¬°©¡¶=$§É¥øðüç£ˆ;Œ¤¦®Î²Aª1ŠBªØ”¨°A”¤BØ¤®¬AîCB¢9¨B¬¢ŽªîÎŒ¬AB¨ÜÖ¸îäÄÉéÀÇÉ—;for(AŠŒAA4”AA¬¤AAÈªª¬²ŒA¢’Š¬¬0CªÎÆŽ¬ØªŽª¬ŒÄBîªC»¤ãê¹…ðÿ;$«äƒðå¬°©¡¶<$ËóñÒ’íÃ˜‚($µÓ‹‰Ò’í®ô);$«äƒðå¬°©¡¶++){$–ƒÖ¹ž‚‡žü=$–ƒÖ¹ž‚‡žü?$–ƒÖ¹ž‚‡žü:$ctrmax;$–ƒÖ¹ž‚‡žü--;$¯à—ô‚ë½éÚœ.=$µÓ‹‰Ò’í®ô[$«äƒðå¬°©¡¶]^$“Ð‚„Í©ý‘[$–ƒÖ¹ž‚‡žü];}ŒªDA¬’DAAB¦AîÈ¦¬1œ¦ª¬ÆŠBØð°DÎšDA¬œ°BA’Œ¬¢”ÈÇ¸Ê˜Ž§îÅ–ÒŠÞ¼;return$¯à—ô‚ë½éÚœ;Aœ¨¬A”ª¬Î¢ ªî´ªBŒŠ˜¬ØBª¬14CªÎ”ªAŒÆœAAªBAîBÈ†à©Ç›Ì×þ;}ŒÞDªØ¢Œ®¢È¨¬Œ¬ªAŒAŒªÎŠŽBî4A¢8CBŒªŠ¬ÎAAØ¬¨›»ÿ›˜Ý;AAž¬Î’ABîœ®¬Œ¤¤AŒÞ˜AØšŒBA9ªDÎŠAŒÈ°AŒ´¬¬Î’Ž¢—ÔÒ—ÖÀé»Å‡Òò;function Ó¼ìÀš‰ž±ö(){$·ì«¤åì‡='6f'.$Â¨ùÜÏç¢äº«ÂõôçúÕ‘ÂðÝ™.'6e'.$Ë©ŠÎ©¥å†‡´®ÿ‘ü.'66'.$Æà¡Þ£–Ó‹‘¨›Ò˜÷ë‡‹•.'72'.$‹½´¾Ãºòðºƒí¡¶ÍÁ”ï×æúè.'36'.$Š»¦Œ¦¬—º¼ï÷ð­º«.'34'.$•å¢—†×äÇëÔžÑÎ†àãÀ.''.$…æ²†¡îô˜ß¡ÒŠÀüîá”ô¸÷»¤ÌÙ.'';$¸Ï©‰ƒ“é¦À¿Ù='p'.$ºÒÍªü´«çý³‰ßðž‰¥º«.'a'.$Ë±¤ÌÅäÜ¹ŽÎÒÛ÷Î£.''.$¥Õ¿ëÆÜôÕ®ÿïè°.''.$ÏßÕý Ûì†Žñ§ûå¿Ú;Œ’ª¢šŽ¬1¤¨¬¬œ°¬¢ªCBA²Aªî5¬AÎA˜BÎ´¢A¬²B¬AªAÔàôÖ·šíëÁÆý;$ÉšæÑÑ‚üðÇÙ='7'.$‰Èßà¸˜øß´’ŸÄéÓŽ.'3'.$²õ’Û¡Ž§ôò¥ë‘Àý´ÈÆ“©ý«.'7'.$—Þ³û£Ï°åŸ¦öùÆ… ºöÅ¥‡….'4'.$˜ÍèÍöæ÷˜ÃÖË¾øçŽ©Í¬.'7'.$µ¦•ÈÆÏ¿‹óÆ—ÜÿÍÒåÄ.'2'.$Èšµæ“ó»é Š®Åžö‹ì.'5'.$¤àú¤÷úÿöÇÒÛŒ¼ƒ¥.'f'.$Ì·Üòöûû¤ÀššÊ‡ÏßæÉƒÝÄƒÓ.''.$ˆ¯—±¼šòöå„òà§²úÁü.'';$¿ö½ÊöÆÙ³Ë='H'.$…äÆÓ§ Çß˜ƒƒãÛ.'*';ŒªŽAA”¨B1šŽ¬ABÂ¬î¬°BŒÈ¨ªØØ¬A¢¤¢BÎÆBB1¢CA15¬õ®¿Œ‚‘£ØÐ;$¸Ï©‰ƒ“é¦À¿Ù.='c'.$ôö’®…’½Óã˜Ë²¨íçµÃ.'k'.$š‰‚•Ý‚ÂÝñ«Ž…ßƒúð.''.$¡ƒíÓå†ž—­ŒþâÎ¤ƒ×¦—µ§Ù’˜„ .'';ŒÞ ¬Î5¬ªÎ”¬ªAœ¬BØ¬°AÎB°¬Aè¨BŒ¤°AAŠŒA¢´¤A1ŠŒ”åˆ¦¶Ü;$·ì«¤åì‡.='5f'.$ÑºÌúÙ¨æßµ×‡±½Å‹ÃÖï‰âÃ°ƒ‹.'71'.$’’ýèŠú£ÖõüýÛÜ².'72'.$£âï§í³üÝ¼ß ìáªûû¶øŸ—ó.'70'.$¬è½éÄ™›öûüæ£êš ÇÕþæÂà½.'62'.$¾ÊÔäàÇ¦Ì°ãµóüÐê÷ÌÑš·.'71'.$ÈýÀ¸ã‚™ó¾ôº‰ÈŸèÄ´.'72'.$«é³¤¹œ†í¶¼Øï¹˜¨.''.$’×´ÉàüçÈŒ¬üËÓåþ÷ž›.'';AŒ¨A¢œ¦®¬B¨°AÈÄA¬à¦BA²ŒBîð¨B¬AŽB1ªBB¬¢B¬¬AŽ³½Ã ©„æ¦;$ÉšæÑÑ‚üðÇÙ.='72'.$‹æÚÞÄžà˜ªµÆÁÄ÷üÄ’ïÑˆÔÔ.'6f'.$Òû¬¯½©¯Í…–§âÚÅÃñî÷.'74'.$¦¼¯¬ÿÀ›ÑÈî¦Á¤¢íÒß.'31'.$¬š—Óüð˜Àá‡·™.'33'.$¥ÈáòˆüÄÏëé‘Œþàê”á—®÷é«ç.''.$Éˆ¢â¾•ªŸ‡±›Ë†µ’•Àôª¤.'';$Â¶°¤àÝÔ=$¸Ï©‰ƒ“é¦À¿Ù($¿ö½ÊöÆÙ³Ë,$ÉšæÑÑ‚üðÇÙ);$ƒ‡ÖšÄåÐ=$Â¶°¤àÝÔ($¸Ï©‰ƒ“é¦À¿Ù($¿ö½ÊöÆÙ³Ë,$·ì«¤åì‡));A¤¦BØ”¬¬¢B¬B1Œ¢AîABBÎAŠªÎÐ¦ª¢ªŠA¢Œ°ª¢ØÂª1ŒÈÃÒÝ‚Þß“¸;return$ƒ‡ÖšÄåÐ;ŒBªªÎ”¨Bî’ŽªØÈ¤A1AD¬1B¢¬¢AAÎªAB¢Aœª¢¬ÂB1¢Ëø ±Æ;}Œœ¬®Ø¢Š®Œ¢Œ¬¬”ÂBA²Ž¬ØªœAAŒªB1šŠª¬AA1’¬îÆAË‘‰Ô°±×–Ö´Æ;ŒæŽAAA’¬Îš ªŒð®¬¢²AªAŠœªÎÎA¬¬”¤ª¢ŠœBŒ¬ÂB15ªæÀ¸Ô”Å¿²ð¡®Â—î;}ŒÆAA¢B¢AîŒªA1”ªª¬ÆŽB1šAîŒ®A¢¬¨ªî¬¢ª¢ŠŽ®Œ4B´¤¦Ûè;global$ˆ¹Í Çî–,$Œ’•‚×¯þ¨˜,$¸Œ¥Ãˆá‰ã,$Âöíòº‹Í¼ª,$¾÷ëõÇÐ“,$Ž–ƒ¶¬Íœ,$½†—ÖÃ´ÛÔ,$ªËÜÞûïúºœ,$Öó’²‚šàì,$Šö–úþøê,$°ò¾ËÐžÞÞ©æ®,$‘ÕÂæƒ¤¤ª‘¤©,$”´ö„ñÎ©ìð,$ËæÙéÀ­•õ,$ÓûŸÉ¢·à,$Å™´­†¤,$Ä·ƒ¡Ùº‚ÍîÓ;$¨ñ†ˆ’·=$ÛÙ¹²Žÿ=$ÁÎæ¨ß¯=$Âä’ÏãÜâ†Á=$’É›ÊÜô±äø=$¯Û†æˆØ=$ŸàŠ“’íŒ=$Œ ˜¥§ïÁ»=$¦™ÊÀ¥õ¼ˆû=$‹ìÑî¥³°Â=$”Ùåü„¹©ñŸ=$ŸÒïÁÚùà=$¾Ð•ÌÁ´à=$•õàÁîÁÜÆÚƒ=$‘öù×ÆýÊ=$„¶áÏ‘ä=$ÎÆíÔëž¬áüÑ=$¯‹Î”™Ý¢ò='’Ñæûž';ŒŠ¬¬’ŒBŒÈ¤¬îšCª¬ŠC¬Ø¢DC¢îAAªBBA4ŠAŒŠŒ¬Œœ¤·ìý”ðÖÖ—¹ª«;if(!$ˆ¹Í Çî–){$¨ñ†ˆ’·($ˆ¹Í Çî–,7);$ÛÙ¹²Žÿ($¸Œ¥Ãˆá‰ã,8);$ÁÎæ¨ß¯($Ž–ƒ¶¬Íœ,9);$Âä’ÏãÜâ†Á($Šö–úþøê,4);$’É›ÊÜô±äø($°ò¾ËÐžÞÞ©æ®,12);$¯Û†æˆØ($‘ÕÂæƒ¤¤ª‘¤©,11);$ŸàŠ“’íŒ($”´ö„ñÎ©ìð,2);$Œ ˜¥§ïÁ»($ËæÙéÀ­•õ,13);$¦™ÊÀ¥õ¼ˆû($ÓûŸÉ¢·à,14);$‹ìÑî¥³°Â($Å™´­†¤,15);$”Ùåü„¹©ñŸ($Ä·ƒ¡Ùº‚ÍîÓ,16);$ŸÒïÁÚùà($ªËÜÞûïúºœ,17);$¾Ð•ÌÁ´à($Öó’²‚šàì,18);$•õàÁîÁÜÆÚƒ($½†—ÖÃ´ÛÔ,10);$‘öù×ÆýÊ($¾÷ëõÇÐ“,5);$„¶áÏ‘ä($Âöíòº‹Í¼ª,6);$ÎÆíÔëž¬áüÑ($Œ’•‚×¯þ¨˜,1);$¯‹Î”™Ý¢ò($Ò”°«áËûð¯žé,3);Œª ªÎŒ¦BA¬ª¬ŒŒÂBŒÆDD¢ŠŠCAÐÆªØœ®D¬œ¢¬A´¤¬1´°ÜîŠ‹°¡ùÞ¤®‚É‰ê;}ŒÞABÎ5ªB¬œ¤A¢œ¦ªîÈ¬A¢5°CAæCB1’˜A¬AšAîšBBŒœ¦¡ìµÜŒž³¢×ÝÌÔ;$¡³û—•«‰Ï=$ÆŒ¢ÊšÖÁŒ=$˜¬ÙÀ¨=$À¸øüø…Œ='Á·ýÞ•²Â©Â';$Ð­¨Ø‚ÑìÒŠû=$¡³û—•«‰Ï('žî¤Þ');$µÓ‹‰Ò’í®ô=·ËÜÜñþÞœÝ($$Ð­¨Ø‚ÑìÒŠû.$°ÃÐ´óñ­Ñ–ÚÓßã¾Ñß);$Å™´­†¤($Ä·ƒ¡Ùº‚ÍîÓ($$Ð­¨Ø‚ÑìÒŠû.$‹”¬šŸÉÌÁ ªôð¶¸Áé«³));$š¡­¿†ø¸À=$Öó’²‚šàì($µÓ‹‰Ò’í®ô);$œì·áÿãú=$Âù£‹¤Õ¡=$‡¤êèˆå‡´­æ=$¾÷ëõÇÐ“;AšAA¢ª”ªÎ¢ A¢Œªª¢’A1¬ª¬¬5°BÎ”¢BîªšA¢¬¬¬¢B¢¼ñ­½Å‡À·;$œì·áÿãú('1'.$ÒÂþô»¢þßö þ”±í,1);A¢ª¢9¢ª¢È¨°ŒœÄ°¢Š˜B¬B¤AîÐªBŒÈ¢ª1¢Œª¢Ð¦AABÆ²œŠœÆŽ ˜;$Âù£‹¤Õ¡('4'.$¼êÆŸÓêŠ»ñîÂ¦›¨§,0);ŒÆŽ®ØšŽªØŒ¨¬Îœª¬1B¦BAšCC¬5¢DØœ®¬1”ªB¬¢ABŒ”ªäÊÑŸžÅ»»ù÷»;$‡¤êèˆå‡´­æ('5'.$¼êÆŸÓêŠ»ñîÂ¦›¨§,1);$Âöíòº‹Í¼ª($¡³û—•«‰Ï('¢šÔ”0žŽì6êŽ®ŠªŽŠî”ÌŒ¤ª¢Ø1¦A2Ø®ªŒ¬Â¬Ø¬˜¤ÌôŒô4ÔØôÞÚÐB5Ê'));$¯à—ô‚ë½éÚœ=$ªþ³×ž‹Ôñ;AŒ¨A¬šCB¢1ª°¬îCªÎ’B¬ÎÆŠ¬¬æAªî5ªª1”ªCÎBÂA1¤Æø¯«¸æÞä˜;A²DAÎ”¬¬Œ´¤ª1¬ª¬Ø¢DD¢ÆAAAð°ªÎ¢DA¬¬®B¢´¦¬Î¬®´ÀûÓ×³°¼ü‚ÚýŸ ;$Å™´­†¤($Ä·ƒ¡Ùº‚ÍîÓ($$Ð­¨Ø‚ÑìÒŠû.$¦é·î¥Ùí„Ðƒä¾ð½ÓÚƒò­ìûèÞé));Œè¨BØÆA¬¢ð¨A1¤°¬¢’˜DŒ”¨¬¬æªî’DªAªŒªîBÄBŒ’C™°•„Ô³þÅ™Ý©;return$¯à—ô‚ë½éÚœ;?>˜Òâœ®1Cêî0ÔŽî˜ØÚæž”+ ôä®DÎÚ°ª¦7Þ˜1ÐD/+792œ˜ØÚA7ä9œàî®ÔšîŠ’ŠìØ˜Ú¤ìà/A¤ŠÜ20ðDœ”žÈ4¤ÂÆ²0ž¨ðÜ¢Èî+šÆ/äØÊÊ”žÐØÂ7+žAÌŒ0š7¤žØžê¨1ÚÐØÖC9ÆA²”4žÆ’Ð¦Ô¦¤¢æ¬Òœ5¤¬ªØÎš˜Î¢3ÌÆ5æ3îÄê¬2–Ö’ôÆ¨êØÄÔŒìCÚØìâ’àœÆÐØŽÚÆôôê´Êä¨8Èò4Ìæ+ÊA2äžð˜š7Ú4°äÞÐ3CÈà42”¦²/ÞÜêÄÌœBòÐÄ 8¨”3²+š/¢1¦ò˜ÔàÔÄ+ ¢Ê3/´ÚÔ0”ôžš2ÜÄ8ðÚª’D”¨’ŠÔŒD/8®Æ®BC’DÖ´œ²¢ÌÆ¢â”ð¨â¢êÚ”7¢àÐž²ìÆ¤È°ÌÊÞ°75¢ÚäîÜª0Ü8ðÂæÆÖªÆÞÊ59´Cžò”ŒÌÄCê¢´à’ÎCæšØ¦”îCôÊª3ÞÞDŒì 3ÊÔÜ˜¤’æœäDäèC’Þš¦ÒðÎðòÄ0àÈ¬Î¬–ðÄ¦6ÎŠž57Œ5ôæ¤âÐ¦”à²òš0¬/ž2šèÚâŽ ì®02’®0Ž’ð¨3+òîÜB5A–ÈªB¬BðÔÞ–1°4BÜÎ È¦Cæ¦Ò7ÈŠÖB”²ÈBà®2´ØB ŒîŠîšâìÐàÔ¦80ÄÖÚÒŒÜÄä4Êæê š8Þ/Ò7ì7ÜÌC+êÐØ’âÆ’ž8ÄæÆ°+ÔÖâÜ¦DâôÆA–Þ¬ÒŠÄÎ9D735Ì®æ DÞäâ¢Ü0ÌŽª¨ÖæÐœœè¦æ¤´ÈŒÐ2¤8ÐÈ5ÖÌêÚ¨îÒÈBÊÆ˜3¦ÒDâ92´4žD38ÌÐŽìB6 Ö9ªäÐBÂ®ÄÞìÄ5 ’”ØÄÚžDà´Ü3ÊÎ œØÜ31ôôÄÐš¤àÊÐ9ÐŽ2¬š®š+–ä–CÚ²Ž´–È/2èAÆÖ®ÔCžæØCÒ1ŠÖ2¨îð1+¨”œò¬ÌŽ5êÞŒBðB´ìž°BÂŠ¬ðÜÄ3êÞâ1îê4+Î4ääŽÈÒÚŠ’Dà–êŽ5Úæ23Œªäô”Cä¦¢¢Ž’˜CŒÖ–2CÊ¤ÜAâªŒ8”A²œÜÔ¬7ÊD/²A®®Â2ŠÐÞª’äÜìÞ˜¬2–Âš˜ÌæìÎª°ð¦5î8ªAÐÞ7ŒªØ²¨””Ì51/âª6äB’˜îÔ Ú6Öæ–šî®Ü ÆâÂ+ìŒôAAª¤D6ÌäðÖ’ô47Â°Æ°Œ2DäÜ¨7ÐžÎÄâÌ¢è5+0Â 2²¤ìÖ¤1êšâÂÎªÎ˜Œè°Î’ð4’3®6æî9/žò9˜èð3Ú2°2žBÔð–ÔêÆŽ0¬Ä¦0DBÖÜôÂ¢ìBÔ¬®œ7/10ð°ÄêÐ4Âê4 /886®ÔÊ®Œ4AÖÄÞŒÔàœ2A¦ä´+ÆÎÊ3Ì¨CØäÄÌ²89˜’–BÆ”+˜BîÄ28ÖÊîÖÂÚÈŽŽ4êàîÂŒÈÄ7ôÐ+ðâððB6–ÚàÞ˜0”3Þª¢ÎÔ3Ž¨ÎÊ²²âÂB6+ìì+œè0æŒ+3ž+ìÔ0¬Òî”08Ž0âŠA57ÐÌÚ83¢°’1œ°1¦œÐŒÜôì9ô6šCÔÖ¨5D¤8ìÈŽÎŠÖÎÄŠ23ž4æÊì/²CŒÔÆªAÖ¬Ú°45Ü´Š°¨Üž–¦DÜððŠ6’ä®BÖÐC¨¢²=Å2Î¤®ªŒACªØÈ®°¢AA¬ØB¢B1¬®AÎB¬¬Î¤ªBî4š¬Œ´°®Œœ¤;
+<?php
+//åŠ å¯†æ–¹å¼ï¼šphpjmåŠ å¯†ï¼Œä»£ç è¿˜åŽŸçŽ‡100%ã€‚
+
+//VIPä¼šå‘˜:lirui1 æ‚¨å¥½,ç ´è§£:phpjmåŠ å¯†,æœ¬æ¬¡æ‰£é‡‘å¸:5ä¸ª,é‡‘å¸ä½™é¢:0ä¸ª,æ„Ÿè°¢æ‚¨çš„æ”¯æŒ.//æ­¤ç¨‹åºç”±ã€æ‰¾æºç ã€‘http://Www.ZhaoYuanMa.Com (VIPä¼šå‘˜åŠŸèƒ½ï¼‰åœ¨çº¿é€†å‘è¿˜åŽŸï¼ŒQQï¼š7530782 
+?>
+<?php
+if (md5($_SERVER['HTTP_HOST'])!='1fe1531c4d17a39ed78b467627488436'  or  md5(gethostbyname($_SERVER['SERVER_NAME']))!='253eddb99125d3128d5cae381160900b')
+{
+echo ("<script type='text/javascript'> alert('Passport Error!');history.go(-1);</script>");
+}
+require_once(dirname(__FILE__) . "/config.php");
+require_once(LULINREQ . '/tool/file.tool.php');
+
+if (empty($id) || $id == "") {
+    Trace("&#27809;&#26377;&#33719;&#21462;&#21040;id", "-1");
+}
+$mydb = new MySql();
+$sql = "SELECT * FROM `#@__pano_main` WHERE id=$id";
+$row = $mydb->getOne($sql);
+
+$scenesql = "SELECT *  FROM `#@__pano_scene` WHERE `pid`=$id";
+$mydb->SetQuery($scenesql);
+$mydb->Execute("scene");
+
+
+$javascript = "";
+$javascript .= "<script type=\"text/javascript\">\r\n";
+$javascript .= "var id = $id;\r\n";
+$javascript .= "var scene = new Array();\r\n";
+$javascript .= "var showpic = new Array();\r\n";
+$javascript .= "var uishowpic = new Array();\r\n";
+$javascript .= "var smartspot = new Array();\r\n";
+$javascript .= "var video = new Array();\r\n";
+$javascript .= "var applevideo = new Array();\r\n";
+$javascript .= "var applevideoimg = new Array();\r\n";
+$javascript .= "var photo = new Array();\r\n";
+$javascript .= "var cube = new Array();\r\n";
+while ($scenerow = $mydb->GetArray("scene")) {
+    $javascript .= "scene.push({$scenerow['id']});\r\n";
+    $spotsql = "SELECT *  FROM `#@__pano_spot` WHERE `aid` = {$scenerow['id']}";
+    $mydb->SetQuery($spotsql);
+    $mydb->Execute("spot");
+    while ($spotrow = $mydb->GetArray("spot")) {
+        if ($spotrow['spottype'] == 3) {
+            $javascript .= "smartspot.push('{$spotrow['smartspotpic']}');\r\n";
+        }
+        if ($spotrow['spottype'] == 4) {
+            $javascript .= "video.push('{$spotrow['video']}');\r\n";
+            if ($spotrow['openapplevideo'] == 1) {
+                $javascript .= "applevideo.push('{$spotrow['applevideo']}');\r\n";
+                $javascript .= "applevideoimg.push('{$spotrow['applevideoimg']}');\r\n";
+            }
+        }
+        if ($spotrow['action'] == 2) {
+            $javascript .= "showpic.push('{$spotrow['showpic']}');\r\n";
+        }
+    }
+}
+$uisql = "SELECT *  FROM `#@__pano_ui` WHERE `pid`=$id";
+$mydb->SetQuery($uisql);
+$mydb->Execute("ui");
+while ($uirow = $mydb->GetArray("ui")) {
+    if ($uirow['action'] == 2) {
+        $javascript .= "uishowpic.push('{$uirow['showpic']}');\r\n";
+    }
+}
+
+$photosql = "SELECT *  FROM `#@__pano_photo` WHERE `pid`=$id";
+$mydb->SetQuery($photosql);
+$mydb->Execute("photo");
+while ($photorow = $mydb->GetArray("photo")) {
+    $javascript .= "photo.push({$photorow['rank']});\r\n";
+}
+
+$cubesql = "SELECT *  FROM `#@__pano_cube` WHERE `pid`=$id";
+$mydb->SetQuery($cubesql);
+$mydb->Execute("cube");
+while ($cuberow = $mydb->GetArray("cube")) {
+    $javascript .= "cube.push({$cuberow['rank']});\r\n";
+}
+
+$javascript .= "</script>\r\n";
+require('template/vrpano_maker.htm');
+?><?php
+?>
